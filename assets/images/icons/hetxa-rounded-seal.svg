@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <defs>
+    <path id="hetxaSealCircle" d="M 90, 90 m -64, 0 a 64,64 0 1,1 128,0 a 64,64 0 1,1 -128,0" fill="none" />
+  </defs>
+  <circle cx="90" cy="90" r="78" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" />
+  <circle cx="90" cy="90" r="50" fill="#FFF7ED" stroke="#FFD8B2" stroke-width="1.5" stroke-dasharray="3 3" />
+  <text fill="#0A0D10" font-family="'Cabinet Grotesk', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="800" letter-spacing="2.6px">
+    <textPath href="#hetxaSealCircle" startOffset="0%">
+      ★ HETXA AI BUSINESS OS ★ SRI LANKA #1 CLOUD ERP ★
+    </textPath>
+  </text>
+</svg>

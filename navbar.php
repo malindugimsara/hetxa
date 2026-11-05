@@ -166,7 +166,7 @@
           <div class="header-wrapper">
             <!-- site logo -->
             <div class="site_logo">
-              <a class="logo" href="index.html"><img src="assets/images/logos/logo.webp" alt=""></a>
+              <a class="logo" href="index.html"><img src="assets/images/logos/hetxa-logo.png" alt=""></a>
             </div>
 
             <!-- navigation -->

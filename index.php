@@ -51,74 +51,148 @@
         <div class="top-space-15"></div>
         <!-- start: Banner Section -->
         <section class="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
-          <div class="container">
-            <div class="row flex-column-reverse flex-lg-row">
-              <div class="col-lg-4 col-xl-3">
-                <div class="h10-hero-award-wrapper">
-                  <div class="h6-hero-history wow fadeInUp" data-wow-delay=".3s">
-                    <div class="h6-hero-history-title">
-                      <span style="font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--tj-color-theme-primary); display: inline-flex; align-items: center; gap: 6px;">
-                        <i class="fa-solid fa-sparkles"></i> Autonomous AI Hub
-                      </span>
-                    </div>
-                    <p class="h6-hero-history-desc">
-                      Unlike standard software, Hetxa embeds AI into your everyday business workflows — actively analyzing sales trends, inventory, and cash flow to guide strategic, growth-driven decisions.
-                    </p>
-                  </div>
-                  <div class="circle-text-wrap wow bounceInLeft" data-wow-delay=".5s">
-                    <span class="circle-text" data-bg-image="assets/images/icons/award-rounded-text.svg"></span>
-                    <div class="circle-icon"><i class="fa-solid fa-brain" style="color: var(--tj-color-theme-primary); font-size: 26px;"></i></div>
-                  </div>
+          <div class="container position-relative">
+
+            <!-- Option 3: Modern Tech Grid & Ambient Glow Accents (Left Flank) -->
+            <div class="hetxa-ambient-glow hetxa-glow-left"></div>
+            <div class="hetxa-tech-flank hetxa-flank-left wow fadeInLeft" data-wow-delay=".4s">
+              <div class="hetxa-tech-node">
+                <div class="tech-node-pulse">
+                  <span class="pulse-ring"></span>
+                  <span class="pulse-core"><i class="fa-solid fa-bolt"></i></span>
+                </div>
+                <div class="tech-node-content">
+                  <span class="tech-node-label">Real-Time Core</span>
+                  <span class="tech-node-val">Multi-Branch Sync &lt; 0.2s</span>
                 </div>
               </div>
-              <div class="col-lg-8 col-xl-9">
-                <div class="banner-content-2">
-                  <!-- Category / Badge -->
-                  <div class="hero-tag-badge wow fadeInUp" data-wow-delay=".2s" style="margin-bottom: 20px;">
-                    <span style="display: inline-flex; align-items: center; gap: 8px; background: rgba(255, 94, 20, 0.08); border: 1px solid rgba(255, 94, 20, 0.3); color: #0a0d10; padding: 6px 18px; border-radius: 30px; font-size: 13.5px; font-weight: 700;">
-                      <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #FF5E14; box-shadow: 0 0 10px rgba(255, 94, 20, 0.8);"></span>
-                      Sri Lanka’s 1st AI Business Operating System
-                    </span>
+              <div class="hetxa-tech-bracket">
+                <span class="bracket-dot"></span>
+                <span class="bracket-line"></span>
+                <span class="bracket-code">SYS // 0.2s LATENCY</span>
+              </div>
+            </div>
+
+            <!-- Option 3: Modern Tech Grid & Ambient Glow Accents (Right Flank) -->
+            <div class="hetxa-ambient-glow hetxa-glow-right"></div>
+            <div class="hetxa-tech-flank hetxa-flank-right wow fadeInRight" data-wow-delay=".5s">
+              <div class="hetxa-tech-node">
+                <div class="tech-node-pulse">
+                  <span class="pulse-ring pulse-ring-ai"></span>
+                  <span class="pulse-core pulse-core-ai"><i class="fa-solid fa-brain"></i></span>
+                </div>
+                <div class="tech-node-content">
+                  <span class="tech-node-label">Hetxa Neural AI</span>
+                  <span class="tech-node-val">Predictive Decision Copilot</span>
+                </div>
+              </div>
+              <div class="hetxa-tech-bracket">
+                <span class="bracket-code">AI // LIVE ADVISORY</span>
+                <span class="bracket-line"></span>
+                <span class="bracket-dot"></span>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-xl-10 col-lg-11">
+                <div class="hetxa-hero-center-box">
+                  
+                  <!-- Top Live Badge -->
+                  <div class="wow fadeInUp" data-wow-delay=".15s">
+                    <div class="hetxa-badge-wrap">
+                      <span class="hetxa-badge-dot"></span>
+                      <span>AI Business Operating System (BOS)</span>
+                    </div>
                   </div>
 
-                  <h1 class="banner-title text-anim">The All-in-One AI Business Operating System <i
-                      class="tji-curve-arrow wow fadeInRight" data-wow-delay=".7s"></i>
+                  <!-- High-Impact Main Headline -->
+                  <h1 class="hetxa-hero-h1 wow fadeInUp" data-wow-delay=".2s">
+                    Run Your Entire Business on <br class="d-none d-md-block">
+                    <span class="text-orange-gradient">One AI Operating System</span>
                   </h1>
-                  <div class="banner-desc-area wow fadeInUp" data-wow-delay=".7s">
-                    <div class="hero-btn-group d-flex flex-wrap align-items-center gap-3">
-                      <a class="tj-primary-btn" href="contact.html">
-                        <span class="btn-text"><span>Request a Free Demo</span></span>
-                        <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                      </a>
-                      <a class="tj-primary-btn btn-dark" href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'm%20interested%20in%20a%20demo%20of%20Hetxa%20AI%20BOS%20for%20my%20business." target="_blank">
-                        <span class="btn-text"><span>Chat on WhatsApp</span></span>
-                        <span class="btn-icon"><i class="fa-brands fa-whatsapp"></i></span>
-                      </a>
-                    </div>
-                    <div class="banner-desc">
-                      Manage every aspect of your enterprise from a single hub — ERP, ultra-fast POS, multi-branch inventory, and automated accounting.
+
+                  <!-- Clear, Punchy Subtitle - Instant Idea Without Walls of Text -->
+                  <p class="hetxa-hero-sub wow fadeInUp" data-wow-delay=".3s">
+                    Hetxa unifies ultra-fast POS, multi-branch inventory, and accounting into one intelligent platform — powered by AI to help Sri Lankan businesses make smarter, profit-driven decisions.
+                  </p>
+
+                  <!-- Continuous Scrolling Capabilities Marquee -->
+                  <div class="hetxa-marquee-wrapper wow fadeInUp" data-wow-delay=".45s">
+                    <div class="hetxa-marquee-track">
+                      <!-- Group 1 -->
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-cash-register"></i>
+                        <span>Fast Cloud POS</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                        <span>Smart Inventory</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <span>Finance &amp; IRD Tax</span>
+                      </div>
+                      <div class="hetxa-module-pill highlight">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI Growth Advisor</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Multi-Branch Hub</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-chart-line-up"></i>
+                        <span>Real-Time Analytics</span>
+                      </div>
+
+                      <!-- Group 2 (Duplicate for Seamless Infinite Scroll) -->
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-cash-register"></i>
+                        <span>Fast Cloud POS</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                        <span>Smart Inventory</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <span>Finance &amp; IRD Tax</span>
+                      </div>
+                      <div class="hetxa-module-pill highlight" aria-hidden="true">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI Growth Advisor</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Multi-Branch Hub</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-chart-line-up"></i>
+                        <span>Real-Time Analytics</span>
+                      </div>
                     </div>
                   </div>
 
-                  <!-- Micro Trust Points for Conversion (Mobile-Friendly) -->
-                  <div class="hero-trust-points d-flex flex-wrap align-items-center gap-3 gap-md-4 mt-4 pt-3 wow fadeInUp" data-wow-delay=".85s" style="border-top: 1px solid rgba(0, 0, 0, 0.08); font-size: 13.5px; color: #3c444e; font-weight: 600;">
-                    <div class="trust-item d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-circle-check" style="color: var(--tj-color-theme-primary); font-size: 15px;"></i>
-                      <span>100% Cloud ERP &amp; POS</span>
-                    </div>
-                    <div class="trust-item d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-circle-check" style="color: var(--tj-color-theme-primary); font-size: 15px;"></i>
-                      <span>Real-Time AI Decision Engine</span>
-                    </div>
-                    <div class="trust-item d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-circle-check" style="color: var(--tj-color-theme-primary); font-size: 15px;"></i>
-                      <span>Sri Lankan Tax &amp; Invoicing Ready</span>
-                    </div>
-                    <div class="trust-item d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-circle-check" style="color: var(--tj-color-theme-primary); font-size: 15px;"></i>
-                      <span>Multi-Branch Real-Time Sync</span>
-                    </div>
+                  <!-- Conversion Action Buttons -->
+                  <div class="hetxa-hero-buttons wow fadeInUp" data-wow-delay=".6s">
+                    <a class="tj-primary-btn" href="contact.html">
+                      <span class="btn-text"><span>Book a Free Demo</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </a>
+                    <a class="tj-primary-btn btn-whatsapp" href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20request%20a%20free%20demo%20for%20my%20business." target="_blank">
+                      <span class="btn-text"><span>Chat on WhatsApp</span></span>
+                      <span class="btn-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                    </a>
                   </div>
+
+                  <!-- Trust & Reassurance Line -->
+                  <div class="hetxa-trust-line wow fadeInUp" data-wow-delay=".75s">
+                    <span><i class="fa-solid fa-circle-check"></i> Free 15-Minute Live Demo</span>
+                    <span><i class="fa-solid fa-circle-check"></i> 100% Cloud-Native</span>
+                    <span><i class="fa-solid fa-circle-check"></i> IRD &amp; VAT Compliant</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Islandwide Sri Lanka Setup</span>
+                  </div>
+
                 </div>
               </div>
             </div>
