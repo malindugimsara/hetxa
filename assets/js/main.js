@@ -1245,27 +1245,42 @@ Progressbar js
 
 		/* ------------- Positon Sticky Js -------------*/
 
-		/* Service js */
+		/* Service js - Stacking Cards */
 		const serviceStack = gsap.utils.toArray(".service-stack");
 		if (serviceStack.length > 0) {
 			mediaMatch.add("(min-width: 992px)", () => {
-				serviceStack.forEach(item => {
-					gsap.to(item, {
-						opacity: 0,
-						scale: 0.9,
-						y: 50,
-						scrollTrigger: {
+				const lastCard = serviceStack[serviceStack.length - 1];
+				serviceStack.forEach((item, i) => {
+					if (i < serviceStack.length - 1) {
+						ScrollTrigger.create({
 							trigger: item,
-							scrub: true,
 							start: "top top",
+							endTrigger: lastCard,
+							end: "top top",
 							pin: true,
 							pinSpacing: false,
-							markers: false,
-						},
-					});
+							invalidateOnRefresh: true,
+						});
+					}
 				});
 			});
 		}
+
+		// Ensure triggers recalculate accurate pixel offsets after media and fonts load
+		window.addEventListener("load", () => {
+			ScrollTrigger.refresh();
+		});
+		if (document.fonts) {
+			document.fonts.ready.then(() => {
+				ScrollTrigger.refresh();
+			});
+		}
+		setTimeout(() => {
+			ScrollTrigger.refresh();
+		}, 500);
+		setTimeout(() => {
+			ScrollTrigger.refresh();
+		}, 1500);
 
 		const h6ProjectStack = gsap.utils.toArray(".project-stack");
 		if (h6ProjectStack.length > 0) {

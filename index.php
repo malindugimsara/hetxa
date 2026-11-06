@@ -5,13 +5,117 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  
+  <!-- Primary Meta Tags -->
+  <title>Hetxa BOS - All-in-One AI Business Operating System | Cloud ERP &amp; POS Sri Lanka</title>
+  <meta name="title" content="Hetxa BOS - All-in-One AI Business Operating System | Cloud ERP &amp; POS Sri Lanka">
+  <meta name="description" content="Hetxa BOS is Sri Lanka's leading AI Business Operating System. Seamlessly unifies ultra-fast Cloud POS, multi-branch inventory, Cheque management, and IRD RAMIS VAT accounting in one intelligent platform.">
+  <meta name="keywords" content="Cloud ERP Sri Lanka, POS System Sri Lanka, Hetxa BOS, AI Business Operating System, Inventory Management Software, RAMIS Compliant ERP, Cheque Management System, Retail POS Colombo, Wholesale ERP Software">
+  <meta name="author" content="Hetxa Technologies">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://hetxa.com/">
 
-  <!-- Site Title -->
-  <title>Hetxa BOS - All-in-One AI Business Operating System (ERP &amp; POS)</title>
+  <!-- Geo Targeting for Sri Lanka -->
+  <meta name="geo.region" content="LK">
+  <meta name="geo.placename" content="Colombo, Sri Lanka">
+  <meta name="geo.position" content="6.9271;79.8612">
+  <meta name="ICBM" content="6.9271, 79.8612">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_LK">
+  <meta property="og:url" content="https://hetxa.com/">
+  <meta property="og:site_name" content="Hetxa BOS">
+  <meta property="og:title" content="Hetxa BOS - All-in-One AI Business Operating System (Cloud ERP &amp; POS)">
+  <meta property="og:description" content="Run your entire business on one AI operating system. Ultra-fast Cloud POS, smart multi-branch inventory, Cheque management, and IRD VAT accounting.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/hero/h10-hero-banner.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Hetxa BOS AI Business Operating System Dashboard Preview">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://hetxa.com/">
+  <meta name="twitter:title" content="Hetxa BOS - All-in-One AI Business Operating System (ERP &amp; POS)">
+  <meta name="twitter:description" content="Run your entire business on one AI operating system. Ultra-fast Cloud POS, smart multi-branch inventory, Cheque management, and IRD VAT accounting.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/hero/h10-hero-banner.webp">
+
+  <!-- Mobile & Theme -->
+  <meta name="theme-color" content="#FF5E14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+
+  <!-- JSON-LD Structured Data Schema (SoftwareApplication, Organization & WebSite) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["SoftwareApplication", "WebApplication"],
+        "@id": "https://hetxa.com/#software",
+        "name": "Hetxa BOS",
+        "url": "https://hetxa.com/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web, Windows, Android, iOS",
+        "description": "Sri Lanka's premier AI Business Operating System unifying Cloud POS, Multi-Branch Inventory, Cheque Management, and IRD RAMIS VAT Accounting.",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "LKR",
+          "price": "0",
+          "priceValidUntil": "2027-12-31",
+          "availability": "https://schema.org/InStock"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "128",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "featureList": [
+          "Omnichannel Cloud POS Counter with Offline Sync",
+          "Real-Time Multi-Branch Inventory & Stock Transfer",
+          "Sri Lankan Cheque Management & Clearing",
+          "Automated Double-Entry Ledger & P&L",
+          "IRD RAMIS VAT & Tax Audit Ready",
+          "Hetxa Neural AI Predictive Demand Insights",
+          "Customer CRM & WhatsApp Digital Receipts"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://hetxa.com/#organization",
+        "name": "Hetxa Technologies",
+        "url": "https://hetxa.com/",
+        "logo": "https://hetxa.com/assets/images/logos/hetxa-logo.png",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Colombo",
+          "addressCountry": "LK"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+94-77-0000000",
+          "contactType": "sales",
+          "areaServed": "LK",
+          "availableLanguage": ["English", "Sinhala", "Tamil"]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://hetxa.com/#website",
+        "url": "https://hetxa.com/",
+        "name": "Hetxa BOS",
+        "publisher": {
+          "@id": "https://hetxa.com/#organization"
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- CSS here -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -23,7 +127,7 @@
   <link rel="stylesheet" href="assets/css/venobox.min.css">
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -116,10 +220,34 @@
                     Hetxa unifies ultra-fast POS, multi-branch inventory, and accounting into one intelligent platform — powered by AI to help Sri Lankan businesses make smarter, profit-driven decisions.
                   </p>
 
-                  <!-- Continuous Scrolling Capabilities Marquee -->
+                  <!-- Continuous Scrolling Capabilities Marquee (Full-Width Bleed) -->
                   <div class="hetxa-marquee-wrapper wow fadeInUp" data-wow-delay=".45s">
                     <div class="hetxa-marquee-track">
-                      <!-- Group 1 -->
+                      <!-- Group 1 (Cycle A + Cycle B) -->
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-cash-register"></i>
+                        <span>Fast Cloud POS</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                        <span>Smart Inventory</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <span>Finance &amp; IRD Tax</span>
+                      </div>
+                      <div class="hetxa-module-pill highlight">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI Growth Advisor</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Multi-Branch Hub</span>
+                      </div>
+                      <div class="hetxa-module-pill">
+                        <i class="fa-solid fa-chart-line-up"></i>
+                        <span>Real-Time Analytics</span>
+                      </div>
                       <div class="hetxa-module-pill">
                         <i class="fa-solid fa-cash-register"></i>
                         <span>Fast Cloud POS</span>
@@ -145,7 +273,31 @@
                         <span>Real-Time Analytics</span>
                       </div>
 
-                      <!-- Group 2 (Duplicate for Seamless Infinite Scroll) -->
+                      <!-- Group 2 (Duplicate for Seamless Infinite Scroll - Cycle A + Cycle B) -->
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-cash-register"></i>
+                        <span>Fast Cloud POS</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                        <span>Smart Inventory</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <span>Finance &amp; IRD Tax</span>
+                      </div>
+                      <div class="hetxa-module-pill highlight" aria-hidden="true">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI Growth Advisor</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Multi-Branch Hub</span>
+                      </div>
+                      <div class="hetxa-module-pill" aria-hidden="true">
+                        <i class="fa-solid fa-chart-line-up"></i>
+                        <span>Real-Time Analytics</span>
+                      </div>
                       <div class="hetxa-module-pill" aria-hidden="true">
                         <i class="fa-solid fa-cash-register"></i>
                         <span>Fast Cloud POS</span>
@@ -244,113 +396,162 @@
         </section>
         <!-- end: Banner Section -->
 
-        <!-- start: Service Section -->
-        <section class="h5-service-section h10-service section-gap">
+        <!-- start: Countup Section -->
+        <div class="tj-countup-section wow fadeInUp" data-wow-delay=".2s">
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <div class="sec-heading-wrap style-8">
-                  <div class="heading-wrap-content">
-                    <div class="sec-heading style-3">
-                      <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i> Our
-                        Solutions</span>
-                      <h2 class="sec-title text-anim">Tailor Business Solutions for Corporates.</h2>
+                <div class="countup-wrap">
+                  <!-- Item 1: Active Businesses -->
+                  <div class="countup-item">
+                    <div class="countup-icon-wrap">
+                      <i class="fa-solid fa-store"></i>
                     </div>
-                    <div class="btn-area wow fadeInUp" data-wow-delay=".8s">
-                      <a class="tj-primary-btn" href="service.html">
-                        <span class="btn-text"><span>Explore More</span></span>
-                        <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                      </a>
+                    <div class="inline-content">
+                      <span class="odometer countup-number" data-count="500"></span>
+                      <span class="count-plus">+</span>
                     </div>
+                    <span class="count-title">Active Businesses</span>
+                    <span class="count-sub">Islandwide Retail &amp; Wholesale</span>
+                    <span class="count-separator"></span>
+                  </div>
+
+                  <!-- Item 2: Cloud Uptime -->
+                  <div class="countup-item">
+                    <div class="countup-icon-wrap">
+                      <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <div class="inline-content">
+                      <span class="odometer countup-number" data-count="99.9"></span>
+                      <span class="count-plus">%</span>
+                    </div>
+                    <span class="count-title">Cloud System Uptime</span>
+                    <span class="count-sub">Offline-Ready POS Mode</span>
+                    <span class="count-separator"></span>
+                  </div>
+
+                  <!-- Item 3: Operational Speed -->
+                  <div class="countup-item">
+                    <div class="countup-icon-wrap">
+                      <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <div class="inline-content">
+                      <span class="odometer countup-number" data-count="3.5"></span>
+                      <span class="count-plus">X</span>
+                    </div>
+                    <span class="count-title">Faster Checkout &amp; POS</span>
+                    <span class="count-sub">Zero Queues &amp; Stock Errors</span>
+                    <span class="count-separator"></span>
+                  </div>
+
+                  <!-- Item 4: IRD Tax Compliance -->
+                  <div class="countup-item">
+                    <div class="countup-icon-wrap icon-green">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="inline-content">
+                      <span class="odometer countup-number" data-count="100"></span>
+                      <span class="count-plus">%</span>
+                    </div>
+                    <span class="count-title">IRD &amp; VAT Compliant</span>
+                    <span class="count-sub">Sri Lanka RAMIS Audit-Ready</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="row ">
+          </div>
+        </div>
+        <!-- end: Countup Section -->
+
+
+        <!-- start: Service Section -->
+        <section class="tj-service-section-5 section-gap">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="sec-heading style-4 text-center">
+                  <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Our Solutions</span>
+                  <h2 class="sec-title title-anim">Tailor Business Solutions for Corporates.</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
               <div class="col-12">
-                <div class="service-wrapper h10-service-wrapper wow fadeInUp" data-wow-delay=".4s">
-                  <div class="swiper h10-service-slider">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="service-item style-4 wow fadeInUp" data-wow-delay=".1s">
-                          <h6 class="h10-service-sln">01.</h6>
-                          <div class="service-icon">
-                            <i class="tji-service-1"></i>
-                          </div>
-                          <div class="service-content">
-                            <h4 class="title"><a href="service-details.html">Business Strategy Development</a></h4>
-                            <p class="desc">Through a combination of data-driven insights and innovative approaches
-                              business.</p>
-                            <a class="text-btn" href="service-details.html">
-                              <span class="btn-text"><span>Learn More</span></span>
-                              <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                            </a>
-                          </div>
-                        </div>
+                <div class="service-wrapper">
+                  <div class="service-item style-5 service-stack">
+                    <div class="service-content-area">
+                      <div class="service-icon">
+                        <i class="tji-service-1"></i>
                       </div>
-                      <div class="swiper-slide">
-                        <div class="service-item style-4 wow fadeInUp" data-wow-delay=".3s">
-                          <h6 class="h10-service-sln">02.</h6>
-                          <div class="service-icon">
-                            <i class="tji-service-2"></i>
-                          </div>
-                          <div class="service-content">
-                            <h4 class="title"><a href="service-details.html">Customer Experience Solutions</a></h4>
-                            <p class="desc">Through a combination of data-driven insights and innovative approaches
-                              business.</p>
-                            <a class="text-btn" href="service-details.html">
-                              <span class="btn-text"><span>Learn More</span></span>
-                              <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="service-item style-4 wow fadeInUp" data-wow-delay=".7s">
-                          <h6 class="h10-service-sln">03.</h6>
-                          <div class="service-icon">
-                            <i class="tji-service-3"></i>
-                          </div>
-                          <div class="service-content">
-                            <h4 class="title"><a href="service-details.html">Sustainability and ESG Consulting</a></h4>
-                            <p class="desc">Through a combination of data-driven insights and innovative approaches
-                              business.</p>
-                            <a class="text-btn" href="service-details.html">
-                              <span class="btn-text"><span>Learn More</span></span>
-                              <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="service-item style-4 wow fadeInUp" data-wow-delay=".5s">
-                          <h6 class="h10-service-sln">04.</h6>
-                          <div class="service-icon">
-                            <i class="tji-service-5"></i>
-                          </div>
-                          <div class="service-content">
-                            <h4 class="title"><a href="service-details.html">Training and Development Programs</a></h4>
-                            <p class="desc">Through a combination of data-driven insights and innovative approaches
-                              business.</p>
-                            <a class="text-btn" href="service-details.html">
-                              <span class="btn-text"><span>Learn More</span></span>
-                              <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                            </a>
-                          </div>
-                        </div>
+                      <div class="service-content">
+                        <span class="no">01.</span>
+                        <h3 class="title"><a href="service-details.html">Business Strategy Development</a></h3>
+                        <p class="desc">Through a combination of data-driven insights and innovative approaches, we work
+                          closely with you to develop customized.</p>
+                        <a class="tj-primary-btn" href="service-details.html">
+                          <span class="btn-text"><span>Learn More</span></span>
+                          <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                        </a>
                       </div>
                     </div>
-                    <div class="swiper-pagination-area"></div>
+                    <div class="service-img">
+                      <img src="assets/images/service/service-6.webp" alt="">
+                    </div>
+                  </div>
+                  <div class="service-item style-5 service-stack">
+                    <div class="service-content-area">
+                      <div class="service-icon">
+                        <i class="tji-service-2"></i>
+                      </div>
+                      <div class="service-content">
+                        <span class="no">02.</span>
+                        <h3 class="title"><a href="service-details.html">Customer Experience Solutions</a></h3>
+                        <p class="desc">Customer Experience Solutions are designed to enhance every touchpoint of your
+                          customer journey, from first interaction.</p>
+                        <a class="tj-primary-btn" href="service-details.html">
+                          <span class="btn-text"><span>Learn More</span></span>
+                          <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="service-img">
+                      <img src="assets/images/service/service-1.webp" alt="">
+                    </div>
+                  </div>
+                  <div class="service-item style-5">
+                    <div class="service-content-area">
+                      <div class="service-icon">
+                        <i class="tji-service-3"></i>
+                      </div>
+                      <div class="service-content">
+                        <span class="no">03.</span>
+                        <h3 class="title"><a href="service-details.html">Sustainability and ESG Consulting</a></h3>
+                        <p class="desc">Provide tailored strategies that not only drive long-term value but also build
+                          trust
+                          with stakeholders, investors.</p>
+                        <a class="tj-primary-btn" href="service-details.html">
+                          <span class="btn-text"><span>Learn More</span></span>
+                          <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="service-img">
+                      <img src="assets/images/service/service-7.webp" alt="">
+                    </div>
                   </div>
                 </div>
-
-
+                <div class="service-bottom-text">
+                  <p class="desc"><span><i class="tji-box"></i>Unlock tailored solutions without the wasted effort. <a
+                        href="contact.html">Talk to us today</a></span>
+                  </p>
+                </div>
               </div>
-
             </div>
           </div>
         </section>
         <!-- end: Service Section -->
+
+        
 
         <!-- start: Marquee Section -->
         <section class="tj-marquee-section section-gap-x">
@@ -407,24 +608,22 @@
               <div class="col-12 col-lg-5 d-block d-md-none d-lg-block">
                 <div class="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                   <div class="about-img overflow-hidden">
-                    <img data-speed=".8" src="assets/images/about/h10-about-banner.webp" alt="">
+                    <img data-speed=".8" src="assets/images/about/h10-about-banner.webp" alt="Hetxa AI Business Operating System Cloud Architecture">
                   </div>
                 </div>
               </div>
               <div class="col-12 col-lg-7">
                 <div class="h10-about-content-wrapper">
                   <div class="sec-heading style-3 ">
-                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i> ABOUT OUR
-                      COMPANY</span>
-                    <h2 class="sec-title title-highlight wow fadeInUp" data-wow-delay=".3s">Powering Innovation Through
-                      Partnerships with our Brands and Many Companies.
+                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i> ABOUT HETXA</span>
+                    <h2 class="sec-title title-highlight wow fadeInUp" data-wow-delay=".3s">Powering Sri Lankan Businesses Through Autonomous AI Operating Infrastructure.
                     </h2>
                   </div>
                   <div class="row">
                     <div class="col-12 col-md-6 d-none d-md-block d-lg-none">
                       <div class="about-img-area h10-about-banner wow bounceInLeft" data-wow-delay=".3s">
                         <div class="about-img">
-                          <img src="assets/images/about/h10-about-banner.webp" alt="">
+                          <img src="assets/images/about/h10-about-banner.webp" alt="Hetxa AI Business Operating System Cloud Architecture">
                         </div>
                       </div>
                     </div>
@@ -1107,7 +1306,7 @@
   <script src="assets/js/imagesloaded-pkgd.js"></script>
   <script src="assets/js/isotope.pkgd.min.js"></script>
   <script src="assets/js/magiccursor.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>

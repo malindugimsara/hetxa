@@ -71,7 +71,7 @@
             <div class="header-wrapper">
               <!-- site logo -->
               <div class="site_logo">
-                <a class="logo" href="index.html"><img src="assets/images/logos/hetxa-logo.png" alt=""></a>
+                <a class="logo" href="index.php"><img src="assets/images/logos/hetxa-logo.png" alt="Hetxa Logo"></a>
               </div>
 
               <!-- navigation -->
@@ -131,42 +131,18 @@
         </div>
       </div>
     </div>
-
-    <!-- Search Popup -->
-    <div class="search_popup">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-8">
-            <div class="tj_search_wrapper">
-              <div class="search_form">
-                <form action="#">
-                  <div class="search_input">
-                    <div class="search-box">
-                      <input class="search-form-input" type="text" placeholder="Type Words and Hit Enter" required>
-                      <button type="submit">
-                        <i class="tji-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </header>
   <!-- end: Header Area -->
 
   <!-- start: Header Area -->
-  <header class="header-area header-3 h10-header  header-duplicate header-sticky section-gap-x">
+  <header class="header-area header-3 h10-header header-duplicate header-sticky section-gap-x">
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <div class="header-wrapper">
             <!-- site logo -->
             <div class="site_logo">
-              <a class="logo" href="index.html"><img src="assets/images/logos/hetxa-logo.png" alt=""></a>
+              <a class="logo" href="index.php"><img src="assets/images/logos/hetxa-logo.png" alt="Hetxa Logo"></a>
             </div>
 
             <!-- navigation -->
