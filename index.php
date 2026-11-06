@@ -965,11 +965,6 @@
                   </div>
 
                 </div>
-                <div class="service-bottom-text">
-                  <p class="desc"><span><i class="tji-box"></i>Unlock tailored solutions without the wasted effort. <a
-                        href="contact.html">Talk to us today</a></span>
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -981,40 +976,244 @@
           <div class="marquee-wrapper">
             <div class="swiper marquee-slider">
               <div class="swiper-wrapper">
+                <!-- Slide 01: AI Business OS -->
                 <div class="swiper-slide marquee-item">
-                  <h4 class="marquee-text">Growth</h4>
-                  <div class="marquee-img">
-                    <img src="assets/images/marquee/marquee-1.webp" alt="">
+                  <h4 class="marquee-text marquee-text-solid">AI BUSINESS OS</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">AUTONOMOUS</span>
+                      <span class="chip-title">Growth Engine</span>
+                    </div>
+                    <span class="chip-dot"></span>
                   </div>
                 </div>
+
+                <!-- Slide 02: Ultra-Fast Cloud POS -->
                 <div class="swiper-slide marquee-item">
-                  <h4 class="marquee-text">Leadership</h4>
-                  <div class="marquee-img">
-                    <img src="assets/images/marquee/marquee-2.webp" alt="">
+                  <h4 class="marquee-text marquee-text-outline">CLOUD POS</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-cash-register"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">HIGH SPEED</span>
+                      <span class="chip-title">Offline POS Mode</span>
+                    </div>
+                    <span class="chip-dot green"></span>
                   </div>
                 </div>
+
+                <!-- Slide 03: RAMIS VAT Audit-Ready -->
                 <div class="swiper-slide marquee-item">
-                  <h4 class="marquee-text">Enterprise</h4>
-                  <div class="marquee-img">
-                    <img src="assets/images/marquee/marquee-1.webp" alt="">
+                  <h4 class="marquee-text marquee-text-solid">RAMIS VAT READY</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon icon-shield">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">SRI LANKA IRD</span>
+                      <span class="chip-title">100% Compliant</span>
+                    </div>
+                    <span class="chip-dot green"></span>
                   </div>
                 </div>
+
+                <!-- Slide 04: Multi-Branch ERP -->
                 <div class="swiper-slide marquee-item">
-                  <h4 class="marquee-text">Leadership</h4>
-                  <div class="marquee-img">
-                    <img src="assets/images/marquee/marquee-2.webp" alt="">
+                  <h4 class="marquee-text marquee-text-outline">MULTI-BRANCH ERP</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-diagram-project"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">CENTRALIZED</span>
+                      <span class="chip-title">Instant Branch Sync</span>
+                    </div>
+                    <span class="chip-dot"></span>
                   </div>
                 </div>
+
+                <!-- Slide 05: Smart Inventory -->
                 <div class="swiper-slide marquee-item">
-                  <h4 class="marquee-text">Enterprise</h4>
-                  <div class="marquee-img">
-                    <img src="assets/images/marquee/marquee-1.webp" alt="">
+                  <h4 class="marquee-text marquee-text-solid">SMART INVENTORY</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-boxes-stacked"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">AUTOMATED</span>
+                      <span class="chip-title">Batch &amp; Expiry</span>
+                    </div>
+                    <span class="chip-dot"></span>
                   </div>
                 </div>
+
+                <!-- Slide 06: Cheque Lifecycle -->
                 <div class="swiper-slide marquee-item">
-                  <h4 class="marquee-text">Leadership</h4>
-                  <div class="marquee-img">
-                    <img src="assets/images/marquee/marquee-2.webp" alt="">
+                  <h4 class="marquee-text marquee-text-outline">CHEQUE LIFECYCLE</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">FINANCE</span>
+                      <span class="chip-title">PDC Tracking</span>
+                    </div>
+                    <span class="chip-dot"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 07: Enterprise 99.9% Uptime -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-solid">99.9% CLOUD UPTIME</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">RESILIENT</span>
+                      <span class="chip-title">Zero Downtime SLA</span>
+                    </div>
+                    <span class="chip-dot green"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 08: Real-Time P&L Audit -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-outline">REAL-TIME P&amp;L</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-chart-line-up"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">AUDIT READY</span>
+                      <span class="chip-title">Zero Leakage</span>
+                    </div>
+                    <span class="chip-dot green"></span>
+                  </div>
+                </div>
+
+                <!-- Duplicate Loop Cycle for Seamless Infinite Scroll -->
+                <!-- Slide 09: AI Business OS -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-solid">AI BUSINESS OS</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">AUTONOMOUS</span>
+                      <span class="chip-title">Growth Engine</span>
+                    </div>
+                    <span class="chip-dot"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 10: Ultra-Fast Cloud POS -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-outline">CLOUD POS</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-cash-register"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">HIGH SPEED</span>
+                      <span class="chip-title">Offline POS Mode</span>
+                    </div>
+                    <span class="chip-dot green"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 11: RAMIS VAT Audit-Ready -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-solid">RAMIS VAT READY</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon icon-shield">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">SRI LANKA IRD</span>
+                      <span class="chip-title">100% Compliant</span>
+                    </div>
+                    <span class="chip-dot green"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 12: Multi-Branch ERP -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-outline">MULTI-BRANCH ERP</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-diagram-project"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">CENTRALIZED</span>
+                      <span class="chip-title">Instant Branch Sync</span>
+                    </div>
+                    <span class="chip-dot"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 13: Smart Inventory -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-solid">SMART INVENTORY</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-boxes-stacked"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">AUTOMATED</span>
+                      <span class="chip-title">Batch &amp; Expiry</span>
+                    </div>
+                    <span class="chip-dot"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 14: Cheque Lifecycle -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-outline">CHEQUE LIFECYCLE</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">FINANCE</span>
+                      <span class="chip-title">PDC Tracking</span>
+                    </div>
+                    <span class="chip-dot"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 15: Enterprise 99.9% Uptime -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-solid">99.9% CLOUD UPTIME</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">RESILIENT</span>
+                      <span class="chip-title">Zero Downtime SLA</span>
+                    </div>
+                    <span class="chip-dot green"></span>
+                  </div>
+                </div>
+
+                <!-- Slide 16: Real-Time P&L Audit -->
+                <div class="swiper-slide marquee-item">
+                  <h4 class="marquee-text marquee-text-outline">REAL-TIME P&amp;L</h4>
+                  <div class="marquee-tech-chip">
+                    <div class="chip-icon">
+                      <i class="fa-solid fa-chart-line-up"></i>
+                    </div>
+                    <div class="chip-text">
+                      <span class="chip-label">AUDIT READY</span>
+                      <span class="chip-title">Zero Leakage</span>
+                    </div>
+                    <span class="chip-dot green"></span>
                   </div>
                 </div>
               </div>

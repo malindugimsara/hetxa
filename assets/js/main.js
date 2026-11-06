@@ -213,14 +213,14 @@ Progressbar js
 		var marquee = new Swiper(".marquee-slider", {
 			slidesPerView: "auto",
 			spaceBetween: 0,
-			freemode: true,
-			centeredSlides: true,
+			freeMode: true,
 			loop: true,
-			speed: 7000,
+			speed: 6500,
 			allowTouchMove: false,
 			autoplay: {
-				delay: 1,
-				disableOnInteraction: true,
+				delay: 0,
+				disableOnInteraction: false,
+				pauseOnMouseEnter: true,
 			},
 		});
 	}
