@@ -431,32 +431,42 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/brand-1.webp" alt="">
+                        <img src="assets/images/brands/logo-1.jpeg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/brand-2.webp" alt="">
+                        <img src="assets/images/brands/logo-2.jpeg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/brand-3.webp" alt="">
+                        <img src="assets/images/brands/logo-3.jpeg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/brand-4.webp" alt="">
+                        <img src="assets/images/brands/logo-4.jpeg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/brand-5.webp" alt="">
+                        <img src="assets/images/brands/logo-5.jpeg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/brand-6.webp" alt="">
+                        <img src="assets/images/brands/logo-6.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide client-item">
+                      <div class="client-logo">
+                        <img src="assets/images/brands/logo-7.jpeg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide client-item">
+                      <div class="client-logo">
+                        <img src="assets/images/brands/logo-8.jpg" alt="">
                       </div>
                     </div>
                   </div>
@@ -972,7 +982,7 @@
         <!-- end: Module Section -->
 
         <!-- start: Marquee Section -->
-        <section class="tj-marquee-section section-gap-x">
+        <section class="tj-marquee-section tj-marquee-frameless">
           <div class="marquee-wrapper">
             <div class="swiper marquee-slider">
               <div class="swiper-wrapper">
@@ -2434,17 +2444,23 @@
         </section>
         <!-- end: Industries Overview Section -->
 
-         <!-- start: choose Section -->
+        <!-- start: choose Section -->
         <section class="h10-process section-gap section-gap-x tj-sticky-panel-3-container" id="why-choose-us">
           <div class="container">
             <div class="row">
               <div class="col-12 col-lg-5">
                 <div class="sec-heading style-3 tj-sticky-panel-3">
                   <span class="sub-title"><i class="tji-box"></i> WHY CHOOSE HETXA</span>
-                  <h2 class="sec-title text-anim">Strategic Advantage Built for <span class="text-orange">Your Growth.</span></h2>
-                  <p class="sec-desc" style="color: rgba(255, 255, 255, 0.7); margin-top: 15px; font-size: 15px; line-height: 1.65;">Beyond software, Hetxa BOS delivers enterprise-grade operational resilience, seamless ERP migration, and dedicated hands-on local support tailored to Sri Lankan commerce.</p>
+                  <h2 class="sec-title text-anim">Strategic Advantage Built for <span class="text-orange">Your
+                      Growth.</span></h2>
+                  <p class="sec-desc"
+                    style="color: rgba(255, 255, 255, 0.7); margin-top: 15px; font-size: 15px; line-height: 1.65;">
+                    Beyond software, Hetxa BOS delivers enterprise-grade operational resilience, seamless ERP migration,
+                    and dedicated hands-on local support tailored to Sri Lankan commerce.</p>
                   <div class="h10-process-more">
-                    <a class="tj-primary-btn" href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20why%20businesses%20choose%20Hetxa%20BOS." target="_blank" rel="noopener noreferrer">
+                    <a class="tj-primary-btn"
+                      href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20why%20businesses%20choose%20Hetxa%20BOS."
+                      target="_blank" rel="noopener noreferrer">
                       <span class="btn-text"><span>Schedule Consultation</span></span>
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                     </a>
@@ -2462,7 +2478,9 @@
                     </div>
                     <div class="h10-process-content">
                       <h4 class="title">Dedicated 24/7 SLA Support</h4>
-                      <p class="desc">Direct WhatsApp, phone hotline, and on-site hardware assistance by Sri Lankan ERP specialists. Guaranteed &lt; 15-minute response SLA with zero robotic ticketing queues or delayed email chains.</p>
+                      <p class="desc">Direct WhatsApp, phone hotline, and on-site hardware assistance by Sri Lankan ERP
+                        specialists. Guaranteed &lt; 15-minute response SLA with zero robotic ticketing queues or
+                        delayed email chains.</p>
                     </div>
                   </div>
 
@@ -2474,7 +2492,9 @@
                     </div>
                     <div class="h10-process-content">
                       <h4 class="title">Implementation Expertise</h4>
-                      <p class="desc">Turnkey legacy migration from Excel, QuickBooks, and outdated POS systems. Complete historical data audit, 10-minute cashier drills, and a zero-data-loss cutover guarantee.</p>
+                      <p class="desc">Turnkey legacy migration from Excel, QuickBooks, and outdated POS systems.
+                        Complete historical data audit, 10-minute cashier drills, and a zero-data-loss cutover
+                        guarantee.</p>
                     </div>
                   </div>
 
@@ -2486,7 +2506,9 @@
                     </div>
                     <div class="h10-process-content">
                       <h4 class="title">Unrivaled Operational Flexibility</h4>
-                      <p class="desc">Activate only the modules you need today and scale effortlessly from 1 counter to 50+ branches with custom receipt designs, tiered price books, multi-currency invoicing, and RAMIS VAT rules.</p>
+                      <p class="desc">Activate only the modules you need today and scale effortlessly from 1 counter to
+                        50+ branches with custom receipt designs, tiered price books, multi-currency invoicing, and
+                        RAMIS VAT rules.</p>
                     </div>
                   </div>
 
@@ -2498,7 +2520,9 @@
                     </div>
                     <div class="h10-process-content">
                       <h4 class="title">100% Offline-First Reliability</h4>
-                      <p class="desc">Store counters never freeze when fiber or 4G telecom connections drop. Continue high-speed billing, barcode scanning, and thermal printing with automated background cloud sync once online.</p>
+                      <p class="desc">Store counters never freeze when fiber or 4G telecom connections drop. Continue
+                        high-speed billing, barcode scanning, and thermal printing with automated background cloud sync
+                        once online.</p>
                     </div>
                   </div>
 
@@ -2510,7 +2534,9 @@
                     </div>
                     <div class="h10-process-content">
                       <h4 class="title">Transparent Pricing &amp; Rapid ROI</h4>
-                      <p class="desc">Predictable monthly or annual pricing with no surprise per-transaction commissions or hidden renewal fees. Fast 14-day payback through tangible stock leakage and inventory shrinkage reduction.</p>
+                      <p class="desc">Predictable monthly or annual pricing with no surprise per-transaction commissions
+                        or hidden renewal fees. Fast 14-day payback through tangible stock leakage and inventory
+                        shrinkage reduction.</p>
                     </div>
                   </div>
 
@@ -2530,47 +2556,145 @@
         </section>
         <!-- end: choose Section -->
 
-
-        <!-- start: Client Section -->
-        <section class="tj-client-section-2 h6-client section-gap-x wow fadeInUp" data-wow-delay=".4s">
-          <div class="container-fluid client-container">
+        <!-- start: Contact Section -->
+        <section class="tj-contact-section h4-contact-section section-gap section-gap-x">
+          <div class="container">
             <div class="row">
-              <div class="col-12">
-                <div class="h6-client-title-wrapper">
-                  <h6 class="h6-client-title">we’re proud to partner with best-in-class clients</h6>
+              <div class="col-lg-6">
+                <div class="contact-form style-3 wow fadeInUp" data-wow-delay=".4s">
+                  <div class="sec-heading style-4">
+                    <span class="sub-title"><i class="tji-box"></i>GET IN TOUCH</span>
+                    <h2 class="sec-title title-anim">Drop us a Line &amp; <span class="text-orange">Get Started.</span></h2>
+                  </div>
+                  <form id="contact-form-3">
+                    <div class="row wow fadeInUp" data-wow-delay=".5s">
+                      <div class="col-sm-6">
+                        <div class="form-input">
+                          <label class="cf-label">Full Name *</label>
+                          <input type="text" name="cfName3" placeholder="Your full name">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-input">
+                          <label class="cf-label">Email Address *</label>
+                          <input type="email" name="cfEmail3" placeholder="email@company.com">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-input">
+                          <label class="cf-label">Phone number *</label>
+                          <input type="tel" name="cfPhone3" placeholder="+94 7X XXX XXXX">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-input">
+                          <div class="tj-nice-select-box">
+                            <div class="tj-select">
+                              <label class="cf-label">Select Solution / Purpose</label>
+                              <select name="cfSubject3">
+                                <option value="1">Retail &amp; Supermarket POS</option>
+                                <option value="2">Wholesale &amp; Distribution ERP</option>
+                                <option value="3">Multi-Branch Inventory Sync</option>
+                                <option value="4">IRD RAMIS VAT Compliance</option>
+                                <option value="5">Sri Lanka Cheque Management</option>
+                                <option value="6">Request a Live 1-on-1 Demo</option>
+                                <option value="7">General Inquiry &amp; Support</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="form-input message-input">
+                          <label class="cf-label">Message here... *</label>
+                          <textarea name="cfMessage3" id="message" placeholder="Tell us about your business requirements, branch count, or current challenges..."></textarea>
+                        </div>
+                      </div>
+                      <div class="submit-btn">
+                        <button class="tj-primary-btn" type="submit">
+                          <span class="btn-text"><span>Send Message</span></span>
+                          <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="swiper client-slider client-slider-2 h6-client-slider">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide client-item">
-                      <div class="client-logo">
-                        <img src="assets/images/brands/brand-1-light.webp" alt="">
+              <div class="col-lg-6">
+                <div class="testimonial-wrapper-3 wow fadeInUp" data-wow-delay=".5s">
+                  <div class="swiper testimonial-slider-2 h4-testimonial">
+                    <h3 class="tes-title">Client Feedback (4.8<span>/out of 200+ Reviews</span>)</h3>
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <span class="quote-icon"><i class="tji-quote"></i></span>
+                          <div class="desc">
+                            <p>Working with Hetxa has been a game-changer for our multi-branch retail network. Their team's professionalism, rapid local implementation, and innovative Cloud POS have helped us streamline checkout lines and eliminate stock leakages across all outlets.</p>
+                          </div>
+                          <div class="testimonial-author">
+                            <div class="author-inner">
+                              <div class="author-img">
+                                <img src="assets/images/testimonial/client-1.webp" alt="">
+                              </div>
+                              <div class="author-header">
+                                <h4 class="title">Dinesh Samarasinghe</h4>
+                                <span class="designation">Managing Director, Retail Supermarket Chain</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <span class="quote-icon"><i class="tji-quote"></i></span>
+                          <div class="desc">
+                            <p>The automated Cheque management and multi-warehouse sync with Hetxa BOS are beyond our expectations. Real-time visibility into inventory and IRD RAMIS compliance has taken our wholesale operation to the next level of operational efficiency.</p>
+                          </div>
+                          <div class="testimonial-author">
+                            <div class="author-inner">
+                              <div class="author-img">
+                                <img src="assets/images/testimonial/client-2.webp" alt="">
+                              </div>
+                              <div class="author-header">
+                                <h4 class="title">Roshan Perera</h4>
+                                <span class="designation">Head of Operations, Wholesale Distribution Network</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <span class="quote-icon"><i class="tji-quote"></i></span>
+                          <div class="desc">
+                            <p>We’ve been running Hetxa BOS across our retail network, and they continue to deliver outstanding reliability. Their 24/7 technical support is proactive, responsive, and always ready to help our cashiers and store managers.</p>
+                          </div>
+                          <div class="testimonial-author">
+                            <div class="author-inner">
+                              <div class="author-img">
+                                <img src="assets/images/testimonial/client-3.webp" alt="">
+                              </div>
+                              <div class="author-header">
+                                <h4 class="title">Ruwan Jayawardena</h4>
+                                <span class="designation">Co-Founder, Fashion &amp; Apparel Group</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="swiper-slide client-item">
-                      <div class="client-logo">
-                        <img src="assets/images/brands/brand-2-light.webp" alt="">
+                    <div class="testimonial-navigation d-flex">
+                      <div class="slider-prev">
+                        <span class="anim-icon">
+                          <i class="tji-arrow-left"></i>
+                          <i class="tji-arrow-left"></i>
+                        </span>
                       </div>
-                    </div>
-                    <div class="swiper-slide client-item">
-                      <div class="client-logo">
-                        <img src="assets/images/brands/brand-3-light.webp" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-slide client-item">
-                      <div class="client-logo">
-                        <img src="assets/images/brands/brand-4-light.webp" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-slide client-item">
-                      <div class="client-logo">
-                        <img src="assets/images/brands/brand-5-light.webp" alt="">
-                      </div>
-                    </div>
-                    <div class="swiper-slide client-item">
-                      <div class="client-logo">
-                        <img src="assets/images/brands/brand-6-light.webp" alt="">
+                      <div class="slider-next">
+                        <span class="anim-icon">
+                          <i class="tji-arrow-right"></i>
+                          <i class="tji-arrow-right"></i>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -2578,8 +2702,15 @@
               </div>
             </div>
           </div>
+          <div class="bg-shape-1">
+            <img src="assets/images/shape/pattern-2.svg" alt="">
+          </div>
+          <div class="bg-shape-2">
+            <img src="assets/images/shape/pattern-3.svg" alt="">
+          </div>
         </section>
-        <!-- end: Client Section -->
+        <!-- end: Contact Section -->
+
 
       </main>
 

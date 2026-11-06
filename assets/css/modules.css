@@ -34,11 +34,11 @@
   justify-content: space-between !important;
   align-items: stretch !important;
   min-height: 540px !important;
-  margin-bottom: 24px !important;
+  margin-bottom: 24px;
   overflow: hidden !important;
-  position: relative !important;
-  will-change: transform, opacity !important;
-  transform-origin: center center !important;
+  position: relative;
+  will-change: transform, opacity;
+  transform-origin: center center;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 

@@ -10355,56 +10355,45 @@ START: Services CSS
 START: Theme Marquee CSS
 ----------------------------------------*/
 /* ==========================================================================
-   START: Theme Marquee CSS (Redesigned for Hetxa AI Business OS)
+   START: Theme Marquee CSS (Hetxa Frameless Transparent Ticker Style)
    ========================================================================== */
 .tj-marquee-section {
-  background: linear-gradient(135deg, #FF5E14 0%, #FF6F26 45%, #FF5003 100%);
+  background: transparent !important;
   position: relative;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  border-radius: 18px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: none !important;
+  border-top: 1px solid rgba(15, 23, 42, 0.08) !important;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
   overflow: hidden;
-  box-shadow: 0 20px 48px rgba(255, 94, 20, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.35);
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  width: 100%;
 }
 
-.tj-marquee-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6) 20%, #ffffff 50%, rgba(255, 255, 255, 0.6) 80%, transparent);
-  pointer-events: none;
-  z-index: 2;
-}
-
+.tj-marquee-section::before,
 .tj-marquee-section::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
-  pointer-events: none;
-  z-index: 1;
+  display: none !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-marquee-section {
-    padding-top: 18px;
-    padding-bottom: 18px;
-    border-radius: 14px;
-    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
   }
 }
 
 .marquee-wrapper {
   position: relative;
   overflow: hidden;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
-  mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 5%, black 95%, transparent 100%);
   z-index: 2;
+  width: 100%;
 }
 
 .marquee-slider {
@@ -10428,7 +10417,7 @@ START: Theme Marquee CSS
 
 .marquee-item .marquee-text {
   font-family: var(--tj-ff-heading);
-  font-size: 68px;
+  font-size: 64px;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -1.2px;
@@ -10437,31 +10426,41 @@ START: Theme Marquee CSS
   white-space: nowrap;
   display: inline-block;
   user-select: none;
+  transition: all 0.3s ease;
 }
 
 .marquee-item .marquee-text.marquee-text-solid {
-  color: #FFFFFF;
-  -webkit-text-fill-color: #FFFFFF;
+  color: #0F172A;
+  -webkit-text-fill-color: #0F172A;
   -webkit-text-stroke: 0;
-  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
+
+.marquee-item:hover .marquee-text.marquee-text-solid {
+  color: #FF5E14;
+  -webkit-text-fill-color: #FF5E14;
 }
 
 .marquee-item .marquee-text.marquee-text-outline {
   color: transparent;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.82);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  -webkit-text-stroke: 1.5px rgba(15, 23, 42, 0.24);
+  text-shadow: none;
+}
+
+.marquee-item:hover .marquee-text.marquee-text-outline {
+  -webkit-text-stroke: 1.5px #FF5E14;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .marquee-item .marquee-text {
-    font-size: 58px;
+    font-size: 56px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .marquee-item .marquee-text {
-    font-size: 50px;
+    font-size: 48px;
     letter-spacing: -0.8px;
   }
   .marquee-item {
@@ -10472,11 +10471,11 @@ START: Theme Marquee CSS
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .marquee-item .marquee-text {
-    font-size: 42px;
+    font-size: 40px;
     letter-spacing: -0.6px;
   }
   .marquee-item .marquee-text.marquee-text-outline {
-    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.85);
+    -webkit-text-stroke: 1.3px rgba(15, 23, 42, 0.28);
   }
   .marquee-item {
     gap: 22px;
@@ -10486,28 +10485,28 @@ START: Theme Marquee CSS
 
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .marquee-item .marquee-text {
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: -0.4px;
   }
   .marquee-item .marquee-text.marquee-text-outline {
-    -webkit-text-stroke: 1.2px rgba(255, 255, 255, 0.85);
+    -webkit-text-stroke: 1px rgba(15, 23, 42, 0.28);
   }
   .marquee-item {
-    gap: 18px;
-    padding-inline-end: 18px;
+    gap: 16px;
+    padding-inline-end: 16px;
   }
 }
 
-/* Hetxa Modern Tech Chip */
+/* Hetxa Modern Tech Chip (Floating Dark Capsule on Transparent Canvas) */
 .marquee-tech-chip {
   display: inline-flex;
   align-items: center;
   gap: 12px;
   background: #0A0D10;
-  border: 1px solid rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 94, 20, 0.32);
   border-radius: 50px;
   padding: 8px 18px 8px 10px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12), 0 2px 8px rgba(255, 94, 20, 0.08);
   flex-shrink: 0;
   white-space: nowrap;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -10516,16 +10515,16 @@ START: Theme Marquee CSS
 
 .marquee-tech-chip:hover {
   transform: translateY(-2px) scale(1.04);
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: #FF5E14;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.18), 0 0 20px rgba(255, 94, 20, 0.25);
 }
 
 .marquee-tech-chip .chip-icon {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: rgba(255, 94, 20, 0.18);
-  border: 1px solid rgba(255, 94, 20, 0.4);
+  background: rgba(255, 94, 20, 0.16);
+  border: 1px solid rgba(255, 94, 20, 0.38);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10538,19 +10537,21 @@ START: Theme Marquee CSS
 .marquee-tech-chip:hover .chip-icon {
   background: #FF5E14;
   color: #FFFFFF;
-  box-shadow: 0 0 14px rgba(255, 94, 20, 0.6);
+  border-color: #FF5E14;
+  box-shadow: 0 0 16px rgba(255, 94, 20, 0.65);
 }
 
 .marquee-tech-chip .chip-icon.icon-shield {
-  background: rgba(34, 197, 94, 0.18);
-  border-color: rgba(34, 197, 94, 0.45);
+  background: rgba(34, 197, 94, 0.16);
+  border-color: rgba(34, 197, 94, 0.4);
   color: #22C55E;
 }
 
 .marquee-tech-chip:hover .chip-icon.icon-shield {
   background: #22C55E;
   color: #FFFFFF;
-  box-shadow: 0 0 14px rgba(34, 197, 94, 0.6);
+  border-color: #22C55E;
+  box-shadow: 0 0 16px rgba(34, 197, 94, 0.65);
 }
 
 .marquee-tech-chip .chip-text {
@@ -18262,11 +18263,19 @@ START: Pricing CSS
 /**----------------------------------------
 START: Contact CSS
 ----------------------------------------*/
-.h4-contact-section {
+/* ==========================================================================
+   START: Contact CSS (Hetxa Modern Light Theme Style)
+   ========================================================================== */
+.tj-contact-section.h4-contact-section {
+  background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 50%, #F1F5F9 100%) !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 24px !important;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.05) !important;
   position: relative;
   overflow: hidden;
 }
-.h4-contact-section::before {
+
+.tj-contact-section.h4-contact-section::before {
   content: "";
   position: absolute;
   bottom: 2%;
@@ -18274,30 +18283,51 @@ START: Contact CSS
   width: 360px;
   height: 360px;
   border-radius: 50%;
-  background: var(--tj-color-theme-primary);
-  -webkit-filter: blur(80px);
-  filter: blur(80px);
-  opacity: 0.3;
-  z-index: -1;
-  backdrop-filter: blur(10px);
+  background: radial-gradient(circle, rgba(255, 94, 20, 0.09) 0%, transparent 70%) !important;
+  filter: blur(60px) !important;
+  opacity: 0.9 !important;
+  z-index: 0;
+  pointer-events: none;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .h4-contact-section::before {
+  .tj-contact-section.h4-contact-section::before {
     width: 280px;
     height: 280px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .h4-contact-section::before {
+  .tj-contact-section.h4-contact-section::before {
     width: 200px;
     height: 200px;
   }
+}
+
+.tj-contact-section.h4-contact-section .sec-heading .sub-title {
+  color: #FF5E14 !important;
+  background: rgba(255, 94, 20, 0.08) !important;
+  border: 1px solid rgba(255, 94, 20, 0.25) !important;
+  border-radius: 30px !important;
+  padding: 6px 14px !important;
+  font-weight: 700 !important;
+}
+
+.tj-contact-section.h4-contact-section .sec-heading .sec-title {
+  color: #0F172A !important;
+  font-size: 38px !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  letter-spacing: -0.5px !important;
+}
+.tj-contact-section.h4-contact-section .sec-heading .sec-title .text-orange {
+  color: #FF5E14 !important;
 }
 
 .contact-form.style-3 {
   max-width: 610px;
   background-color: transparent;
   padding: 0;
+  position: relative;
+  z-index: 1;
 }
 .contact-form.style-3 .form-input {
   margin-bottom: 20px;
@@ -18307,136 +18337,145 @@ START: Contact CSS
   margin-top: 0;
   margin-bottom: 25px;
 }
+.contact-form.style-3 .form-input .cf-label {
+  color: #334155 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  position: unset;
+  margin-bottom: 8px;
+  display: block;
+}
 .contact-form.style-3 .form-input textarea,
 .contact-form.style-3 .form-input input[type=tel],
 .contact-form.style-3 .form-input input[type=text],
 .contact-form.style-3 .form-input input[type=email] {
-  color: var(--tj-color-text-body-2);
-  padding: 12px 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 6px;
-}
-.contact-form.style-3 .form-input textarea::-webkit-input-placeholder,
-.contact-form.style-3 .form-input input[type=tel]::-webkit-input-placeholder,
-.contact-form.style-3 .form-input input[type=text]::-webkit-input-placeholder,
-.contact-form.style-3 .form-input input[type=email]::-webkit-input-placeholder {
-  color: var(--tj-color-text-body-2);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.contact-form.style-3 .form-input textarea::-moz-placeholder,
-.contact-form.style-3 .form-input input[type=tel]::-moz-placeholder,
-.contact-form.style-3 .form-input input[type=text]::-moz-placeholder,
-.contact-form.style-3 .form-input input[type=email]::-moz-placeholder {
-  color: var(--tj-color-text-body-2);
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.contact-form.style-3 .form-input textarea:-ms-input-placeholder,
-.contact-form.style-3 .form-input input[type=tel]:-ms-input-placeholder,
-.contact-form.style-3 .form-input input[type=text]:-ms-input-placeholder,
-.contact-form.style-3 .form-input input[type=email]:-ms-input-placeholder {
-  color: var(--tj-color-text-body-2);
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.contact-form.style-3 .form-input textarea::-webkit-input-placeholder, .contact-form.style-3 .form-input input[type=tel]::-webkit-input-placeholder, .contact-form.style-3 .form-input input[type=text]::-webkit-input-placeholder, .contact-form.style-3 .form-input input[type=email]::-webkit-input-placeholder {
-  color: var(--tj-color-text-body-2);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.contact-form.style-3 .form-input textarea::-moz-placeholder, .contact-form.style-3 .form-input input[type=tel]::-moz-placeholder, .contact-form.style-3 .form-input input[type=text]::-moz-placeholder, .contact-form.style-3 .form-input input[type=email]::-moz-placeholder {
-  color: var(--tj-color-text-body-2);
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.contact-form.style-3 .form-input textarea:-ms-input-placeholder, .contact-form.style-3 .form-input input[type=tel]:-ms-input-placeholder, .contact-form.style-3 .form-input input[type=text]:-ms-input-placeholder, .contact-form.style-3 .form-input input[type=email]:-ms-input-placeholder {
-  color: var(--tj-color-text-body-2);
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.contact-form.style-3 .form-input textarea::-ms-input-placeholder, .contact-form.style-3 .form-input input[type=tel]::-ms-input-placeholder, .contact-form.style-3 .form-input input[type=text]::-ms-input-placeholder, .contact-form.style-3 .form-input input[type=email]::-ms-input-placeholder {
-  color: var(--tj-color-text-body-2);
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
+  color: #0F172A !important;
+  padding: 13px 18px !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #CBD5E1 !important;
+  border-radius: 10px !important;
+  font-size: 15px !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04) !important;
+  backdrop-filter: none !important;
+  transition: all 0.25s ease !important;
 }
 .contact-form.style-3 .form-input textarea::placeholder,
-.contact-form.style-3 .form-input input[type=tel]::placeholder,
-.contact-form.style-3 .form-input input[type=text]::placeholder,
-.contact-form.style-3 .form-input input[type=email]::placeholder {
-  color: var(--tj-color-text-body-2);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+.contact-form.style-3 .form-input input::placeholder {
+  color: #94A3B8 !important;
+  font-size: 14.5px !important;
 }
 .contact-form.style-3 .form-input textarea:focus,
 .contact-form.style-3 .form-input input[type=tel]:focus,
 .contact-form.style-3 .form-input input[type=text]:focus,
 .contact-form.style-3 .form-input input[type=email]:focus {
-  border-color: var(--tj-color-theme-primary);
-}
-.contact-form.style-3 .form-input .cf-label {
-  color: var(--tj-color-text-body-2);
-  position: unset;
-  margin-bottom: 10px;
-}
-.contact-form.style-3 .form-input .nice-select {
-  color: var(--tj-color-text-body-2);
-  padding: 12px 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 6px;
-  z-index: 2;
-  margin-bottom: 20px;
-}
-.contact-form.style-3 .form-input .nice-select.open {
-  border-color: var(--tj-color-theme-primary);
-}
-.contact-form.style-3 .form-input .nice-select::after {
-  color: var(--tj-color-common-white);
-  font-size: 13px;
-  width: 13px;
-  height: 13px;
-  top: 22px;
-  inset-inline-end: 18px;
+  border-color: #FF5E14 !important;
+  box-shadow: 0 0 0 3px rgba(255, 94, 20, 0.16) !important;
+  outline: none !important;
+  background-color: #FFFFFF !important;
 }
 .contact-form.style-3 .form-input textarea {
-  height: 183px;
+  height: 150px !important;
 }
+
+/* Light Nice Select */
+.contact-form.style-3 .form-input .nice-select {
+  color: #0F172A !important;
+  padding: 13px 18px !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #CBD5E1 !important;
+  border-radius: 10px !important;
+  font-size: 15px !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04) !important;
+  backdrop-filter: none !important;
+  height: 48px !important;
+  line-height: 22px !important;
+  margin-bottom: 20px;
+  z-index: 5;
+  display: flex !important;
+  align-items: center !important;
+}
+.contact-form.style-3 .form-input .nice-select .current {
+  color: #0F172A !important;
+  font-weight: 500 !important;
+}
+.contact-form.style-3 .form-input .nice-select::after {
+  border-bottom: 2px solid #64748B !important;
+  border-right: 2px solid #64748B !important;
+  border-top: none !important;
+  border-left: none !important;
+  width: 9px !important;
+  height: 9px !important;
+  top: 50% !important;
+  transform: translateY(-65%) rotate(45deg) !important;
+  inset-inline-end: 18px !important;
+  transition: transform 0.25s ease !important;
+}
+.contact-form.style-3 .form-input .nice-select.open {
+  border-color: #FF5E14 !important;
+  box-shadow: 0 0 0 3px rgba(255, 94, 20, 0.16) !important;
+}
+.contact-form.style-3 .form-input .nice-select.open::after {
+  transform: translateY(-35%) rotate(-135deg) !important;
+}
+.contact-form.style-3 .form-input .nice-select .list {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.12) !important;
+  border-radius: 10px !important;
+  padding: 6px !important;
+  z-index: 10 !important;
+}
+.contact-form.style-3 .form-input .nice-select .option {
+  color: #334155 !important;
+  border-radius: 6px !important;
+  padding: 10px 14px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+.contact-form.style-3 .form-input .nice-select .option:hover,
+.contact-form.style-3 .form-input .nice-select .option.selected,
+.contact-form.style-3 .form-input .nice-select .option.focus {
+  background-color: #FFF7ED !important;
+  color: #FF5E14 !important;
+  font-weight: 600 !important;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .contact-form.style-3 {
     max-width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 }
 
-/* !END: Contact CSS */
-/**----------------------------------------
-START: Testimonial CSS
-----------------------------------------*/
+/* Light Testimonial Box */
 .testimonial-wrapper-3 {
   position: relative;
+  z-index: 1;
 }
 
 .testimonial-slider-2.h4-testimonial {
   max-width: 610px;
-  -webkit-margin-end: 0;
-          margin-inline-end: 0;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 12px;
-  padding: 50px 0 60px;
+  margin-inline-end: 0;
+  background-color: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.06), 0 2px 8px rgba(15, 23, 42, 0.02) !important;
+  backdrop-filter: none !important;
+  border-radius: 20px !important;
+  padding: 44px 0 54px !important;
 }
+
 .testimonial-slider-2.h4-testimonial .tes-title {
-  color: var(--tj-color-common-white);
+  color: #0F172A !important;
+  font-size: 22px !important;
+  font-weight: 800 !important;
   margin-bottom: 0;
-  padding: 0 30px;
+  padding: 0 35px;
 }
 .testimonial-slider-2.h4-testimonial .tes-title span {
-  color: var(--tj-color-text-body-2);
+  color: #64748B !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonial-slider-2.h4-testimonial .tes-title {
@@ -18448,86 +18487,108 @@ START: Testimonial CSS
     padding: 0 20px;
   }
 }
+
 .testimonial-slider-2.h4-testimonial .testimonial-item {
-  background-color: transparent;
-  padding: 50px 30px 0;
+  background-color: transparent !important;
+  padding: 30px 35px 0 !important;
   height: auto;
 }
-.testimonial-slider-2.h4-testimonial .testimonial-item .desc {
-  color: var(--tj-color-grey-1);
-  line-height: 1.545;
+
+.testimonial-slider-2.h4-testimonial .testimonial-item .quote-icon i {
+  color: #FF5E14 !important;
+  font-size: 32px !important;
+  opacity: 0.85;
+}
+
+.testimonial-slider-2.h4-testimonial .testimonial-item .desc p {
+  color: #475569 !important;
+  font-size: 16.5px !important;
+  line-height: 1.7 !important;
+  font-weight: 400;
   padding-bottom: 10px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .testimonial-slider-2.h4-testimonial .testimonial-item .desc {
-    font-size: 20px;
+  .testimonial-slider-2.h4-testimonial .testimonial-item .desc p {
+    font-size: 16px !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .testimonial-slider-2.h4-testimonial .testimonial-item .desc {
-    font-size: 18px;
+  .testimonial-slider-2.h4-testimonial .testimonial-item .desc p {
+    font-size: 15.5px !important;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .testimonial-slider-2.h4-testimonial .testimonial-item .desc {
-    font-size: 16px;
-    padding-top: 20px;
+  .testimonial-slider-2.h4-testimonial .testimonial-item .desc p {
+    font-size: 15px !important;
+    padding-top: 15px;
   }
 }
+
 .testimonial-slider-2.h4-testimonial .testimonial-item .testimonial-author {
-  border-color: var(--tj-color-border-2);
-}
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .testimonial-slider-2.h4-testimonial .testimonial-item .testimonial-author .author-img {
-    width: 60px;
-    height: 60px;
-  }
+  border-top: 1px solid #F1F5F9 !important;
+  padding-top: 22px !important;
+  margin-top: 20px !important;
 }
 .testimonial-slider-2.h4-testimonial .testimonial-item .testimonial-author .title {
-  color: var(--tj-color-common-white);
+  color: #0F172A !important;
+  font-size: 17.5px !important;
+  font-weight: 700 !important;
 }
 .testimonial-slider-2.h4-testimonial .testimonial-item .testimonial-author .designation {
-  color: var(--tj-color-text-body-2);
+  color: #64748B !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .testimonial-slider-2.h4-testimonial .testimonial-item {
-    padding: 35px 25px 0;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .testimonial-slider-2.h4-testimonial .testimonial-item {
-    padding: 30px 20px 0;
-  }
-}
+
 .testimonial-slider-2.h4-testimonial .testimonial-navigation {
   position: absolute;
-  inset-inline-end: 30px;
-  bottom: 75px;
+  inset-inline-end: 35px;
+  bottom: 60px;
   z-index: 2;
-  gap: 15px;
+  gap: 12px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .testimonial-slider-2.h4-testimonial .testimonial-navigation {
-    bottom: 30px;
+    bottom: 25px;
+    inset-inline-end: 20px;
   }
 }
+
 .testimonial-slider-2.h4-testimonial .slider-next,
 .testimonial-slider-2.h4-testimonial .slider-prev {
-  border: 1px solid var(--tj-color-border-2);
+  background: #FFFFFF !important;
+  border: 1px solid #CBD5E1 !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06) !important;
+  border-radius: 50% !important;
+  width: 44px !important;
+  height: 44px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
 }
 .testimonial-slider-2.h4-testimonial .slider-next .anim-icon i,
 .testimonial-slider-2.h4-testimonial .slider-prev .anim-icon i {
-  color: var(--tj-color-common-white);
+  color: #0F172A !important;
+  font-size: 16px !important;
+  transition: color 0.3s ease !important;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .testimonial-slider-2.h4-testimonial {
-    padding: 35px 0 40px;
-  }
+.testimonial-slider-2.h4-testimonial .slider-next:hover,
+.testimonial-slider-2.h4-testimonial .slider-prev:hover {
+  background: #FF5E14 !important;
+  border-color: #FF5E14 !important;
+  box-shadow: 0 4px 16px rgba(255, 94, 20, 0.35) !important;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .testimonial-slider-2.h4-testimonial {
-    max-width: 100%;
-  }
+.testimonial-slider-2.h4-testimonial .slider-next:hover .anim-icon i,
+.testimonial-slider-2.h4-testimonial .slider-prev:hover .anim-icon i {
+  color: #FFFFFF !important;
+}
+
+.tj-contact-section.h4-contact-section .bg-shape-1 img,
+.tj-contact-section.h4-contact-section .bg-shape-2 img {
+  opacity: 0.12 !important;
+  filter: grayscale(1) !important;
 }
 
 /* !END: Testimonial CSS */
