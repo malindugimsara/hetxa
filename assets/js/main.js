@@ -47,21 +47,31 @@ Progressbar js
 		}
 	}
 	splitTextToSpans(target);
-	// Preloader js
+	// Preloader js - Optimized for instant responsive page load
 	$(window).on("load", function () {
 		const tjPreloader = $(".tj-preloader");
 		if (tjPreloader?.length) {
 			setTimeout(function () {
 				tjPreloader.removeClass("is-loading").addClass("is-loaded");
 				setTimeout(function () {
-					tjPreloader.fadeOut(400);
+					tjPreloader.fadeOut(300);
 					wowController();
 					gsapController();
-				}, 700);
-			}, 2000);
+					setTimeout(function () {
+						if (typeof ScrollTrigger !== "undefined") {
+							ScrollTrigger.refresh();
+						}
+					}, 150);
+				}, 150);
+			}, 250);
 		} else {
 			wowController();
 			gsapController();
+			setTimeout(function () {
+				if (typeof ScrollTrigger !== "undefined") {
+					ScrollTrigger.refresh();
+				}
+			}, 150);
 		}
 	});
 
@@ -1245,20 +1255,31 @@ Progressbar js
 
 		/* ------------- Positon Sticky Js -------------*/
 
-		/* Service js - Stacking Cards */
-		const serviceStack = gsap.utils.toArray(".service-stack");
-		if (serviceStack.length > 0) {
+		/* Service js - Stacking Cards with Fade & Scale Animation */
+		const serviceCards = gsap.utils.toArray(".service-item.style-5");
+		if (serviceCards.length > 0) {
 			mediaMatch.add("(min-width: 992px)", () => {
-				serviceStack.forEach(item => {
-					ScrollTrigger.create({
-						trigger: item,
-						start: "top top",
-						pin: true,
-						pinSpacing: false,
-						markers: false,
-						anticipatePin: 1,
-						invalidateOnRefresh: true,
-					});
+				serviceCards.forEach((item, index) => {
+					// Pin and fade out each card as the next card scrolls up to cover it
+					if (index < serviceCards.length - 1) {
+						const nextCard = serviceCards[index + 1];
+						gsap.to(item, {
+							opacity: 0,
+							scale: 0.93,
+							ease: "power1.in",
+							scrollTrigger: {
+								trigger: item,
+								start: "top top",
+								endTrigger: nextCard,
+								end: "top top",
+								pin: true,
+								pinSpacing: false,
+								scrub: true,
+								anticipatePin: 0,
+								invalidateOnRefresh: true,
+							},
+						});
+					}
 				});
 			});
 		}

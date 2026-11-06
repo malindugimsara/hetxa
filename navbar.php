@@ -92,6 +92,7 @@
                     <li class="has-dropdown"><a href="blog.html">Blog</a>
                      
                     </li>
+                    <li><a href="index.php#industries">Industries</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </nav>
@@ -517,6 +518,7 @@
                       <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
                   </li>
+                  <li><a href="index.php#industries">Industries</a></li>
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
               </nav>

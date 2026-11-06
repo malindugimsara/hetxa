@@ -1,0 +1,459 @@
+/* ===================================================================
+   HETXA BOS - Working Process (Original Template Design Enhanced)
+   4-Step Staircase Flow: Consultation > Setup > Training > Go Live
+   =================================================================== */
+
+/* Section base */
+.h5-working-process {
+  background-color: var(--tj-color-theme-dark, #0b1118);
+  border-radius: 12px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.h5-working-process .sec-heading .sub-title {
+  color: #ff5e14 !important;
+  background: rgba(255, 94, 20, 0.1) !important;
+  border-color: rgba(255, 94, 20, 0.28) !important;
+}
+
+.h5-working-process .sec-heading .sec-title .text-orange {
+  color: #ff5e14 !important;
+}
+
+/* Inner area with top horizontal dashed connecting line */
+.h5-working-process-inner {
+  position: relative;
+  z-index: 1;
+  padding-top: 42px;
+}
+
+.h5-working-process-inner::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: 21px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  height: 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.18);
+  z-index: 0;
+}
+
+/* 4-Item Desktop Wrapper */
+@media (min-width: 992px) {
+  .h5-working-process-wrapper {
+    display: flex !important;
+    gap: 22px !important;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+  }
+
+  .h5-working-process-item {
+    position: relative !important;
+    flex: 1 1 0 !important;
+    max-width: calc(25% - 17px) !important;
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 14px !important;
+    padding: 30px 22px 32px !important;
+    transition: all 0.4s ease !important;
+    z-index: 2 !important;
+  }
+
+  .h5-working-process-item:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 94, 20, 0.5) !important;
+    transform: translateY(-6px) !important;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35), 0 0 25px rgba(255, 94, 20, 0.12) !important;
+  }
+
+  /* Staircase margins & connecting lines for 4 cards */
+  /* Step 01: Consultation */
+  .h5-working-process-item:nth-child(1) {
+    margin-top: 50px !important;
+  }
+  .h5-working-process-item:nth-child(1) .h5-working-process-indicator {
+    top: -50px !important;
+  }
+  .h5-working-process-item:nth-child(1) .h5-working-process-indicator::before {
+    bottom: -50px !important;
+    height: 50px !important;
+  }
+  .h5-working-process-item:nth-child(1) .h5-working-process-indicator::after {
+    bottom: -50px !important;
+    height: 0 !important;
+  }
+  .h5-working-process-item:hover:nth-child(1) .h5-working-process-indicator::after {
+    height: 50px !important;
+    border-color: #ff5e14 !important;
+    border-inline-end-color: #ff5e14 !important;
+  }
+
+  /* Step 02: Setup */
+  .h5-working-process-item:nth-child(2) {
+    margin-top: 135px !important;
+  }
+  .h5-working-process-item:nth-child(2) .h5-working-process-indicator {
+    top: -135px !important;
+  }
+  .h5-working-process-item:nth-child(2) .h5-working-process-indicator::before {
+    bottom: -135px !important;
+    height: 135px !important;
+  }
+  .h5-working-process-item:nth-child(2) .h5-working-process-indicator::after {
+    bottom: -135px !important;
+    height: 0 !important;
+  }
+  .h5-working-process-item:hover:nth-child(2) .h5-working-process-indicator::after {
+    height: 135px !important;
+    border-color: #ff5e14 !important;
+    border-inline-end-color: #ff5e14 !important;
+  }
+
+  /* Step 03: Training */
+  .h5-working-process-item:nth-child(3) {
+    margin-top: 220px !important;
+  }
+  .h5-working-process-item:nth-child(3) .h5-working-process-indicator {
+    top: -220px !important;
+  }
+  .h5-working-process-item:nth-child(3) .h5-working-process-indicator::before {
+    bottom: -220px !important;
+    height: 220px !important;
+  }
+  .h5-working-process-item:nth-child(3) .h5-working-process-indicator::after {
+    bottom: -220px !important;
+    height: 0 !important;
+  }
+  .h5-working-process-item:hover:nth-child(3) .h5-working-process-indicator::after {
+    height: 220px !important;
+    border-color: #ff5e14 !important;
+    border-inline-end-color: #ff5e14 !important;
+  }
+
+  /* Step 04: Go Live */
+  .h5-working-process-item:nth-child(4) {
+    margin-top: 305px !important;
+  }
+  .h5-working-process-item:nth-child(4) .h5-working-process-indicator {
+    top: -305px !important;
+  }
+  .h5-working-process-item:nth-child(4) .h5-working-process-indicator::before {
+    bottom: -305px !important;
+    height: 305px !important;
+  }
+  .h5-working-process-item:nth-child(4) .h5-working-process-indicator::after {
+    bottom: -305px !important;
+    height: 0 !important;
+  }
+  .h5-working-process-item:hover:nth-child(4) .h5-working-process-indicator::after {
+    height: 305px !important;
+    border-color: #ff5e14 !important;
+    border-inline-end-color: #ff5e14 !important;
+  }
+}
+
+.h5-working-process-item:not(:last-child)::after,
+.h5-working-process-item::after {
+  display: none !important;
+}
+
+/* Indicators (Floating Step Badge) */
+.h5-working-process-item .h5-working-process-indicator {
+  padding: 8px 26px 9px !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  letter-spacing: -0.02em !important;
+  border: 1px dashed rgba(255, 255, 255, 0.28) !important;
+  border-radius: 50px !important;
+  color: #ffffff !important;
+  background-color: #0b1118 !important;
+  margin-bottom: 0 !important;
+  position: absolute !important;
+  transition: all 0.3s ease !important;
+  inset-inline-start: 50% !important;
+  transform: translate(-50%, -100%) !important;
+  white-space: nowrap !important;
+  z-index: 5 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4) !important;
+}
+
+.h5-working-process-item:hover .h5-working-process-indicator {
+  border-color: #ff5e14 !important;
+  color: #ff5e14 !important;
+  box-shadow: 0 0 16px rgba(255, 94, 20, 0.4) !important;
+}
+
+/* Step Header & Big Gradient Number */
+.h5-working-process-item .process-step {
+  display: block !important;
+  margin-bottom: 14px !important;
+}
+
+.h5-working-process-item .process-step span {
+  font-size: 82px !important;
+  font-weight: 800 !important;
+  line-height: 1 !important;
+  color: #ff5e14 !important;
+  background: linear-gradient(180deg, #ff5e14 0%, rgba(255, 94, 20, 0.15) 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  letter-spacing: -3px !important;
+  font-family: var(--tj-font-heading, inherit) !important;
+}
+
+/* Card Title & Desc */
+.h5-working-process-item .process-content .title {
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+  letter-spacing: -0.3px !important;
+}
+
+.h5-working-process-item .process-content .desc {
+  color: rgba(255, 255, 255, 0.68) !important;
+  font-size: 13.5px !important;
+  line-height: 1.55 !important;
+  margin: 0 0 16px 0 !important;
+}
+
+/* Bottom Deliverable Tag */
+.h5-working-process-item .process-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 50px;
+  background: rgba(255, 94, 20, 0.08);
+  border: 1px solid rgba(255, 94, 20, 0.25);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 11.5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.h5-working-process-item:hover .process-tag {
+  background: rgba(255, 94, 20, 0.16);
+  border-color: #ff5e14;
+  color: #ffffff;
+}
+
+.h5-working-process-item .process-tag i {
+  color: #ff5e14;
+  font-size: 11px;
+}
+
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 991px) {
+  .h5-working-process-inner {
+    padding-top: 0 !important;
+    margin-top: 60px !important;
+  }
+
+  .h5-working-process-inner::after {
+    inset-inline-start: 50% !important;
+    top: 0 !important;
+    -webkit-transform: translateX(-50%) !important;
+    transform: translateX(-50%) !important;
+    width: 0 !important;
+    height: 100% !important;
+    border-bottom: 0 !important;
+    border-inline-end: 1px dashed rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .h5-working-process-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 70px !important;
+  }
+
+  .h5-working-process-item {
+    position: relative !important;
+    max-width: 480px !important;
+    width: 100% !important;
+    margin-top: 30px !important;
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 14px !important;
+    padding: 26px 20px 28px !important;
+  }
+
+  .h5-working-process-item:nth-child(n) {
+    margin-top: 30px !important;
+  }
+
+  .h5-working-process-item .h5-working-process-indicator {
+    top: -30px !important;
+  }
+
+  .h5-working-process-item .h5-working-process-indicator::before {
+    display: none !important;
+  }
+
+  .h5-working-process-item .h5-working-process-indicator::after {
+    bottom: -30px !important;
+    height: 30px !important;
+    border-inline-end: 1px dashed rgba(255, 255, 255, 0.3) !important;
+  }
+
+  .h5-working-process-item:hover .h5-working-process-indicator::after {
+    border-color: #ff5e14 !important;
+  }
+}
+
+/* ===================================================================
+   WHY CHOOSE HETXA SECTION (choose Section / h10-process sticky stacking)
+   =================================================================== */
+
+.h10-process {
+  position: relative;
+  background-color: var(--tj-color-theme-dark, #0b1118);
+}
+
+.h10-process .sec-heading.style-3 .sub-title {
+  color: #ff5e14 !important;
+  background: rgba(255, 94, 20, 0.1) !important;
+  border: 1px solid rgba(255, 94, 20, 0.28) !important;
+  padding: 6px 18px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.h10-process .sec-heading.style-3 .sec-title {
+  color: #ffffff !important;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+
+.h10-process .sec-heading.style-3 .sec-title .text-orange {
+  color: #ff5e14 !important;
+}
+
+.h10-process-wrapper {
+  max-width: 660px;
+  margin-inline-start: auto;
+}
+
+.h10-process-wrapper .h10-process-item {
+  background: linear-gradient(160deg, #121822 0%, #0c1219 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  border-radius: 18px !important;
+  padding: 100px 36px 38px !important;
+  position: relative;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.h10-process-wrapper .h10-process-item:not(:last-child) {
+  margin-bottom: 30px !important;
+}
+
+.h10-process-wrapper .h10-process-item:hover {
+  border-color: rgba(255, 94, 20, 0.5) !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55), 0 0 25px rgba(255, 94, 20, 0.12) !important;
+}
+
+.h10-process-wrapper .h10-process-sln {
+  color: #ff5e14 !important;
+  background-color: #0b1118 !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  border-bottom: 1px solid rgba(255, 94, 20, 0.25);
+  border-right: 1px solid rgba(255, 94, 20, 0.25);
+}
+
+.h10-process-wrapper .h10-process-icon {
+  width: 72px !important;
+  height: 72px !important;
+  background: rgba(255, 94, 20, 0.12) !important;
+  border: 1px solid rgba(255, 94, 20, 0.32) !important;
+  color: #ff5e14 !important;
+  font-size: 30px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 16px !important;
+  margin-bottom: 22px !important;
+  transition: all 0.35s ease !important;
+}
+
+.h10-process-wrapper .h10-process-item:hover .h10-process-icon {
+  background: #ff5e14 !important;
+  color: #ffffff !important;
+  border-color: #ff5e14 !important;
+  transform: scale(1.08) rotate(4deg) !important;
+  box-shadow: 0 8px 22px rgba(255, 94, 20, 0.4) !important;
+}
+
+.h10-process-wrapper .h10-process-icon i {
+  color: inherit !important;
+}
+
+.h10-process-wrapper .h10-process-item .title {
+  max-width: 100% !important;
+  font-size: 23px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin-bottom: 14px !important;
+  letter-spacing: -0.3px !important;
+  transition: color 0.25s ease !important;
+}
+
+.h10-process-wrapper .h10-process-item:hover .title {
+  color: #ff8c42 !important;
+}
+
+.h10-process-wrapper .h10-process-item .desc {
+  font-size: 14.5px !important;
+  line-height: 1.65 !important;
+  color: rgba(255, 255, 255, 0.72) !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .h10-process .sec-heading.style-3 .sec-title {
+    font-size: 30px;
+  }
+  .h10-process-wrapper .h10-process-item {
+    padding: 85px 24px 28px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .h10-process .sec-heading.style-3 .sec-title {
+    font-size: 26px;
+  }
+  .h10-process-wrapper .h10-process-item .title {
+    font-size: 20px !important;
+  }
+  .h10-process-wrapper .h10-process-icon {
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 25px !important;
+  }
+}
+

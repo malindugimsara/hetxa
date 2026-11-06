@@ -1,0 +1,530 @@
+/* ===================================================================
+   HETXA BOS - Business Benefits & Problems Solved (Light Theme)
+   Created: 2026-11-06
+   Modern Hybrid Impact Layout: Top ROI Stats Bar + 4 Deep
+   Problem-to-Solution Transformation Cards.
+   =================================================================== */
+
+.hetxa-benefits-section {
+  position: relative;
+  background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 50%, #F1F5F9 100%);
+  padding: 100px 0 70px;
+  overflow: hidden;
+}
+
+.hetxa-benefits-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(255, 94, 20, 0.4) 30%, rgba(255, 94, 20, 0.4) 70%, transparent);
+}
+
+.hetxa-benefits-section .sec-heading {
+  max-width: 920px;
+  margin: 0 auto 55px;
+}
+
+.hetxa-benefits-section .sec-heading .sub-title {
+  color: #FF5E14 !important;
+  border-color: rgba(255, 94, 20, 0.28) !important;
+  background: rgba(255, 94, 20, 0.08) !important;
+  font-weight: 700;
+}
+
+.hetxa-benefits-section .sec-heading .sec-title {
+  color: #0F172A !important;
+  font-size: 38px !important;
+  font-weight: 800 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.5px !important;
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+
+.hetxa-benefits-section .sec-heading .sec-title .text-orange,
+.hetxa-benefits-section .sec-heading .sec-title .text-orange * {
+  color: #FF5E14 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .hetxa-benefits-section {
+    padding: 70px 0 50px;
+  }
+  .hetxa-benefits-section .sec-heading .sec-title {
+    font-size: 26px !important;
+  }
+}
+
+.hetxa-benefits-section .sec-heading .desc {
+  color: #64748B !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===================================================================
+   Top ROI Stats Bar (Light Theme Cards)
+   =================================================================== */
+.hetxa-roi-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .hetxa-roi-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .hetxa-roi-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hetxa-roi-stat-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 18px;
+  padding: 24px 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.02);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hetxa-roi-stat-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: #FF5E14;
+  transition: height 0.35s ease;
+}
+
+.hetxa-roi-stat-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 94, 20, 0.35);
+  box-shadow: 0 20px 35px -5px rgba(255, 94, 20, 0.14), 0 10px 10px -5px rgba(15, 23, 42, 0.04);
+}
+
+.hetxa-roi-stat-card:hover::after {
+  height: 100%;
+}
+
+.hetxa-roi-stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 94, 20, 0.08);
+  border: 1px solid rgba(255, 94, 20, 0.22);
+  color: #FF5E14;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.35s cubic-bezier(0.165, 0.84, 0.44, 1), background 0.3s ease;
+}
+
+.hetxa-roi-stat-card:hover .hetxa-roi-stat-icon {
+  transform: scale(1.1) rotate(4deg);
+  background: #FF5E14;
+  color: #FFFFFF;
+}
+
+.hetxa-roi-stat-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hetxa-roi-stat-value {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.15;
+  margin-bottom: 4px;
+  letter-spacing: -0.5px;
+}
+
+.hetxa-roi-stat-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #1E293B;
+  margin-bottom: 4px;
+}
+
+.hetxa-roi-stat-sub {
+  font-size: 12px;
+  color: #64748B;
+  line-height: 1.45;
+}
+
+/* ===================================================================
+   Deep Transformation Cards (Pain -> Solution -> Benefit in Light Theme)
+   =================================================================== */
+.hetxa-transform-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.hetxa-transform-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 22px;
+  padding: 34px 38px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04), 0 4px 6px rgba(15, 23, 42, 0.02);
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.hetxa-transform-card:hover {
+  border-color: rgba(255, 94, 20, 0.35);
+  box-shadow: 0 22px 45px rgba(15, 23, 42, 0.08), 0 0 25px rgba(255, 94, 20, 0.07);
+  transform: translateY(-4px);
+}
+
+@media only screen and (max-width: 767px) {
+  .hetxa-transform-card {
+    padding: 24px 20px;
+  }
+}
+
+/* Card Header */
+.hetxa-transform-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #F1F5F9;
+}
+
+.hetxa-transform-header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hetxa-transform-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: rgba(255, 94, 20, 0.08);
+  border: 1px solid rgba(255, 94, 20, 0.22);
+  color: #FF5E14;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.hetxa-transform-card:hover .hetxa-transform-icon {
+  background: #FF5E14;
+  color: #FFFFFF;
+  transform: rotate(-5deg);
+}
+
+.hetxa-transform-title-group h3 {
+  font-size: 21px;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.hetxa-transform-badge {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #FF5E14;
+  background: rgba(255, 94, 20, 0.08);
+  border: 1px solid rgba(255, 94, 20, 0.22);
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+
+/* 3-Stage Visual Flow Grid */
+.hetxa-transform-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1.15fr auto 1fr;
+  align-items: stretch;
+  gap: 14px;
+}
+
+@media only screen and (max-width: 991px) {
+  .hetxa-transform-flow {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* Animated Flow Arrow */
+.hetxa-flow-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF5E14;
+  font-size: 18px;
+  opacity: 0.6;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hetxa-transform-card:hover .hetxa-flow-arrow {
+  opacity: 1;
+  animation: flowArrowNudge 1.2s ease-in-out infinite;
+}
+
+@keyframes flowArrowNudge {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .hetxa-flow-arrow {
+    transform: rotate(90deg) !important;
+    padding: 6px 0;
+  }
+  .hetxa-transform-card:hover .hetxa-flow-arrow {
+    animation: none;
+  }
+}
+
+/* Stage Box Common */
+.hetxa-stage-box {
+  border-radius: 14px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hetxa-stage-box:hover {
+  transform: translateY(-2px);
+}
+
+.hetxa-stage-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  padding: 4px 9px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  width: fit-content;
+}
+
+.hetxa-stage-box h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 1.35;
+}
+
+.hetxa-stage-box p {
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Stage 1: Pain Point (Subtle Rose/Red Accent in Light Theme) */
+.hetxa-stage-box.stage-problem {
+  background: #FFF5F5;
+  border: 1px solid #FED7D7;
+}
+
+.hetxa-stage-box.stage-problem:hover {
+  box-shadow: 0 8px 18px rgba(239, 68, 68, 0.08);
+}
+
+.hetxa-stage-box.stage-problem .hetxa-stage-tag {
+  color: #DC2626;
+  background: rgba(220, 38, 38, 0.1);
+  border: 1px solid rgba(220, 38, 38, 0.22);
+}
+
+.hetxa-stage-box.stage-problem h4 {
+  color: #991B1B;
+}
+
+.hetxa-stage-box.stage-problem p {
+  color: #4B5563;
+}
+
+/* Stage 2: The Solution (Brand Orange Accent in Light Theme) */
+.hetxa-stage-box.stage-solution {
+  background: #FFF9F5;
+  border: 1px solid #FFD8C2;
+}
+
+.hetxa-stage-box.stage-solution:hover {
+  box-shadow: 0 8px 18px rgba(255, 94, 20, 0.09);
+}
+
+.hetxa-stage-box.stage-solution .hetxa-stage-tag {
+  color: #EA580C;
+  background: rgba(234, 88, 12, 0.1);
+  border: 1px solid rgba(234, 88, 12, 0.25);
+}
+
+.hetxa-stage-box.stage-solution h4 {
+  color: #0F172A;
+}
+
+.hetxa-stage-box.stage-solution p {
+  color: #475569;
+}
+
+.hetxa-stage-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.hetxa-stage-pill {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #C2410C;
+  background: #FFFFFF;
+  border: 1px solid #FFD8C2;
+  padding: 4px 9px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+  transition: all 0.25s ease;
+}
+
+.hetxa-stage-pill:hover {
+  background: #FF5E14;
+  color: #FFFFFF;
+  border-color: #FF5E14;
+  transform: translateY(-1px);
+}
+
+.hetxa-stage-pill:hover i {
+  color: #FFFFFF;
+}
+
+.hetxa-stage-pill i {
+  color: #FF5E14;
+  font-size: 11px;
+  transition: color 0.25s ease;
+}
+
+/* Stage 3: Measurable Benefit (Emerald Accent in Light Theme) */
+.hetxa-stage-box.stage-benefit {
+  background: #F0FDF4;
+  border: 1px solid #BBF7D0;
+}
+
+.hetxa-stage-box.stage-benefit:hover {
+  box-shadow: 0 8px 18px rgba(16, 185, 129, 0.09);
+}
+
+.hetxa-stage-box.stage-benefit .hetxa-stage-tag {
+  color: #059669;
+  background: rgba(5, 150, 105, 0.1);
+  border: 1px solid rgba(5, 150, 105, 0.25);
+}
+
+.hetxa-stage-box.stage-benefit h4 {
+  color: #065F46;
+}
+
+.hetxa-stage-box.stage-benefit p {
+  color: #047857;
+  font-weight: 600;
+}
+
+/* ===================================================================
+   Bottom Action CTA Box (Light Theme)
+   =================================================================== */
+.hetxa-benefits-cta-box {
+  margin-top: 55px;
+  background: linear-gradient(145deg, #FFFFFF 0%, #FFF8F3 100%);
+  border: 1px solid rgba(255, 94, 20, 0.25);
+  border-radius: 20px;
+  padding: 34px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 22px;
+  box-shadow: 0 20px 45px rgba(255, 94, 20, 0.08), 0 4px 12px rgba(15, 23, 42, 0.03);
+  position: relative;
+  overflow: hidden;
+}
+
+.hetxa-benefits-cta-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: #FF5E14;
+}
+
+@media only screen and (max-width: 767px) {
+  .hetxa-benefits-cta-box {
+    padding: 26px 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.hetxa-benefits-cta-content h3 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 6px;
+}
+
+.hetxa-benefits-cta-content p {
+  color: #64748B;
+  font-size: 14.5px;
+  margin: 0;
+}
+
+.hetxa-benefits-cta-btns {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 767px) {
+  .hetxa-benefits-cta-btns {
+    justify-content: center;
+    width: 100%;
+  }
+}
