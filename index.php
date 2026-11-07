@@ -49,8 +49,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+  <!-- Favicon & Brand Icons -->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?v=<?php echo time(); ?>">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fav.png?v=<?php echo time(); ?>">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/logos/hetxa-favicon.png?v=<?php echo time(); ?>">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png?v=<?php echo time(); ?>">
 
   <!-- JSON-LD Structured Data Schema (SoftwareApplication, Organization & WebSite) -->
   <script type="application/ld+json">
@@ -136,6 +139,7 @@
   <link rel="stylesheet" href="assets/css/benefits.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="assets/css/process.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="assets/css/industries.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/clients.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -165,177 +169,38 @@
         <section class="tj-banner-section-2 h10-hero section-gap-x zoom-on-scroll-wrapper">
           <div class="container position-relative">
 
-            <!-- Option 3: Modern Tech Grid & Ambient Glow Accents (Left Flank) -->
+            <!-- Ambient Glow Accents -->
             <div class="hetxa-ambient-glow hetxa-glow-left"></div>
-            <div class="hetxa-tech-flank hetxa-flank-left wow fadeInLeft" data-wow-delay=".4s">
-              <div class="hetxa-tech-node">
-                <div class="tech-node-pulse">
-                  <span class="pulse-ring"></span>
-                  <span class="pulse-core"><i class="fa-solid fa-bolt"></i></span>
-                </div>
-                <div class="tech-node-content">
-                  <span class="tech-node-label">Real-Time Core</span>
-                  <span class="tech-node-val">Multi-Branch Sync &lt; 0.2s</span>
-                </div>
-              </div>
-              <div class="hetxa-tech-bracket">
-                <span class="bracket-dot"></span>
-                <span class="bracket-line"></span>
-                <span class="bracket-code">SYS // 0.2s LATENCY</span>
-              </div>
-            </div>
-
-            <!-- Option 3: Modern Tech Grid & Ambient Glow Accents (Right Flank) -->
             <div class="hetxa-ambient-glow hetxa-glow-right"></div>
-            <div class="hetxa-tech-flank hetxa-flank-right wow fadeInRight" data-wow-delay=".5s">
-              <div class="hetxa-tech-node">
-                <div class="tech-node-pulse">
-                  <span class="pulse-ring pulse-ring-ai"></span>
-                  <span class="pulse-core pulse-core-ai"><i class="fa-solid fa-brain"></i></span>
-                </div>
-                <div class="tech-node-content">
-                  <span class="tech-node-label">Hetxa Neural AI</span>
-                  <span class="tech-node-val">Predictive Decision Copilot</span>
-                </div>
-              </div>
-              <div class="hetxa-tech-bracket">
-                <span class="bracket-code">AI // LIVE ADVISORY</span>
-                <span class="bracket-line"></span>
-                <span class="bracket-dot"></span>
-              </div>
-            </div>
 
-            <div class="row justify-content-center">
-              <div class="col-xl-10 col-lg-11">
-                <div class="hetxa-hero-center-box">
+            <div class="row align-items-center justify-content-between hetxa-hero-split-row">
+              <!-- Left Column: Core ERP Messaging & Actions -->
+              <div class="col-lg-7 col-xl-7">
+                <div class="hetxa-hero-content-left text-start">
 
-                  <!-- Top Live Badge -->
-                  <div class="wow fadeInUp" data-wow-delay=".15s">
+                  <!-- Top Live Badge with ERP Highlight -->
+                  <div class="wow fadeInUp" data-wow-delay=".1s">
                     <div class="hetxa-badge-wrap">
                       <span class="hetxa-badge-dot"></span>
-                      <span>AI Business Operating System (BOS)</span>
+                      <span class="hetxa-badge-tag">NEXT-GEN CLOUD ERP</span>
+                      <span class="hetxa-badge-sep">•</span>
+                      <span>AI Business Operating System</span>
                     </div>
                   </div>
 
-                  <!-- High-Impact Main Headline -->
+                  <!-- High-Impact Main Headline with Bold ERP Highlight -->
                   <h1 class="hetxa-hero-h1 wow fadeInUp" data-wow-delay=".2s">
-                    Run Your Entire Business on <br class="d-none d-md-block">
-                    <span class="text-orange-gradient">One AI Operating System</span>
+                    Run Your Entire Enterprise on <br class="d-none d-sm-block">
+                    <span class="text-orange-gradient">One Unified Cloud ERP</span>
                   </h1>
 
-                  <!-- Clear, Punchy Subtitle - Instant Idea Without Walls of Text -->
+                  <!-- Clear, Punchy Subtitle -->
                   <p class="hetxa-hero-sub wow fadeInUp" data-wow-delay=".3s">
-                    Hetxa unifies ultra-fast POS, multi-branch inventory, and accounting into one intelligent platform —
-                    powered by AI to help Sri Lankan businesses make smarter, profit-driven decisions.
+                    Hetxa is Sri Lanka's modern Cloud ERP platform — seamlessly unifying high-speed POS, multi-branch inventory, automated accounting, and IRD RAMIS compliance with autonomous AI decision-making.
                   </p>
 
-                  <!-- Continuous Scrolling Capabilities Marquee (Full-Width Bleed) -->
-                  <div class="hetxa-marquee-wrapper wow fadeInUp" data-wow-delay=".45s">
-                    <div class="hetxa-marquee-track">
-                      <!-- Group 1 (Cycle A + Cycle B) -->
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-cash-register"></i>
-                        <span>Fast Cloud POS</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-boxes-stacked"></i>
-                        <span>Smart Inventory</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                        <span>Finance &amp; IRD Tax</span>
-                      </div>
-                      <div class="hetxa-module-pill highlight">
-                        <i class="fa-solid fa-brain"></i>
-                        <span>AI Growth Advisor</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span>Multi-Branch Hub</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-chart-line-up"></i>
-                        <span>Real-Time Analytics</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-cash-register"></i>
-                        <span>Fast Cloud POS</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-boxes-stacked"></i>
-                        <span>Smart Inventory</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                        <span>Finance &amp; IRD Tax</span>
-                      </div>
-                      <div class="hetxa-module-pill highlight">
-                        <i class="fa-solid fa-brain"></i>
-                        <span>AI Growth Advisor</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span>Multi-Branch Hub</span>
-                      </div>
-                      <div class="hetxa-module-pill">
-                        <i class="fa-solid fa-chart-line-up"></i>
-                        <span>Real-Time Analytics</span>
-                      </div>
-
-                      <!-- Group 2 (Duplicate for Seamless Infinite Scroll - Cycle A + Cycle B) -->
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-cash-register"></i>
-                        <span>Fast Cloud POS</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-boxes-stacked"></i>
-                        <span>Smart Inventory</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                        <span>Finance &amp; IRD Tax</span>
-                      </div>
-                      <div class="hetxa-module-pill highlight" aria-hidden="true">
-                        <i class="fa-solid fa-brain"></i>
-                        <span>AI Growth Advisor</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span>Multi-Branch Hub</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-chart-line-up"></i>
-                        <span>Real-Time Analytics</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-cash-register"></i>
-                        <span>Fast Cloud POS</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-boxes-stacked"></i>
-                        <span>Smart Inventory</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                        <span>Finance &amp; IRD Tax</span>
-                      </div>
-                      <div class="hetxa-module-pill highlight" aria-hidden="true">
-                        <i class="fa-solid fa-brain"></i>
-                        <span>AI Growth Advisor</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-diagram-project"></i>
-                        <span>Multi-Branch Hub</span>
-                      </div>
-                      <div class="hetxa-module-pill" aria-hidden="true">
-                        <i class="fa-solid fa-chart-line-up"></i>
-                        <span>Real-Time Analytics</span>
-                      </div>
-                    </div>
-                  </div>
-
                   <!-- Conversion Action Buttons -->
-                  <div class="hetxa-hero-buttons wow fadeInUp" data-wow-delay=".6s">
+                  <div class="hetxa-hero-buttons wow fadeInUp" data-wow-delay=".4s">
                     <a class="tj-primary-btn" href="contact.html">
                       <span class="btn-text"><span>Book a Free Demo</span></span>
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
@@ -349,17 +214,44 @@
                   </div>
 
                   <!-- Trust & Reassurance Line -->
-                  <div class="hetxa-trust-line wow fadeInUp" data-wow-delay=".75s">
+                  <div class="hetxa-trust-line wow fadeInUp" data-wow-delay=".5s">
                     <span><i class="fa-solid fa-circle-check"></i> Free 15-Minute Live Demo</span>
                     <span><i class="fa-solid fa-circle-check"></i> 100% Cloud-Native</span>
                     <span><i class="fa-solid fa-circle-check"></i> IRD &amp; VAT Compliant</span>
-                    <span><i class="fa-solid fa-circle-check"></i> Islandwide Sri Lanka Setup</span>
+                    <span><i class="fa-solid fa-circle-check"></i> Islandwide Setup</span>
                   </div>
 
                 </div>
               </div>
+
+              <!-- Right Column: Big 3D Mascot Hero Showcase -->
+              <div class="col-lg-5 col-xl-5">
+                <div class="hetxa-hero-mascot-spotlight wow fadeInRight" data-wow-delay=".35s">
+                  <!-- Floating Speech Bubble -->
+                  <div class="mascot-speech-bubble">
+                    <span class="speech-pulse"></span>
+                    <i class="fa-solid fa-sparkles text-orange"></i>
+                    <span>Meet <strong>Hetxa AI</strong> — Your ERP Copilot</span>
+                  </div>
+
+                  <!-- Big 3D Mascot Image with Warm Radiant Halo -->
+                  <div class="mascot-spotlight-visual">
+                    <div class="mascot-spotlight-halo"></div>
+                    <img src="assets/images/hetxa-mascot.png" alt="Hetxa AI ERP Copilot Mascot" class="mascot-spotlight-img" width="320" height="320" loading="eager">
+                  </div>
+
+                  <!-- Live Status Chip -->
+                  <div class="mascot-spotlight-badge">
+                    <span class="badge-live-pulse"></span>
+                    <span class="badge-text">Autonomous ERP Engine Active</span>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
+
+          
 
           <div class="container-fluid gap-0">
             <div class="row">
@@ -368,7 +260,6 @@
                   <div class="h10-hero-banner-img h10-hero-banner-video">
                     <video autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover"
                       poster="assets/images/hero/h10-hero-banner.webp">
-                      <source src="assets/video/h10-banner-videio.mp4" data-wf-ignore="true" />
                       <source src="assets/video/h10-banner-videio.mp4" data-wf-ignore="true" />
                     </video>
 
@@ -408,6 +299,7 @@
               </div>
             </div>
           </div>
+
           <div class="bg-shape-1">
             <img src="assets/images/shape/pattern-2.svg" alt="">
           </div>
@@ -422,51 +314,83 @@
           <div class="container-fluid client-container">
             <div class="row">
               <div class="col-12">
-                <div class="client-content style-2 wow fadeIn" data-wow-delay=".3s">
-                  <h5 class="sec-title">Join Over <span class="client-numbers">1000+</span> Companies with
-                    <span class="client-text">Bexon</span> Here
-                  </h5>
+                <div class="hetxa-client-heading-wrap wow fadeInUp" data-wow-delay=".25s">
+                  <div class="hetxa-trust-badge">
+                    <span class="hetxa-trust-badge-dot"></span>
+                    <span class="hetxa-trust-badge-icon"><i class="fa-solid fa-shield-check"></i></span>
+                    <span class="hetxa-trust-badge-text">PROVEN ENTERPRISE TRUST</span>
+                    <span class="hetxa-trust-badge-sep">•</span>
+                    <span class="hetxa-trust-badge-stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="hetxa-trust-badge-rating">4.9/5</span>
+                  </div>
+                  <h2 class="hetxa-trust-title">
+                    Join Over <span class="hetxa-num-highlight">100+</span> Companies Scaling with <span class="hetxa-brand-highlight">Hetxa</span>
+                  </h2>
+                  <p class="hetxa-trust-subtitle">
+                    Powering retail chains, supermarkets, wholesale distributors &amp; multi-branch networks islandwide.
+                  </p>
                 </div>
                 <div class="swiper client-slider client-slider-1 wow fadeIn" data-wow-delay=".5s">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-1.jpeg" alt="">
+                        <img src="assets/images/brands/logo1.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-2.jpeg" alt="">
+                        <img src="assets/images/brands/logo2.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-3.jpeg" alt="">
+                        <img src="assets/images/brands/logo3.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-4.jpeg" alt="">
+                        <img src="assets/images/brands/logo4.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-5.jpeg" alt="">
+                        <img src="assets/images/brands/logo5.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-6.png" alt="">
+                        <img src="assets/images/brands/logo6.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-7.jpeg" alt="">
+                        <img src="assets/images/brands/logo7.jpg" alt="">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo-8.jpg" alt="">
+                        <img src="assets/images/brands/logo8.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide client-item">
+                      <div class="client-logo">
+                        <img src="assets/images/brands/logo9.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide client-item">
+                      <div class="client-logo">
+                        <img src="assets/images/brands/logo10.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide client-item">
+                      <div class="client-logo">
+                        <img src="assets/images/brands/logo11.png" alt="">
                       </div>
                     </div>
                   </div>
@@ -485,7 +409,9 @@
                 <div class="sec-heading style-4 text-center">
                   <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Our ERP
                     Modules</span>
-                  <h2 class="sec-title title-anim">Tailor Business Solutions for Corporates.</h2>
+                  <h2 class="sec-title title-anim">
+                    Simplify Your  <span class="text-orange-500">Workflow</span>
+                  </h2>
                 </div>
               </div>
             </div>
@@ -537,7 +463,7 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/service-6.webp" alt="Sales and Cloud POS">
+                      <img src="assets/images/service/sales.jfif" alt="Sales and Cloud POS">
                     </div>
                   </div>
 
@@ -584,58 +510,11 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/service-1.webp" alt="CRM Customer Relationship Management">
+                      <img src="assets/images/service/crm.jfif" alt="CRM Customer Relationship Management">
                     </div>
                   </div>
 
-                  <!-- 03. PURCHASING -->
-                  <div class="service-item style-5 service-stack">
-                    <div class="service-content-area">
-                      <div class="service-content-main">
-                        <div class="service-card-header">
-                          <div class="service-icon">
-                            <i class="fa-solid fa-truck-ramp-box"></i>
-                          </div>
-                          <span class="no">MODULE 03</span>
-                        </div>
-                        <h3 class="title"><a href="contact.html">PURCHASING</a></h3>
-                        <p class="desc">End-to-end procurement cycle from purchase requests and supplier price
-                          comparisons to GRN verification and automated vendor payables.</p>
-                        <div class="service-submodules-wrap">
-                          <span class="submodules-label">Core Sub-Modules:</span>
-                          <div class="service-stack-tags">
-                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Purchases</span>
-                          </div>
-                        </div>
-                        <ul class="service-feature-list">
-                          <li><i class="fa-solid fa-circle-check"></i> Automated Purchase Orders (PO) with Direct
-                            Supplier Email</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Goods Received Notes (GRN) &amp; 3-Way Invoice
-                            Matching</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Landed Cost Allocation (Customs, Freight &amp;
-                            Handling)</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Supplier Price History Tracking &amp; Purchase
-                            Return Debits</li>
-                        </ul>
-                      </div>
-                      <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
-                          <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                        </a>
-                        <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Purchasing%20Module."
-                          target="_blank">
-                          <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="service-img">
-                      <img src="assets/images/service/service-7.webp" alt="Purchasing and Supplier POs">
-                    </div>
-                  </div>
-
-                  <!-- 04. INVENTORY -->
+                  <!-- 03. PURCHASING & INVENTORY -->
                   <div class="service-item style-5 service-stack">
                     <div class="service-content-area">
                       <div class="service-content-main">
@@ -643,27 +522,25 @@
                           <div class="service-icon">
                             <i class="fa-solid fa-boxes-stacked"></i>
                           </div>
-                          <span class="no">MODULE 04</span>
+                          <span class="no">MODULE 03</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">INVENTORY</a></h3>
-                        <p class="desc">Accurate multi-branch stock control with automated reorder triggers, matrix
-                          product variants, batch traceability, and leak-proof inter-branch transfers.</p>
+                        <h3 class="title"><a href="contact.html">PURCHASING &amp; INVENTORY</a></h3>
+                        <p class="desc">End-to-end procurement and multi-branch stock control. Streamline automated
+                          supplier POs, GRN verification, live warehouse tracking, and FIFO batch expiry management.</p>
                         <div class="service-submodules-wrap">
                           <span class="submodules-label">Core Sub-Modules:</span>
                           <div class="service-stack-tags">
-                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Items</span>
-                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Stock</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Purchases</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Multi-Warehouse</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Stock Transfers</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Batches &amp; Expiry</span>
                           </div>
                         </div>
                         <ul class="service-feature-list">
-                          <li><i class="fa-solid fa-circle-check"></i> Multi-Warehouse &amp; Multi-Outlet Live Stock
-                            Tracking</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Batch, Serial Number &amp; Expiry Date Tracking
-                            (FIFO)</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Inter-Branch Stock Transfers with Gate-Pass
-                            Approval</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Barcode Label Generator &amp; Periodic
-                            Stocktaking Audits</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Automated Purchase Orders (PO), Supplier GRN &amp; 3-Way Invoice Matching</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Real-Time Multi-Warehouse &amp; Central Outlet Stock Balancing</li>
+                          <li><i class="fa-solid fa-circle-check"></i> FIFO / LIFO Batch Tracking, Expiry Date Alerts &amp; Zero Waste Audits</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Inter-Branch Stock Transfers with Gate-Pass Security &amp; Barcode Labels</li>
                         </ul>
                       </div>
                       <div class="btn-wrap">
@@ -672,18 +549,18 @@
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Inventory%20Module."
+                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Purchasing%20and%20Inventory%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/service-2.webp" alt="Inventory and Multi-Branch Stock">
+                      <img src="assets/images/service/inventory.jfif" alt="Purchasing and Multi-Branch Inventory Management">
                     </div>
                   </div>
 
-                  <!-- 05. FINANCE -->
+                  <!-- 04. FINANCE -->
                   <div class="service-item style-5 service-stack">
                     <div class="service-content-area">
                       <div class="service-content-main">
@@ -691,7 +568,7 @@
                           <div class="service-icon">
                             <i class="fa-solid fa-money-check-dollar"></i>
                           </div>
-                          <span class="no">MODULE 05</span>
+                          <span class="no">MODULE 04</span>
                         </div>
                         <h3 class="title"><a href="contact.html">FINANCE</a></h3>
                         <p class="desc">Comprehensive financial management built specifically for Sri Lankan business
@@ -730,11 +607,11 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/service-3.webp" alt="Finance, Cheque Management and Accounting">
+                      <img src="assets/images/service/finance.jfif" alt="Finance, Cheque Management and Accounting">
                     </div>
                   </div>
 
-                  <!-- 06. PROJECTS & TASKS -->
+                  <!-- 05. PROJECTS & TASKS -->
                   <div class="service-item style-5 service-stack">
                     <div class="service-content-area">
                       <div class="service-content-main">
@@ -742,7 +619,7 @@
                           <div class="service-icon">
                             <i class="fa-solid fa-diagram-project"></i>
                           </div>
-                          <span class="no">MODULE 06</span>
+                          <span class="no">MODULE 05</span>
                         </div>
                         <h3 class="title"><a href="contact.html">PROJECTS &amp; TASKS</a></h3>
                         <p class="desc">Keep deliverables on track and budgets in control. Plan milestones, assign
@@ -778,11 +655,11 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/service-4.webp" alt="Projects and Tasks Collaboration">
+                      <img src="assets/images/service/project.jfif" alt="Projects and Tasks Collaboration">
                     </div>
                   </div>
 
-                  <!-- 07. REPORTS -->
+                  <!-- 06. REPORTS -->
                   <div class="service-item style-5 service-stack">
                     <div class="service-content-area">
                       <div class="service-content-main">
@@ -790,7 +667,7 @@
                           <div class="service-icon">
                             <i class="fa-solid fa-chart-pie"></i>
                           </div>
-                          <span class="no">MODULE 07</span>
+                          <span class="no">MODULE 06</span>
                         </div>
                         <h3 class="title"><a href="contact.html">REPORTS</a></h3>
                         <p class="desc">Turn everyday transaction data into clear executive decisions. Comprehensive
@@ -825,11 +702,11 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/service-5.webp" alt="Reports and Real-Time Business Intelligence">
+                      <img src="assets/images/service/report.jfif" alt="Reports and Real-Time Business Intelligence">
                     </div>
                   </div>
 
-                  <!-- 08. AI INSIGHTS -->
+                  <!-- 07. AI INSIGHTS -->
                   <div class="service-item style-5 service-stack">
                     <div class="service-content-area">
                       <div class="service-content-main">
@@ -837,7 +714,7 @@
                           <div class="service-icon">
                             <i class="fa-solid fa-brain"></i>
                           </div>
-                          <span class="no">MODULE 08</span>
+                          <span class="no">MODULE 07</span>
                         </div>
                         <h3 class="title"><a href="contact.html">AI INSIGHTS</a></h3>
                         <p class="desc">Autonomous business intelligence 24/7. Forecasts seasonal item demand,
@@ -872,58 +749,59 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/h11-service-1.webp" alt="Hetxa Neural AI Insights">
+                      <img src="assets/images/service/ai.jfif" alt="Hetxa Neural AI Insights">
                     </div>
                   </div>
 
-                  <!-- 09. SUPPORT -->
+                  <!-- 08. HR -->
                   <div class="service-item style-5 service-stack">
                     <div class="service-content-area">
                       <div class="service-content-main">
                         <div class="service-card-header">
                           <div class="service-icon">
-                            <i class="fa-solid fa-headset"></i>
+                            <i class="fa-solid fa-users-gear"></i>
                           </div>
-                          <span class="no">MODULE 09</span>
+                          <span class="no">MODULE 08</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">SUPPORT</a></h3>
-                        <p class="desc">Provide first-class post-sales support and warranty service. Log issues, assign
-                          technician job cards, set SLA timers, and track customer satisfaction.</p>
+                        <h3 class="title"><a href="contact.html">HUMAN RESOURCES</a></h3>
+                        <p class="desc">Streamline your workforce management with automated payroll processing, biometric attendance tracking, and comprehensive employee lifecycle management.</p>
+                        
                         <div class="service-submodules-wrap">
                           <span class="submodules-label">Core Sub-Modules:</span>
                           <div class="service-stack-tags">
-                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Support</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Employees</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Attendance</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Payroll</span>
                           </div>
                         </div>
+                        
                         <ul class="service-feature-list">
-                          <li><i class="fa-solid fa-circle-check"></i> Central Helpdesk Support Ticketing &amp;
-                            Multi-Channel Inbox</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Serial-Number Warranty Claims &amp; Service
-                            History Log</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Field Technician Job Cards &amp; Repair Status
-                            Tracking</li>
-                          <li><i class="fa-solid fa-circle-check"></i> SLA Resolution Countdown Timers &amp; Automated
-                            Escalations</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Automated Payroll Calculations (EPF/ETF & Tax Deductions)</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Biometric (Fingerprint/Face) Time & Attendance Integration</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Leave Management System & Employee Self-Service Portal</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Employee Performance Tracking & Document Management</li>
                         </ul>
                       </div>
+                      
                       <div class="btn-wrap">
                         <a class="tj-primary-btn" href="contact.html">
                           <span class="btn-text"><span>Request Demo</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Support%20Module."
+                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Human%20Resources%20(HR)%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
+                    
                     <div class="service-img">
-                      <img src="assets/images/service/h11-service-2.webp" alt="Support and Customer Helpdesk">
+                      <img src="assets/images/service/hr.jfif" alt="Human Resources and Payroll Management">
                     </div>
                   </div>
 
-                  <!-- 10. ADMINISTRATION -->
+                  <!-- 09. ADMINISTRATION -->
                   <div class="service-item style-5">
                     <div class="service-content-area">
                       <div class="service-content-main">
@@ -931,30 +809,29 @@
                           <div class="service-icon">
                             <i class="fa-solid fa-sliders"></i>
                           </div>
-                          <span class="no">MODULE 10</span>
+                          <span class="no">MODULE 09</span>
                         </div>
                         <h3 class="title"><a href="contact.html">ADMINISTRATION</a></h3>
-                        <p class="desc">Central enterprise control. Manage staff records, unified supplier &amp; buyer
-                          contacts, role-based access control (RBAC), and multi-branch settings.</p>
+                        <p class="desc">Central enterprise control. Manage unified supplier & buyer
+                          contacts, role-based access control (RBAC), multi-branch settings, and system security.</p>
                         <div class="service-submodules-wrap">
                           <span class="submodules-label">Core Sub-Modules:</span>
                           <div class="service-stack-tags">
-                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> HR</span>
                             <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Contacts</span>
-                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> User
-                              Management</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> User Management</span>
                             <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Settings</span>
+                            <span class="service-stack-tag"><i class="fa-solid fa-circle-check"></i> Security</span>
                           </div>
                         </div>
                         <ul class="service-feature-list">
-                          <li><i class="fa-solid fa-circle-check"></i> Staff Employee Directory, Shift Rosters &amp;
-                            Leave Records</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Granular Role-Based Access Control (RBAC) &amp;
-                            Audit Logs</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Granular Role-Based Access Control (RBAC) &
+                            Activity Audit Logs</li>
                           <li><i class="fa-solid fa-circle-check"></i> Unified Master Directory for Clients, Vendors
-                            &amp; Agents</li>
-                          <li><i class="fa-solid fa-circle-check"></i> Multi-Branch Parameters, Tax Rules &amp; Global
+                            & Agents</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Multi-Branch Parameters, Tax Rules & Global
                             Preferences</li>
+                          <li><i class="fa-solid fa-circle-check"></i> Centralized System Configuration, Workflows & 
+                            Data Security</li>
                         </ul>
                       </div>
                       <div class="btn-wrap">
@@ -970,7 +847,7 @@
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/h11-service-3.webp" alt="Administration, HR and User Management">
+                      <img src="assets/images/service/admin.jfif" alt="Administration, Configuration and User Management">
                     </div>
                   </div>
 
@@ -1232,313 +1109,291 @@
         </section>
         <!-- end: Marquee Section -->
 
-        <!-- start: Business Benefits & Problems Solved Section -->
-        <section class="hetxa-benefits-section" id="benefits">
-          <div class="container">
-
-            <!-- Section Heading -->
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="sec-heading style-4 text-center">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s"><i class="tji-box"></i>Business Impact &amp;
-                    ROI</span>
-                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Stop Losing Revenue to Outdated Systems. <br class="d-none d-lg-block">
-                    <span class="text-orange">Transform Operational Chaos into Scalable Growth.</span>
-                  </h2>
-                  <p class="desc wow fadeInUp" data-wow-delay=".4s">
-                    Traditional software and manual Excel spreadsheets drain your margins. Discover how Hetxa unifies,
-                    automates, and protects every area of your enterprise.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Top ROI Stats Bar (4 Proof Metrics) -->
-            <div class="hetxa-roi-stats-grid wow fadeInUp" data-wow-delay=".45s">
-
-              <!-- Stat 1 -->
-              <div class="hetxa-roi-stat-card">
-                <div class="hetxa-roi-stat-icon">
-                  <i class="fa-solid fa-boxes-stacked"></i>
-                </div>
-                <div class="hetxa-roi-stat-content">
-                  <div class="hetxa-roi-stat-value">99.8%</div>
-                  <div class="hetxa-roi-stat-title">Inventory Accuracy</div>
-                  <div class="hetxa-roi-stat-sub">Zero untracked stock disappearances or batch expiry losses.</div>
-                </div>
-              </div>
-
-              <!-- Stat 2 -->
-              <div class="hetxa-roi-stat-card">
-                <div class="hetxa-roi-stat-icon">
-                  <i class="fa-solid fa-bolt"></i>
-                </div>
-                <div class="hetxa-roi-stat-content">
-                  <div class="hetxa-roi-stat-value">3.5x</div>
-                  <div class="hetxa-roi-stat-title">Faster Checkout &amp; POS</div>
-                  <div class="hetxa-roi-stat-sub">100% offline-ready billing eliminating cashier queues.</div>
-                </div>
-              </div>
-
-              <!-- Stat 3 -->
-              <div class="hetxa-roi-stat-card">
-                <div class="hetxa-roi-stat-icon">
-                  <i class="fa-solid fa-money-check-dollar"></i>
-                </div>
-                <div class="hetxa-roi-stat-content">
-                  <div class="hetxa-roi-stat-value">100%</div>
-                  <div class="hetxa-roi-stat-title">Cheque &amp; Cash Visibility</div>
-                  <div class="hetxa-roi-stat-sub">Automated PDC tracking with real-time bounce warnings.</div>
-                </div>
-              </div>
-
-              <!-- Stat 4 -->
-              <div class="hetxa-roi-stat-card">
-                <div class="hetxa-roi-stat-icon">
-                  <i class="fa-solid fa-file-invoice-dollar"></i>
-                </div>
-                <div class="hetxa-roi-stat-content">
-                  <div class="hetxa-roi-stat-value">1-Click</div>
-                  <div class="hetxa-roi-stat-title">IRD RAMIS Audit Ready</div>
-                  <div class="hetxa-roi-stat-sub">Automated VAT, SSCL &amp; statutory tax compliance.</div>
-                </div>
-              </div>
-
-            </div>
-
-            <!-- 4 Deep Problem-to-Solution Transformation Cards -->
-            <div class="hetxa-transform-cards">
-
-              <!-- Card 1: Inventory & Multi-Branch Warehousing -->
-              <div class="hetxa-transform-card wow fadeInUp" data-wow-delay=".2s">
-                <div class="hetxa-transform-header">
-                  <div class="hetxa-transform-header-left">
-                    <div class="hetxa-transform-icon">
-                      <i class="fa-solid fa-boxes-packing"></i>
+        <!-- start: Business Benefits & Problems Solved Section (h5-project Scroll Slider Style) -->
+        <section class="h5-project hetxa-benefits-scroll-section" id="benefits">
+          <div class="tj-scroll-slider section-gap">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="sec-heading-wrap style-3">
+                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Business Impact &amp; ROI</span>
+                    <div class="heading-wrap-content">
+                      <div class="sec-heading style-3">
+                        <h2 class="sec-title text-anim">Stop Losing Revenue to Outdated Systems. <br class="d-none d-md-block"><span class="text-orange">Transform Chaos into Scalable Growth.</span></h2>
+                      </div>
+                      <div class="btn-area wow fadeInUp" data-wow-delay=".8s">
+                        <a class="tj-primary-btn" href="contact.html">
+                          <span class="btn-text"><span>Request a Live Demo</span></span>
+                          <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                        </a>
+                      </div>
                     </div>
-                    <div class="hetxa-transform-title-group">
-                      <h3>Multi-Warehouse &amp; Batch Expiry Tracking</h3>
-                    </div>
-                  </div>
-                  <span class="hetxa-transform-badge">Supply Chain &amp; Warehousing</span>
-                </div>
-                <div class="hetxa-transform-flow">
-                  <!-- Problem -->
-                  <div class="hetxa-stage-box stage-problem">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-xmark"></i> The Pain Point</span>
-                    <h4>Untracked Discrepancies &amp; Expired Goods</h4>
-                    <p>Stock vanishes without accountability, expired items must be dumped as losses, manual stocktakes
-                      cause store shutdowns, and slow-moving items freeze capital.</p>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Solution -->
-                  <div class="hetxa-stage-box stage-solution">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> The Hetxa
-                      Solution</span>
-                    <h4>Real-Time Multi-Branch Synchronizer</h4>
-                    <p>Automated FIFO expiry tracking, barcode scanner verification, multi-warehouse balance sync, and
-                      gate-pass authorized inter-branch transfers.</p>
-                    <div class="hetxa-stage-pills">
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> FIFO / FEFO Expiry</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Gate-Pass Transfers</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Auto-Reorders</span>
-                    </div>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Benefit -->
-                  <div class="hetxa-stage-box stage-benefit">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-check"></i> Measurable Benefit</span>
-                    <h4>99.8% Precision &amp; Zero Wastage</h4>
-                    <p>Achieve 99.8% stock accuracy, eradicate expiry dumping, and free up trapped cash by eliminating
-                      dead inventory.</p>
                   </div>
                 </div>
               </div>
 
-              <!-- Card 2: Retail Checkout & Cashier POS -->
-              <div class="hetxa-transform-card wow fadeInUp" data-wow-delay=".25s">
-                <div class="hetxa-transform-header">
-                  <div class="hetxa-transform-header-left">
-                    <div class="hetxa-transform-icon">
-                      <i class="fa-solid fa-cash-register"></i>
-                    </div>
-                    <div class="hetxa-transform-title-group">
-                      <h3>High-Velocity Counter Checkout &amp; POS</h3>
-                    </div>
-                  </div>
-                  <span class="hetxa-transform-badge">Retail &amp; Wholesale Counters</span>
-                </div>
-                <div class="hetxa-transform-flow">
-                  <!-- Problem -->
-                  <div class="hetxa-stage-box stage-problem">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-xmark"></i> The Pain Point</span>
-                    <h4>Long Queues &amp; Internet Dropouts</h4>
-                    <p>Slow counter billing creates impatient checkout queues. When fiber internet drops, entire cashier
-                      registers freeze, causing lost sales and cashier cash mismatches.</p>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Solution -->
-                  <div class="hetxa-stage-box stage-solution">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> The Hetxa
-                      Solution</span>
-                    <h4>100% Offline-First Cloud Architecture</h4>
-                    <p>Cashiers continue billing without interruption during internet blackouts. Automatically syncs to
-                      cloud upon reconnection with split-payment and WhatsApp digital receipt support.</p>
-                    <div class="hetxa-stage-pills">
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Zero Internet Downtime</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Split Payments</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> WhatsApp E-Bills</span>
-                    </div>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Benefit -->
-                  <div class="hetxa-stage-box stage-benefit">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-check"></i> Measurable Benefit</span>
-                    <h4>3.5x Faster Counter Throughput</h4>
-                    <p>Eliminate cashier downtime, speed up counter checkout by 350%, and cut paper receipt costs with
-                      automated WhatsApp digital invoices.</p>
-                  </div>
-                </div>
-              </div>
+              <!-- Scroll Slider Row (2 Cards Shown at a Time, Image Removed) -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="project-wrapper h5-project-wrapper hetxa-two-cards-wrapper">
 
-              <!-- Card 3: Finance, Cheque Management & IRD Tax -->
-              <div class="hetxa-transform-card wow fadeInUp" data-wow-delay=".3s">
-                <div class="hetxa-transform-header">
-                  <div class="hetxa-transform-header-left">
-                    <div class="hetxa-transform-icon">
-                      <i class="fa-solid fa-money-check-dollar"></i>
+                    <!-- Card 1: Cloud POS & High-Velocity Retail Checkout -->
+                    <div class="h5-project-item-wrapper tj-scroll-slider-item">
+                      <div class="project-item h4-project-item h5-project-item">
+                        <div class="project-content">
+                          <div class="project-meta-top">
+                            <span class="categories"><a href="contact.html">Retail &amp; POS</a></span>
+                            <div class="sol-roi-pill">
+                              <span class="roi-pulse-dot"></span>
+                              <span class="roi-pill-text">3.5x Faster Checkout</span>
+                            </div>
+                          </div>
+                          <div class="project-title-wrap">
+                            <div class="project-card-icon">
+                              <i class="fa-solid fa-cash-register"></i>
+                            </div>
+                            <div class="project-text">
+                              <h3 class="title"><a href="contact.html">High-Speed Cloud POS</a></h3>
+                            </div>
+                          </div>
+                          <p class="desc">
+                            100% offline-ready counter checkout with instant barcode scanning, multi-split payments, and paperless WhatsApp digital invoicing.
+                          </p>
+                          <div class="project-feature-pills">
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Offline-First Mode</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Barcode Scanner</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> WhatsApp E-Bills</span>
+                          </div>
+                          <div class="project-action-bar">
+                            <div class="project-metric">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>Zero Cashier Queues</span>
+                            </div>
+                            <div class="hetxa-impact-badge">
+                              <span class="impact-live-dot"></span>
+                              <i class="fa-solid fa-circle-check"></i>
+                              <span>Instant Counter Sync</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="hetxa-transform-title-group">
-                      <h3>Sri Lankan Cheque Pipeline &amp; Tax Compliance</h3>
-                    </div>
-                  </div>
-                  <span class="hetxa-transform-badge">Financial Control &amp; IRD Tax</span>
-                </div>
-                <div class="hetxa-transform-flow">
-                  <!-- Problem -->
-                  <div class="hetxa-stage-box stage-problem">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-xmark"></i> The Pain Point</span>
-                    <h4>Bounced Cheques &amp; Audit Panic</h4>
-                    <p>Losing track of customer post-dated cheques leads to unexpected returns and bank charges. Manual
-                      VAT/SSCL calculation creates severe audit penalty risks with the IRD.</p>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Solution -->
-                  <div class="hetxa-stage-box stage-solution">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> The Hetxa
-                      Solution</span>
-                    <h4>Full Cheque Lifecycle &amp; RAMIS Generator</h4>
-                    <p>Dedicated tracking for received, deposited, cleared, and bounced cheques with banking alerts.
-                      1-click double-entry P&amp;L and statutory IRD RAMIS compliant tax reports.</p>
-                    <div class="hetxa-stage-pills">
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Cheque Clearance Alerts</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Double-Entry P&amp;L</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> IRD RAMIS Ready</span>
-                    </div>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Benefit -->
-                  <div class="hetxa-stage-box stage-benefit">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-check"></i> Measurable Benefit</span>
-                    <h4>Total Cash Predictability &amp; 100% Tax Peace</h4>
-                    <p>Know exact cash balances weeks ahead, avoid supplier cheque bounce fines, and file flawless
-                      VAT/SSCL returns in minutes.</p>
-                  </div>
-                </div>
-              </div>
 
-              <!-- Card 4: Customer Debt Recovery & AI Intelligence -->
-              <div class="hetxa-transform-card wow fadeInUp" data-wow-delay=".35s">
-                <div class="hetxa-transform-header">
-                  <div class="hetxa-transform-header-left">
-                    <div class="hetxa-transform-icon">
-                      <i class="fa-solid fa-brain"></i>
+                    <!-- Card 2: Multi-Branch Inventory & Warehousing -->
+                    <div class="h5-project-item-wrapper tj-scroll-slider-item">
+                      <div class="project-item h4-project-item h5-project-item">
+                        <div class="project-content">
+                          <div class="project-meta-top">
+                            <span class="categories"><a href="contact.html">Supply Chain &amp; Logistics</a></span>
+                            <div class="sol-roi-pill">
+                              <span class="roi-pulse-dot"></span>
+                              <span class="roi-pill-text">99.8% Precision</span>
+                            </div>
+                          </div>
+                          <div class="project-title-wrap">
+                            <div class="project-card-icon">
+                              <i class="fa-solid fa-boxes-stacked"></i>
+                            </div>
+                            <div class="project-text">
+                              <h3 class="title"><a href="contact.html">Smart Multi-Branch Inventory</a></h3>
+                            </div>
+                          </div>
+                          <p class="desc">
+                            Real-time multi-warehouse stock balance with automated FIFO batch expiry tracking, gate-pass transfers, and auto-reorder alerts.
+                          </p>
+                          <div class="project-feature-pills">
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> FIFO Expiry Alerts</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Gate-Pass Transfers</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Auto Reordering</span>
+                          </div>
+                          <div class="project-action-bar">
+                            <div class="project-metric">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>Zero Expiry Dumping</span>
+                            </div>
+                            <div class="hetxa-impact-badge">
+                              <span class="impact-live-dot"></span>
+                              <i class="fa-solid fa-circle-check"></i>
+                              <span>Zero Stockouts</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="hetxa-transform-title-group">
-                      <h3>Automated Credit Recovery &amp; AI Advisor</h3>
+
+                    <!-- Card 3: Finance & Sri Lankan Cheque Management -->
+                    <div class="h5-project-item-wrapper tj-scroll-slider-item">
+                      <div class="project-item h4-project-item h5-project-item">
+                        <div class="project-content">
+                          <div class="project-meta-top">
+                            <span class="categories"><a href="contact.html">Cash Flow &amp; Banking</a></span>
+                            <div class="sol-roi-pill">
+                              <span class="roi-pulse-dot"></span>
+                              <span class="roi-pill-text">100% Cash Clarity</span>
+                            </div>
+                          </div>
+                          <div class="project-title-wrap">
+                            <div class="project-card-icon">
+                              <i class="fa-solid fa-money-check-dollar"></i>
+                            </div>
+                            <div class="project-text">
+                              <h3 class="title"><a href="contact.html">Finance &amp; Cheque Control</a></h3>
+                            </div>
+                          </div>
+                          <p class="desc">
+                            Automated post-dated cheque tracking with banking clearance alerts, live P&amp;L, balance sheets, and real-time cash flow visibility.
+                          </p>
+                          <div class="project-feature-pills">
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> PDC Cheque Pipeline</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Clearance Alerts</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Live Double-Entry</span>
+                          </div>
+                          <div class="project-action-bar">
+                            <div class="project-metric">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>Zero Bounced Bank Fines</span>
+                            </div>
+                            <div class="hetxa-impact-badge">
+                              <span class="impact-live-dot"></span>
+                              <i class="fa-solid fa-circle-check"></i>
+                              <span>Auto Reconciliation</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <span class="hetxa-transform-badge">Credit Recovery &amp; Intelligence</span>
-                </div>
-                <div class="hetxa-transform-flow">
-                  <!-- Problem -->
-                  <div class="hetxa-stage-box stage-problem">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-xmark"></i> The Pain Point</span>
-                    <h4>Unrecovered Debt &amp; Blind Forecasting</h4>
-                    <p>Customer credit balances sit overdue for months with delayed follow-ups, causing painful bad debt
-                      write-offs. Purchasing reorders relies on human guesswork.</p>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Solution -->
-                  <div class="hetxa-stage-box stage-solution">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> The Hetxa
-                      Solution</span>
-                    <h4>WhatsApp Debt Engine &amp; AI Predictor</h4>
-                    <p>Hard credit limits enforce counter safety, while automated WhatsApp payment reminders accelerate
-                      settlements. AI engine predicts seasonal item demand with precision.</p>
-                    <div class="hetxa-stage-pills">
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Automated WhatsApp Dues</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> Hard Credit Caps</span>
-                      <span class="hetxa-stage-pill"><i class="fa-solid fa-check"></i> AI Demand Forecasts</span>
+
+                    <!-- Card 4: IRD RAMIS VAT & Tax Compliance -->
+                    <div class="h5-project-item-wrapper tj-scroll-slider-item">
+                      <div class="project-item h4-project-item h5-project-item">
+                        <div class="project-content">
+                          <div class="project-meta-top">
+                            <span class="categories"><a href="contact.html">Statutory &amp; Audit</a></span>
+                            <div class="sol-roi-pill">
+                              <span class="roi-pulse-dot"></span>
+                              <span class="roi-pill-text">1-Click Tax Filing</span>
+                            </div>
+                          </div>
+                          <div class="project-title-wrap">
+                            <div class="project-card-icon">
+                              <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div class="project-text">
+                              <h3 class="title"><a href="contact.html">IRD RAMIS Tax Engine</a></h3>
+                            </div>
+                          </div>
+                          <p class="desc">
+                            Automated Sri Lanka VAT, SSCL, and withholding tax calculations generating error-free, RAMIS audit-ready return files with 1 click.
+                          </p>
+                          <div class="project-feature-pills">
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> RAMIS Audit Ready</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Automated VAT / SSCL</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Tax Invoice Print</span>
+                          </div>
+                          <div class="project-action-bar">
+                            <div class="project-metric">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>100% Audit Protection</span>
+                            </div>
+                            <div class="hetxa-impact-badge">
+                              <span class="impact-live-dot"></span>
+                              <i class="fa-solid fa-circle-check"></i>
+                              <span>RAMIS Certified</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <!-- Arrow -->
-                  <div class="hetxa-flow-arrow">
-                    <i class="fa-solid fa-arrow-right-long"></i>
-                  </div>
-                  <!-- Benefit -->
-                  <div class="hetxa-stage-box stage-benefit">
-                    <span class="hetxa-stage-tag"><i class="fa-solid fa-circle-check"></i> Measurable Benefit</span>
-                    <h4>60% Faster Debt Recovery &amp; Smarter Buys</h4>
-                    <p>Slash debtor aging by 60%, avoid stockouts during festival surges, and make strategic purchasing
-                      decisions backed by machine intelligence.</p>
+
+                    <!-- Card 5: AI Demand Forecasting & Revenue Protection -->
+                    <div class="h5-project-item-wrapper tj-scroll-slider-item">
+                      <div class="project-item h4-project-item h5-project-item">
+                        <div class="project-content">
+                          <div class="project-meta-top">
+                            <span class="categories"><a href="contact.html">Intelligent Decisions</a></span>
+                            <div class="sol-roi-pill">
+                              <span class="roi-pulse-dot"></span>
+                              <span class="roi-pill-text">Autonomous Copilot</span>
+                            </div>
+                          </div>
+                          <div class="project-title-wrap">
+                            <div class="project-card-icon">
+                              <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <div class="project-text">
+                              <h3 class="title"><a href="contact.html">AI Predictive Copilot</a></h3>
+                            </div>
+                          </div>
+                          <p class="desc">
+                            Autonomous intelligence analyzing sales patterns, forecasting seasonal demand spikes, and preventing costly dead stock accumulation.
+                          </p>
+                          <div class="project-feature-pills">
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Seasonal Forecasts</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Stockout Prevention</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Margin Protection</span>
+                          </div>
+                          <div class="project-action-bar">
+                            <div class="project-metric">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>Smarter Purchasing Data</span>
+                            </div>
+                            <div class="hetxa-impact-badge">
+                              <span class="impact-live-dot"></span>
+                              <i class="fa-solid fa-circle-check"></i>
+                              <span>24/7 Autonomous</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Card 6: CRM & Credit Debt Recovery -->
+                    <div class="h5-project-item-wrapper tj-scroll-slider-item">
+                      <div class="project-item h4-project-item h5-project-item">
+                        <div class="project-content">
+                          <div class="project-meta-top">
+                            <span class="categories"><a href="contact.html">Customer &amp; Receivables</a></span>
+                            <div class="sol-roi-pill">
+                              <span class="roi-pulse-dot"></span>
+                              <span class="roi-pill-text">60% Faster Recovery</span>
+                            </div>
+                          </div>
+                          <div class="project-title-wrap">
+                            <div class="project-card-icon">
+                              <i class="fa-solid fa-users-viewfinder"></i>
+                            </div>
+                            <div class="project-text">
+                              <h3 class="title"><a href="contact.html">CRM &amp; Debt Recovery</a></h3>
+                            </div>
+                          </div>
+                          <p class="desc">
+                            Automated WhatsApp payment reminders, hard credit limit controls, and aging analysis to recover customer dues on time.
+                          </p>
+                          <div class="project-feature-pills">
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> WhatsApp Dues Engine</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Hard Credit Caps</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Debtor Aging Sheet</span>
+                          </div>
+                          <div class="project-action-bar">
+                            <div class="project-metric">
+                              <i class="fa-solid fa-arrow-trend-up"></i>
+                              <span>Zero Uncollected Debts</span>
+                            </div>
+                            <div class="hetxa-impact-badge">
+                              <span class="impact-live-dot"></span>
+                              <i class="fa-solid fa-circle-check"></i>
+                              <span>Automated Recovery</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
 
             </div>
-
-            <!-- Bottom Action CTA Box -->
-            <div class="hetxa-benefits-cta-box wow fadeInUp" data-wow-delay=".4s">
-              <div class="hetxa-benefits-cta-content">
-                <h3>Ready to Eliminate Operational Leakages?</h3>
-                <p>Speak with our ERP specialists today to tailor an automated solution for your enterprise.</p>
-              </div>
-              <div class="hetxa-benefits-cta-btns">
-                <a class="tj-primary-btn" href="contact.html">
-                  <span class="btn-text"><span>Request a Live Demo</span></span>
-                  <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                </a>
-                <a class="btn-whatsapp-inquire"
-                  href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20how%20Hetxa%20solves%20our%20business%20challenges."
-                  target="_blank">
-                  <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp Inquire</span>
-                </a>
-              </div>
-            </div>
-
           </div>
         </section>
         <!-- end: Business Benefits & Problems Solved Section -->
@@ -2445,6 +2300,7 @@
         <!-- end: Industries Overview Section -->
 
         <!-- start: choose Section -->
+        <div id="about"></div>
         <section class="h10-process section-gap section-gap-x tj-sticky-panel-3-container" id="why-choose-us">
           <div class="container">
             <div class="row">
@@ -2557,7 +2413,7 @@
         <!-- end: choose Section -->
 
         <!-- start: Contact Section -->
-        <section class="tj-contact-section h4-contact-section section-gap section-gap-x">
+        <section class="tj-contact-section h4-contact-section section-gap section-gap-x" id="contact">
           <div class="container">
             <div class="row">
               <div class="col-lg-6">

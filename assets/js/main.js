@@ -1311,17 +1311,23 @@ Progressbar js
 				const slider = document.querySelector(".tj-scroll-slider");
 				if (slider?.children?.length) {
 					let panels = gsap.utils.toArray(".tj-scroll-slider-item");
+					let cardsPerView = 1;
+					if (panels[0] && slider.offsetWidth > 0) {
+						let ratio = slider.offsetWidth / panels[0].offsetWidth;
+						cardsPerView = Math.round(ratio) >= 2 ? 2 : 1;
+					}
+					let totalShift = Math.max(1, panels.length - cardsPerView);
 					gsap.to(panels, {
-						xPercent: rtlValue(-100) * (panels.length - 1),
+						xPercent: rtlValue(-100) * totalShift,
 						force3D: true,
 						ease: "none",
 						scrollTrigger: {
 							trigger: slider,
-							start: "top+=50 top",
+							start: "top top",
 							pin: true,
 							scrub: 1,
 							markers: false,
-							end: () => "+=" + slider.offsetWidth,
+							end: () => "+=" + (slider.offsetWidth * (totalShift / (cardsPerView > 1 ? 1.4 : 1))),
 						},
 					});
 				}
