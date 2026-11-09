@@ -10,7 +10,7 @@
   <title>About Hetxa BOS | Sri Lanka's #1 AI Business Operating System (Cloud ERP & POS)</title>
   <meta name="title" content="About Hetxa BOS | Sri Lanka's #1 AI Business Operating System (Cloud ERP & POS)">
   <meta name="description"
-    content="Learn about Hetxa (Pvt) Ltd and how Hetxa BOS is re-engineering enterprise commerce in Sri Lanka. 100% offline-first POS, IRD RAMIS compliance, PDC cheque lifecycle management, and dedicated local SLA support.">
+    content="Learn about Hetxa (Pvt) Ltd and how Hetxa BOS is re-engineering enterprise commerce in Sri Lanka. Real-time Cloud-Native POS, IRD RAMIS compliance, PDC cheque lifecycle management, and dedicated local SLA support.">
   <meta name="keywords"
     content="About Hetxa, Hetxa BOS, Sri Lanka ERP Company, Cloud POS Sri Lanka, AI Business Operating System, RAMIS VAT Software, Cheque Management Sri Lanka, Piliyandala ERP, Local ERP Support">
   <meta name="author" content="Hetxa (Pvt) Ltd">
@@ -40,7 +40,7 @@
   <meta name="twitter:url" content="https://hetxa.com/about.php">
   <meta name="twitter:title" content="About Hetxa BOS - Empowering Sri Lankan Enterprise Commerce">
   <meta name="twitter:description"
-    content="Built for local realities: 100% offline-first POS resilience, IRD RAMIS compliance, PDC cheque automation, and guaranteed < 15-minute SLA support.">
+    content="Built for local realities: Real-time Cloud-Native POS resilience, IRD RAMIS compliance, PDC cheque automation, and guaranteed < 15-minute SLA support.">
   <meta name="twitter:image" content="https://hetxa.com/assets/images/hero/h10-hero-banner.webp">
 
   <!-- Mobile & Theme -->
@@ -134,8 +134,7 @@
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/modules.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/about.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/hetxa-custom.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -219,7 +218,7 @@
                   </p>
 
                   <p class="story-body-p wow fadeInUp" data-wow-delay=".55s">
-                    <strong class="text-dark">Hetxa BOS was created to solve this exact dilemma.</strong> We combine high-speed Cloud POS, offline-first edge reliability, double-entry financial rigor, and predictive neural AI into one unified, elegant platform — backed by on-the-ground local support in Colombo and island-wide.
+                    <strong class="text-dark">Hetxa BOS was created to solve this exact dilemma.</strong> We combine high-speed Cloud POS, real-time multi-branch cloud sync, double-entry financial rigor, and predictive neural AI into one unified, elegant platform — backed by on-the-ground local support in Colombo and island-wide.
                   </p>
 
                   <!-- 2 Quick Promise Badges -->
@@ -254,14 +253,14 @@
                     <img src="assets/images/about/h10-about-banner.webp" alt="Hetxa BOS Enterprise Architecture">
                   </div>
 
-                  <!-- Floating Badge 1: Offline First -->
+                  <!-- Floating Badge 1: Cloud-Native Real-Time Sync -->
                   <div class="floating-glass-badge badge-top-right">
                     <div class="f-badge-icon icon-orange">
-                      <i class="fa-solid fa-cloud-bolt"></i>
+                      <i class="fa-solid fa-cloud-arrow-up"></i>
                     </div>
                     <div class="f-badge-info">
-                      <span class="badge-title">100% Offline Resilience</span>
-                      <span class="badge-sub">Billing continues without internet</span>
+                      <span class="badge-title">Real-Time Cloud Sync</span>
+                      <span class="badge-sub">Multi-branch instant data sync</span>
                     </div>
                   </div>
 
@@ -329,7 +328,7 @@
                 <div class="about-metric-card wow fadeInUp" data-wow-delay=".5s">
                   <div class="stat-val">0</div>
                   <div class="stat-title">Data Loss Rate</div>
-                  <p class="stat-desc">Offline-first local cache ensures zero transactional loss during outages.</p>
+                  <p class="stat-desc">Real-time cloud database backup ensures zero transactional data loss.</p>
                 </div>
               </div>
 
@@ -452,11 +451,11 @@
                 <div class="pillar-card wow fadeInUp" data-wow-delay=".2s">
                   <span class="pillar-num">PILLAR 01</span>
                   <div class="pillar-icon">
-                    <i class="fa-solid fa-wifi-slash"></i>
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
                   </div>
-                  <h4 class="pillar-title">100% Offline-First Architecture</h4>
+                  <h4 class="pillar-title">Cloud-Native Architecture</h4>
                   <p class="pillar-desc">
-                    High-speed local IndexedDB + SQLite counter caching keeps cashiers scanning, billing, and thermal-printing seamlessly even when telecom connections drop. Syncs instantly once online.
+                    High-speed central cloud infrastructure with continuous live sync across all branch registers, barcode scanners, and thermal printers with 99.9% uptime.
                   </p>
                 </div>
               </div>
@@ -646,7 +645,7 @@
             <div class="about-cta-banner wow fadeInUp" data-wow-delay=".3s">
               <h2 class="sec-title">Ready to Experience Sri Lanka's Most Resilient <span class="text-orange">Business Operating System?</span></h2>
               <p class="sec-desc">
-                Book a personalized, hands-on demonstration with our senior ERP solutions architects. We will analyze your current workflows, showcase our offline POS, and demonstrate seamless cheque and RAMIS compliance.
+                Book a personalized, hands-on demonstration with our senior ERP solutions architects. We will analyze your current workflows, showcase our live Cloud POS, and demonstrate seamless cheque and RAMIS compliance.
               </p>
               <div class="about-cta-actions">
                 <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20an%20Executive%20Demo%20of%20Hetxa%20BOS." target="_blank" class="btn-whatsapp-cta">

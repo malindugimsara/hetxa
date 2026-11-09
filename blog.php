@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="Hetxa BOS">
   <meta property="og:title" content="Hetxa Knowledge Hub - ERP, POS &amp; Business Intelligence in Sri Lanka">
   <meta property="og:description"
-    content="Practical guides on IRD RAMIS tax compliance, offline POS resilience, FIFO inventory velocity, and multi-branch enterprise governance.">
+    content="Practical guides on IRD RAMIS tax compliance, Cloud POS architecture, FIFO inventory velocity, and multi-branch enterprise governance.">
   <meta property="og:image" content="https://hetxa.com/assets/images/blog/blog-1.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -40,7 +40,7 @@
   <meta name="twitter:url" content="https://hetxa.com/blog.php">
   <meta name="twitter:title" content="Hetxa Knowledge Hub - ERP, POS &amp; Business Intelligence in Sri Lanka">
   <meta name="twitter:description"
-    content="Practical guides on IRD RAMIS tax compliance, offline POS resilience, FIFO inventory velocity, and multi-branch enterprise governance.">
+    content="Practical guides on IRD RAMIS tax compliance, Cloud POS architecture, FIFO inventory velocity, and multi-branch enterprise governance.">
   <meta name="twitter:image" content="https://hetxa.com/assets/images/blog/blog-1.webp">
 
   <!-- Mobile & Theme -->
@@ -111,8 +111,7 @@
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/modules.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/blog.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/hetxa-custom.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -236,11 +235,11 @@
               <div class="col-12 col-lg-8">
                 <div class="row g-4">
                   
-                  <!-- Post Card 01: Offline POS -->
+                  <!-- Post Card 01: Cloud POS -->
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".2s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-2.webp" alt="Why Offline-First Cloud POS is Essential for Sri Lankan Retailers">
+                        <img src="assets/images/blog/blog-2.webp" alt="Why Real-Time Cloud POS is Essential for Sri Lankan Retailers">
                         <span class="category-tag">Retail POS</span>
                       </div>
                       <div class="blog-card-body">
@@ -249,10 +248,10 @@
                           <span><i class="fa-regular fa-clock"></i> 4 Min</span>
                         </div>
                         <h3 class="blog-card-title">
-                          <a href="contact.php">Why Offline-First POS is Critical for Sri Lankan Retailers Battling Connectivity Drops</a>
+                          <a href="contact.php">Why Real-Time Cloud POS is Critical for Multi-Branch Sri Lankan Retailers</a>
                         </h3>
                         <p class="blog-card-desc">
-                          Don't let broadband outages halt counter checkouts. Discover how local IndexedDB caching and background delta sync keep queues moving smoothly.
+                          Eliminate branch data silos and inventory mismatches. Discover how real-time cloud sync and instant thermal billing accelerate checkout operations.
                         </p>
                         <div class="blog-card-footer">
                           <span class="post-date"><i class="fa-solid fa-user-pen"></i> Engineering Team</span>

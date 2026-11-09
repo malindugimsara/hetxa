@@ -116,8 +116,7 @@
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/modules.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/module-single.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/hetxa-custom.css?v=<?php echo time(); ?>">
 </head>
 
 <body>

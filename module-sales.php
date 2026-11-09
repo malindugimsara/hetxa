@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Sales &amp; Cloud POS Module | Hetxa BOS - Sri Lanka's #1 Retail &amp; Wholesale POS</title>
-  <meta name="title" content="Sales &amp; Cloud POS Module | Hetxa BOS - Sri Lanka's #1 Retail &amp; Wholesale POS">
+  <title>Sales &amp; Cloud POS Module | Hetxa BOS - Complete Sell &amp; POS Suite</title>
+  <meta name="title" content="Sales &amp; Cloud POS Module | Hetxa BOS - Complete Sell &amp; POS Suite">
   <meta name="description"
-    content="High-velocity Cloud POS, wholesale order management, 100% offline-first billing, split multi-payments (Cash, Card, QR, Credit), and IRD RAMIS compliant invoicing. Discover Module 01 of Hetxa BOS.">
+    content="Manage your full sales lifecycle with Hetxa BOS: Sell Suite (Sales, Quotations, Proformas) and POS Counter Suite (POS Terminal, Registers, Sessions, POS Settings). Real-time cloud-native, IRD RAMIS compliant.">
   <meta name="keywords"
-    content="Cloud POS Sri Lanka, Retail POS Software Colombo, Wholesale ERP Billing, Offline POS System, RAMIS VAT Invoicing, Supermarket Billing Software, Touchscreen POS Sri Lanka, Barcode Billing System">
+    content="Hetxa Sales Module, Cloud POS Sri Lanka, Retail POS Terminal, Wholesale Quotations, Proforma Invoicing Sri Lanka, Register Sessions Cash Audit, RAMIS VAT Invoicing, Supermarket POS Sri Lanka">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://hetxa.com/module-sales.php">
@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="Hetxa BOS">
   <meta property="og:title" content="Sales &amp; Cloud POS Module - Hetxa BOS">
   <meta property="og:description"
-    content="Accelerate retail and wholesale sales with Sri Lanka's leading 100% offline-first Cloud POS. Split payments, RAMIS compliance, and sub-second checkout.">
+    content="Accelerate retail and wholesale sales with Sri Lanka's leading real-time Cloud POS. Split payments, RAMIS compliance, and sub-second checkout.">
   <meta property="og:image" content="https://hetxa.com/assets/images/service/sales.jfif">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -40,7 +40,7 @@
   <meta name="twitter:url" content="https://hetxa.com/module-sales.php">
   <meta name="twitter:title" content="Sales &amp; Cloud POS Module - Hetxa BOS">
   <meta name="twitter:description"
-    content="Accelerate retail and wholesale sales with Sri Lanka's leading 100% offline-first Cloud POS. Split payments, RAMIS compliance, and sub-second checkout.">
+    content="Accelerate retail and wholesale sales with Sri Lanka's leading real-time Cloud POS. Split payments, RAMIS compliance, and sub-second checkout.">
   <meta name="twitter:image" content="https://hetxa.com/assets/images/service/sales.jfif">
 
   <!-- Mobile & Theme -->
@@ -63,7 +63,7 @@
         "@type": "Product",
         "@id": "https://hetxa.com/module-sales.php#product",
         "name": "Hetxa BOS - Sales & Cloud POS Module",
-        "description": "High-velocity retail and wholesale point of sale software with 100% offline-first architecture, multi-payment support, and IRD RAMIS compliance in Sri Lanka.",
+        "description": "High-velocity retail and wholesale point of sale software with real-time cloud architecture, multi-payment support, and IRD RAMIS compliance in Sri Lanka.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
@@ -116,8 +116,7 @@
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/modules.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/module-single.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/hetxa-custom.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -144,40 +143,82 @@
       <main id="primary" class="site-main">
 
         <!-- ===================================================================
-             1. BREADCRUMB / HERO SECTION
+             1. BREADCRUMB / HERO SECTION (SPLIT 2-COLUMN SHOWCASE)
              =================================================================== -->
-        <section class="mod-page-header">
+        <section class="mod-sales-hero">
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-10">
+            <div class="row align-items-center g-5">
+              <!-- Left Column: Copy & Actions (Clean & Simplified) -->
+              <div class="col-12 col-lg-6">
+                <!-- Module Badge -->
                 <div class="mod-badge-pill wow fadeInUp" data-wow-delay=".2s">
-                  <i class="fa-solid fa-cash-register text-orange"></i> MODULE 01: SALES &amp; CLOUD POS
+                  <i class="fa-solid fa-cash-register text-orange"></i> Module 01: Sales &amp; POS
                 </div>
-                <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".3s">
-                  High-Velocity Cloud POS &amp; Omnichannel <span class="text-orange">Sales Management.</span>
+
+                <!-- Title -->
+                <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
+                  Fast Retail POS &amp; Smart <span class="text-orange">Sales Management.</span>
                 </h1>
-                <p class="mod-hero-desc wow fadeInUp" data-wow-delay=".4s">
-                  Accelerate counter checkout, manage wholesale credit orders, accept split multi-payments (Cash, LANKAQR, Cards, Credit &amp; Cheques), and issue IRD RAMIS-ready invoices — 100% offline-first with instant cloud sync.
+
+                <!-- Description -->
+                <p class="mod-hero-desc wow fadeInUp" data-wow-delay=".3s">
+                  Speed up counter checkout, create sales quotes and invoices, accept split payments, and print receipts easily. Everything connects in real time with automatic multi-branch sync.
                 </p>
 
                 <!-- Hero Action Buttons -->
-                <div class="mod-hero-actions wow fadeInUp" data-wow-delay=".45s">
-                  <a class="tj-primary-btn" href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Sales%20and%20Cloud%20POS%20Module." target="_blank">
+                <div class="mod-hero-actions wow fadeInUp" data-wow-delay=".35s">
+                  <a class="tj-primary-btn" href="contact.php">
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="tel:+94702115937" class="btn-whatsapp-cta" style="background: rgba(255, 94, 20, 0.1); color: #FF5E14; border: 1px solid rgba(255, 94, 20, 0.35); box-shadow: none;">
-                    <i class="fa-solid fa-phone"></i> Call Sales Hotline: 070 211 5937
+                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-hero-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
+              </div>
 
-                <!-- Breadcrumb Path -->
-                <div class="mod-breadcrumb-nav wow fadeInUp" data-wow-delay=".5s">
-                  <a href="index.php"><i class="fa-solid fa-house"></i> Home</a>
-                  <span class="sep"><i class="fa-solid fa-chevron-right"></i></span>
-                  <a href="index.php#modules">Modules</a>
-                  <span class="sep"><i class="fa-solid fa-chevron-right"></i></span>
-                  <span class="current">Module 01: Sales &amp; POS</span>
+              <!-- Right Column: 3D POS Terminal Showcase -->
+              <div class="col-12 col-lg-6">
+                <div class="sales-hero-visual-wrap wow fadeInRight" data-wow-delay=".3s">
+                  <div class="sales-hero-glow-bg"></div>
+
+                  <!-- Floating HUD Chip 1 (Top Right) -->
+                  <div class="sales-hud-chip chip-top-right">
+                    <div class="chip-icon" style="background: rgba(255, 94, 20, 0.12); color: #FF5E14;">
+                      <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="chip-info">
+                      <span class="chip-label">Checkout Speed</span>
+                      <span class="chip-val">&lt; 1.2s Instant Print</span>
+                    </div>
+                  </div>
+
+                  <!-- 3D POS Terminal Image -->
+                  <div class="sales-hero-img-box">
+                    <img src="assets/images/modules/saleandpos.png" alt="Hetxa Cloud POS Touchscreen Terminal and Omnichannel Sales System" loading="eager" decoding="async">
+                  </div>
+
+                  <!-- Floating HUD Chip 2 (Bottom Left) -->
+                  <div class="sales-hud-chip chip-bottom-left">
+                    <div class="chip-icon" style="background: rgba(34, 197, 94, 0.14); color: #16a34a;">
+                      <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <div class="chip-info">
+                      <span class="chip-label">Cloud-Native Engine</span>
+                      <span class="chip-val">Instant Multi-Branch Sync</span>
+                    </div>
+                  </div>
+
+                  <!-- Floating HUD Chip 3 (Bottom Right) -->
+                  <div class="sales-hud-chip chip-bottom-right">
+                    <div class="chip-icon" style="background: rgba(14, 165, 233, 0.14); color: #0284c7;">
+                      <i class="fa-solid fa-receipt"></i>
+                    </div>
+                    <div class="chip-info">
+                      <span class="chip-label">Smart Invoicing</span>
+                      <span class="chip-val">80mm Thermal &amp; WhatsApp</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -194,32 +235,32 @@
               <div class="col-6 col-lg-3">
                 <div class="mod-metric-card wow fadeInUp" data-wow-delay=".2s">
                   <div class="stat-val">&lt; 1.2s</div>
-                  <div class="stat-title">Scan-to-Print Speed</div>
-                  <p class="stat-desc">Ultra-fast barcode lookup and thermal printing eliminates counter queue buildup.</p>
+                  <div class="stat-title">Fast Scan to Print</div>
+                  <p class="stat-desc">Instant barcode scanning and thermal receipt printing keep queues moving fast.</p>
                 </div>
               </div>
 
               <div class="col-6 col-lg-3">
                 <div class="mod-metric-card wow fadeInUp" data-wow-delay=".3s">
-                  <div class="stat-val">100%</div>
-                  <div class="stat-title">Offline Reliability</div>
-                  <p class="stat-desc">Counters continue billing during telecom outages with zero data drop or lag.</p>
+                  <div class="stat-val">99.9%</div>
+                  <div class="stat-title">Live Cloud Sync</div>
+                  <p class="stat-desc">Every sale, register, and stock count updates across all branches in real time.</p>
                 </div>
               </div>
 
               <div class="col-6 col-lg-3">
                 <div class="mod-metric-card wow fadeInUp" data-wow-delay=".4s">
-                  <div class="stat-val">50,000+</div>
-                  <div class="stat-title">Instant SKU Search</div>
-                  <p class="stat-desc">Search items by barcode, serial, brand, or model name in milliseconds.</p>
+                  <div class="stat-val">1-Click</div>
+                  <div class="stat-title">Quote to Sale</div>
+                  <p class="stat-desc">Turn approved price quotations into live sales orders with a single click.</p>
                 </div>
               </div>
 
               <div class="col-6 col-lg-3">
                 <div class="mod-metric-card wow fadeInUp" data-wow-delay=".5s">
-                  <div class="stat-val">5+</div>
-                  <div class="stat-title">Split Tender Options</div>
-                  <p class="stat-desc">Combine Cash, Card, LANKAQR, Credit, and PDCs on a single transaction.</p>
+                  <div class="stat-val">0%</div>
+                  <div class="stat-title">Cash Discrepancy</div>
+                  <p class="stat-desc">Shift registers track opening cash, cash drops, and end-of-day balances accurately.</p>
                 </div>
               </div>
 
@@ -228,9 +269,48 @@
         </section>
 
         <!-- ===================================================================
-             3. CORE SUB-MODULES GRID
+             3. CORE SUB-MODULES GRID (SELL & POS ENGINES)
              =================================================================== -->
-        <section class="mod-section-alt">
+        <section class="mod-section-alt mod-core-arch-section">
+          <!-- Architectural Background Decorative Elements -->
+          <div class="core-arch-bg-decor" aria-hidden="true">
+            <div class="arch-orb arch-orb-top"></div>
+            <div class="arch-orb arch-orb-sell"></div>
+            <div class="arch-orb arch-orb-pos"></div>
+            <div class="arch-grid-matrix"></div>
+            
+            <!-- Blueprint Technical Reticle (Top Right) -->
+            <div class="arch-geo-shape shape-top-right">
+              <svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="210" cy="210" r="190" stroke="#FF5E14" stroke-width="1.2" stroke-dasharray="5 7" opacity="0.22" />
+                <circle cx="210" cy="210" r="145" stroke="#CBD5E1" stroke-width="1" opacity="0.4" />
+                <circle cx="210" cy="210" r="100" stroke="#FF5E14" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.3" />
+                <circle cx="210" cy="210" r="50" stroke="#CBD5E1" stroke-width="1" opacity="0.45" />
+                <line x1="210" y1="0" x2="210" y2="420" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.3" />
+                <line x1="0" y1="210" x2="420" y2="210" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.3" />
+                <circle cx="210" cy="20" r="3.5" fill="#FF5E14" opacity="0.5" />
+                <circle cx="210" cy="400" r="3.5" fill="#FF5E14" opacity="0.5" />
+                <circle cx="20" cy="210" r="3.5" fill="#FF5E14" opacity="0.5" />
+                <circle cx="400" cy="210" r="3.5" fill="#FF5E14" opacity="0.5" />
+              </svg>
+            </div>
+
+            <!-- Blueprint Technical Schematic Node (Bottom Left) -->
+            <div class="arch-geo-shape shape-bottom-left">
+              <svg width="360" height="360" viewBox="0 0 360 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="25" y="25" width="310" height="310" rx="24" stroke="#10B981" stroke-width="1.2" stroke-dasharray="6 6" opacity="0.22" />
+                <rect x="65" y="65" width="230" height="230" rx="16" stroke="#CBD5E1" stroke-width="1" opacity="0.35" />
+                <circle cx="180" cy="180" r="75" stroke="#10B981" stroke-width="1.5" opacity="0.28" />
+                <circle cx="180" cy="180" r="8" fill="#10B981" opacity="0.45" />
+                <line x1="180" y1="25" x2="180" y2="335" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.25" />
+                <line x1="25" y1="180" x2="335" y2="180" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4" opacity="0.25" />
+              </svg>
+            </div>
+
+            <!-- Faint Architectural Blueprint Grid Lines / Nodes in Center -->
+            <div class="arch-center-line"></div>
+          </div>
+
           <div class="container">
             <div class="row justify-content-center mb-5">
               <div class="col-12 col-lg-8 text-center">
@@ -239,89 +319,170 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Four Powerful Sub-Engines Under <span class="text-orange">One Unified System</span>
+                    Two Core Engines, Seven Built-in <span class="text-orange">Tools</span>
                   </h2>
-                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 680px; margin: 15px auto 0;">
-                    Designed to handle both high-turnover retail checkout counters and complex B2B wholesale trade operations with equal agility.
+                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
+                    From creating sales quotes in the back office to fast barcode checkout at the counter, Hetxa gives you everything to sell easily.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="row g-4">
-              
-              <!-- Sub-Module 01: Touch POS -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="submod-card wow fadeInUp" data-wow-delay=".2s">
-                  <div class="submod-icon">
-                    <i class="fa-solid fa-desktop"></i>
-                  </div>
-                  <span class="submod-num">SUB-MODULE 01</span>
-                  <h4 class="submod-title">Retail Touchscreen POS</h4>
-                  <p class="submod-desc">
-                    Engineered for touchscreens, desktop monitors, and handheld tablets with keyboard shortcuts, rapid barcode scan, and quick-add favorites.
-                  </p>
-                  <ul class="submod-features">
-                    <li><i class="fa-solid fa-check"></i> Hold &amp; recall unlimited bills</li>
-                    <li><i class="fa-solid fa-check"></i> Weighing scale serial sync</li>
-                    <li><i class="fa-solid fa-check"></i> Customer-facing pole displays</li>
-                  </ul>
-                </div>
+            <!-- ==========================================
+                 ENGINE 1: SELL (B2B & INVOICING SUITE)
+                 ========================================== -->
+            <div class="submod-pillar-header wow fadeInUp" data-wow-delay=".2s">
+              <div class="submod-pillar-badge sell-badge">
+                <i class="fa-solid fa-file-invoice-dollar"></i> <span>SELL ENGINE &bull; Office &amp; Wholesale</span>
               </div>
+              <span class="submod-pillar-note"><i class="fa-solid fa-check text-orange"></i> Back-Office &amp; Wholesale Operations</span>
+            </div>
 
-              <!-- Sub-Module 02: Wholesale Invoicing -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="submod-card wow fadeInUp" data-wow-delay=".3s">
+            <div class="row g-4 mb-5">
+              
+              <!-- Sub-Module 01: Sales -->
+              <div class="col-12 col-md-4">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".15s">
                   <div class="submod-icon">
                     <i class="fa-solid fa-file-invoice"></i>
                   </div>
-                  <span class="submod-num">SUB-MODULE 02</span>
-                  <h4 class="submod-title">Wholesale B2B Billing</h4>
+                  <span class="submod-num">SELL &bull; SUB-MODULE 01</span>
+                  <h4 class="submod-title">Sales &amp; Orders</h4>
                   <p class="submod-desc">
-                    Manage volume wholesale trade with tiered customer price lists (Retail, Wholesale, Distributor), customer credit limits, and quotations.
+                    Create sales orders, track delivery dispatches, manage customer credit limits, and issue RAMIS VAT invoices easily.
                   </p>
                   <ul class="submod-features">
-                    <li><i class="fa-solid fa-check"></i> 1-click quotation conversion</li>
-                    <li><i class="fa-solid fa-check"></i> Credit ceiling enforcement</li>
-                    <li><i class="fa-solid fa-check"></i> Partial delivery notes &amp; dispatch</li>
+                    <li><i class="fa-solid fa-check"></i> Delivery notes and stock dispatch</li>
+                    <li><i class="fa-solid fa-check"></i> Customer credit limits &amp; payment alerts</li>
+                    <li><i class="fa-solid fa-check"></i> Automatic VAT &amp; tax calculation</li>
                   </ul>
                 </div>
               </div>
 
-              <!-- Sub-Module 03: Omnichannel Orders -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="submod-card wow fadeInUp" data-wow-delay=".4s">
+              <!-- Sub-Module 02: Quotations -->
+              <div class="col-12 col-md-4">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".3s">
                   <div class="submod-icon">
-                    <i class="fa-solid fa-boxes-packing"></i>
+                    <i class="fa-solid fa-file-signature"></i>
                   </div>
-                  <span class="submod-num">SUB-MODULE 03</span>
-                  <h4 class="submod-title">Omnichannel Order Hub</h4>
+                  <span class="submod-num">SELL &bull; SUB-MODULE 02</span>
+                  <h4 class="submod-title">Quotations &amp; Estimates</h4>
                   <p class="submod-desc">
-                    Unify walk-in counter sales, phone orders, and WhatsApp inquiries into a single real-time dispatch queue across all branch outlets.
+                    Create branded price quotes in seconds. Apply wholesale or retail pricing and turn quotes into sales with 1 click.
                   </p>
                   <ul class="submod-features">
-                    <li><i class="fa-solid fa-check"></i> Multi-branch sales routing</li>
-                    <li><i class="fa-solid fa-check"></i> Courier &amp; delivery tracking</li>
-                    <li><i class="fa-solid fa-check"></i> Backorder reserve protection</li>
+                    <li><i class="fa-solid fa-check"></i> 1-click turn quote into a live sale</li>
+                    <li><i class="fa-solid fa-check"></i> Wholesale and retail price tiers</li>
+                    <li><i class="fa-solid fa-check"></i> Quote validity and expiry dates</li>
                   </ul>
                 </div>
               </div>
 
-              <!-- Sub-Module 04: Shift Reconciliation -->
+              <!-- Sub-Module 03: Proformas -->
+              <div class="col-12 col-md-4">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".45s">
+                  <div class="submod-icon">
+                    <i class="fa-solid fa-file-circle-check"></i>
+                  </div>
+                  <span class="submod-num">SELL &bull; SUB-MODULE 03</span>
+                  <h4 class="submod-title">Proforma Invoices</h4>
+                  <p class="submod-desc">
+                    Issue formal proforma invoices for advance bank payments and confirmed orders before releasing inventory.
+                  </p>
+                  <ul class="submod-features">
+                    <li><i class="fa-solid fa-check"></i> Advance bank transfer tracking</li>
+                    <li><i class="fa-solid fa-check"></i> Multi-currency support (LKR, USD, EUR)</li>
+                    <li><i class="fa-solid fa-check"></i> Convert easily to final sales invoice</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- ==========================================
+                 ENGINE 2: POS (COUNTER OPERATIONS SUITE)
+                 ========================================== -->
+            <div class="submod-pillar-header wow fadeInUp" data-wow-delay=".2s">
+              <div class="submod-pillar-badge pos-badge">
+                <i class="fa-solid fa-desktop"></i> <span>POS ENGINE &bull; Retail &amp; Counter Checkout</span>
+              </div>
+              <span class="submod-pillar-note"><i class="fa-solid fa-check text-green" style="color:#10b981;"></i> Fast Retail &amp; Cashier Billing</span>
+            </div>
+
+            <div class="row g-4">
+              
+              <!-- Sub-Module 04: POS Terminal -->
               <div class="col-12 col-md-6 col-lg-3">
-                <div class="submod-card wow fadeInUp" data-wow-delay=".5s">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".15s">
+                  <div class="submod-icon">
+                    <i class="fa-solid fa-desktop"></i>
+                  </div>
+                  <span class="submod-num">POS &bull; SUB-MODULE 01</span>
+                  <h4 class="submod-title">POS Terminal</h4>
+                  <p class="submod-desc">
+                    Fast touchscreen billing for retail counters. Scan barcodes, tap item tiles, hold carts, and take payments smoothly.
+                  </p>
+                  <ul class="submod-features">
+                    <li><i class="fa-solid fa-check"></i> &lt; 1.2s Fast barcode checkout</li>
+                    <li><i class="fa-solid fa-check"></i> Hold &amp; recall customer bills anytime</li>
+                    <li><i class="fa-solid fa-check"></i> Real-time multi-branch cloud sync</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Sub-Module 05: Registers -->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".3s">
+                  <div class="submod-icon">
+                    <i class="fa-solid fa-cash-register"></i>
+                  </div>
+                  <span class="submod-num">POS &bull; SUB-MODULE 02</span>
+                  <h4 class="submod-title">Registers &amp; Counters</h4>
+                  <p class="submod-desc">
+                    Set up and manage multiple cash counters and billing terminals across all your branch stores in one place.
+                  </p>
+                  <ul class="submod-features">
+                    <li><i class="fa-solid fa-check"></i> Assign cashiers to specific counters</li>
+                    <li><i class="fa-solid fa-check"></i> Track card machine (EDC) payments</li>
+                    <li><i class="fa-solid fa-check"></i> Works across all branch locations</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Sub-Module 06: Register Sessions -->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".45s">
                   <div class="submod-icon">
                     <i class="fa-solid fa-vault"></i>
                   </div>
-                  <span class="submod-num">SUB-MODULE 04</span>
-                  <h4 class="submod-title">Cashier Register Auditing</h4>
+                  <span class="submod-num">POS &bull; SUB-MODULE 03</span>
+                  <h4 class="submod-title">Register Sessions</h4>
                   <p class="submod-desc">
-                    Eliminate cash leakage with automated register shifts. Record opening float, track mid-shift payouts, and run blind end-of-day drawer closures.
+                    Keep your cash safe. Track opening cash, record mid-shift cash drops, and check end-of-shift closing reports.
                   </p>
                   <ul class="submod-features">
-                    <li><i class="fa-solid fa-check"></i> Blind cash count reconciliation</li>
-                    <li><i class="fa-solid fa-check"></i> Shortage &amp; overage audit trail</li>
-                    <li><i class="fa-solid fa-check"></i> Manager PIN override security</li>
+                    <li><i class="fa-solid fa-check"></i> Record opening cash float per shift</li>
+                    <li><i class="fa-solid fa-check"></i> Log cash drops to bank or safe</li>
+                    <li><i class="fa-solid fa-check"></i> Shift closing reports prevent cash loss</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Sub-Module 07: POS Settings -->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="submod-card wow fadeInLeft" data-wow-delay=".6s">
+                  <div class="submod-icon">
+                    <i class="fa-solid fa-sliders"></i>
+                  </div>
+                  <span class="submod-num">POS &bull; SUB-MODULE 04</span>
+                  <h4 class="submod-title">POS Settings</h4>
+                  <p class="submod-desc">
+                    Easily setup your 80mm or 58mm thermal printers, barcode scanners, weighing scales, and custom receipt layouts.
+                  </p>
+                  <ul class="submod-features">
+                    <li><i class="fa-solid fa-check"></i> Setup any 80mm or 58mm thermal printer</li>
+                    <li><i class="fa-solid fa-check"></i> Connect barcode scanners &amp; scales</li>
+                    <li><i class="fa-solid fa-check"></i> Customize receipt logo, header &amp; footer</li>
                   </ul>
                 </div>
               </div>
@@ -333,90 +494,207 @@
         <!-- ===================================================================
              4. DEEP DIVE: TAILORED FOR SRI LANKAN RETAIL & WHOLESALE
              =================================================================== -->
-        <section class="mod-section-light">
+        <section class="mod-section-dark">
           <div class="container">
             
-            <!-- Deep Dive Row 1: Offline First -->
+            <!-- Section Heading (Balanced Spacing With Other Sections) -->
+            <div class="row justify-content-center deep-dive-heading-wrap">
+              <div class="col-12 col-lg-8 text-center">
+                <div class="sec-heading style-3">
+                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
+                    <i class="tji-box"></i> DEEP DIVE SHOWCASE
+                  </span>
+                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
+                    Built for High-Velocity Retail &amp; Wholesale <span class="text-orange">Operations</span>
+                  </h2>
+                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
+                    Explore the live interface in action: from fast barcode scanning at checkout to proforma invoicing and split payments.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Deep Dive Row 1: POS Terminal & Real-Time Cloud Architecture -->
             <div class="row align-items-center g-5 mod-deep-dive-row">
               <div class="col-12 col-lg-6 order-2 order-lg-1">
                 <div class="mod-dive-text">
-                  <span class="badge-pill-sm"><i class="fa-solid fa-wifi-slash"></i> MISSION-CRITICAL RESILIENCE</span>
-                  <h3>100% Offline-First Architecture — Counters Never Stop</h3>
+                  <span class="badge-pill-sm"><i class="fa-solid fa-desktop"></i> POS TERMINAL &bull; REAL-TIME CLOUD</span>
+                  <h3>Fast Touchscreen POS Built for Busy Counters</h3>
                   <p>
-                    When telecom providers suffer downtime or local fiber lines get cut, cloud-only systems freeze, causing long cashier queues and lost customer goodwill.
+                    Built for fast-moving shops and retail stores. Cashiers can scan barcodes, tap product photos, add quick discounts, and handle multiple customer carts at the same time with instant cloud sync.
                   </p>
-                  <p>
-                    Hetxa BOS employs an intelligent client-side caching engine that maintains full product catalogs, barcode registries, customer credit balances, and pricing rules locally. Cashiers continue scanning, billing, and printing at full speed.
-                  </p>
-                  <ul class="mod-checklist">
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Zero Latency:</strong> In-memory database guarantees instant keystroke response even with 50,000+ SKUs.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Automatic Re-Sync:</strong> Once internet restores, invoices seamlessly sync to the central cloud in the background.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Conflict Resolution:</strong> Multi-branch sequence numbering prevents invoice collisions across terminals.</li>
-                  </ul>
+                  <div class="mod-points-grid">
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-bolt"></i></div>
+                      <div class="point-text">
+                        <strong>Fast &amp; Smooth Billing</strong>
+                        <span>Instant product search across thousands of items</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-table-cells-large"></i></div>
+                      <div class="point-text">
+                        <strong>Touch Product Grid</strong>
+                        <span>Tap item pictures with live stock badges</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                      <div class="point-text">
+                        <strong>Hold &amp; Recall Bills</strong>
+                        <span>Save open bills and serve the next customer</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                      <div class="point-text">
+                        <strong>Multi-Branch Sync</strong>
+                        <span>Sales and stock update across all branches live</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="mod-dive-img-card wow fadeInRight" data-wow-delay=".3s">
-                  <img src="assets/images/service/sales.jfif" alt="Hetxa BOS High Speed POS Counter">
-                  <div class="mod-dive-float-tag">
-                    <i class="fa-solid fa-shield-check"></i>
-                    <span>Offline-First Engine Active</span>
+                  <div class="mod-dive-browser-bar">
+                    <div class="dots">
+                      <span class="dot red"></span>
+                      <span class="dot yellow"></span>
+                      <span class="dot green"></span>
+                    </div>
+                    <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/pos/terminal</div>
+                  </div>
+                  <div class="mod-dive-img-wrap">
+                    <img src="assets/images/modules/pos-terminal-ui.jpg" alt="Hetxa BOS High Speed POS Counter Terminal Interface">
+                    <div class="mod-dive-float-tag">
+                      <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
+                      <span>Real-Time POS Terminal</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- Deep Dive Row 2: Sri Lankan Payments & RAMIS -->
+            <!-- Deep Dive Row 2: Sell Engine - Quotations, Proformas & RAMIS -->
             <div class="row align-items-center g-5 mod-deep-dive-row">
               <div class="col-12 col-lg-6">
                 <div class="mod-dive-img-card wow fadeInLeft" data-wow-delay=".3s">
-                  <img src="assets/images/service/finance.jfif" alt="LANKAQR, Cards and Cheques Payment Gateway">
-                  <div class="mod-dive-float-tag">
-                    <i class="fa-solid fa-building-columns"></i>
-                    <span>IRD RAMIS Certified</span>
+                  <div class="mod-dive-browser-bar">
+                    <div class="dots">
+                      <span class="dot red"></span>
+                      <span class="dot yellow"></span>
+                      <span class="dot green"></span>
+                    </div>
+                    <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/sell/quotations</div>
+                  </div>
+                  <div class="mod-dive-img-wrap">
+                    <img src="assets/images/modules/sell-quotations-ui.png" alt="Hetxa BOS Quotations, Proformas and IRD RAMIS Invoicing">
+                    <div class="mod-dive-float-tag">
+                      <i class="fa-solid fa-file-signature text-orange"></i>
+                      <span>Quotations &amp; Tax Invoicing</span>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-12 col-lg-6">
                 <div class="mod-dive-text">
-                  <span class="badge-pill-sm"><i class="fa-solid fa-credit-card"></i> FLEXIBLE PAYMENTS</span>
-                  <h3>Split Tender Multi-Payments &amp; IRD RAMIS VAT Compliance</h3>
+                  <span class="badge-pill-sm"><i class="fa-solid fa-file-invoice-dollar"></i> SELL ENGINE &bull; B2B SALES</span>
+                  <h3>From Quotes &amp; Proformas to Final Invoices</h3>
                   <p>
-                    Modern Sri Lankan consumers and corporate buyers demand versatile payment options. Hetxa BOS allows cashiers to split a single bill across multiple tenders within seconds.
+                    Manage wholesale and commercial sales simply. Create professional price quotes, send proformas for advance bank payments, and turn them into final sales invoices with just one click.
                   </p>
-                  <ul class="mod-checklist">
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Split Payments:</strong> Combine Cash, Credit Card, LANKAQR, Customer Credit, and Vouchers on the same invoice.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Post-Dated Cheques (PDC):</strong> Capture cheque number, bank, branch code, and maturity date directly at the counter.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>IRD RAMIS Tax Compliance:</strong> Automatically calculate VAT / SVAT, print customer TIN numbers, and format receipts with official tax schedules.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Multi-Currency Handling:</strong> Accept USD, EUR, or GBP at retail counters with real-time exchange rates for tourist destinations.</li>
-                  </ul>
+                  <div class="mod-points-grid">
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-rotate"></i></div>
+                      <div class="point-text">
+                        <strong>1-Click Quote to Sale</strong>
+                        <span>Turn approved quotes into invoices without re-typing</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                      <div class="point-text">
+                        <strong>Customer Credit Limits</strong>
+                        <span>Set credit ceilings and get alerts before billing</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-building-columns"></i></div>
+                      <div class="point-text">
+                        <strong>RAMIS VAT Ready</strong>
+                        <span>Built-in VAT calculations and tax invoice formats</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card">
+                      <div class="point-icon"><i class="fa-solid fa-file-contract"></i></div>
+                      <div class="point-text">
+                        <strong>Custom Terms &amp; Notes</strong>
+                        <span>Add payment terms, delivery notes, and discounts</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- Deep Dive Row 3: Printing & WhatsApp E-Invoicing -->
+            <!-- Deep Dive Row 3: Flexible Payments & Receipt Printing -->
             <div class="row align-items-center g-5 mod-deep-dive-row">
               <div class="col-12 col-lg-6 order-2 order-lg-1">
                 <div class="mod-dive-text">
-                  <span class="badge-pill-sm"><i class="fa-solid fa-receipt"></i> SEAMLESS FULFILLMENT</span>
-                  <h3>Thermal Printing &amp; Instant WhatsApp E-Receipts</h3>
+                  <span class="badge-pill-sm"><i class="fa-solid fa-credit-card"></i> PAYMENTS &bull; RECEIPT PRINTING</span>
+                  <h3>Flexible Payments &amp; Fast Receipt Printing</h3>
                   <p>
-                    Speed up counter queues while offering modern, eco-friendly digital options to your loyal shoppers.
+                    Accept payments any way your customers prefer. Split a single bill across cash, cards, bank transfer, or QR codes, and print receipts instantly to any 80mm thermal, 58mm, or standard printer you set up.
                   </p>
-                  <ul class="mod-checklist">
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Universal Thermal Printing:</strong> Direct native support for 80mm and 58mm thermal receipt printers via USB, Wi-Fi, Ethernet, and Bluetooth.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Automatic Cash Drawer Kick:</strong> Opens RJ11 drawers on cash settlement and triggers secure auditor logs on manual key open.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>WhatsApp E-Receipts:</strong> 1-click option to send an interactive PDF invoice directly to the customer's WhatsApp number.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> <strong>Custom Header &amp; Footer Branding:</strong> Add promotion banners, return policy terms, and QR survey codes to physical receipts.</li>
-                  </ul>
+                  <div class="mod-points-grid">
+                    <div class="mod-point-card green-accent">
+                      <div class="point-icon"><i class="fa-solid fa-wallet"></i></div>
+                      <div class="point-text">
+                        <strong>Any Payment Method</strong>
+                        <span>Cash, card, bank transfer, cheque &amp; QR</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card green-accent">
+                      <div class="point-icon"><i class="fa-solid fa-arrows-split-up-and-left"></i></div>
+                      <div class="point-text">
+                        <strong>Split Bill Easily</strong>
+                        <span>Split one bill across cash and card in seconds</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card green-accent">
+                      <div class="point-icon"><i class="fa-solid fa-print"></i></div>
+                      <div class="point-text">
+                        <strong>Setup Any Printer</strong>
+                        <span>Easily setup 80mm thermal, 58mm, or A4 paper</span>
+                      </div>
+                    </div>
+                    <div class="mod-point-card green-accent">
+                      <div class="point-icon"><i class="fa-solid fa-calculator"></i></div>
+                      <div class="point-text">
+                        <strong>Touch Keypad &amp; Change</strong>
+                        <span>Built-in number pad calculates balance change instantly</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <div class="mod-dive-img-card wow fadeInRight" data-wow-delay=".3s">
-                  <img src="assets/images/service/report.jfif" alt="Thermal Printing and E-Invoicing">
-                  <div class="mod-dive-float-tag">
-                    <i class="fa-solid fa-print"></i>
-                    <span>Thermal ESC/POS &amp; WhatsApp PDF</span>
+                  <div class="mod-dive-browser-bar">
+                    <div class="dots">
+                      <span class="dot red"></span>
+                      <span class="dot yellow"></span>
+                      <span class="dot green"></span>
+                    </div>
+                    <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/pos/payment</div>
+                  </div>
+                  <div class="mod-dive-img-wrap">
+                    <img src="assets/images/modules/pos-payment-modal.png" alt="Hetxa BOS Split Tender Payment Modal and Touch Keypad">
+                    <div class="mod-dive-float-tag">
+                      <i class="fa-solid fa-receipt text-green" style="color: #10b981;"></i>
+                      <span>Split Payments &amp; Instant Receipts</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -428,86 +706,115 @@
         <!-- ===================================================================
              5. HARDWARE COMPATIBILITY & ACCESSORIES
              =================================================================== -->
-        <section class="mod-section-alt">
+        <section class="mod-section-alt hw-compatibility-section">
           <div class="container">
             <div class="row justify-content-center mb-5">
               <div class="col-12 col-lg-8 text-center">
                 <div class="sec-heading style-3">
                   <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    <i class="tji-box"></i> HARDWARE ECOSYSTEM
+                    <i class="fa-solid fa-plug text-orange" style="margin: 5px;"></i> HARDWARE SETUP &bull; ACCESSORIES
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Plug &amp; Play With Your <span class="text-orange">Existing POS Peripherals</span>
+                    Works With Any POS Hardware <span class="text-orange">You Already Own</span>
                   </h2>
-                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 680px; margin: 15px auto 0;">
-                    No proprietary hardware lock-in. Hetxa BOS integrates seamlessly with leading POS terminals and industry-standard peripherals.
+                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
+                    No expensive or special equipment needed. Easily connect your thermal printers, barcode scanners, weighing scales, and cash drawers in minutes.
                   </p>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="row g-4">
-              
-              <div class="col-6 col-lg-2 col-md-4">
-                <div class="hw-card wow fadeInUp" data-wow-delay=".1s">
-                  <div class="hw-icon">
-                    <i class="fa-solid fa-desktop"></i>
-                  </div>
-                  <h5>Touch Terminals</h5>
-                  <p>Windows, Android, &amp; iOS devices supported.</p>
+          <!-- Full Width Right-to-Left Auto-Scrolling Hardware Marquee -->
+          <div class="hw-marquee-outer">
+            <div class="hw-marquee-track">
+              <!-- Group 1 -->
+              <div class="hw-marquee-group">
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-desktop"></i></div>
+                  <h5>Touch Screens</h5>
+                  <p>Works on any PC, laptop, Android tablet, or iPad.</p>
                 </div>
-              </div>
-
-              <div class="col-6 col-lg-2 col-md-4">
-                <div class="hw-card wow fadeInUp" data-wow-delay=".2s">
-                  <div class="hw-icon">
-                    <i class="fa-solid fa-print"></i>
-                  </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-print"></i></div>
                   <h5>Thermal Printers</h5>
-                  <p>80mm / 58mm ESC/POS (USB, LAN, Bluetooth).</p>
+                  <p>Setup any 80mm or 58mm printer (USB, LAN, Bluetooth).</p>
                 </div>
-              </div>
-
-              <div class="col-6 col-lg-2 col-md-4">
-                <div class="hw-card wow fadeInUp" data-wow-delay=".3s">
-                  <div class="hw-icon">
-                    <i class="fa-solid fa-barcode"></i>
-                  </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-barcode"></i></div>
                   <h5>Barcode Scanners</h5>
-                  <p>1D &amp; 2D QR laser scanners (wired &amp; wireless).</p>
+                  <p>Works with wired or wireless 1D &amp; 2D barcode scanners.</p>
                 </div>
-              </div>
-
-              <div class="col-6 col-lg-2 col-md-4">
-                <div class="hw-card wow fadeInUp" data-wow-delay=".4s">
-                  <div class="hw-icon">
-                    <i class="fa-solid fa-vault"></i>
-                  </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-vault"></i></div>
                   <h5>Cash Drawers</h5>
-                  <p>Standard RJ11 electronic trigger drawers.</p>
+                  <p>Standard cash drawers that open automatically on print.</p>
                 </div>
-              </div>
-
-              <div class="col-6 col-lg-2 col-md-4">
-                <div class="hw-card wow fadeInUp" data-wow-delay=".5s">
-                  <div class="hw-icon">
-                    <i class="fa-solid fa-weight-scale"></i>
-                  </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-weight-scale"></i></div>
                   <h5>Weighing Scales</h5>
-                  <p>Serial RS232 &amp; USB scale integration for produce.</p>
+                  <p>Connect digital scales for groceries, produce, and meat.</p>
                 </div>
-              </div>
-
-              <div class="col-6 col-lg-2 col-md-4">
-                <div class="hw-card wow fadeInUp" data-wow-delay=".6s">
-                  <div class="hw-icon">
-                    <i class="fa-solid fa-tv"></i>
-                  </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-tv"></i></div>
                   <h5>Customer Displays</h5>
-                  <p>2-line VFD pole displays &amp; secondary LCD screens.</p>
+                  <p>Show bill totals and welcome messages to shoppers.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-tags"></i></div>
+                  <h5>Label Printers</h5>
+                  <p>Print custom product barcodes, price tags &amp; shelf labels.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-credit-card"></i></div>
+                  <h5>Card POS Terminals</h5>
+                  <p>Accept bank debit/credit cards and dynamic QR payments.</p>
                 </div>
               </div>
 
+              <!-- Group 2 (Duplicate for Seamless Infinite Loop) -->
+              <div class="hw-marquee-group" aria-hidden="true">
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-desktop"></i></div>
+                  <h5>Touch Screens</h5>
+                  <p>Works on any PC, laptop, Android tablet, or iPad.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-print"></i></div>
+                  <h5>Thermal Printers</h5>
+                  <p>Setup any 80mm or 58mm printer (USB, LAN, Bluetooth).</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-barcode"></i></div>
+                  <h5>Barcode Scanners</h5>
+                  <p>Works with wired or wireless 1D &amp; 2D barcode scanners.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-vault"></i></div>
+                  <h5>Cash Drawers</h5>
+                  <p>Standard cash drawers that open automatically on print.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-weight-scale"></i></div>
+                  <h5>Weighing Scales</h5>
+                  <p>Connect digital scales for groceries, produce, and meat.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-tv"></i></div>
+                  <h5>Customer Displays</h5>
+                  <p>Show bill totals and welcome messages to shoppers.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-tags"></i></div>
+                  <h5>Label Printers</h5>
+                  <p>Print custom product barcodes, price tags &amp; shelf labels.</p>
+                </div>
+                <div class="hw-card">
+                  <div class="hw-icon"><i class="fa-solid fa-credit-card"></i></div>
+                  <h5>Card POS Terminals</h5>
+                  <p>Accept bank debit/credit cards and dynamic QR payments.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -577,19 +884,20 @@
         <!-- ===================================================================
              7. EXECUTIVE CALL TO ACTION (CTA)
              =================================================================== -->
-        <section class="mod-section-light pt-0">
+        <section class="mod-section-light pt-10">
           <div class="container">
             <div class="mod-cta-banner wow fadeInUp" data-wow-delay=".3s">
-              <h2 class="sec-title">Ready to Upgrade Your Retail Counters with <span class="text-orange">100% Offline POS?</span></h2>
+              <h2 class="sec-title">Ready to Speed Up Your Sales with <span class="text-orange">Hetxa Sell &amp; POS?</span></h2>
               <p class="sec-desc">
-                Book a personalized 1-on-1 demonstration with our POS specialists. We will bring a portable demo unit to your store or showroom in Colombo, or connect with your team remotely across Sri Lanka.
+                See how easy it is to manage sales quotes, cashier shifts, split payments, and printer setup in action. Book a free live demo with our team today.
               </p>
               <div class="mod-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-whatsapp-cta">
-                  <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Instant Response)
+                <a href="contact.php" class="tj-primary-btn">
+                  <span class="btn-text"><span>Request Live Demo</span></span>
+                  <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
-                <a href="tel:+94702115937" class="btn-hotline-cta">
-                  <i class="fa-solid fa-phone"></i> Call Sales Hotline (070 211 5937)
+                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-whatsapp-cta">
+                  <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fast Reply)
                 </a>
               </div>
             </div>

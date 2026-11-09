@@ -84,7 +84,7 @@
           "worstRating": "1"
         },
         "featureList": [
-          "Omnichannel Cloud POS Counter with Offline-First Sync",
+          "Omnichannel Cloud POS Counter with Real-Time Sync",
           "Real-Time Multi-Branch Inventory & Stock Transfer",
           "Sri Lankan Cheque Management & Clearing Lifecycle",
           "Automated Double-Entry Ledger & Real-Time P&L",
@@ -180,10 +180,10 @@
           },
           {
             "@type": "Question",
-            "name": "Can Hetxa Cloud POS work offline during internet or power cuts?",
+            "name": "How does Hetxa Cloud POS connect and synchronize data across branches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Hetxa Cloud POS features an offline-first architecture that allows continuous cashier barcode scanning, bill printing, and cash transactions even during complete internet power drops. All data automatically synchronizes with the cloud once connectivity is restored."
+              "text": "Hetxa Cloud POS is an ultra-fast, cloud-connected system. Every counter transaction, inventory adjustment, and split-tender payment synchronizes instantly with central cloud servers across all branches and registers with 99.9% uptime."
             }
           },
           {
@@ -219,11 +219,7 @@
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/modules.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/benefits.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/process.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/industries.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/clients.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/hetxa-custom.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -515,7 +511,7 @@
                         </div>
                         <h3 class="title"><a href="module-sales.php">SALES</a></h3>
                         <p class="desc">High-velocity counter checkout, wholesale orders, and automated multi-payment
-                          processing. Works 100% offline with instant cloud sync and thermal printing.</p>
+                          processing. Real-time cloud connected with multi-branch sync and thermal printing.</p>
                         <div class="service-submodules-wrap">
                           <span class="submodules-label">Core Sub-Modules:</span>
                           <div class="service-stack-tags">
@@ -526,7 +522,7 @@
                         <ul class="service-feature-list">
                           <li><i class="fa-solid fa-circle-check"></i> High-Speed Touchscreen POS with Barcode Support
                           </li>
-                          <li><i class="fa-solid fa-circle-check"></i> 100% Offline-First Mode with Instant Cloud Sync
+                          <li><i class="fa-solid fa-circle-check"></i> Real-Time Cloud-Native Multi-Branch Sync
                           </li>
                           <li><i class="fa-solid fa-circle-check"></i> Split Payments: Cash, Card, QR, Credit &amp;
                             Vouchers</li>
@@ -971,7 +967,7 @@
                     </div>
                     <div class="chip-text">
                       <span class="chip-label">HIGH SPEED</span>
-                      <span class="chip-title">Offline POS Mode</span>
+                      <span class="chip-title">Live Cloud POS</span>
                     </div>
                     <span class="chip-dot green"></span>
                   </div>
@@ -1092,7 +1088,7 @@
                     </div>
                     <div class="chip-text">
                       <span class="chip-label">HIGH SPEED</span>
-                      <span class="chip-title">Offline POS Mode</span>
+                      <span class="chip-title">Live Cloud POS</span>
                     </div>
                     <span class="chip-dot green"></span>
                   </div>
@@ -1241,10 +1237,10 @@
                             </div>
                           </div>
                           <p class="desc">
-                            100% offline-ready counter checkout with instant barcode scanning, multi-split payments, and paperless WhatsApp digital invoicing.
+                            High-velocity cloud counter checkout with instant barcode scanning, multi-split payments, and paperless WhatsApp digital invoicing.
                           </p>
                           <div class="project-feature-pills">
-                            <span class="p-pill"><i class="fa-solid fa-check"></i> Offline-First Mode</span>
+                            <span class="p-pill"><i class="fa-solid fa-check"></i> Cloud-Connected</span>
                             <span class="p-pill"><i class="fa-solid fa-check"></i> Barcode Scanner</span>
                             <span class="p-pill"><i class="fa-solid fa-check"></i> WhatsApp E-Bills</span>
                           </div>
@@ -1520,7 +1516,7 @@
                       <span class="count-plus">%</span>
                     </div>
                     <span class="count-title">Cloud System Uptime</span>
-                    <span class="count-sub">Offline-Ready POS Mode</span>
+                    <span class="count-sub">Real-Time Multi-Branch Sync</span>
                     <span class="count-separator"></span>
                   </div>
 
@@ -2452,17 +2448,16 @@
                     </div>
                   </div>
 
-                  <!-- 04. Offline-First Resilience -->
+                  <!-- 04. Cloud-Native Resilience -->
                   <div class="h10-process-item tj-sticky-panel-3">
                     <h6 class="h10-process-sln">Pillar 04</h6>
                     <div class="h10-process-icon">
                       <i class="fa-solid fa-cloud-arrow-up"></i>
                     </div>
                     <div class="h10-process-content">
-                      <h4 class="title">100% Offline-First Reliability</h4>
-                      <p class="desc">Store counters never freeze when fiber or 4G telecom connections drop. Continue
-                        high-speed billing, barcode scanning, and thermal printing with automated background cloud sync
-                        once online.</p>
+                      <h4 class="title">Cloud-Native Real-Time Sync</h4>
+                      <p class="desc">High-speed central cloud connectivity across all your branches and registers. Continue
+                        instant billing, live inventory deductions, barcode scanning, and thermal printing with continuous 99.9% uptime.</p>
                     </div>
                   </div>
 

@@ -156,7 +156,7 @@
                   </div>
                   <div class="trust-info">
                     <span class="trust-heading">99.9% Enterprise Cloud Uptime</span>
-                    <span class="trust-sub">Offline-Ready POS Counter Continuity</span>
+                    <span class="trust-sub">Real-Time Multi-Branch Data Sync</span>
                   </div>
                 </div>
 

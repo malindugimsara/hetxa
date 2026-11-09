@@ -169,8 +169,7 @@
   <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="assets/css/meanmenu.css">
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/modules.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="assets/css/contact.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="assets/css/hetxa-custom.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
@@ -719,7 +718,7 @@
                     <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
                   </div>
                   <div class="contact-faq-body">
-                    Absolutely. Our technical field teams deploy on-site throughout Sri Lanka—including Kandy, Galle, Matara, Kurunegala, Negombo, Ratnapura, and Jaffna. We ensure your local store staff are fully comfortable operating the offline POS and thermal printers.
+                    Absolutely. Our technical field teams deploy on-site throughout Sri Lanka—including Kandy, Galle, Matara, Kurunegala, Negombo, Ratnapura, and Jaffna. We ensure your local store staff are fully comfortable operating the Cloud POS and thermal printers.
                   </div>
                 </div>
 
@@ -737,11 +736,11 @@
                 <!-- FAQ Item 05 -->
                 <div class="contact-faq-item wow fadeInUp" data-wow-delay=".6s">
                   <div class="contact-faq-header">
-                    <h4>What happens if our internet connection drops at a branch checkout counter?</h4>
+                    <h4>What internet connection is required for Hetxa BOS across branch counters?</h4>
                     <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
                   </div>
                   <div class="contact-faq-body">
-                    Hetxa Cloud POS is built offline-first. Your cashiers continue ringing up customer sales, accepting cash/card payments, and printing thermal receipts without interruption. As soon as the network reconnects, transactions sync automatically with headquarters.
+                    Hetxa BOS is a Cloud-Native platform that connects seamlessly with any standard broadband fiber, 4G/5G mobile connection, or Wi-Fi hotspot. With ultra-low bandwidth consumption, every counter transaction, stock movement, and split payment synchronizes across all branches in real time with 99.9% uptime.
                   </div>
                 </div>
 
