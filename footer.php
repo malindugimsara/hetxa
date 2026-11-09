@@ -1,125 +1,218 @@
   <!-- start: Footer Section -->
-  <footer class="tj-footer-section footer-2 h5-footer h10-footer section-gap-x">
+  <footer class="tj-footer-section footer-2 h5-footer h10-footer hetxa-modern-footer section-gap-x" id="footer">
 
     <div class="footer-main-area">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-xl-5 col-lg-4 col-md-6">
+        <div class="row g-4 justify-content-between">
+          
+          <!-- Column 1: Brand & WhatsApp Featured Card -->
+          <div class="col-xl-4 col-lg-4 col-md-12">
             <div class="footer-widget footer-col-1">
-              <h2 class="h10-footer-title wow fadeInUp" data-wow-delay=".2s">
-                Ready to Run Your Business on One AI Operating System?
-              </h2>
-              <a class="text-btn wow fadeInUp" data-wow-delay=".3s" href="mailto:hello@hetxa.com">
-                <span class="btn-text"><span>hello@hetxa.com</span></span>
+              <a href="index.php" class="footer-logo mb-3 d-inline-block">
+                <img src="assets/images/logos/hetxa-logo-white.png" alt="Hetxa BOS Logo" style="max-height: 48px; width: auto;">
               </a>
-              <div class="bg-shape-widget wow fadeInUpBig" data-wow-delay=".7s">
+              <p class="footer-desc">
+                Sri Lanka's Next-Generation AI Business Operating System (BOS). Unifying Retail POS, Multi-Branch Inventory Sync, Cheque Lifecycle, and IRD RAMIS VAT Compliance on one intelligent cloud platform.
+              </p>
+
+              <!-- Dedicated WhatsApp Quick-Connect Card -->
+              <div class="footer-wa-card wow fadeInUp" data-wow-delay=".3s">
+                <div class="wa-card-top d-flex align-items-center justify-content-between">
+                  <span class="wa-badge"><i class="fa-brands fa-whatsapp"></i> Official WhatsApp</span>
+                  <span class="wa-status"><span class="status-pulse"></span> Instant Reply</span>
+                </div>
+                <div class="wa-card-body d-flex align-items-center justify-content-between flex-wrap gap-2">
+                  <div class="wa-info">
+                    <span class="wa-sub">Direct Sales &amp; Inquiries</span>
+                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="wa-phone-number">074 158 8728</a>
+                  </div>
+                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="wa-btn-chat">
+                    <span>Chat Now</span> <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
               </div>
+
+              <div class="bg-shape-widget wow fadeInUpBig" data-wow-delay=".7s"></div>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-3 col-md-6">
+
+          <!-- Column 2: ERP Modules -->
+          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
             <div class="footer-widget footer-col-2 widget-nav-menu wow fadeInUp" data-wow-delay=".3s">
               <h5 class="title">ERP Modules</h5>
               <ul>
-                <li><a href="#modules">Sales &amp; Cloud POS</a></li>
-                <li><a href="#modules">Inventory &amp; Stock Hub</a></li>
-                <li><a href="#modules">Finance &amp; Cheque Mgt</a></li>
-                <li><a href="#modules">Purchases &amp; Vendor POs</a></li>
-                <li><a href="#modules">Hetxa Neural AI</a></li>
-                <li><a href="#modules">CRM &amp; Customer Hub</a></li>
+                <li><a href="module-sales.php"><i class="tji-arrow-right-long text-orange"></i> POS &amp; Billing</a></li>
+                <li><a href="module-crm.php"><i class="tji-arrow-right-long text-orange"></i> CRM Hub</a></li>
+                <li><a href="module-inventory.php"><i class="tji-arrow-right-long text-orange"></i> Stock &amp; Inventory</a></li>
+                <li><a href="module-finance.php"><i class="tji-arrow-right-long text-orange"></i> Finance &amp; Cheques</a></li>
+                <li><a href="module-projects.php"><i class="tji-arrow-right-long text-orange"></i> Projects &amp; Tasks</a></li>
+                <li><a href="module-reports.php"><i class="tji-arrow-right-long text-orange"></i> Reports &amp; BI</a></li>
+                <li><a href="module-ai.php"><i class="tji-arrow-right-long text-orange"></i> Neural AI Insights</a></li>
+                <li><a href="module-hr.php"><i class="tji-arrow-right-long text-orange"></i> HR &amp; Payroll</a></li>
+                <li><a href="module-admin.php"><i class="tji-arrow-right-long text-orange"></i> Admin &amp; Security</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-xl-2 col-lg-2 col-md-6">
+
+          <!-- Column 3: Platform & Trust -->
+          <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
             <div class="footer-widget footer-col-3 widget-nav-menu wow fadeInUp" data-wow-delay=".5s">
               <h5 class="title">Platform</h5>
               <ul>
-                <li><a href="#modules">Why Hetxa</a></li>
-                <li><a href="#modules">IRD &amp; VAT Ready</a></li>
-                <li><a href="#modules">Multi-Branch Sync</a></li>
-                <li><a href="https://wa.me/94770000000" target="_blank">Book a Live Demo</a></li>
-                <li><a href="https://wa.me/94770000000" target="_blank">WhatsApp Support</a></li>
-                <li><a href="#modules">System Status</a></li>
+                <li><a href="about.php"><i class="tji-arrow-right-long text-orange"></i> About Hetxa BOS</a></li>
+                <li><a href="blog.php"><i class="tji-arrow-right-long text-orange"></i> Blogs &amp; Insights</a></li>
+                <li><a href="contact.php"><i class="tji-arrow-right-long text-orange"></i> Contact &amp; Consultations</a></li>
+                <li><a href="index.php#why-choose-us"><i class="tji-arrow-right-long text-orange"></i> Why Choose Hetxa</a></li>
+                <li><a href="index.php#industries"><i class="tji-arrow-right-long text-orange"></i> Supported Industries</a></li>
+                <li><a href="index.php#benefits"><i class="tji-arrow-right-long text-orange"></i> IRD RAMIS Compliance</a></li>
+                <li><a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20VIP%20Support." target="_blank"><i class="tji-arrow-right-long text-orange"></i> WhatsApp VIP Support</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-6">
+
+          <!-- Column 4: Contact & Hotlines Hub -->
+          <div class="col-xl-4 col-lg-4 col-md-12">
             <div class="footer-widget widget-contact wow fadeInUp" data-wow-delay=".7s">
-              <h5 class="title">Hetxa Sri Lanka</h5>
-              <div class="footer-contact-info">
-                <div class="contact-item">
-                  <span>Colombo, Western Province, Sri Lanka.</span>
-                </div>
-                <div class="contact-item">
-                  <a href="tel:+94770000000">P: +94 77 000 0000</a>
-                  <a href="mailto:hello@hetxa.com">M: hello@hetxa.com</a>
-                </div>
-                <div class="contact-item">
-                  <span><i class="tji-clock"></i> Mon-Sat: 8:30 AM - 6:30 PM (SLST)</span>
+              <h5 class="title">Contact &amp; Hotlines</h5>
+              
+              <!-- Office Location -->
+              <div class="footer-contact-item address-item mb-3">
+                <div class="icon-wrap"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="content-wrap">
+                  <span class="label">Head Office Address</span>
+                  <address class="value mb-0">140/1, Moratuwa Road, Piliyandala, Sri Lanka</address>
                 </div>
               </div>
+
+              <!-- Departmental Hotlines & Emails Box -->
+              <div class="footer-hotlines-card">
+                
+                <!-- General -->
+                <div class="dept-hotline-row">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <span class="dept-badge badge-general"><i class="fa-solid fa-phone"></i> General</span>
+                    <a href="mailto:hello@hetxa.com" class="dept-mail-link"><i class="fa-solid fa-envelope"></i> hello@hetxa.com</a>
+                  </div>
+                  <div class="dept-phone-wrap">
+                    <a href="tel:+94112617664" class="dept-phone-link">011 261 7664</a>
+                  </div>
+                </div>
+
+                <!-- Sales -->
+                <div class="dept-hotline-row">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <span class="dept-badge badge-sales"><i class="fa-solid fa-headset"></i> Sales</span>
+                    <a href="mailto:sales@hetxa.com" class="dept-mail-link"><i class="fa-solid fa-envelope"></i> sales@hetxa.com</a>
+                  </div>
+                  <div class="dept-phone-wrap d-flex flex-wrap align-items-center gap-2">
+                    <a href="tel:+94702115937" class="dept-phone-link">070 211 59 37</a>
+                    <span class="dept-divider">•</span>
+                    <a href="tel:+94741588728" class="dept-phone-link">074 158 8728</a>
+                  </div>
+                </div>
+
+                <!-- Support -->
+                <div class="dept-hotline-row">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <span class="dept-badge badge-support"><i class="fa-solid fa-life-ring"></i> Support</span>
+                    <a href="mailto:support@hetxa.com" class="dept-mail-link"><i class="fa-solid fa-envelope"></i> support@hetxa.com</a>
+                  </div>
+                  <div class="dept-phone-wrap">
+                    <a href="tel:+94702115938" class="dept-phone-link">070 211 59 38</a>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
           </div>
+
         </div>
       </div>
     </div>
-    <div class="h10-footer-subscribe-wrapper wow fadeInUp" data-wow-delay=".5s">
+
+    <!-- Enterprise Trust Badges & Newsletter Section (Redesigned) -->
+    <div class="hetxa-footer-trust-newsletter wow fadeInUp" data-wow-delay=".4s">
       <div class="container">
-        <div class="row align-items-end">
-          <div class="col-12 col-lg-4 col-xl-5">
-            <div class="award-logo-area ">
-              <div class="award-logo">
-                <img src="assets/images/footer/award-logo-white-1.webp" alt="Award Winning Cloud ERP">
-              </div>
-              <div class="award-logo">
-                <img src="assets/images/footer/award-logo-white-2.webp" alt="Sri Lanka RAMIS IRD Ready Software">
+        <div class="trust-newsletter-inner">
+          <div class="row align-items-center g-4">
+            
+            <!-- Left: 3 Enterprise Trust Badges (Replaces fake Clutch/Awwwards) -->
+            <div class="col-12 col-lg-6 col-xl-6">
+              <div class="trust-badges-grid">
+                <div class="trust-badge-card">
+                  <div class="trust-icon-box">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                  </div>
+                  <div class="trust-info">
+                    <span class="trust-heading">IRD RAMIS Ready</span>
+                    <span class="trust-sub">100% Sri Lanka Tax &amp; VAT Compliant</span>
+                  </div>
+                </div>
+
+                <div class="trust-badge-card">
+                  <div class="trust-icon-box trust-icon-cyan">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div class="trust-info">
+                    <span class="trust-heading">99.9% Enterprise Cloud Uptime</span>
+                    <span class="trust-sub">Offline-Ready POS Counter Continuity</span>
+                  </div>
+                </div>
+
+                <div class="trust-badge-card">
+                  <div class="trust-icon-box trust-icon-green">
+                    <i class="fa-solid fa-headset"></i>
+                  </div>
+                  <div class="trust-info">
+                    <span class="trust-heading">Local Sri Lankan Support</span>
+                    <span class="trust-sub">Dedicated Hotline, WhatsApp &amp; On-Site Help</span>
+                  </div>
+                </div>
               </div>
             </div>
 
-          </div>
-          <div class="col-12 col-lg-8 col-xl-7">
-            <div class="footer-subscribe h5-footer-subscribe">
-              <h3 class="title wow fadeInUp" data-wow-delay=".2s">Stay Updated on Business AI &amp; Tax Insights.</h3>
-              <div class="subscribe-form">
-                <form action="#">
-                  <input type="email" name="email" placeholder="Enter your business email">
-                  <button class="tj-primary-btn d-none d-sm-flex" type="submit">
-                    <span class="btn-text"><span>Subscribe</span></span>
-                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                  </button>
-                  <label for="agree"><input id="agree" type="checkbox">Agree to our <a href="#">Terms &amp;
-                      Condition?</a></label>
-                  <button class="tj-primary-btn d-flex d-sm-none" type="submit">
-                    <span class="btn-text"><span>Subscribe</span></span>
-                    <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                  </button>
+            <!-- Right: Sleek Modern Newsletter Bar -->
+            <div class="col-12 col-lg-6 col-xl-6">
+              <div class="footer-subscribe-modern">
+                <div class="subscribe-header mb-3">
+                  <h4 class="sub-title mb-1">Stay Ahead in Business AI &amp; Tax Compliance</h4>
+                  <p class="sub-desc mb-0">Get RAMIS regulatory updates, POS guides, and ERP release notes.</p>
+                </div>
+                <form class="subscribe-form-modern" onsubmit="event.preventDefault(); alert('Thank you for subscribing to Hetxa BOS updates!');">
+                  <div class="input-btn-group">
+                    <input type="email" placeholder="Enter your business email" required>
+                    <button type="submit" class="tj-primary-btn">
+                      <span class="btn-text"><span>Subscribe</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </button>
+                  </div>
+                  <span class="privacy-note"><i class="fa-solid fa-lock text-orange"></i> Strictly confidential • Zero spam • Unsubscribe anytime</span>
                 </form>
               </div>
             </div>
+
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Copyright & Socials -->
     <div class="tj-copyright-area-2 h5-footer-copyright">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="copyright-content-area">
               <div class="copyright-text">
-                <p>&copy; <span>2026</span> <a href="index.php">Hetxa BOS</a>. All rights reserved. Sri Lanka's AI Business Operating System.</p>
+                <p>&copy; <span>2026</span> <a href="index.php">Hetxa (Pvt) Ltd</a>. All rights reserved. Sri Lanka's Enterprise Business Operating System.</p>
               </div>
               <div class="social-links style-3">
                 <ul>
-                  <li><a href="https://www.facebook.com/" target="_blank"><i
-                        class="fa-brands fa-facebook-f"></i></a>
-                  </li>
-                  <li><a href="https://www.instagram.com/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                  </li>
-                  <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-                  <li><a href="https://www.linkedin.com/" target="_blank"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
-                  </li>
+                  <li><a href="https://wa.me/94741588728" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                  <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="https://x.com/" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
                 </ul>
               </div>
               <div class="copyright-menu">

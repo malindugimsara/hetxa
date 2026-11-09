@@ -363,7 +363,7 @@
   padding: 100px 36px 38px !important;
   position: relative;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  transition: border-color 0.35s ease, box-shadow 0.35s ease !important;
 }
 
 .h10-process-wrapper .h10-process-item:not(:last-child) {

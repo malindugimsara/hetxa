@@ -7,30 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Hetxa BOS - All-in-One AI Business Operating System | Cloud ERP &amp; POS Sri Lanka</title>
-  <meta name="title" content="Hetxa BOS - All-in-One AI Business Operating System | Cloud ERP &amp; POS Sri Lanka">
+  <title>Hetxa BOS | #1 AI Business Operating System in Sri Lanka | Cloud ERP &amp; POS</title>
+  <meta name="title" content="Hetxa BOS | #1 AI Business Operating System in Sri Lanka | Cloud ERP &amp; POS">
   <meta name="description"
     content="Hetxa BOS is Sri Lanka's leading AI Business Operating System. Seamlessly unifies ultra-fast Cloud POS, multi-branch inventory, Cheque management, and IRD RAMIS VAT accounting in one intelligent platform.">
   <meta name="keywords"
-    content="Cloud ERP Sri Lanka, POS System Sri Lanka, Hetxa BOS, AI Business Operating System, Inventory Management Software, RAMIS Compliant ERP, Cheque Management System, Retail POS Colombo, Wholesale ERP Software">
-  <meta name="author" content="Hetxa Technologies">
+    content="Cloud ERP Sri Lanka, POS System Sri Lanka, Hetxa BOS, AI Business Operating System, Inventory Management Software, RAMIS Compliant ERP, Cheque Management System, Retail POS Colombo, Wholesale ERP Software, Supermarket POS Sri Lanka">
+  <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://hetxa.com/">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
-  <meta name="geo.placename" content="Colombo, Sri Lanka">
-  <meta name="geo.position" content="6.9271;79.8612">
-  <meta name="ICBM" content="6.9271, 79.8612">
+  <meta name="geo.placename" content="Piliyandala, Colombo, Sri Lanka">
+  <meta name="geo.position" content="6.8018;79.9227">
+  <meta name="ICBM" content="6.8018, 79.9227">
 
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
   <meta property="og:url" content="https://hetxa.com/">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Hetxa BOS - All-in-One AI Business Operating System (Cloud ERP &amp; POS)">
+  <meta property="og:title" content="Hetxa BOS - #1 AI Business Operating System (Cloud ERP &amp; POS Sri Lanka)">
   <meta property="og:description"
-    content="Run your entire business on one AI operating system. Ultra-fast Cloud POS, smart multi-branch inventory, Cheque management, and IRD VAT accounting.">
+    content="Run your entire business on one AI operating system. Ultra-fast Cloud POS, smart multi-branch inventory, Cheque management, and IRD RAMIS VAT accounting.">
   <meta property="og:image" content="https://hetxa.com/assets/images/hero/h10-hero-banner.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -39,9 +39,9 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://hetxa.com/">
-  <meta name="twitter:title" content="Hetxa BOS - All-in-One AI Business Operating System (ERP &amp; POS)">
+  <meta name="twitter:title" content="Hetxa BOS - All-in-One AI Business Operating System (Cloud ERP &amp; POS)">
   <meta name="twitter:description"
-    content="Run your entire business on one AI operating system. Ultra-fast Cloud POS, smart multi-branch inventory, Cheque management, and IRD VAT accounting.">
+    content="Run your entire business on one AI operating system. Ultra-fast Cloud POS, smart multi-branch inventory, Cheque management, and IRD RAMIS VAT accounting.">
   <meta name="twitter:image" content="https://hetxa.com/assets/images/hero/h10-hero-banner.webp">
 
   <!-- Mobile & Theme -->
@@ -55,7 +55,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="assets/images/logos/hetxa-favicon.png?v=<?php echo time(); ?>">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png?v=<?php echo time(); ?>">
 
-  <!-- JSON-LD Structured Data Schema (SoftwareApplication, Organization & WebSite) -->
+  <!-- JSON-LD Structured Data Schema (SoftwareApplication, Organization, WebSite & FAQPage) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -64,9 +64,10 @@
         "@type": ["SoftwareApplication", "WebApplication"],
         "@id": "https://hetxa.com/#software",
         "name": "Hetxa BOS",
+        "alternateName": "Hetxa AI Business Operating System",
         "url": "https://hetxa.com/",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Web, Windows, Android, iOS",
+        "applicationCategory": "BusinessApplication, AccountingApplication, PointOfSaleApplication",
+        "operatingSystem": "Web, Windows, Android, iOS, macOS",
         "description": "Sri Lanka's premier AI Business Operating System unifying Cloud POS, Multi-Branch Inventory, Cheque Management, and IRD RAMIS VAT Accounting.",
         "offers": {
           "@type": "Offer",
@@ -83,42 +84,125 @@
           "worstRating": "1"
         },
         "featureList": [
-          "Omnichannel Cloud POS Counter with Offline Sync",
+          "Omnichannel Cloud POS Counter with Offline-First Sync",
           "Real-Time Multi-Branch Inventory & Stock Transfer",
-          "Sri Lankan Cheque Management & Clearing",
-          "Automated Double-Entry Ledger & P&L",
-          "IRD RAMIS VAT & Tax Audit Ready",
-          "Hetxa Neural AI Predictive Demand Insights",
-          "Customer CRM & WhatsApp Digital Receipts"
+          "Sri Lankan Cheque Management & Clearing Lifecycle",
+          "Automated Double-Entry Ledger & Real-Time P&L",
+          "Inland Revenue Department (IRD) RAMIS VAT & Tax Audit Ready",
+          "Hetxa Neural AI Predictive Demand Forecasting",
+          "Customer CRM & Automated WhatsApp Digital Receipts"
         ]
       },
       {
         "@type": "Organization",
         "@id": "https://hetxa.com/#organization",
-        "name": "Hetxa Technologies",
+        "name": "Hetxa (Pvt) Ltd",
+        "legalName": "Hetxa BOS (Pvt) Ltd",
         "url": "https://hetxa.com/",
         "logo": "https://hetxa.com/assets/images/logos/hetxa-logo.png",
+        "email": "hello@hetxa.com",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Colombo",
+          "streetAddress": "140/1, Moratuwa Road",
+          "addressLocality": "Piliyandala",
+          "addressRegion": "Western Province",
+          "postalCode": "10300",
           "addressCountry": "LK"
         },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+94-77-0000000",
-          "contactType": "sales",
-          "areaServed": "LK",
-          "availableLanguage": ["English", "Sinhala", "Tamil"]
-        }
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+94-11-2617664",
+            "contactType": "general hotline",
+            "areaServed": "LK",
+            "availableLanguage": ["English", "Sinhala", "Tamil"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+94-70-2115937",
+            "contactType": "sales",
+            "areaServed": "LK",
+            "availableLanguage": ["English", "Sinhala", "Tamil"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+94-74-1588728",
+            "contactType": "WhatsApp helpline",
+            "areaServed": "LK",
+            "availableLanguage": ["English", "Sinhala", "Tamil"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+94-70-2115938",
+            "contactType": "technical support",
+            "areaServed": "LK",
+            "availableLanguage": ["English", "Sinhala", "Tamil"]
+          }
+        ],
+        "sameAs": [
+          "https://wa.me/94741588728",
+          "https://www.facebook.com/",
+          "https://www.linkedin.com/",
+          "https://www.instagram.com/",
+          "https://x.com/"
+        ]
       },
       {
         "@type": "WebSite",
         "@id": "https://hetxa.com/#website",
         "url": "https://hetxa.com/",
         "name": "Hetxa BOS",
+        "description": "Sri Lanka's Enterprise Business Operating System & Cloud POS",
+        "inLanguage": "en-LK",
         "publisher": {
           "@id": "https://hetxa.com/#organization"
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://hetxa.com/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Hetxa BOS and how does it help Sri Lankan businesses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hetxa BOS is an All-in-One AI Business Operating System designed for Sri Lankan retail chains, wholesale distributors, and multi-branch enterprises. It unifies high-speed Cloud POS, warehouse inventory sync, Cheque management, and IRD RAMIS VAT compliance on one autonomous platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Hetxa Cloud POS compliant with Sri Lanka IRD RAMIS VAT regulations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Hetxa BOS is 100% compliant with Sri Lanka Inland Revenue Department (IRD) RAMIS guidelines, including automated VAT tax invoicing, SSCL calculations, and one-click audit-ready export files."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Hetxa Cloud POS work offline during internet or power cuts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Hetxa Cloud POS features an offline-first architecture that allows continuous cashier barcode scanning, bill printing, and cash transactions even during complete internet power drops. All data automatically synchronizes with the cloud once connectivity is restored."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Hetxa manage post-dated cheques in Sri Lanka?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hetxa includes a dedicated Sri Lankan Cheque Management engine tracking post-dated cheques (PDCs), banking deposits, clearance, returns, and real-time bank ledger reconciliation with automated WhatsApp notification reminders."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I request a live demo of Hetxa BOS for my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can request a free 1-on-1 personalized demo by contacting the Hetxa team via WhatsApp at 074 158 8728, calling the Sales Hotline on 070 211 5937, or submitting the contact form on hetxa.com."
+            }
+          }
+        ]
       }
     ]
   }
@@ -206,7 +290,7 @@
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                     </a>
                     <a class="tj-primary-btn btn-whatsapp"
-                      href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20request%20a%20free%20demo%20for%20my%20business."
+                      href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20request%20a%20free%20demo%20for%20my%20business."
                       target="_blank">
                       <span class="btn-text"><span>Chat on WhatsApp</span></span>
                       <span class="btn-icon"><i class="fa-brands fa-whatsapp"></i></span>
@@ -301,10 +385,10 @@
           </div>
 
           <div class="bg-shape-1">
-            <img src="assets/images/shape/pattern-2.svg" alt="">
+            <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
           <div class="bg-shape-2">
-            <img src="assets/images/shape/pattern-3.svg" alt="">
+            <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
         </section>
         <!-- end: Banner Section -->
@@ -340,57 +424,57 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo1.jpg" alt="">
+                        <img src="assets/images/brands/logo1.jpg" alt="Enterprise Retail &amp; Supermarket Client - Hetxa POS Sri Lanka" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo2.jpg" alt="">
+                        <img src="assets/images/brands/logo2.jpg" alt="Multi-Branch Wholesale &amp; Distribution Partner - Hetxa ERP" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo3.jpg" alt="">
+                        <img src="assets/images/brands/logo3.jpg" alt="Apparel &amp; Fashion Retail Chain - Powered by Hetxa BOS" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo4.jpg" alt="">
+                        <img src="assets/images/brands/logo4.jpg" alt="Hardware &amp; Building Supplies Chain - Hetxa Inventory Hub" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo5.jpg" alt="">
+                        <img src="assets/images/brands/logo5.jpg" alt="Sri Lankan Enterprise Partner - IRD RAMIS VAT Ready" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo6.jpg" alt="">
+                        <img src="assets/images/brands/logo6.jpg" alt="Pharmaceutical &amp; Pharmacy Retail Client - Hetxa POS" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo7.jpg" alt="">
+                        <img src="assets/images/brands/logo7.jpg" alt="Islandwide Logistics &amp; Distribution Network - Hetxa ERP" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo8.png" alt="">
+                        <img src="assets/images/brands/logo8.png" alt="Electronics &amp; Appliance Retail Partner - Hetxa POS" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo9.jpg" alt="">
+                        <img src="assets/images/brands/logo9.jpg" alt="Cosmetics &amp; Personal Care Chain - Hetxa BOS" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo10.jpg" alt="">
+                        <img src="assets/images/brands/logo10.jpg" alt="Food &amp; Beverage Multi-Outlet Enterprise - Hetxa POS" loading="lazy" decoding="async">
                       </div>
                     </div>
                     <div class="swiper-slide client-item">
                       <div class="client-logo">
-                        <img src="assets/images/brands/logo11.png" alt="">
+                        <img src="assets/images/brands/logo11.png" alt="Automotive &amp; Spare Parts Distribution - Hetxa ERP" loading="lazy" decoding="async">
                       </div>
                     </div>
                   </div>
@@ -429,7 +513,7 @@
                           </div>
                           <span class="no">MODULE 01</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">SALES</a></h3>
+                        <h3 class="title"><a href="module-sales.php">SALES</a></h3>
                         <p class="desc">High-velocity counter checkout, wholesale orders, and automated multi-payment
                           processing. Works 100% offline with instant cloud sync and thermal printing.</p>
                         <div class="service-submodules-wrap">
@@ -451,19 +535,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-sales.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Sales%20and%20POS%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Sales%20and%20POS%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/sales.jfif" alt="Sales and Cloud POS">
+                      <img src="assets/images/service/sales.jfif" alt="Sales and Cloud POS" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -477,7 +561,7 @@
                           </div>
                           <span class="no">MODULE 02</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">CRM</a></h3>
+                        <h3 class="title"><a href="module-crm.php">CRM</a></h3>
                         <p class="desc">Maintain complete customer visibility, credit discipline, automated follow-ups,
                           and long-term customer loyalty across every sales touchpoint.</p>
                         <div class="service-submodules-wrap">
@@ -498,19 +582,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-crm.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20CRM%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20CRM%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/crm.jfif" alt="CRM Customer Relationship Management">
+                      <img src="assets/images/service/crm.jfif" alt="CRM Customer Relationship Management" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -524,7 +608,7 @@
                           </div>
                           <span class="no">MODULE 03</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">PURCHASING &amp; INVENTORY</a></h3>
+                        <h3 class="title"><a href="module-inventory.php">PURCHASING &amp; INVENTORY</a></h3>
                         <p class="desc">End-to-end procurement and multi-branch stock control. Streamline automated
                           supplier POs, GRN verification, live warehouse tracking, and FIFO batch expiry management.</p>
                         <div class="service-submodules-wrap">
@@ -544,19 +628,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-inventory.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Purchasing%20and%20Inventory%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Purchasing%20and%20Inventory%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/inventory.jfif" alt="Purchasing and Multi-Branch Inventory Management">
+                      <img src="assets/images/service/inventory.jfif" alt="Purchasing and Multi-Branch Inventory Management" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -570,7 +654,7 @@
                           </div>
                           <span class="no">MODULE 04</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">FINANCE</a></h3>
+                        <h3 class="title"><a href="module-finance.php">FINANCE</a></h3>
                         <p class="desc">Comprehensive financial management built specifically for Sri Lankan business
                           workflows, cheque clearing cycles, and tax audit compliance.</p>
                         <div class="service-submodules-wrap">
@@ -595,19 +679,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-finance.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Finance%20and%20Cheque%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Finance%20and%20Cheque%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/finance.jfif" alt="Finance, Cheque Management and Accounting">
+                      <img src="assets/images/service/finance.jfif" alt="Finance, Cheque Management and Accounting" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -621,7 +705,7 @@
                           </div>
                           <span class="no">MODULE 05</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">PROJECTS &amp; TASKS</a></h3>
+                        <h3 class="title"><a href="module-projects.php">PROJECTS &amp; TASKS</a></h3>
                         <p class="desc">Keep deliverables on track and budgets in control. Plan milestones, assign
                           duties, record billable hours, and track project profit margins in real time.</p>
                         <div class="service-submodules-wrap">
@@ -643,19 +727,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-projects.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Projects%20and%20Tasks%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Projects%20and%20Tasks%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/project.jfif" alt="Projects and Tasks Collaboration">
+                      <img src="assets/images/service/project.jfif" alt="Projects and Tasks Collaboration" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -669,7 +753,7 @@
                           </div>
                           <span class="no">MODULE 06</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">REPORTS</a></h3>
+                        <h3 class="title"><a href="module-reports.php">REPORTS</a></h3>
                         <p class="desc">Turn everyday transaction data into clear executive decisions. Comprehensive
                           real-time BI dashboards covering sales, stock turnover, and cash position.</p>
                         <div class="service-submodules-wrap">
@@ -690,19 +774,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-reports.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Reports%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Reports%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/report.jfif" alt="Reports and Real-Time Business Intelligence">
+                      <img src="assets/images/service/report.jfif" alt="Reports and Real-Time Business Intelligence" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -716,7 +800,7 @@
                           </div>
                           <span class="no">MODULE 07</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">AI INSIGHTS</a></h3>
+                        <h3 class="title"><a href="module-ai.php">AI INSIGHTS</a></h3>
                         <p class="desc">Autonomous business intelligence 24/7. Forecasts seasonal item demand,
                           calculates optimal reorders, detects cash anomalies, and protects profit margins.</p>
                         <div class="service-submodules-wrap">
@@ -737,19 +821,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-ai.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20AI%20Insights%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20AI%20Insights%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/ai.jfif" alt="Hetxa Neural AI Insights">
+                      <img src="assets/images/service/ai.jfif" alt="Hetxa Neural AI Insights" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -763,7 +847,7 @@
                           </div>
                           <span class="no">MODULE 08</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">HUMAN RESOURCES</a></h3>
+                        <h3 class="title"><a href="module-hr.php">HUMAN RESOURCES</a></h3>
                         <p class="desc">Streamline your workforce management with automated payroll processing, biometric attendance tracking, and comprehensive employee lifecycle management.</p>
                         
                         <div class="service-submodules-wrap">
@@ -784,12 +868,12 @@
                       </div>
                       
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-hr.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Human%20Resources%20(HR)%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Human%20Resources%20(HR)%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
@@ -797,7 +881,7 @@
                     </div>
                     
                     <div class="service-img">
-                      <img src="assets/images/service/hr.jfif" alt="Human Resources and Payroll Management">
+                      <img src="assets/images/service/hr.jfif" alt="Human Resources and Payroll Management" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -811,7 +895,7 @@
                           </div>
                           <span class="no">MODULE 09</span>
                         </div>
-                        <h3 class="title"><a href="contact.html">ADMINISTRATION</a></h3>
+                        <h3 class="title"><a href="module-admin.php">ADMINISTRATION</a></h3>
                         <p class="desc">Central enterprise control. Manage unified supplier & buyer
                           contacts, role-based access control (RBAC), multi-branch settings, and system security.</p>
                         <div class="service-submodules-wrap">
@@ -835,19 +919,19 @@
                         </ul>
                       </div>
                       <div class="btn-wrap">
-                        <a class="tj-primary-btn" href="contact.html">
-                          <span class="btn-text"><span>Request Demo</span></span>
+                        <a class="tj-primary-btn" href="module-admin.php">
+                          <span class="btn-text"><span>Explore Module</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </a>
                         <a class="btn-whatsapp-inquire"
-                          href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Administration%20Module."
+                          href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20of%20the%20Administration%20Module."
                           target="_blank">
                           <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
                         </a>
                       </div>
                     </div>
                     <div class="service-img">
-                      <img src="assets/images/service/admin.jfif" alt="Administration, Configuration and User Management">
+                      <img src="assets/images/service/admin.jfif" alt="Administration, Configuration and User Management" loading="lazy" decoding="async">
                     </div>
                   </div>
 
@@ -1607,12 +1691,12 @@
                             points</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20the%20Retail%20%26%20Supermarket%20solution."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20the%20Retail%20%26%20Supermarket%20solution."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Retail POS</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Retail%20Shops."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Retail%20Shops."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1637,12 +1721,12 @@
                             reconciliation</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Wholesale%20%26%20Distribution%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Wholesale%20%26%20Distribution%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Wholesale ERP</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Wholesale."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Wholesale."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1667,12 +1751,12 @@
                             voucher POS</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Fashion%20%26%20Textile%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Fashion%20%26%20Textile%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Fashion POS</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Fashion."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Fashion."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1697,12 +1781,12 @@
                             conversion</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hardware%20%26%20Building%20Materials%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hardware%20%26%20Building%20Materials%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Hardware POS</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Hardware."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Hardware."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1727,12 +1811,12 @@
                             deduction</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Restaurant%20%26%20Cafe%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Restaurant%20%26%20Cafe%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Restaurant POS</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Restaurants."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Restaurants."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1757,12 +1841,12 @@
                             purchase history</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Pharmacy%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Pharmacy%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Pharmacy POS</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Pharmacies."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Pharmacies."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1787,10 +1871,10 @@
                             points</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20the%20Retail%20%26%20Supermarket%20solution."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20the%20Retail%20%26%20Supermarket%20solution."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Retail
                             POS</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Retail%20Shops."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Retail%20Shops."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -1813,10 +1897,10 @@
                             reconciliation</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Wholesale%20%26%20Distribution%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Wholesale%20%26%20Distribution%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Wholesale
                             ERP</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Wholesale."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Wholesale."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -1839,10 +1923,10 @@
                             voucher POS</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Fashion%20%26%20Textile%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Fashion%20%26%20Textile%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Fashion
                             POS</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Fashion."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Fashion."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -1865,10 +1949,10 @@
                             conversion</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hardware%20%26%20Building%20Materials%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hardware%20%26%20Building%20Materials%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Hardware
                             POS</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Hardware."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Hardware."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -1891,10 +1975,10 @@
                             deduction</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Restaurant%20%26%20Cafe%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Restaurant%20%26%20Cafe%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Restaurant
                             POS</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Restaurants."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Restaurants."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -1917,10 +2001,10 @@
                             purchase history</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Pharmacy%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Pharmacy%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Pharmacy
                             POS</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Pharmacies."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Pharmacies."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -1950,12 +2034,12 @@
                             (MRP)</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Manufacturing%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Manufacturing%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Manufacturing</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Manufacturing."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Manufacturing."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -1980,12 +2064,12 @@
                             reminders</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Service%20Business%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Service%20Business%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Service ERP</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Service%20Businesses."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Service%20Businesses."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -2010,12 +2094,12 @@
                             invoicing</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Professional%20Services%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Professional%20Services%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Professional ERP</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20IT%20Services."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20IT%20Services."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -2040,12 +2124,12 @@
                             commission tracking</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Tourism%20%26%20Travel%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Tourism%20%26%20Travel%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Travel System</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Tourism."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Tourism."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -2070,12 +2154,12 @@
                             merchandise sales</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Entertainment%20%26%20Play%20Area%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Entertainment%20%26%20Play%20Area%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Entertainment POS</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Play%20Areas."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Play%20Areas."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -2100,12 +2184,12 @@
                             segregation</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Multi-Branch%20Enterprise%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Multi-Branch%20Enterprise%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn">
                           <span>Explore Multi-Branch</span>
                           <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Multi-Branch."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Multi-Branch."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill" title="Chat on WhatsApp">
                           <i class="fa-brands fa-whatsapp"></i>
                         </a>
@@ -2130,10 +2214,10 @@
                             (MRP)</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Manufacturing%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Manufacturing%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore
                             Manufacturing</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Manufacturing."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Manufacturing."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -2156,10 +2240,10 @@
                             reminders</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Service%20Business%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Service%20Business%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Service
                             ERP</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Service%20Businesses."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Service%20Businesses."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -2182,10 +2266,10 @@
                             invoicing</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Professional%20Services%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Professional%20Services%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Professional
                             ERP</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20IT%20Services."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20IT%20Services."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -2208,10 +2292,10 @@
                             commission tracking</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Tourism%20%26%20Travel%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Tourism%20%26%20Travel%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Travel
                             System</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Tourism."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Tourism."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -2234,10 +2318,10 @@
                             merchandise sales</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Entertainment%20%26%20Play%20Area%20POS."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Entertainment%20%26%20Play%20Area%20POS."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore Entertainment
                             POS</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Play%20Areas."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Play%20Areas."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -2260,10 +2344,10 @@
                             segregation</span></li>
                       </ul>
                       <div class="ind-card-footer">
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Multi-Branch%20Enterprise%20ERP."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Multi-Branch%20Enterprise%20ERP."
                           target="_blank" rel="noopener noreferrer" class="ind-action-btn"><span>Explore
                             Multi-Branch</span> <i class="fa-solid fa-arrow-right"></i></a>
-                        <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Multi-Branch."
+                        <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20a%20demo%20for%20Multi-Branch."
                           target="_blank" rel="noopener noreferrer" class="ind-whatsapp-pill"
                           title="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                       </div>
@@ -2287,7 +2371,7 @@
                   <span>Request Custom Industry Demo</span>
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
-                <a href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I%20have%20a%20specialized%20business%20model%20and%20would%20like%20to%20see%20a%20tailored%20solution."
+                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I%20have%20a%20specialized%20business%20model%20and%20would%20like%20to%20see%20a%20tailored%20solution."
                   target="_blank" rel="noopener noreferrer" class="hetxa-ind-btn-whatsapp">
                   <i class="fa-brands fa-whatsapp"></i>
                   <span>Talk with an Architect</span>
@@ -2315,7 +2399,7 @@
                     and dedicated hands-on local support tailored to Sri Lankan commerce.</p>
                   <div class="h10-process-more">
                     <a class="tj-primary-btn"
-                      href="https://wa.me/94770000000?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20why%20businesses%20choose%20Hetxa%20BOS."
+                      href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20why%20businesses%20choose%20Hetxa%20BOS."
                       target="_blank" rel="noopener noreferrer">
                       <span class="btn-text"><span>Schedule Consultation</span></span>
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
@@ -2401,13 +2485,13 @@
             </div>
           </div>
           <div class="bg-shape-1">
-            <img src="assets/images/shape/pattern-2.svg" alt="">
+            <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
           <div class="bg-shape-2">
-            <img src="assets/images/shape/pattern-3.svg" alt="">
+            <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
           <div class="bg-shape-3">
-            <img src="assets/images/shape/h7-testimonial-shape-blur.svg" alt="">
+            <img src="assets/images/shape/h7-testimonial-shape-blur.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
         </section>
         <!-- end: choose Section -->
@@ -2415,8 +2499,8 @@
         <!-- start: Contact Section -->
         <section class="tj-contact-section h4-contact-section section-gap section-gap-x" id="contact">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-6">
+            <div class="row align-items-stretch">
+              <div class="col-lg-6 d-flex flex-column">
                 <div class="contact-form style-3 wow fadeInUp" data-wow-delay=".4s">
                   <div class="sec-heading style-4">
                     <span class="sub-title"><i class="tji-box"></i>GET IN TOUCH</span>
@@ -2442,7 +2526,7 @@
                           <input type="tel" name="cfPhone3" placeholder="+94 7X XXX XXXX">
                         </div>
                       </div>
-                      <div class="col-sm-6">
+                      <div class="col-sm-6" style="position: relative; z-index: 35;">
                         <div class="form-input">
                           <div class="tj-nice-select-box">
                             <div class="tj-select">
@@ -2466,31 +2550,49 @@
                           <textarea name="cfMessage3" id="message" placeholder="Tell us about your business requirements, branch count, or current challenges..."></textarea>
                         </div>
                       </div>
-                      <div class="submit-btn">
+                      <div class="submit-btn d-flex align-items-center justify-content-between flex-wrap gap-3">
                         <button class="tj-primary-btn" type="submit">
                           <span class="btn-text"><span>Send Message</span></span>
                           <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                         </button>
+                        <div class="form-sla-badge">
+                          <i class="fa-solid fa-bolt text-orange"></i>
+                          <span>&lt; 15-Min Response Guarantee</span>
+                        </div>
                       </div>
                     </div>
                   </form>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 d-flex flex-column">
                 <div class="testimonial-wrapper-3 wow fadeInUp" data-wow-delay=".5s">
                   <div class="swiper testimonial-slider-2 h4-testimonial">
                     <h3 class="tes-title">Client Feedback (4.8<span>/out of 200+ Reviews</span>)</h3>
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <div class="testimonial-item">
+                          <div class="testimonial-rating-row d-flex align-items-center justify-content-between flex-wrap gap-2">
+                            <div class="review-stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <span class="rating-num">5.0</span>
+                            </div>
+                            <span class="verified-client-badge">
+                              <i class="fa-solid fa-circle-check"></i> Verified Enterprise
+                            </span>
+                          </div>
                           <span class="quote-icon"><i class="tji-quote"></i></span>
                           <div class="desc">
                             <p>Working with Hetxa has been a game-changer for our multi-branch retail network. Their team's professionalism, rapid local implementation, and innovative Cloud POS have helped us streamline checkout lines and eliminate stock leakages across all outlets.</p>
                           </div>
                           <div class="testimonial-author">
-                            <div class="author-inner">
-                              <div class="author-img">
-                                <img src="assets/images/testimonial/client-1.webp" alt="">
+                            <div class="author-inner d-flex align-items-center gap-3">
+                              <div class="author-avatar-badge avatar-gradient-1">
+                                <span class="avatar-initials">DS</span>
+                                <span class="avatar-verified-check" title="Verified Enterprise Client"><i class="fa-solid fa-check"></i></span>
                               </div>
                               <div class="author-header">
                                 <h4 class="title">Dinesh Samarasinghe</h4>
@@ -2502,14 +2604,28 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="testimonial-item">
+                          <div class="testimonial-rating-row d-flex align-items-center justify-content-between flex-wrap gap-2">
+                            <div class="review-stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <span class="rating-num">5.0</span>
+                            </div>
+                            <span class="verified-client-badge">
+                              <i class="fa-solid fa-circle-check"></i> Verified Enterprise
+                            </span>
+                          </div>
                           <span class="quote-icon"><i class="tji-quote"></i></span>
                           <div class="desc">
                             <p>The automated Cheque management and multi-warehouse sync with Hetxa BOS are beyond our expectations. Real-time visibility into inventory and IRD RAMIS compliance has taken our wholesale operation to the next level of operational efficiency.</p>
                           </div>
                           <div class="testimonial-author">
-                            <div class="author-inner">
-                              <div class="author-img">
-                                <img src="assets/images/testimonial/client-2.webp" alt="">
+                            <div class="author-inner d-flex align-items-center gap-3">
+                              <div class="author-avatar-badge avatar-gradient-2">
+                                <span class="avatar-initials">RP</span>
+                                <span class="avatar-verified-check" title="Verified Enterprise Client"><i class="fa-solid fa-check"></i></span>
                               </div>
                               <div class="author-header">
                                 <h4 class="title">Roshan Perera</h4>
@@ -2521,14 +2637,28 @@
                       </div>
                       <div class="swiper-slide">
                         <div class="testimonial-item">
+                          <div class="testimonial-rating-row d-flex align-items-center justify-content-between flex-wrap gap-2">
+                            <div class="review-stars">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <span class="rating-num">5.0</span>
+                            </div>
+                            <span class="verified-client-badge">
+                              <i class="fa-solid fa-circle-check"></i> Verified Enterprise
+                            </span>
+                          </div>
                           <span class="quote-icon"><i class="tji-quote"></i></span>
                           <div class="desc">
                             <p>We’ve been running Hetxa BOS across our retail network, and they continue to deliver outstanding reliability. Their 24/7 technical support is proactive, responsive, and always ready to help our cashiers and store managers.</p>
                           </div>
                           <div class="testimonial-author">
-                            <div class="author-inner">
-                              <div class="author-img">
-                                <img src="assets/images/testimonial/client-3.webp" alt="">
+                            <div class="author-inner d-flex align-items-center gap-3">
+                              <div class="author-avatar-badge avatar-gradient-3">
+                                <span class="avatar-initials">RJ</span>
+                                <span class="avatar-verified-check" title="Verified Enterprise Client"><i class="fa-solid fa-check"></i></span>
                               </div>
                               <div class="author-header">
                                 <h4 class="title">Ruwan Jayawardena</h4>
@@ -2559,10 +2689,10 @@
             </div>
           </div>
           <div class="bg-shape-1">
-            <img src="assets/images/shape/pattern-2.svg" alt="">
+            <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
           <div class="bg-shape-2">
-            <img src="assets/images/shape/pattern-3.svg" alt="">
+            <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true" loading="lazy">
           </div>
         </section>
         <!-- end: Contact Section -->
@@ -2577,7 +2707,6 @@
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/gsap.min.js"></script>
-  <script src="assets/js/ScrollSmoother.js"></script>
   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
   <script src="assets/js/gsap-split-text.min.js"></script>

@@ -263,6 +263,12 @@
   transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
 }
 
+.hetxa-two-cards-wrapper .project-item.h5-project-item::before,
+.hetxa-two-cards-wrapper .project-item.h5-project-item::after {
+  display: none !important;
+  content: none !important;
+}
+
 .hetxa-two-cards-wrapper .project-item.h5-project-item:hover {
   transform: translateY(-6px) !important;
   border-color: rgba(255, 94, 20, 0.35) !important;

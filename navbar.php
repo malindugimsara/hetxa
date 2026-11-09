@@ -1,3 +1,7 @@
+<?php
+$currentScript = basename($_SERVER['PHP_SELF'] ?? '');
+$isModulePage = (strpos($currentScript, 'module-') === 0);
+?>
 <!-- start: Hamburger Menu -->
 <div class="hamburger-area d-lg-none">
   <div class="hamburger_bg"></div>
@@ -65,23 +69,23 @@
             <div class="menu-area d-none d-lg-inline-flex align-items-center">
               <nav id="mobile-menu" class="mainmenu">
                 <ul>
-                  <li class="current-menu-ancestor"><a href="index.php">Home</a></li>
-                  <li class="has-dropdown"><a href="index.php#modules">Modules</a>
+                  <li class="<?php echo ($currentScript === 'index.php' || empty($currentScript)) ? 'current-menu-ancestor' : ''; ?>"><a href="index.php">Home</a></li>
+                  <li class="has-dropdown <?php echo $isModulePage ? 'current-menu-ancestor' : ''; ?>"><a href="index.php#modules">Modules</a>
                     <ul class="sub-menu modules-dropdown">
-                      <li><a href="index.php#modules"><i class="fa-solid fa-cash-register"></i> Module 01: Sales &amp; POS</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-users-viewfinder"></i> Module 02: CRM</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-boxes-stacked"></i> Module 03: Purchasing &amp; Inventory</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-money-check-dollar"></i> Module 04: Finance</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-diagram-project"></i> Module 05: Projects &amp; Tasks</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-chart-pie"></i> Module 06: Reports</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-brain"></i> Module 07: AI Insights</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-users-gear"></i> Module 08: Human Resources (HR)</a></li>
-                      <li><a href="index.php#modules"><i class="fa-solid fa-sliders"></i> Module 09: Administration</a></li>
+                      <li><a href="module-sales.php"><i class="fa-solid fa-cash-register"></i> Module 01: Sales &amp; POS</a></li>
+                      <li><a href="module-crm.php"><i class="fa-solid fa-users-viewfinder"></i> Module 02: CRM Hub</a></li>
+                      <li><a href="module-inventory.php"><i class="fa-solid fa-boxes-stacked"></i> Module 03: Purchasing &amp; Inventory</a></li>
+                      <li><a href="module-finance.php"><i class="fa-solid fa-money-check-dollar"></i> Module 04: Finance &amp; Cheques</a></li>
+                      <li><a href="module-projects.php"><i class="fa-solid fa-diagram-project"></i> Module 05: Projects &amp; Tasks</a></li>
+                      <li><a href="module-reports.php"><i class="fa-solid fa-chart-pie"></i> Module 06: Reports &amp; BI</a></li>
+                      <li><a href="module-ai.php"><i class="fa-solid fa-brain"></i> Module 07: Neural AI Insights</a></li>
+                      <li><a href="module-hr.php"><i class="fa-solid fa-users-gear"></i> Module 08: HR &amp; Payroll</a></li>
+                      <li><a href="module-admin.php"><i class="fa-solid fa-sliders"></i> Module 09: Administration &amp; Security</a></li>
                     </ul>
                   </li>
-                  <li><a href="index.php#about">About</a></li>
-                  <li><a href="index.php#contact">Contact</a></li>
-                  <li><a href="blog.html">Blogs</a></li>
+                  <li class="<?php echo ($currentScript === 'about.php') ? 'current-menu-ancestor' : ''; ?>"><a href="about.php">About</a></li>
+                  <li class="<?php echo ($currentScript === 'contact.php') ? 'current-menu-ancestor' : ''; ?>"><a href="contact.php">Contact</a></li>
+                  <li class="<?php echo ($currentScript === 'blog.php') ? 'current-menu-ancestor' : ''; ?>"><a href="blog.php">Blogs</a></li>
                 </ul>
               </nav>
             </div>
@@ -89,7 +93,7 @@
             <!-- header right info -->
             <div class="header-right-item d-none d-lg-inline-flex">
               <div class="header-button">
-                <a class="tj-primary-btn" href="index.php#contact">
+                <a class="tj-primary-btn" href="contact.php">
                   <span class="btn-text"><span>Request Demo</span></span>
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
@@ -125,23 +129,23 @@
           <div class="menu-area d-none d-lg-inline-flex align-items-center">
             <nav class="mainmenu">
               <ul>
-                <li class="current-menu-ancestor"><a href="index.php">Home</a></li>
-                <li class="has-dropdown"><a href="index.php#modules">Modules</a>
+                <li class="<?php echo ($currentScript === 'index.php' || empty($currentScript)) ? 'current-menu-ancestor' : ''; ?>"><a href="index.php">Home</a></li>
+                <li class="has-dropdown <?php echo $isModulePage ? 'current-menu-ancestor' : ''; ?>"><a href="index.php#modules">Modules</a>
                   <ul class="sub-menu modules-dropdown">
-                    <li><a href="index.php#modules"><i class="fa-solid fa-cash-register"></i> Module 01: Sales &amp; POS</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-users-viewfinder"></i> Module 02: CRM</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-boxes-stacked"></i> Module 03: Purchasing &amp; Inventory</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-money-check-dollar"></i> Module 04: Finance</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-diagram-project"></i> Module 05: Projects &amp; Tasks</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-chart-pie"></i> Module 06: Reports</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-brain"></i> Module 07: AI Insights</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-users-gear"></i> Module 08: Human Resources (HR)</a></li>
-                    <li><a href="index.php#modules"><i class="fa-solid fa-sliders"></i> Module 09: Administration</a></li>
+                    <li><a href="module-sales.php"><i class="fa-solid fa-cash-register"></i> Module 01: Sales &amp; POS</a></li>
+                    <li><a href="module-crm.php"><i class="fa-solid fa-users-viewfinder"></i> Module 02: CRM Hub</a></li>
+                    <li><a href="module-inventory.php"><i class="fa-solid fa-boxes-stacked"></i> Module 03: Purchasing &amp; Inventory</a></li>
+                    <li><a href="module-finance.php"><i class="fa-solid fa-money-check-dollar"></i> Module 04: Finance &amp; Cheques</a></li>
+                    <li><a href="module-projects.php"><i class="fa-solid fa-diagram-project"></i> Module 05: Projects &amp; Tasks</a></li>
+                    <li><a href="module-reports.php"><i class="fa-solid fa-chart-pie"></i> Module 06: Reports &amp; BI</a></li>
+                    <li><a href="module-ai.php"><i class="fa-solid fa-brain"></i> Module 07: Neural AI Insights</a></li>
+                    <li><a href="module-hr.php"><i class="fa-solid fa-users-gear"></i> Module 08: HR &amp; Payroll</a></li>
+                    <li><a href="module-admin.php"><i class="fa-solid fa-sliders"></i> Module 09: Administration &amp; Security</a></li>
                   </ul>
                 </li>
-                <li><a href="index.php#about">About</a></li>
-                <li><a href="index.php#contact">Contact</a></li>
-                <li><a href="blog.html">Blogs</a></li>
+                <li class="<?php echo ($currentScript === 'about.php') ? 'current-menu-ancestor' : ''; ?>"><a href="about.php">About</a></li>
+                <li class="<?php echo ($currentScript === 'contact.php') ? 'current-menu-ancestor' : ''; ?>"><a href="contact.php">Contact</a></li>
+                <li class="<?php echo ($currentScript === 'blog.php') ? 'current-menu-ancestor' : ''; ?>"><a href="blog.php">Blogs</a></li>
               </ul>
             </nav>
           </div>
@@ -149,7 +153,7 @@
           <!-- header right info -->
           <div class="header-right-item d-none d-lg-inline-flex">
             <div class="header-button">
-              <a class="tj-primary-btn" href="index.php#contact">
+              <a class="tj-primary-btn" href="contact.php">
                 <span class="btn-text"><span>Request Demo</span></span>
                 <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
               </a>

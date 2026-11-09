@@ -76,19 +76,25 @@ Progressbar js
 	});
 
 	/* ------------- Gsap registration Js -------------*/
-	gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
-	if ($("#smooth-wrapper").length && $("#smooth-content").length) {
-		gsap.config({
-			nullTargetWarn: false,
-		});
+	gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+	gsap.config({
+		nullTargetWarn: false,
+	});
 
-		let smoother = ScrollSmoother.create({
-			smooth: 1.5,
-			effects: true,
-			smoothTouch: 0.1,
-			ignoreMobileResize: true,
-		});
-	}
+	// Smooth Anchor Link Navigation
+	$(document).on("click", 'a[href^="#"]', function (e) {
+		const targetId = $(this).attr("href");
+		if (targetId && targetId.length > 1 && targetId.startsWith("#")) {
+			try {
+				const $target = $(targetId);
+				if ($target.length) {
+					e.preventDefault();
+					const targetTop = $target.offset().top - 90;
+					$("html, body").stop().animate({ scrollTop: targetTop }, 500, "swing");
+				}
+			} catch (err) {}
+		}
+	});
 
 	////////////////////////////////////////////////////
 	// Data js
@@ -973,11 +979,11 @@ Progressbar js
 		const scrollElementWrap = $("#tj-back-to-top");
 		if (scrollElementWrap?.length) {
 			const scrollPercentage = () => {
-				const scrollTopPos = document.documentElement.scrollTop;
+				const scrollTopPos = window.pageYOffset || document.documentElement.scrollTop;
 				const calcHeight =
 					document.documentElement.scrollHeight -
 					document.documentElement.clientHeight;
-				const scrollValue = Math.round((scrollTopPos / calcHeight) * 100);
+				const scrollValue = Math.min(100, Math.max(0, Math.round((scrollTopPos / (calcHeight || 1)) * 100)));
 
 				scrollElementWrap.css(
 					"background",
@@ -999,12 +1005,13 @@ Progressbar js
 					);
 				}
 			};
-			window.onscroll = scrollPercentage;
-			window.onload = scrollPercentage;
+
+			window.addEventListener("scroll", scrollPercentage, { passive: true });
+			window.addEventListener("load", scrollPercentage, { passive: true });
 
 			// Back to Top
 			function scrollToTop() {
-				document.documentElement.scrollTo({
+				window.scrollTo({
 					top: 0,
 					behavior: "smooth",
 				});
@@ -1275,7 +1282,7 @@ Progressbar js
 								pin: true,
 								pinSpacing: false,
 								scrub: true,
-								anticipatePin: 0,
+								anticipatePin: 1,
 								invalidateOnRefresh: true,
 							},
 						});
@@ -1298,6 +1305,7 @@ Progressbar js
 							start: "top top",
 							pin: true,
 							pinSpacing: false,
+							anticipatePin: 1,
 							markers: false,
 						},
 					});
@@ -1325,7 +1333,8 @@ Progressbar js
 							trigger: slider,
 							start: "top top",
 							pin: true,
-							scrub: 1,
+							scrub: 0.5,
+							anticipatePin: 1,
 							markers: false,
 							end: () => "+=" + (slider.offsetWidth * (totalShift / (cardsPerView > 1 ? 1.4 : 1))),
 						},
@@ -1380,6 +1389,7 @@ Progressbar js
 							pin: true,
 							pinSpacing: false,
 							scrub: true,
+							anticipatePin: 1,
 							markers: false,
 							invalidateOnRefresh: true,
 						},
