@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Human Resources &amp; Payroll Module | Hetxa BOS - Sri Lanka EPF &amp; ETF Compliant</title>
-  <meta name="title" content="Human Resources &amp; Payroll Module | Hetxa BOS - Sri Lanka EPF &amp; ETF Compliant">
+  <title>HRMS &amp; Payroll Software Sri Lanka | EPF &amp; ETF Compliant HR - Hetxa BOS</title>
+  <meta name="title" content="HRMS &amp; Payroll Software Sri Lanka | EPF &amp; ETF Compliant HR - Hetxa BOS">
   <meta name="description"
-    content="Manage People, Time, Pay, Talent, and Employee Self-Service with Hetxa BOS. Automated Sri Lanka EPF 8%/12%, ETF 3%, APIT payroll, biometric attendance sync, and 1-click bank salary file generation.">
+    content="Streamline your workforce with Sri Lanka's best HRMS &amp; payroll software: automated EPF/ETF calculations, biometric attendance, leave tracking &amp; local recruitment.">
   <meta name="keywords"
-    content="Payroll Software Sri Lanka, EPF ETF Calculation System Colombo, Biometric Attendance Integration, HR Software Sri Lanka, Employee Leave Management System, Hetxa HR Module">
+    content="HRMS &amp; payroll software Sri Lanka, EPF ETF compliant payroll Sri Lanka, biometric attendance software Colombo, leave management system, local recruitment onboarding HR">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-hr.php">
+  <link rel="canonical" href="https://hetxa.com/hrms-payroll-software-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-hr.php">
+  <meta property="og:url" content="https://hetxa.com/hrms-payroll-software-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Human Resources &amp; Payroll Module - Hetxa BOS">
+  <meta property="og:title" content="HRMS &amp; Payroll Software Sri Lanka - Hetxa BOS">
   <meta property="og:description"
-    content="Zero-error Sri Lankan statutory payroll with 8%/12% EPF, 3% ETF, APIT deductions, biometric device sync, talent recruitment, and staff self-service portal.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/modules/hr.png">
+    content="Streamline your workforce with Sri Lanka's best HRMS &amp; payroll software: automated EPF/ETF calculations, biometric attendance, leave tracking &amp; local recruitment.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/hr.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-hr.php">
-  <meta name="twitter:title" content="Human Resources &amp; Payroll Module - Hetxa BOS">
+  <meta name="twitter:url" content="https://hetxa.com/hrms-payroll-software-sri-lanka">
+  <meta name="twitter:title" content="HRMS &amp; Payroll Software Sri Lanka - Hetxa BOS">
   <meta name="twitter:description"
-    content="Zero-error Sri Lankan statutory payroll with 8%/12% EPF, 3% ETF, APIT deductions, biometric device sync, talent recruitment, and staff self-service portal.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/hr.png">
+    content="Streamline your workforce with Sri Lanka's best HRMS &amp; payroll software: automated EPF/ETF calculations, biometric attendance, leave tracking &amp; local recruitment.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/hr.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,21 +61,21 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-hr.php#product",
-        "name": "Hetxa BOS - Human Resources & Payroll Module",
-        "description": "Enterprise HR and payroll management software built for Sri Lanka statutory requirements including EPF, ETF, APIT, biometric machine attendance, talent management, and employee self-service portal.",
+        "@id": "https://hetxa.com/hrms-payroll-software-sri-lanka#product",
+        "name": "Hetxa BOS - Streamline Your Workforce with Sri Lanka's Best HR Module",
+        "description": "Enterprise HRMS & payroll software for Sri Lanka with EPF & ETF compliant automated payroll, biometric attendance & leave management, and local recruitment.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
         },
         "category": "ERP HR & Payroll Software",
-        "image": "https://hetxa.com/assets/images/modules/hr.png",
+        "image": "https://hetxa.com/assets/images/modules/hr.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-hr.php"
+          "url": "https://hetxa.com/hrms-payroll-software-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Human Resources & Payroll",
-            "item": "https://hetxa.com/module-hr.php"
+            "item": "https://hetxa.com/hrms-payroll-software-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Sri Lankan EPF/ETF Compliant Payroll &amp; <span class="text-orange">Biometric Workforce.</span>
+                  Streamline Your Workforce with Sri Lanka's <span class="text-orange">Best HR Module</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20HR%20and%20Payroll%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20HR%20and%20Payroll%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -195,7 +195,7 @@
 
                   <!-- 3D HR Graphic Image -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/hr.png" alt="Hetxa Human Resources and Payroll ERP Suite" loading="eager" decoding="async">
+                    <img src="assets/images/modules/hr.webp" alt="Hetxa Human Resources and Payroll ERP Suite" loading="eager" decoding="async">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -319,7 +319,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Five Unified Pillars of Modern <span class="text-orange">People Operations</span>
+                    EPF &amp; ETF Compliant <span class="text-orange">Automated Payroll</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From onboarding employees to tracking biometric timecards, running compliant EPF/ETF payroll, hiring top talent, and empowering self-service.
@@ -467,7 +467,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Engineered for Sri Lankan Labor Laws &amp; <span class="text-orange">Modern Workforces</span>
+                    Attendance, Biometric &amp; <span class="text-orange">Leave Management</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore the live HR workspace in action: from centralized headcount dashboards to monthly statutory EPF/ETF payroll runs and multi-branch biometric attendance feeds.
@@ -528,7 +528,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/hr/dashboard</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/hr-dashboard-ui.png" alt="Hetxa BOS Real-Time People, Attendance and Payroll Performance Dashboard">
+                    <img src="assets/images/modules/hr-dashboard-ui.png" alt="Hetxa BOS Real-Time People, Attendance and Payroll Performance Dashboard" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-users-gear text-orange"></i>
                       <span>Live Workforce Performance Dashboard</span>
@@ -551,7 +551,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/hr/payroll</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/hr-payroll-ui.png" alt="Hetxa BOS Statutory Payroll and EPF/ETF Processing Interface">
+                    <img src="assets/images/modules/hr-payroll-ui.png" alt="Hetxa BOS Statutory Payroll and EPF/ETF Processing Interface" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-calculator text-orange"></i>
                       <span>Statutory EPF, ETF &amp; Bank Uploads</span>
@@ -652,7 +652,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/hr/attendance</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/hr-attendance-ui.png" alt="Hetxa BOS Real-Time Biometric Attendance and Shift Rostering Dashboard">
+                    <img src="assets/images/modules/hr-attendance-ui.png" alt="Hetxa BOS Real-Time Biometric Attendance and Shift Rostering Dashboard" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-fingerprint text-green" style="color: #10b981;"></i>
                       <span>Live Multi-Branch Biometrics</span>
@@ -677,7 +677,7 @@
                     <i class="fa-solid fa-scale-balanced text-orange" style="margin: 5px;"></i> STATUTORY COMPLIANCE &bull; HARDWARE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Built Exclusively for Sri Lankan <span class="text-orange">Labor Regulations</span>
+                    Local Recruitment &amp; <span class="text-orange">Onboarding</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Your payroll runs smoothly, on time, and with 100% legal compliance every month without requiring third-party payroll consultants.
@@ -804,7 +804,7 @@
             <div class="other-modules-nav">
               
               <!-- Module 04: Finance -->
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-money-check-dollar"></i>
                 </div>
@@ -816,7 +816,7 @@
               </a>
 
               <!-- Module 05: Projects -->
-              <a href="module-projects.php" class="mod-nav-item">
+              <a href="project-management-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-diagram-project"></i>
                 </div>
@@ -828,7 +828,7 @@
               </a>
 
               <!-- Module 09: Administration -->
-              <a href="module-admin.php" class="mod-nav-item">
+              <a href="erp-admin-module-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-user-shield"></i>
                 </div>
@@ -858,7 +858,7 @@
                   <span class="btn-text"><span>Request Live Demo</span></span>
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20HR%20and%20Payroll%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20HR%20and%20Payroll%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fast Reply)
                 </a>
               </div>

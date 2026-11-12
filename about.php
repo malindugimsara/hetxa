@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>About Hetxa BOS | Sri Lanka's #1 AI Business Operating System (Cloud ERP & POS)</title>
-  <meta name="title" content="About Hetxa BOS | Sri Lanka's #1 AI Business Operating System (Cloud ERP & POS)">
+  <title>About Hetxa BOS | Sri Lanka's Enterprise Cloud ERP &amp; POS</title>
+  <meta name="title" content="About Hetxa BOS | Sri Lanka's Enterprise Cloud ERP &amp; POS">
   <meta name="description"
-    content="Learn about Hetxa (Pvt) Ltd and how Hetxa BOS is re-engineering enterprise commerce in Sri Lanka. Real-time Cloud-Native POS, IRD RAMIS compliance, PDC cheque lifecycle management, and dedicated local SLA support.">
+    content="Learn how Hetxa (Pvt) Ltd re-engineers enterprise software in Sri Lanka with resilient Cloud POS, IRD RAMIS compliance, PDC cheque automation &amp; local SLA.">
   <meta name="keywords"
     content="About Hetxa, Hetxa BOS, Sri Lanka ERP Company, Cloud POS Sri Lanka, AI Business Operating System, RAMIS VAT Software, Cheque Management Sri Lanka, Piliyandala ERP, Local ERP Support">
   <meta name="author" content="Hetxa (Pvt) Ltd">
@@ -253,7 +253,7 @@
                       <span class="btn-text"><span>Request Live Demo</span></span>
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                     </a>
-                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20your%20company%20and%20ERP%20solutions." target="_blank" class="btn-about-whatsapp">
+                    <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20your%20company%20and%20ERP%20solutions." target="_blank" class="btn-about-whatsapp">
                       <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                     </a>
                   </div>
@@ -416,7 +416,7 @@
               <div class="col-12 col-lg-5">
                 <div class="story-parallax-area">
                   <div class="story-img-frame">
-                    <img class="story-parallax-img" src="assets/images/about/about-2.jfif" alt="Hetxa AI BOS Story" loading="lazy">
+                    <img class="story-parallax-img" src="assets/images/about/about-2.webp" alt="Hetxa AI BOS Story" loading="lazy">
                   </div>                
                 </div>
               </div>
@@ -620,7 +620,7 @@
                       <i class="fa-solid fa-headset"></i>
                       <div>
                         <span class="label">Sales Hotlines</span>
-                        <a href="tel:+94702115937" class="val">070 211 5937</a> / <a href="tel:+94741588728" class="val">074 158 8728</a>
+                        <a href="tel:+94702115937" class="val">070 211 5937</a> / <a href="tel:+94774341227" class="val">077 434 1227</a>
                       </div>
                     </div>
 
@@ -639,7 +639,7 @@
               <div class="col-12 col-lg-5">
                 <div class="about-image-showcase wow fadeInRight" data-wow-delay=".4s">
                   <div class="about-main-image-wrap">
-                    <img src="assets/images/about/h8-about.webp" alt="Hetxa Local Engineering Team">
+                    <img src="assets/images/about/about-3.webp" alt="Hetxa Local Engineering Team" loading="lazy" decoding="async">
                   </div>
                 </div>
               </div>
@@ -746,7 +746,7 @@
                 Book a personalized, hands-on demonstration with our senior ERP solutions architects. We will analyze your current workflows, showcase our live Cloud POS, and demonstrate seamless cheque and RAMIS compliance.
               </p>
               <div class="about-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20an%20Executive%20Demo%20of%20Hetxa%20BOS." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20an%20Executive%20Demo%20of%20Hetxa%20BOS." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fastest)
                 </a>
                 <a href="tel:+94702115937" class="btn-hotline-cta">

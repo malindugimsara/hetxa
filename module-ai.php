@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Neural AI Insights &amp; Automation Module | Hetxa BOS - Enterprise AI</title>
-  <meta name="title" content="Neural AI Insights &amp; Automation Module | Hetxa BOS - Enterprise AI">
+  <title>AI ERP Solutions Sri Lanka | AI-Powered Enterprise ERP - Hetxa BOS</title>
+  <meta name="title" content="AI ERP Solutions Sri Lanka | AI-Powered Enterprise ERP - Hetxa BOS">
   <meta name="description"
-    content="Predictive seasonal stock demand forecasting, automated cash flow anomaly alerts, customer churn prevention, and daily WhatsApp executive briefings. Discover Module 07 of Hetxa BOS.">
+    content="Leading AI ERP solutions in Sri Lanka: intelligent demand forecasting for local markets, automated workflows, smart operations &amp; data-driven decision making.">
   <meta name="keywords"
-    content="AI ERP Sri Lanka, Predictive Business Intelligence Colombo, Automated Demand Forecasting, AI Cash Flow Alerts, WhatsApp ERP Executive Briefing Sri Lanka, Hetxa Neural AI">
+    content="AI ERP solutions Sri Lanka, AI ERP software Sri Lanka, intelligent forecasting local markets, automated workflows ERP, data driven decision making Colombo">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-ai.php">
+  <link rel="canonical" href="https://hetxa.com/ai-erp-software-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-ai.php">
+  <meta property="og:url" content="https://hetxa.com/ai-erp-software-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Neural AI Insights &amp; Automation Module - Hetxa BOS">
+  <meta property="og:title" content="AI ERP Solutions Sri Lanka | AI-Powered Enterprise ERP - Hetxa BOS">
   <meta property="og:description"
-    content="Intelligent demand forecasting, proactive risk detection, and automated morning executive summaries delivered directly to your WhatsApp.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/modules/AI.png">
+    content="Leading AI ERP solutions in Sri Lanka: intelligent demand forecasting for local markets, automated workflows, smart operations &amp; data-driven decision making.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/AI.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-ai.php">
-  <meta name="twitter:title" content="Neural AI Insights &amp; Automation Module - Hetxa BOS">
+  <meta name="twitter:url" content="https://hetxa.com/ai-erp-software-sri-lanka">
+  <meta name="twitter:title" content="AI ERP Solutions Sri Lanka | AI-Powered Enterprise ERP - Hetxa BOS">
   <meta name="twitter:description"
-    content="Intelligent demand forecasting, proactive risk detection, and automated morning executive summaries delivered directly to your WhatsApp.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/AI.png">
+    content="Leading AI ERP solutions in Sri Lanka: intelligent demand forecasting for local markets, automated workflows, smart operations &amp; data-driven decision making.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/AI.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,21 +61,21 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-ai.php#product",
-        "name": "Hetxa BOS - Neural AI Insights & Automation Module",
-        "description": "Predictive AI engine for ERP systems providing seasonal demand forecasting, cash flow anomaly detection, customer churn prevention, and automated executive messaging.",
+        "@id": "https://hetxa.com/ai-erp-software-sri-lanka#product",
+        "name": "Hetxa BOS - AI-Powered ERP Solutions for Sri Lankan Enterprises",
+        "description": "Predictive AI engine for ERP systems providing seasonal demand forecasting for local markets, automated workflows, smart operations, and data-driven decision making.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
         },
         "category": "ERP Artificial Intelligence & Automation Software",
-        "image": "https://hetxa.com/assets/images/modules/AI.png",
+        "image": "https://hetxa.com/assets/images/modules/AI.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-ai.php"
+          "url": "https://hetxa.com/ai-erp-software-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Neural AI Insights",
-            "item": "https://hetxa.com/module-ai.php"
+            "item": "https://hetxa.com/ai-erp-software-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Predictive Demand Forecasting &amp; Automated <span class="text-orange">Executive Intelligence.</span>
+                  AI-Powered ERP Solutions for <span class="text-orange">Sri Lankan Enterprises</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Neural%20AI%20Insights%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Neural%20AI%20Insights%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -195,7 +195,7 @@
 
                   <!-- 3D AI Brain Graphic -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/AI.png" alt="Hetxa Neural AI Insights &amp; Predictive Intelligence Engine" loading="eager" decoding="async">
+                    <img src="assets/images/modules/AI.webp" alt="Hetxa Neural AI Insights &amp; Predictive Intelligence Engine" loading="eager" decoding="async">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -319,7 +319,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Two Neural Engines, Four Intelligent Sentinel <span class="text-orange">Suites</span>
+                    Intelligent Forecasting for <span class="text-orange">Local Markets</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From forecasting seasonal stock demand to 24/7 financial anomaly detection and automated WhatsApp briefings, Hetxa transforms ERP into an active system of intelligence.
@@ -448,7 +448,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Actionable Foresight, <span class="text-orange">Not Cluttered Dashboards</span>
+                    Automated Workflows &amp; <span class="text-orange">Smart Operations</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore the live AI interface in action: from predictive demand charts and safety stock calculations to interactive WhatsApp natural language queries.
@@ -509,7 +509,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/ai/demand-forecast</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/ai-forecast-ui.png" alt="Hetxa BOS AI Seasonal Demand Forecasting and Cash Flow Prediction Interface">
+                    <img src="assets/images/modules/ai-forecast-ui.png" alt="Hetxa BOS AI Seasonal Demand Forecasting and Cash Flow Prediction Interface" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-brain text-orange"></i>
                       <span>Seasonal Demand &amp; Cash Flow Forecast</span>
@@ -532,7 +532,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/ai/whatsapp-copilot</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/ai-executive-digest-ui.png" alt="Hetxa BOS Daily WhatsApp Executive Digest and Natural Language Query Copilot">
+                    <img src="assets/images/modules/ai-executive-digest-ui.png" alt="Hetxa BOS Daily WhatsApp Executive Digest and Natural Language Query Copilot" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-brands fa-whatsapp text-green" style="color: #10b981;"></i>
                       <span>Daily WhatsApp Executive Briefing</span>
@@ -596,7 +596,7 @@
                     <i class="fa-solid fa-brain text-orange" style="margin: 5px;"></i> NEURAL INTELLIGENCE &bull; ALGORITHMS
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Enterprise AI Powered by <span class="text-orange">Modern Machine Learning</span>
+                    Data-Driven <span class="text-orange">Decision Making</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Built directly into the core ERP engine. No complex data pipelines, external consultant contracts, or separate data warehouses needed.
@@ -723,7 +723,7 @@
             <div class="other-modules-nav">
               
               <!-- Module 01: Sales & POS -->
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-cash-register"></i>
                 </div>
@@ -735,7 +735,7 @@
               </a>
 
               <!-- Module 03: Inventory -->
-              <a href="module-inventory.php" class="mod-nav-item">
+              <a href="inventory-management-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-boxes-stacked"></i>
                 </div>
@@ -747,7 +747,7 @@
               </a>
 
               <!-- Module 04: Finance -->
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-money-check-dollar"></i>
                 </div>
@@ -777,7 +777,7 @@
                   <span class="btn-text"><span>Request Live Demo</span></span>
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Neural%20AI%20Insights%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Neural%20AI%20Insights%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fast Reply)
                 </a>
               </div>

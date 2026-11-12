@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Blogs &amp; Knowledge Hub | Hetxa BOS - Sri Lanka ERP, Cloud POS &amp; Tax Insights</title>
-  <meta name="title" content="Blogs &amp; Knowledge Hub | Hetxa BOS - Sri Lanka ERP, Cloud POS &amp; Tax Insights">
+  <title>Hetxa Knowledge Hub | Sri Lanka ERP, Cloud POS &amp; Tax Insights</title>
+  <meta name="title" content="Hetxa Knowledge Hub | Sri Lanka ERP, Cloud POS &amp; Tax Insights">
   <meta name="description"
-    content="Practical insights, regulatory guides, and operational strategies for Sri Lankan retail chains, wholesale distributors, and multi-branch enterprises.">
+    content="Practical regulatory guides, IRD RAMIS VAT compliance breakdowns, and Cloud POS strategies for Sri Lankan retail chains, wholesalers, and enterprises.">
   <meta name="keywords"
     content="Sri Lanka ERP Blog, Retail POS Insights Colombo, IRD RAMIS VAT Guide, Inventory Management Tips, Cheque Lifecycle Best Practices Sri Lanka">
   <meta name="author" content="Hetxa (Pvt) Ltd">
@@ -170,7 +170,7 @@
                       <span class="btn-text"><span>Explore Latest Articles</span></span>
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                     </a>
-                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20consult%20an%20ERP%20Specialist." target="_blank" class="btn-about-whatsapp">
+                    <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20consult%20an%20ERP%20Specialist." target="_blank" class="btn-about-whatsapp">
                       <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                     </a>
                   </div>
@@ -178,9 +178,9 @@
                   <!-- Reader Trust & Social Proof Strip -->
                   <div class="blog-hero-social-proof wow fadeInUp" data-wow-delay=".35s">
                     <div class="reader-avatars">
-                      <img src="assets/images/testimonial/client-1.webp" alt="Reader" class="avatar-img">
-                      <img src="assets/images/testimonial/client-2.webp" alt="Reader" class="avatar-img">
-                      <img src="assets/images/testimonial/client-3.webp" alt="Reader" class="avatar-img">
+                      <span class="avatar-img avatar-letter" style="background:#FF5E14;" aria-hidden="true">AK</span>
+                      <span class="avatar-img avatar-letter" style="background:#0F172A;" aria-hidden="true">NP</span>
+                      <span class="avatar-img avatar-letter" style="background:#EA580C;" aria-hidden="true">SR</span>
                     </div>
                     <div class="reader-info">
                       <div class="stars">
@@ -260,7 +260,7 @@
                 
                 <div class="col-12 col-lg-6">
                   <div class="featured-post-img">
-                    <img src="assets/images/blog/blog-1.webp" alt="Navigating IRD RAMIS VAT Compliance in Sri Lanka">
+                    <img src="assets/images/blog/blog-1.webp" alt="Navigating IRD RAMIS VAT Compliance in Sri Lanka" loading="lazy" decoding="async">
                     <span class="featured-badge-tag"><i class="fa-solid fa-star me-1"></i> Featured Guide</span>
                   </div>
                 </div>
@@ -283,7 +283,7 @@
 
                     <div class="author-strip">
                       <div class="author-info">
-                        <img src="assets/images/blog/avatar-1.webp" alt="Kavinda Perera" class="author-avatar">
+                        <img src="assets/images/blog/avatar-1.webp" alt="Kavinda Perera" class="author-avatar" loading="lazy" decoding="async">
                         <div>
                           <div class="author-name">Kavinda Perera</div>
                           <div class="author-role">Head of Tax Solutions, Hetxa</div>
@@ -322,7 +322,7 @@
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".2s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-2.webp" alt="Why Real-Time Cloud POS is Essential for Sri Lankan Retailers">
+                        <img src="assets/images/blog/blog-2.webp" alt="Why Real-Time Cloud POS is Essential for Sri Lankan Retailers" loading="lazy" decoding="async">
                         <span class="category-tag">Retail POS</span>
                       </div>
                       <div class="blog-card-body">
@@ -348,7 +348,7 @@
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".3s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-3.webp" alt="Mastering Multi-Warehouse Inventory & FIFO Batching">
+                        <img src="assets/images/blog/blog-3.webp" alt="Mastering Multi-Warehouse Inventory & FIFO Batching" loading="lazy" decoding="async">
                         <span class="category-tag">Inventory</span>
                       </div>
                       <div class="blog-card-body">
@@ -374,7 +374,7 @@
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".2s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-4.webp" alt="Taming the Cheque Lifecycle for Sri Lankan Wholesalers">
+                        <img src="assets/images/blog/blog-4.webp" alt="Taming the Cheque Lifecycle for Sri Lankan Wholesalers" loading="lazy" decoding="async">
                         <span class="category-tag">Finance</span>
                       </div>
                       <div class="blog-card-body">
@@ -400,7 +400,7 @@
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".3s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-5.webp" alt="Predicting Seasonal Demand with Neural AI">
+                        <img src="assets/images/blog/blog-5.webp" alt="Predicting Seasonal Demand with Neural AI" loading="lazy" decoding="async">
                         <span class="category-tag">Neural AI</span>
                       </div>
                       <div class="blog-card-body">
@@ -426,7 +426,7 @@
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".2s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-6.webp" alt="Streamlining Sri Lanka EPF, ETF & APIT Payroll">
+                        <img src="assets/images/blog/blog-6.webp" alt="Streamlining Sri Lanka EPF, ETF & APIT Payroll" loading="lazy" decoding="async">
                         <span class="category-tag">HR &amp; Payroll</span>
                       </div>
                       <div class="blog-card-body">
@@ -452,7 +452,7 @@
                   <div class="col-12 col-md-6">
                     <div class="blog-grid-card wow fadeInUp" data-wow-delay=".3s">
                       <div class="blog-card-thumb">
-                        <img src="assets/images/blog/blog-7.webp" alt="Multi-Branch Role-Based Access Control and Internal Security">
+                        <img src="assets/images/blog/blog-7.webp" alt="Multi-Branch Role-Based Access Control and Internal Security" loading="lazy" decoding="async">
                         <span class="category-tag">Governance</span>
                       </div>
                       <div class="blog-card-body">
@@ -529,7 +529,7 @@
                       
                       <div class="recent-post-item">
                         <div class="recent-post-thumb">
-                          <img src="assets/images/blog/blog-8.webp" alt="RAMIS Audit Preparation">
+                          <img src="assets/images/blog/blog-3.webp" alt="RAMIS Audit Preparation" loading="lazy" decoding="async">
                         </div>
                         <div class="recent-post-info">
                           <h5><a href="contact.php">How to Prepare for a Sri Lankan RAMIS Tax Audit Without Anxiety</a></h5>
@@ -539,7 +539,7 @@
 
                       <div class="recent-post-item">
                         <div class="recent-post-thumb">
-                          <img src="assets/images/blog/blog-9.webp" alt="Barcode Scanners & Weighing Scales">
+                          <img src="assets/images/blog/blog-1.webp" alt="Barcode Scanners & Weighing Scales" loading="lazy" decoding="async">
                         </div>
                         <div class="recent-post-info">
                           <h5><a href="contact.php">Choosing the Right Thermal Printers &amp; Weighing Scales for High-Speed Checkouts</a></h5>
@@ -549,7 +549,7 @@
 
                       <div class="recent-post-item">
                         <div class="recent-post-thumb">
-                          <img src="assets/images/blog/blog-10.webp" alt="Managing 10+ Retail Branches">
+                          <img src="assets/images/blog/blog-5.webp" alt="Managing 10+ Retail Branches" loading="lazy" decoding="async">
                         </div>
                         <div class="recent-post-info">
                           <h5><a href="contact.php">5 Core Metrics Every Multi-Outlet CEO Should Check on WhatsApp Daily</a></h5>
@@ -581,8 +581,8 @@
                     <p style="color: #64748B; font-size: 13.5px; line-height: 1.5; margin-bottom: 16px;">
                       Chat directly with our ERP architecture leads on WhatsApp. We answer in minutes.
                     </p>
-                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20consult%20an%20ERP%20Specialist." target="_blank" class="btn-whatsapp-cta" style="padding: 10px 22px; font-size: 13px; width: 100%; justify-content: center;">
-                      <i class="fa-brands fa-whatsapp"></i> Message 074 158 8728
+                    <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20consult%20an%20ERP%20Specialist." target="_blank" class="btn-whatsapp-cta" style="padding: 10px 22px; font-size: 13px; width: 100%; justify-content: center;">
+                      <i class="fa-brands fa-whatsapp"></i> Message 077 434 1227
                     </a>
                   </div>
 
@@ -608,7 +608,7 @@
                   <span class="btn-text"><span>Schedule Live Demo</span></span>
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> WhatsApp Consultation
                 </a>
               </div>

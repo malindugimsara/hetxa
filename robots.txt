@@ -1,9 +1,44 @@
+# ==============================================================================
+# HETXA BOS - PRODUCTION ROBOTS.TXT
+# Optimized for Googlebot, Bingbot, and Global Search Engines
+# ==============================================================================
+
 User-agent: *
 Allow: /
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/fonts/
+
+# Protect internal configuration and vendor dependencies
+Disallow: /admin/
+Disallow: /config/
+Disallow: /vendor/
+Disallow: /.git/
+Disallow: /tests/
+
+# Googlebot specific directives
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
 Disallow: /admin/
 Disallow: /config/
 Disallow: /vendor/
 
-# Sitemap location
-Sitemap: https://hetxa.com/sitemap.xml
+# Bingbot specific directives
+User-agent: Bingbot
+Allow: /
+Allow: /assets/
+Disallow: /admin/
+Disallow: /config/
+Disallow: /vendor/
 
+# Crawl-delay for polite indexing on other crawlers
+User-agent: YandexBot
+Crawl-delay: 2
+
+User-agent: Baiduspider
+Crawl-delay: 2
+
+# XML Sitemap Index
+Sitemap: https://hetxa.com/sitemap.xml

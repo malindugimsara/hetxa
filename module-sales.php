@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Sales &amp; Cloud POS Module | Hetxa BOS - Complete Sell &amp; POS Suite</title>
-  <meta name="title" content="Sales &amp; Cloud POS Module | Hetxa BOS - Complete Sell &amp; POS Suite">
+  <title>Sales &amp; Invoicing ERP Sri Lanka | POS &amp; Billing Software - Hetxa BOS</title>
+  <meta name="title" content="Sales &amp; Invoicing ERP Sri Lanka | POS &amp; Billing Software - Hetxa BOS">
   <meta name="description"
-    content="Manage your full sales lifecycle with Hetxa BOS: Sell Suite (Sales, Quotations, Proformas) and POS Counter Suite (POS Terminal, Registers, Sessions, POS Settings). Real-time cloud-native, IRD RAMIS compliant.">
+    content="Drive revenue with Sri Lanka's complete ERP sales &amp; invoicing module: RAMIS-ready quotations, tax invoicing, automated order processing, dispatch &amp; local sales analytics.">
   <meta name="keywords"
-    content="Hetxa Sales Module, Cloud POS Sri Lanka, Retail POS Terminal, Wholesale Quotations, Proforma Invoicing Sri Lanka, Register Sessions Cash Audit, RAMIS VAT Invoicing, Supermarket POS Sri Lanka">
+    content="Sales &amp; invoicing ERP Sri Lanka, RAMIS ready quotations tax invoicing, POS billing software Colombo, automated order processing dispatch, local sales performance analytics">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-sales.php">
+  <link rel="canonical" href="https://hetxa.com/sales-invoicing-erp-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-sales.php">
+  <meta property="og:url" content="https://hetxa.com/sales-invoicing-erp-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Sales &amp; Cloud POS Module - Hetxa BOS">
+  <meta property="og:title" content="Sales &amp; Invoicing ERP Sri Lanka - Hetxa BOS">
   <meta property="og:description"
-    content="Accelerate retail and wholesale sales with Sri Lanka's leading real-time Cloud POS. Split payments, RAMIS compliance, and sub-second checkout.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/service/sales.jfif">
+    content="Drive revenue with Sri Lanka's complete ERP sales &amp; invoicing module: RAMIS-ready quotations, tax invoicing, automated order processing, dispatch &amp; local sales analytics.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/saleandpos.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-sales.php">
-  <meta name="twitter:title" content="Sales &amp; Cloud POS Module - Hetxa BOS">
+  <meta name="twitter:url" content="https://hetxa.com/sales-invoicing-erp-sri-lanka">
+  <meta name="twitter:title" content="Sales &amp; Invoicing ERP Sri Lanka - Hetxa BOS">
   <meta name="twitter:description"
-    content="Accelerate retail and wholesale sales with Sri Lanka's leading real-time Cloud POS. Split payments, RAMIS compliance, and sub-second checkout.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/service/sales.jfif">
+    content="Drive revenue with Sri Lanka's complete ERP sales &amp; invoicing module: RAMIS-ready quotations, tax invoicing, automated order processing, dispatch &amp; local sales analytics.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/saleandpos.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,21 +61,21 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-sales.php#product",
-        "name": "Hetxa BOS - Sales & Cloud POS Module",
-        "description": "High-velocity retail and wholesale point of sale software with real-time cloud architecture, multi-payment support, and IRD RAMIS compliance in Sri Lanka.",
+        "@id": "https://hetxa.com/sales-invoicing-erp-sri-lanka#product",
+        "name": "Hetxa BOS - Drive Revenue with Sri Lanka's Complete ERP Sales Module",
+        "description": "Enterprise sales and cloud POS software with RAMIS-ready quotations, tax invoicing, automated order processing, dispatch, and local sales performance analytics in Sri Lanka.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
         },
         "category": "ERP Point of Sale Software",
-        "image": "https://hetxa.com/assets/images/service/sales.jfif",
+        "image": "https://hetxa.com/assets/images/modules/saleandpos.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-sales.php"
+          "url": "https://hetxa.com/sales-invoicing-erp-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Sales & POS",
-            "item": "https://hetxa.com/module-sales.php"
+            "item": "https://hetxa.com/sales-invoicing-erp-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Fast Retail POS &amp; Smart <span class="text-orange">Sales Management.</span>
+                  Drive Revenue with Sri Lanka's Complete <span class="text-orange">ERP Sales Module</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -195,7 +195,7 @@
 
                   <!-- 3D POS Terminal Image -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/saleandpos.png" alt="Hetxa Cloud POS Touchscreen Terminal and Omnichannel Sales System" loading="eager" decoding="async">
+                    <img src="assets/images/modules/saleandpos.webp" alt="Hetxa Cloud POS Touchscreen Terminal and Omnichannel Sales System" loading="eager" decoding="async">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -319,7 +319,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Two Core Engines, Seven Built-in <span class="text-orange">Tools</span>
+                    RAMIS-Ready Quotations &amp; <span class="text-orange">Tax Invoicing</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From creating sales quotes in the back office to fast barcode checkout at the counter, Hetxa gives you everything to sell easily.
@@ -505,7 +505,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Built for High-Velocity Retail &amp; Wholesale <span class="text-orange">Operations</span>
+                    Automated Order Processing &amp; <span class="text-orange">Dispatch</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore the live interface in action: from fast barcode scanning at checkout to proforma invoicing and split payments.
@@ -566,7 +566,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/pos/terminal</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/pos-terminal-ui.jpg" alt="Hetxa BOS High Speed POS Counter Terminal Interface">
+                    <img src="assets/images/modules/pos-terminal-ui.jpg" alt="Hetxa BOS High Speed POS Counter Terminal Interface" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
                       <span>Real-Time POS Terminal</span>
@@ -589,7 +589,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/sell/quotations</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/sell-quotations-ui.png" alt="Hetxa BOS Quotations, Proformas and IRD RAMIS Invoicing">
+                    <img src="assets/images/modules/sell-quotations-ui.png" alt="Hetxa BOS Quotations, Proformas and IRD RAMIS Invoicing" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-file-signature text-orange"></i>
                       <span>Quotations &amp; Tax Invoicing</span>
@@ -690,7 +690,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/pos/payment</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/pos-payment-modal.png" alt="Hetxa BOS Split Tender Payment Modal and Touch Keypad">
+                    <img src="assets/images/modules/pos-payment-modal.png" alt="Hetxa BOS Split Tender Payment Modal and Touch Keypad" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-receipt text-green" style="color: #10b981;"></i>
                       <span>Split Payments &amp; Instant Receipts</span>
@@ -715,7 +715,7 @@
                     <i class="fa-solid fa-plug text-orange" style="margin: 5px;"></i> HARDWARE SETUP &bull; ACCESSORIES
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Works With Any POS Hardware <span class="text-orange">You Already Own</span>
+                    Local Sales <span class="text-orange">Performance Analytics</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     No expensive or special equipment needed. Easily connect your thermal printers, barcode scanners, weighing scales, and cash drawers in minutes.
@@ -842,7 +842,7 @@
             <div class="other-modules-nav">
               
               <!-- Module 02: CRM -->
-              <a href="module-crm.php" class="mod-nav-item">
+              <a href="crm-software-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-users-viewfinder"></i>
                 </div>
@@ -854,7 +854,7 @@
               </a>
 
               <!-- Module 03: Inventory -->
-              <a href="module-inventory.php" class="mod-nav-item">
+              <a href="inventory-management-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-boxes-stacked"></i>
                 </div>
@@ -866,7 +866,7 @@
               </a>
 
               <!-- Module 04: Finance -->
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-money-check-dollar"></i>
                 </div>
@@ -896,7 +896,7 @@
                   <span class="btn-text"><span>Request Live Demo</span></span>
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Sales%20and%20POS%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fast Reply)
                 </a>
               </div>

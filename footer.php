@@ -9,7 +9,7 @@
           <div class="col-xl-4 col-lg-4 col-md-12">
             <div class="footer-widget footer-col-1">
               <a href="index.php" class="footer-logo mb-3 d-inline-block">
-                <img src="assets/images/logos/hetxa-logo-white.png" alt="Hetxa BOS Logo" style="max-height: 48px; width: auto;">
+                <img src="assets/images/logos/hetxa-logo-white.png" alt="Hetxa BOS Logo" style="max-height: 48px; width: auto;" decoding="async">
               </a>
               <p class="footer-desc">
                 Sri Lanka's Next-Generation AI Business Operating System (BOS). Unifying Retail POS, Multi-Branch Inventory Sync, Cheque Lifecycle, and IRD RAMIS VAT Compliance on one intelligent cloud platform.
@@ -22,10 +22,10 @@
                 </span>
                 <div class="parent-brand-logos">
                   <div class="parent-logo-card" title="BeesPoint (Pvt) Ltd - Enterprise ERP Solutions">
-                    <img src="assets/images/logos/beespoint-logo.png" alt="BeesPoint Logo">
+                    <img src="assets/images/logos/beespoint-logo.png" alt="BeesPoint Logo" decoding="async">
                   </div>
                   <div class="parent-logo-card" title="ONEXLA - Solutions for Next-Gen Success">
-                    <img src="assets/images/logos/onexla-logo.png" alt="ONEXLA Logo">
+                    <img src="assets/images/logos/onexla-logo.png" alt="ONEXLA Logo" decoding="async">
                   </div>
                 </div>
                 <p class="parent-brand-note mt-2 mb-0">
@@ -42,9 +42,9 @@
                 <div class="wa-card-body d-flex align-items-center justify-content-between flex-wrap gap-2">
                   <div class="wa-info">
                     <span class="wa-sub">Direct Sales &amp; Inquiries</span>
-                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="wa-phone-number">074 158 8728</a>
+                    <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="wa-phone-number">077 434 1227</a>
                   </div>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="wa-btn-chat">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="wa-btn-chat">
                     <span>Chat Now</span> <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
@@ -59,15 +59,15 @@
             <div class="footer-widget footer-col-2 widget-nav-menu wow fadeInUp" data-wow-delay=".3s">
               <h5 class="title">ERP Modules</h5>
               <ul>
-                <li><a href="module-sales.php"><i class="tji-arrow-right-long text-orange"></i> POS &amp; Billing</a></li>
-                <li><a href="module-crm.php"><i class="tji-arrow-right-long text-orange"></i> CRM Hub</a></li>
-                <li><a href="module-inventory.php"><i class="tji-arrow-right-long text-orange"></i> Stock &amp; Inventory</a></li>
-                <li><a href="module-finance.php"><i class="tji-arrow-right-long text-orange"></i> Finance &amp; Cheques</a></li>
-                <li><a href="module-projects.php"><i class="tji-arrow-right-long text-orange"></i> Projects &amp; Tasks</a></li>
-                <li><a href="module-reports.php"><i class="tji-arrow-right-long text-orange"></i> Reports &amp; BI</a></li>
-                <li><a href="module-ai.php"><i class="tji-arrow-right-long text-orange"></i> Neural AI Insights</a></li>
-                <li><a href="module-hr.php"><i class="tji-arrow-right-long text-orange"></i> HR &amp; Payroll</a></li>
-                <li><a href="module-admin.php"><i class="tji-arrow-right-long text-orange"></i> Admin &amp; Security</a></li>
+                <li><a href="sales-invoicing-erp-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> POS &amp; Billing</a></li>
+                <li><a href="crm-software-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> CRM Hub</a></li>
+                <li><a href="inventory-management-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> Stock &amp; Inventory</a></li>
+                <li><a href="finance-accounting-erp-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> Finance &amp; Cheques</a></li>
+                <li><a href="project-management-erp-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> Projects &amp; Tasks</a></li>
+                <li><a href="erp-reporting-analytics-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> Reports &amp; BI</a></li>
+                <li><a href="ai-erp-software-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> Neural AI Insights</a></li>
+                <li><a href="hrms-payroll-software-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> HR &amp; Payroll</a></li>
+                <li><a href="erp-admin-module-sri-lanka"><i class="tji-arrow-right-long text-orange"></i> Admin &amp; Security</a></li>
               </ul>
             </div>
           </div>
@@ -83,7 +83,7 @@
                 <li><a href="index.php#why-choose-us"><i class="tji-arrow-right-long text-orange"></i> Why Choose Hetxa</a></li>
                 <li><a href="index.php#industries"><i class="tji-arrow-right-long text-orange"></i> Supported Industries</a></li>
                 <li><a href="index.php#benefits"><i class="tji-arrow-right-long text-orange"></i> IRD RAMIS Compliance</a></li>
-                <li><a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20VIP%20Support." target="_blank"><i class="tji-arrow-right-long text-orange"></i> WhatsApp VIP Support</a></li>
+                <li><a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20VIP%20Support." target="_blank"><i class="tji-arrow-right-long text-orange"></i> WhatsApp VIP Support</a></li>
               </ul>
             </div>
           </div>
@@ -125,7 +125,7 @@
                   <div class="dept-phone-wrap d-flex flex-wrap align-items-center gap-2">
                     <a href="tel:+94702115937" class="dept-phone-link">070 211 59 37</a>
                     <span class="dept-divider">•</span>
-                    <a href="tel:+94741588728" class="dept-phone-link">074 158 8728</a>
+                    <a href="tel:+94774341227" class="dept-phone-link">077 434 1227</a>
                   </div>
                 </div>
 
@@ -221,12 +221,20 @@
         <div class="row">
           <div class="col-12">
             <div class="copyright-content-area">
-              <div class="copyright-text">
-                <p>&copy; <span>2026</span> <a href="index.php">Hetxa (Pvt) Ltd</a>. An Enterprise Platform by <a href="about.php" class="text-white fw-bold">BeesPoint (Pvt) Ltd</a> &amp; <span class="text-white fw-bold">ONEXLA</span>. All rights reserved.</p>
+              <div class="copyright-text text-center text-lg-start">
+                <p class="copyright-line-main mb-1">
+                  &copy; <span>2026</span> <a href="index.php" class="text-white fw-bold">Hetxa (Pvt) Ltd</a>. All rights reserved.
+                </p>
+                <div class="copyright-enterprise-pill d-inline-flex align-items-center flex-wrap gap-1">
+                  <span class="pill-prefix"><i class="fa-solid fa-shield-halved text-orange me-1"></i> Enterprise Platform by</span>
+                  <a href="about.php" class="pill-brand text-white fw-semibold">BeesPoint (Pvt) Ltd</a>
+                  <span class="pill-sep text-muted">&amp;</span>
+                  <span class="pill-brand text-white fw-semibold">ONEXLA</span>
+                </div>
               </div>
               <div class="social-links style-3">
                 <ul>
-                  <li><a href="https://wa.me/94741588728" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                  <li><a href="https://wa.me/94774341227" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
                   <li><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
                   <li><a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
                   <li><a href="https://x.com/" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -235,8 +243,8 @@
               </div>
               <div class="copyright-menu">
                 <ul>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms &amp; Condition</a></li>
+                  <li><a href="contact.php">Support Desk</a></li>
+                  <li><a href="about.php">About Hetxa</a></li>
                 </ul>
               </div>
             </div>
@@ -245,13 +253,13 @@
       </div>
     </div>
     <div class="bg-shape-1">
-      <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true">
+      <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
     </div>
     <div class="bg-shape-2">
-      <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true">
+      <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
     </div>
     <div class="bg-shape-4 wow fadeInUpBig" data-wow-delay=".8s">
-      <img src="assets/images/shape/h10-footer-shape-blur-2.svg" alt="" aria-hidden="true">
+      <img src="assets/images/shape/h10-footer-shape-blur-2.svg" alt="" aria-hidden="true" loading="lazy" decoding="async">
     </div>
   </footer>
   <!-- end: Footer Section -->

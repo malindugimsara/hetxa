@@ -69,13 +69,73 @@ AddDefaultCharset UTF-8
   # Cross-Origin Referrer Policy
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 
+  # SEO Search Snippet & Preview Directive (Enables large image previews & rich SERP cards)
+  Header set X-Robots-Tag "all, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+
   # Remove X-Powered-By header if present
   Header unset X-Powered-By
 </IfModule>
 
-# 5. Protect sensitive configuration files
-<FilesMatch "^\.(htaccess|htpasswd|ini|log|sh|env)$">
+# 5. Protect sensitive configuration files & runtime data
+<FilesMatch "(^\.env|\.(htaccess|htpasswd|ini|log|sh|env|csv|sql|bak))$">
   Order Allow,Deny
   Deny from all
 </FilesMatch>
+
+# 6. SEO Clean Module URLs Rewrite & 301 Redirect Rules
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Dynamically detect base path (/hetxa/ on local XAMPP, / on live root)
+  RewriteCond %{REQUEST_URI}::$1 ^(.*?/)(.*)::\2$
+  RewriteRule ^(.*)$ - [E=BASE:%1]
+
+  # 6.1 Strip trailing slash from non-directory requests (prevents duplicate content & broken relative links)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ %{ENV:BASE}$1 [R=301,L]
+
+  # 6.2 301 Permanent Redirects: Old module-*.php to SEO Clean URLs (Only if directly requested by client)
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-admin\.php[\s?] [NC]
+  RewriteRule ^module-admin\.php$ %{ENV:BASE}erp-admin-module-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-ai\.php[\s?] [NC]
+  RewriteRule ^module-ai\.php$ %{ENV:BASE}ai-erp-software-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-crm\.php[\s?] [NC]
+  RewriteRule ^module-crm\.php$ %{ENV:BASE}crm-software-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-finance\.php[\s?] [NC]
+  RewriteRule ^module-finance\.php$ %{ENV:BASE}finance-accounting-erp-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-hr\.php[\s?] [NC]
+  RewriteRule ^module-hr\.php$ %{ENV:BASE}hrms-payroll-software-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-inventory\.php[\s?] [NC]
+  RewriteRule ^module-inventory\.php$ %{ENV:BASE}inventory-management-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-projects\.php[\s?] [NC]
+  RewriteRule ^module-projects\.php$ %{ENV:BASE}project-management-erp-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-reports\.php[\s?] [NC]
+  RewriteRule ^module-reports\.php$ %{ENV:BASE}erp-reporting-analytics-sri-lanka [R=301,L]
+
+  RewriteCond %{THE_REQUEST} \s/+(?:hetxa/)?module-sales\.php[\s?] [NC]
+  RewriteRule ^module-sales\.php$ %{ENV:BASE}sales-invoicing-erp-sri-lanka [R=301,L]
+
+  # 6.3 Internal Rewrites: Clean URLs -> Underlying PHP execution
+  RewriteRule ^erp-admin-module-sri-lanka$ module-admin.php [L,QSA]
+  RewriteRule ^ai-erp-software-sri-lanka$ module-ai.php [L,QSA]
+  RewriteRule ^crm-software-sri-lanka$ module-crm.php [L,QSA]
+  RewriteRule ^finance-accounting-erp-sri-lanka$ module-finance.php [L,QSA]
+  RewriteRule ^hrms-payroll-software-sri-lanka$ module-hr.php [L,QSA]
+  RewriteRule ^inventory-management-sri-lanka$ module-inventory.php [L,QSA]
+  RewriteRule ^project-management-erp-sri-lanka$ module-projects.php [L,QSA]
+  RewriteRule ^erp-reporting-analytics-sri-lanka$ module-reports.php [L,QSA]
+  RewriteRule ^sales-invoicing-erp-sri-lanka$ module-sales.php [L,QSA]
+
+  # Standard Clean URLs (without .php)
+  RewriteRule ^about$ about.php [L,QSA]
+  RewriteRule ^contact$ contact.php [L,QSA]
+  RewriteRule ^blogs?$ blog.php [L,QSA]
+</IfModule>
 

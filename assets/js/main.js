@@ -179,26 +179,29 @@ Progressbar js
 	$(".mobile_menu_bar").on("click", function () {
 		$(".hamburger-area").addClass("opened");
 		$(".body-overlay").addClass("opened");
-		$("body").toggleClass("overflow-hidden");
+		$("body").addClass("overflow-hidden");
+		$(".mobile_menu_bar").addClass("on");
 	});
 
 	// Offcanvas js
 	$(".menu_offcanvas").on("click", function () {
-		$(".tj-offcanvas-area").toggleClass("opened");
+		$(".tj-offcanvas-area").addClass("opened");
 		$(".body-overlay").addClass("opened");
-		$("body").toggleClass("overflow-hidden");
+		$("body").addClass("overflow-hidden");
 	});
 	$(".hamburger_close_btn").on("click", function () {
 		$(".tj-offcanvas-area").removeClass("opened");
 		$(".hamburger-area").removeClass("opened");
 		$(".body-overlay").removeClass("opened");
-		$("body").toggleClass("overflow-hidden");
+		$("body").removeClass("overflow-hidden");
+		$(".mobile_menu_bar").removeClass("on");
 	});
 	$(".body-overlay").on("click", function () {
 		$(".tj-offcanvas-area").removeClass("opened");
 		$(".hamburger-area").removeClass("opened");
 		$(".body-overlay").removeClass("opened");
-		$("body").toggleClass("overflow-hidden");
+		$("body").removeClass("overflow-hidden");
+		$(".mobile_menu_bar").removeClass("on");
 	});
 
 	////////////////////////////////////////////////////
@@ -2153,4 +2156,82 @@ Progressbar js
 		tick();
 		const timer = setInterval(tick, 1000);
 	}
+
+	/* ------------- Module Hero HUD Chips Mobile Carousel -------------*/
+	function initModuleHeroChipsMobile() {
+		const wraps = document.querySelectorAll(".sales-hero-visual-wrap");
+		if (!wraps.length) return;
+
+		function syncLayout() {
+			const isMobile = window.innerWidth <= 575;
+			wraps.forEach((wrap) => {
+				let container = wrap.querySelector(".sales-chips-mobile-container");
+				const chips = Array.from(wrap.querySelectorAll(".sales-hud-chip"));
+				if (!chips.length) return;
+
+				if (isMobile && !container) {
+					container = document.createElement("div");
+					container.className = "sales-chips-mobile-container";
+					chips.forEach((chip) => container.appendChild(chip));
+					wrap.appendChild(container);
+					attachCarouselBehavior(container);
+				} else if (!isMobile && container) {
+					if (container._autoTimer) clearInterval(container._autoTimer);
+					chips.forEach((chip) => wrap.appendChild(chip));
+					container.remove();
+				}
+			});
+		}
+
+		function attachCarouselBehavior(container) {
+			let currentIndex = 0;
+			let pauseUntil = 0;
+
+			function pauseAuto() {
+				pauseUntil = Date.now() + 4000;
+			}
+
+			container.addEventListener("touchstart", pauseAuto, { passive: true });
+			container.addEventListener("wheel", pauseAuto, { passive: true });
+
+			// Mouse drag-to-scroll support
+			let isDown = false;
+			let startX = 0;
+			let scrollLeft = 0;
+			container.addEventListener("mousedown", (e) => {
+				isDown = true;
+				pauseAuto();
+				startX = e.pageX - container.offsetLeft;
+				scrollLeft = container.scrollLeft;
+			});
+			window.addEventListener("mouseup", () => {
+				isDown = false;
+			});
+			container.addEventListener("mousemove", (e) => {
+				if (!isDown) return;
+				e.preventDefault();
+				const x = e.pageX - container.offsetLeft;
+				container.scrollLeft = scrollLeft - (x - startX) * 1.3;
+			});
+
+			container._autoTimer = setInterval(() => {
+				if (Date.now() < pauseUntil) return;
+				const items = container.querySelectorAll(".sales-hud-chip");
+				if (items.length < 2) return;
+				currentIndex = (currentIndex + 1) % items.length;
+				const target = items[currentIndex];
+				const targetLeft =
+					target.offsetLeft - (container.clientWidth - target.offsetWidth) / 2;
+				container.scrollTo({
+					left: Math.max(0, targetLeft),
+					behavior: "smooth",
+				});
+			}, 2800);
+		}
+
+		syncLayout();
+		window.addEventListener("resize", syncLayout);
+	}
+
+	$(document).ready(initModuleHeroChipsMobile);
 })(jQuery);

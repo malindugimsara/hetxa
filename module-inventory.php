@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Purchasing &amp; Inventory Module | Hetxa BOS - Multi-Warehouse Stock Control</title>
-  <meta name="title" content="Purchasing &amp; Inventory Module | Hetxa BOS - Multi-Warehouse Stock Control">
+  <title>Inventory Management Software Sri Lanka | Warehouse &amp; Stock Control - Hetxa BOS</title>
+  <meta name="title" content="Inventory Management Software Sri Lanka | Warehouse &amp; Stock Control - Hetxa BOS">
   <meta name="description"
-    content="End-to-end procurement and multi-warehouse stock control: Purchase Orders, 3-Way GRN Matching, Purchase Returns, Master Item Catalog, Inter-Branch Stock Transfers, and Stock Adjustments.">
+    content="Efficient inventory management software in Sri Lanka: real-time island-wide stock tracking, multi-warehouse optimization, audits, automated reordering &amp; supplier POs.">
   <meta name="keywords"
-    content="Inventory Management Software Sri Lanka, Multi-Warehouse ERP Colombo, Supplier PO and GRN System, Batch Expiry Tracking Software, Stock Transfer Gate Pass System, Retail Inventory Sri Lanka">
+    content="Inventory management software Sri Lanka, warehouse management system Colombo, real-time stock tracking Sri Lanka, warehouse optimization stock audits, automated reordering ERP">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-inventory.php">
+  <link rel="canonical" href="https://hetxa.com/inventory-management-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-inventory.php">
+  <meta property="og:url" content="https://hetxa.com/inventory-management-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Purchasing &amp; Inventory Module - Hetxa BOS">
+  <meta property="og:title" content="Inventory Management Software Sri Lanka - Hetxa BOS">
   <meta property="og:description"
-    content="End-to-end procurement, 3-way supplier GRN matching, multi-branch stock transfers, barcode generation, and automated stock reordering.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/service/inventory.jfif">
+    content="Efficient inventory management software in Sri Lanka: real-time island-wide stock tracking, multi-warehouse optimization, audits, automated reordering &amp; supplier POs.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/inventory.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-inventory.php">
-  <meta name="twitter:title" content="Purchasing &amp; Inventory Module - Hetxa BOS">
+  <meta name="twitter:url" content="https://hetxa.com/inventory-management-sri-lanka">
+  <meta name="twitter:title" content="Inventory Management Software Sri Lanka - Hetxa BOS">
   <meta name="twitter:description"
-    content="End-to-end procurement, 3-way supplier GRN matching, multi-branch stock transfers, barcode generation, and automated stock reordering.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/service/inventory.jfif">
+    content="Efficient inventory management software in Sri Lanka: real-time island-wide stock tracking, multi-warehouse optimization, audits, automated reordering &amp; supplier POs.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/inventory.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,21 +61,21 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-inventory.php#product",
-        "name": "Hetxa BOS - Purchasing & Inventory Module",
-        "description": "Multi-branch warehouse and inventory management software with supplier POs, 3-way GRN verification, purchase returns, master item catalog, and stock transfers.",
+        "@id": "https://hetxa.com/inventory-management-sri-lanka#product",
+        "name": "Hetxa BOS - Efficient Inventory & Warehouse Management for Sri Lankan Businesses",
+        "description": "Multi-branch warehouse and inventory management software with real-time stock tracking, warehouse optimization, stock audits, automated reordering, and supplier POs.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
         },
         "category": "ERP Inventory & Procurement Software",
-        "image": "https://hetxa.com/assets/images/service/inventory.jfif",
+        "image": "https://hetxa.com/assets/images/modules/inventory.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-inventory.php"
+          "url": "https://hetxa.com/inventory-management-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Purchasing & Inventory",
-            "item": "https://hetxa.com/module-inventory.php"
+            "item": "https://hetxa.com/inventory-management-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Smart Purchasing &amp; <br class="d-none d-sm-inline"><span class="text-orange">Inventory Control.</span>
+                  Efficient Inventory &amp; Warehouse Management for <span class="text-orange">Sri Lankan Businesses</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Purchasing%20and%20Inventory%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Purchasing%20and%20Inventory%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -195,7 +195,7 @@
 
                   <!-- Hero Image (inventory.png) -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/inventory.png" alt="Hetxa BOS Purchasing and Multi-Warehouse Inventory Management System" loading="eager" decoding="async" style="border-radius: 20px; box-shadow: none !important; border: none !important; filter: none !important; max-height: 460px; width: auto; max-width: 100%; object-fit: contain;">
+                    <img src="assets/images/modules/inventory.webp" alt="Hetxa BOS Purchasing and Multi-Warehouse Inventory Management System" loading="eager" decoding="async" style="border-radius: 20px; box-shadow: none !important; border: none !important; filter: none !important; max-height: 460px; width: auto; max-width: 100%; object-fit: contain;">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -318,7 +318,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Two Core Engines, Seven Built-in <span class="text-orange">Tools</span>
+                    Real-Time Island-Wide <span class="text-orange">Stock Tracking</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From supplier purchase orders and GRN inwarding to inter-branch transfers and stock audits, Hetxa gives you complete inventory mastery.
@@ -504,7 +504,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    End-to-End Control Over Procurement &amp; <span class="text-orange">Warehouse Logistics</span>
+                    Warehouse Optimization &amp; <span class="text-orange">Stock Audits</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     From supplier purchase orders and GRN verification to inter-branch transfers and stock audits, explore how Hetxa prevents stock loss.
@@ -565,7 +565,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/purchases/grn</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/inventory-grn-ui.png" alt="Hetxa BOS Supplier GRN and Inward Receiving">
+                    <img src="assets/images/modules/inventory-grn-ui.png" alt="Hetxa BOS Supplier GRN and Inward Receiving" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
                       <span>3-Way GRN Verification &bull; Zero Loss</span>
@@ -588,7 +588,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/inventory/items</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/inventory-items-ui.png" alt="Hetxa BOS Items Catalog and Barcode Generation">
+                    <img src="assets/images/modules/inventory-items-ui.png" alt="Hetxa BOS Items Catalog and Barcode Generation" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-barcode text-orange"></i>
                       <span>10,000+ Active SKUs &bull; Barcode Matrix</span>
@@ -689,7 +689,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/stock/adjustments</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/inventory-adjustments-ui.png" alt="Hetxa BOS Stock Adjustments and Physical Inventory Audits">
+                    <img src="assets/images/modules/inventory-adjustments-ui.png" alt="Hetxa BOS Stock Adjustments and Physical Inventory Audits" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-scale-balanced text-green" style="color: #10b981;"></i>
                       <span>Physical Stock Audits &bull; Live Variance</span>
@@ -714,7 +714,7 @@
                     <i class="fa-solid fa-cubes text-orange"></i> INVENTORY TRACKING ECOSYSTEM
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Designed For Any Type Of Stock <span class="text-orange">You Manage</span>
+                    Automated Reordering &amp; <span class="text-orange">Supplier Management</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Whether you run grocery supermarkets, apparel stores, hardware marts, or electronics distribution, Hetxa adapts to your inventory model.
@@ -839,7 +839,7 @@
             </div>
 
             <div class="other-modules-nav">
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-cash-register"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Sales &amp; POS</span>
@@ -848,7 +848,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-crm.php" class="mod-nav-item">
+              <a href="crm-software-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Customer CRM</span>
@@ -857,7 +857,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-money-check-dollar"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Finance &amp; Cheques</span>
@@ -880,7 +880,7 @@
                 Discover how Hetxa BOS unites supplier purchasing, 3-way GRN verification, multi-branch stock transfers, and barcode scanning in one unified system.
               </p>
               <div class="mod-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Purchasing%20and%20Inventory%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Purchasing%20and%20Inventory%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fastest)
                 </a>
                 <a href="tel:+94702115937" class="btn-hotline-cta">

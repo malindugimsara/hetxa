@@ -8,7 +8,7 @@
   <!-- Homepage: All-in-One AI Business Operating System -->
   <url>
     <loc>https://hetxa.com/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -17,7 +17,7 @@
       <image:caption>Sri Lanka AI Business Operating System Dashboard</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/hetxa-mascot.png</image:loc>
+      <image:loc>https://hetxa.com/assets/images/hetxa-mascot.webp</image:loc>
       <image:title>Hetxa AI ERP Copilot Mascot</image:title>
       <image:caption>Hetxa Neural AI ERP Intelligent Assistant</image:caption>
     </image:image>
@@ -31,11 +31,11 @@
   <!-- About Us: Company Background & Philosophy -->
   <url>
     <loc>https://hetxa.com/about.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/about/h10-about-banner.webp</image:loc>
+      <image:loc>https://hetxa.com/assets/images/about/about-2.webp</image:loc>
       <image:title>About Hetxa BOS - Enterprise Cloud ERP Architecture</image:title>
       <image:caption>Hetxa (Pvt) Ltd Engineering &amp; Operations Architecture</image:caption>
     </image:image>
@@ -44,7 +44,7 @@
   <!-- Contact Us: Sales Hotlines, Direct WhatsApp & Office Location -->
   <url>
     <loc>https://hetxa.com/contact.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -57,7 +57,7 @@
   <!-- Blogs & Knowledge Hub: Practical ERP & Retail Guides -->
   <url>
     <loc>https://hetxa.com/blog.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -69,12 +69,12 @@
 
   <!-- Module 01: Sales & Cloud POS -->
   <url>
-    <loc>https://hetxa.com/module-sales.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/sales-invoicing-erp-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/sales.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/sales.webp</image:loc>
       <image:title>Hetxa BOS Sales &amp; Cloud POS Module</image:title>
       <image:caption>High Velocity Retail &amp; Wholesale Point of Sale Sri Lanka</image:caption>
     </image:image>
@@ -82,12 +82,12 @@
 
   <!-- Module 02: CRM Hub -->
   <url>
-    <loc>https://hetxa.com/module-crm.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/crm-software-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/crm.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/crm.webp</image:loc>
       <image:title>Hetxa BOS CRM Hub Module</image:title>
       <image:caption>Customer Relationship Management &amp; WhatsApp Invoicing Sri Lanka</image:caption>
     </image:image>
@@ -95,12 +95,12 @@
 
   <!-- Module 03: Purchasing & Inventory -->
   <url>
-    <loc>https://hetxa.com/module-inventory.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/inventory-management-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/inventory.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/inventory.webp</image:loc>
       <image:title>Hetxa BOS Purchasing &amp; Stock Inventory Module</image:title>
       <image:caption>Multi-Warehouse Stock Balancing &amp; FIFO Batch Expiry Management</image:caption>
     </image:image>
@@ -108,12 +108,12 @@
 
   <!-- Module 04: Finance & Cheques -->
   <url>
-    <loc>https://hetxa.com/module-finance.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/finance-accounting-erp-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/finance.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/finance.webp</image:loc>
       <image:title>Hetxa BOS Finance &amp; Cheque Management Module</image:title>
       <image:caption>Sri Lankan Cheque Lifecycle &amp; IRD RAMIS VAT Compliance</image:caption>
     </image:image>
@@ -121,12 +121,12 @@
 
   <!-- Module 05: Projects & Tasks -->
   <url>
-    <loc>https://hetxa.com/module-projects.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/project-management-erp-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/project.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/project.webp</image:loc>
       <image:title>Hetxa BOS Projects &amp; Tasks Module</image:title>
       <image:caption>Kanban Task Management &amp; Real-Time Job Profitability Costing</image:caption>
     </image:image>
@@ -134,12 +134,12 @@
 
   <!-- Module 06: Reports & BI -->
   <url>
-    <loc>https://hetxa.com/module-reports.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/erp-reporting-analytics-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/report.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/report.webp</image:loc>
       <image:title>Hetxa BOS Reports &amp; Business Intelligence Module</image:title>
       <image:caption>Real-Time Sales BI, Stock Velocity &amp; Debtor Aging Schedules</image:caption>
     </image:image>
@@ -147,12 +147,12 @@
 
   <!-- Module 07: Neural AI Insights -->
   <url>
-    <loc>https://hetxa.com/module-ai.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/ai-erp-software-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/ai.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/ai.webp</image:loc>
       <image:title>Hetxa BOS Neural AI Insights Module</image:title>
       <image:caption>Predictive Demand Forecasting &amp; Daily Executive WhatsApp Briefing</image:caption>
     </image:image>
@@ -160,12 +160,12 @@
 
   <!-- Module 08: Human Resources & Payroll -->
   <url>
-    <loc>https://hetxa.com/module-hr.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/hrms-payroll-software-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/hr.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/hr.webp</image:loc>
       <image:title>Hetxa BOS Human Resources &amp; Payroll Module</image:title>
       <image:caption>Sri Lankan EPF/ETF Compliant Payroll &amp; Biometric Attendance</image:caption>
     </image:image>
@@ -173,12 +173,12 @@
 
   <!-- Module 09: Administration & Security -->
   <url>
-    <loc>https://hetxa.com/module-admin.php</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://hetxa.com/erp-admin-module-sri-lanka</loc>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://hetxa.com/assets/images/service/admin.jfif</image:loc>
+      <image:loc>https://hetxa.com/assets/images/service/admin.webp</image:loc>
       <image:title>Hetxa BOS Administration &amp; Multi-Branch Security Module</image:title>
       <image:caption>Granular RBAC Permissions &amp; Tamper-Proof Audit Logging</image:caption>
     </image:image>

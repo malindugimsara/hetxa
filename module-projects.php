@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Projects &amp; Tasks Module | Hetxa BOS - Project Tracking, Tasks &amp; Visual Kanban</title>
-  <meta name="title" content="Projects &amp; Tasks Module | Hetxa BOS - Project Tracking, Tasks &amp; Visual Kanban">
+  <title>Project Management Software Sri Lanka | Task Tracking ERP - Hetxa</title>
+  <meta name="title" content="Project Management Software Sri Lanka | Task Tracking ERP - Hetxa">
   <meta name="description"
-    content="Centralized project registers, personal task queues, and visual Kanban boards. Keep your teams aligned and deadlines on track with Module 05 of Hetxa BOS.">
+    content="Advanced project management software for Sri Lankan companies: task tracking, milestone management, local resource allocation, and project budgeting.">
   <meta name="keywords"
     content="Project Management Software Sri Lanka, Kanban Task Board Colombo, Agile Task Tracking, Team To-Do Queue, Enterprise Project Management, Hetxa BOS">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-projects.php">
+  <link rel="canonical" href="https://hetxa.com/project-management-erp-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-projects.php">
+  <meta property="og:url" content="https://hetxa.com/project-management-erp-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
   <meta property="og:title" content="Projects &amp; Tasks Module - Hetxa BOS">
   <meta property="og:description"
     content="Visual Kanban workflows, company-wide project portfolios, and personalized task queues built directly into your enterprise ERP.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/modules/project.png">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/project.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-projects.php">
+  <meta name="twitter:url" content="https://hetxa.com/project-management-erp-sri-lanka">
   <meta name="twitter:title" content="Projects &amp; Tasks Module - Hetxa BOS">
   <meta name="twitter:description"
     content="Visual Kanban workflows, company-wide project portfolios, and personalized task queues built directly into your enterprise ERP.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/project.png">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/project.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,7 +61,7 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-projects.php#product",
+        "@id": "https://hetxa.com/project-management-erp-sri-lanka#product",
         "name": "Hetxa BOS - Projects & Tasks Module",
         "description": "Enterprise project management and visual Kanban task software with master project registers, personal task queues, and team execution.",
         "brand": {
@@ -69,13 +69,13 @@
           "name": "Hetxa"
         },
         "category": "ERP Project Management Software",
-        "image": "https://hetxa.com/assets/images/modules/project.png",
+        "image": "https://hetxa.com/assets/images/modules/project.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-projects.php"
+          "url": "https://hetxa.com/project-management-erp-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Projects & Tasks",
-            "item": "https://hetxa.com/module-projects.php"
+            "item": "https://hetxa.com/project-management-erp-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Symmetrical 2-Line Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Visual Task Kanban &amp; <br class="d-none d-sm-inline"><span class="text-orange">Project Delivery.</span>
+                  Advanced Project Management <br class="d-none d-sm-inline"><span class="text-orange">Module for Sri Lankan Companies</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Projects%20and%20Tasks%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Projects%20and%20Tasks%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -198,7 +198,7 @@
 
                   <!-- 3D Projects Visual Image -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/project.png" alt="Hetxa BOS Projects &amp; Tasks Management and Kanban System" loading="eager" decoding="async" style="box-shadow: none !important; border: none !important; filter: none !important;">
+                    <img src="assets/images/modules/project.webp" alt="Hetxa BOS Projects &amp; Tasks Management and Kanban System" loading="eager" decoding="async" style="box-shadow: none !important; border: none !important; filter: none !important;">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -321,7 +321,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Two Dedicated Pillars, Five Powerful <span class="text-orange">Modules</span>
+                    Task Tracking &amp; <span class="text-orange">Milestone Management</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From enterprise project portfolios and assigned ownership to daily task execution and visual Kanban tracking, Hetxa keeps your entire team synchronized.
@@ -468,7 +468,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Total Control Over Team Deliverables &amp; <span class="text-orange">Project Velocity</span>
+                    Local Resource Allocation &amp; <span class="text-orange">Planning</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore the live interface in action: from visual drag-and-drop Kanban sprint boards to company-wide project registers and personal task queues.
@@ -529,7 +529,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/tasks/kanban</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/project-kanban-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Visual Task Kanban Board with 6 Workflow Stages">
+                    <img src="assets/images/modules/project-kanban-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Visual Task Kanban Board with 6 Workflow Stages" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
                       <span>56 Active Tasks &bull; 6 Kanban Stages</span>
@@ -552,7 +552,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/projects</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/project-list-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS All Projects Portfolio and Master Register">
+                    <img src="assets/images/modules/project-list-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS All Projects Portfolio and Master Register" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-briefcase text-orange"></i>
                       <span>21 Projects &bull; 9 Completed &bull; Multi-Assignee</span>
@@ -653,7 +653,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/tasks/all</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/project-tasks-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Tasks Management and My Tasks Daily To-Do Queue">
+                    <img src="assets/images/modules/project-tasks-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Tasks Management and My Tasks Daily To-Do Queue" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-square-check text-green" style="color: #10b981;"></i>
                       <span>362 Tasks Logged &bull; 312 Completed</span>
@@ -678,7 +678,7 @@
                     <i class="fa-solid fa-diagram-project text-orange"></i> WORKFLOW &amp; DELIVERY ECOSYSTEM
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Built For High-Velocity Delivery <span class="text-orange">&amp; Agile Execution</span>
+                    Project Budgeting and <span class="text-orange">Time Tracking</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From software sprints and manufacturing jobs to wholesale rollouts, Hetxa adapts to your team's execution framework.
@@ -803,7 +803,7 @@
             </div>
 
             <div class="other-modules-nav">
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-cash-register"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Sales &amp; POS</span>
@@ -812,7 +812,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-inventory.php" class="mod-nav-item">
+              <a href="inventory-management-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Purchasing &amp; Inventory</span>
@@ -821,7 +821,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-money-check-dollar"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Finance &amp; Accounting</span>
@@ -844,7 +844,7 @@
                 Schedule a consultation with our enterprise productivity specialists. Learn how Hetxa unites company-wide project portfolios, personalized task queues, and visual Kanban sprint boards into one seamless ERP.
               </p>
               <div class="mod-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Projects%20and%20Tasks%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Projects%20and%20Tasks%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Instant Response)
                 </a>
                 <a href="tel:+94702115937" class="btn-hotline-cta">

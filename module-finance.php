@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Finance, Accounting &amp; Cheque Management Module | Hetxa BOS - Sri Lanka's Enterprise ERP</title>
-  <meta name="title" content="Finance, Accounting &amp; Cheque Management Module | Hetxa BOS - Sri Lanka's Enterprise ERP">
+  <title>Accounting Software Sri Lanka | RAMIS-Compliant Finance ERP - Hetxa</title>
+  <meta name="title" content="Accounting Software Sri Lanka | RAMIS-Compliant Finance ERP - Hetxa">
   <meta name="description"
-    content="Comprehensive double-entry general ledger, Sri Lankan post-dated cheque (PDC) lifecycle, petty cash vouchers, subscription billing, and automated IRD RAMIS VAT compliance. Discover Module 04 of Hetxa BOS.">
+    content="Top accounting software in Sri Lanka: IRD RAMIS-ready automated billing, General Ledger, accounts receivable, and real-time financial reporting for SMEs.">
   <meta name="keywords"
     content="Accounting Software Sri Lanka, Cheque Management System Colombo, RAMIS Compliant ERP, Double Entry Bookkeeping Sri Lanka, VAT SVAT Return Software, Bank Reconciliation System, Petty Cash Sri Lanka">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-finance.php">
+  <link rel="canonical" href="https://hetxa.com/finance-accounting-erp-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-finance.php">
+  <meta property="og:url" content="https://hetxa.com/finance-accounting-erp-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
   <meta property="og:title" content="Finance &amp; Cheque Management Module - Hetxa BOS">
   <meta property="og:description"
     content="Double-entry accounting, complete post-dated cheque tracking, and native IRD RAMIS compliance built for Sri Lankan business.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/modules/finance.png">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/finance.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-finance.php">
+  <meta name="twitter:url" content="https://hetxa.com/finance-accounting-erp-sri-lanka">
   <meta name="twitter:title" content="Finance &amp; Cheque Management Module - Hetxa BOS">
   <meta name="twitter:description"
     content="Double-entry accounting, complete post-dated cheque tracking, and native IRD RAMIS compliance built for Sri Lankan business.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/finance.png">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/finance.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,7 +61,7 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-finance.php#product",
+        "@id": "https://hetxa.com/finance-accounting-erp-sri-lanka#product",
         "name": "Hetxa BOS - Finance, Accounting & Cheque Management Module",
         "description": "Double-entry enterprise financial management software with post-dated cheque (PDC) lifecycle, expenses management, petty cash vouchers, bank reconciliation, and IRD RAMIS compliance.",
         "brand": {
@@ -69,13 +69,13 @@
           "name": "Hetxa"
         },
         "category": "ERP Accounting Software",
-        "image": "https://hetxa.com/assets/images/modules/finance.png",
+        "image": "https://hetxa.com/assets/images/modules/finance.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-finance.php"
+          "url": "https://hetxa.com/finance-accounting-erp-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Finance & Cheques",
-            "item": "https://hetxa.com/module-finance.php"
+            "item": "https://hetxa.com/finance-accounting-erp-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Symmetrical 2-Line Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Enterprise Accounting &amp; <br class="d-none d-sm-inline"><span class="text-orange">Cheque Governance.</span>
+                  RAMIS-Compliant Finance &amp; <br class="d-none d-sm-inline"><span class="text-orange">Accounting Module for Sri Lanka</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Finance%20and%20Cheque%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Finance%20and%20Cheque%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -197,7 +197,7 @@
 
                   <!-- 3D Finance Visual Image -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/finance.png" alt="Hetxa BOS Finance, Accounting and Sri Lankan Cheque Management System" loading="eager" decoding="async" style="box-shadow: none !important; border: none !important; filter: none !important;">
+                    <img src="assets/images/modules/finance.webp" alt="Hetxa BOS Finance, Accounting and Sri Lankan Cheque Management System" loading="eager" decoding="async" style="box-shadow: none !important; border: none !important; filter: none !important;">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -320,7 +320,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Two Financial Pillars, Seven Specialized <span class="text-orange">Engines</span>
+                    IRD &amp; RAMIS Ready <span class="text-orange">Automated Billing</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From daily petty cash vouchers and post-dated cheques to multi-tiered chart of accounts and RAMIS tax schedules, Hetxa provides complete financial control.
@@ -505,7 +505,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Complete Mathematical Precision Across Every <span class="text-orange">Rupee &amp; Transaction</span>
+                    General Ledger &amp; <span class="text-orange">Accounts Receivable</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore the live accounting interface in action: from post-dated cheque management and petty cash vouchers to real-time trial balance generation.
@@ -566,7 +566,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/finance/cheques</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/finance-cheques-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Sri Lankan Receivable Cheques and Post-Dated Cheque Management">
+                    <img src="assets/images/modules/finance-cheques-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Sri Lankan Receivable Cheques and Post-Dated Cheque Management" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
                       <span>Post-Dated Cheques &bull; Zero Bounces</span>
@@ -589,7 +589,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/finance/expenses</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/finance-expenses-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Expenses Management and Petty Cash Vouchers">
+                    <img src="assets/images/modules/finance-expenses-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Expenses Management and Petty Cash Vouchers" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-receipt text-orange"></i>
                       <span>Petty Cash &amp; Vouchers &bull; 100% Audited</span>
@@ -690,7 +690,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/accounting/dashboard</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/finance-accounting-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Double-Entry Accounting Dashboard, General Ledger and Trial Balance">
+                    <img src="assets/images/modules/finance-accounting-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Double-Entry Accounting Dashboard, General Ledger and Trial Balance" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-scale-balanced text-green" style="color: #10b981;"></i>
                       <span>Double-Entry Ledger &bull; 100% Balanced</span>
@@ -715,7 +715,7 @@
                     <i class="fa-solid fa-coins text-orange"></i> FINANCIAL &amp; PAYMENT ECOSYSTEM
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Designed For Any Payment Method <span class="text-orange">&amp; Cash Channel</span>
+                    Real-Time <span class="text-orange">Financial Reporting</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Whether handling post-dated cheques, petty cash, POS card machines, LankaQR, or bank transfers, Hetxa unifies your cash flows.
@@ -840,7 +840,7 @@
             </div>
 
             <div class="other-modules-nav">
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-cash-register"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Sales &amp; POS</span>
@@ -849,7 +849,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-crm.php" class="mod-nav-item">
+              <a href="crm-software-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-users-gear"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">CRM &amp; Pipeline</span>
@@ -858,7 +858,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-inventory.php" class="mod-nav-item">
+              <a href="inventory-management-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Purchasing &amp; Inventory</span>
@@ -881,7 +881,7 @@
                 Schedule a consultation with our ERP accounting specialists. We will show you how Hetxa simplifies cheque management and automates RAMIS tax compliance.
               </p>
               <div class="mod-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Finance%20and%20Cheque%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Finance%20and%20Cheque%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Instant Response)
                 </a>
                 <a href="tel:+94702115937" class="btn-hotline-cta">

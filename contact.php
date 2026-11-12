@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/includes/env.php';
+$turnstileEnabled = (bool)get_env_val('TURNSTILE_ENABLED', false);
+$turnstileSiteKey = (string)get_env_val('TURNSTILE_SITE_KEY', '');
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -7,10 +12,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Contact Us | Hetxa BOS - Talk with Sri Lanka's Enterprise ERP &amp; POS Specialists</title>
-  <meta name="title" content="Contact Us | Hetxa BOS - Talk with Sri Lanka's Enterprise ERP &amp; POS Specialists">
+  <title>Contact Hetxa BOS | Enterprise ERP &amp; Cloud POS Sri Lanka</title>
+  <meta name="title" content="Contact Hetxa BOS | Enterprise ERP &amp; Cloud POS Sri Lanka">
   <meta name="description"
-    content="Connect with the Hetxa BOS engineering and sales teams. Schedule a personalized 1-on-1 demo, inquire about retail POS hardware, or get 24/7 technical assistance in Sri Lanka.">
+    content="Contact Hetxa BOS specialists in Colombo, Sri Lanka. Schedule a personalized 1-on-1 demo, inquire on Cloud POS hardware, or get rapid technical assistance.">
   <meta name="keywords"
     content="Contact Hetxa, ERP Demo Sri Lanka, POS System Consultation Colombo, Hetxa Hotline, Hetxa Office Piliyandala, Business Software Support Sri Lanka">
   <meta name="author" content="Hetxa (Pvt) Ltd">
@@ -128,7 +133,7 @@
             "name": "How quickly does the Hetxa team respond to consultation requests and demos?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Our Colombo-based enterprise sales and support teams guarantee a response in under 15 minutes during standard business hours. For instant assistance, you can message our dedicated WhatsApp consultation desk at 074 158 8728 or call our sales hotline on 070 211 5937."
+              "text": "Our Colombo-based enterprise sales and support teams guarantee a response in under 15 minutes during standard business hours. For instant assistance, you can message our dedicated WhatsApp consultation desk at 077 434 1227, call Sales on 077 434 1227 / 074 158 8728, or Technical Support on 076 717 0522."
             }
           },
           {
@@ -258,7 +263,7 @@
                       <span class="btn-text"><span>Send an Inquiry</span></span>
                       <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                     </a>
-                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa%20Team,%20I'd%20like%20to%20inquire%20about%20your%20ERP%20solutions." target="_blank" class="btn-contact-whatsapp">
+                    <a href="https://wa.me/94774341227?text=Hi%20Hetxa%20Team,%20I'd%20like%20to%20inquire%20about%20your%20ERP%20solutions." target="_blank" class="btn-contact-whatsapp">
                       <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                     </a>
                   </div>                  
@@ -321,7 +326,7 @@
           <div class="container">
             <div class="row g-4">
               
-              <!-- Channel 01: Sales Hotline -->
+              <!-- Channel 01: Sales & Inquiries -->
               <div class="col-12 col-sm-6 col-lg-3">
                 <div class="channel-card wow fadeInUp" data-wow-delay=".2s">
                   <div class="channel-card-top">
@@ -330,11 +335,16 @@
                     </div>
                     <span class="channel-badge">&lt; 15-Min SLA</span>
                   </div>
-                  <h3 class="channel-title">Sales &amp; Consultations</h3>
+                  <h3 class="channel-title">Sales &amp; Inquiries</h3>
                   <p class="channel-desc">Speak directly with an enterprise advisor for tailored pricing &amp; architecture.</p>
-                  <a href="tel:+94702115937" class="channel-link">
-                    <span>070 211 5937</span> <i class="fa-solid fa-arrow-right"></i>
-                  </a>
+                  <div class="d-flex flex-column gap-1">
+                    <a href="tel:+94774341227" class="channel-link">
+                      <span>Sales: 077 434 1227</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="tel:+94741588728" class="channel-link">
+                      <span>Inquiries: 074 158 8728</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -349,8 +359,8 @@
                   </div>
                   <h3 class="channel-title">Official WhatsApp</h3>
                   <p class="channel-desc">Fast messaging for product demos, feature queries, and quick quotations.</p>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="channel-link" style="color: #16a34a;">
-                    <span>074 158 8728</span> <i class="fa-solid fa-arrow-right"></i>
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20Hetxa%20BOS." target="_blank" class="channel-link" style="color: #16a34a;">
+                    <span>077 434 1227</span> <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
@@ -362,30 +372,35 @@
                     <div class="channel-icon">
                       <i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
-                    <span class="channel-badge">24/7 Active Clients</span>
+                    <span class="channel-badge">Support Desk</span>
                   </div>
-                  <h3 class="channel-title">Technical Support Desk</h3>
+                  <h3 class="channel-title">Technical Support</h3>
                   <p class="channel-desc">Hardware pairing, thermal printer setups, and priority helpdesk tickets.</p>
-                  <a href="tel:+94702115938" class="channel-link">
-                    <span>070 211 5938</span> <i class="fa-solid fa-arrow-right"></i>
+                  <a href="tel:+94767170522" class="channel-link">
+                    <span>076 717 0522</span> <i class="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
 
-              <!-- Channel 04: Head Office HQ -->
+              <!-- Channel 04: Main Office HQ -->
               <div class="col-12 col-sm-6 col-lg-3">
                 <div class="channel-card wow fadeInUp" data-wow-delay=".5s">
                   <div class="channel-card-top">
                     <div class="channel-icon">
-                      <i class="fa-solid fa-location-dot"></i>
+                      <i class="fa-solid fa-building"></i>
                     </div>
-                    <span class="channel-badge">Colombo, LK</span>
+                    <span class="channel-badge">Main Office</span>
                   </div>
-                  <h3 class="channel-title">Corporate Headquarters</h3>
-                  <p class="channel-desc">Visit our innovation center for in-person hardware and software demos.</p>
-                  <a href="#map-location" class="channel-link">
-                    <span>Piliyandala, LK</span> <i class="fa-solid fa-arrow-right"></i>
-                  </a>
+                  <h3 class="channel-title">Main Office HQ</h3>
+                  <p class="channel-desc">140/1, Moratuwa Road, Piliyandala.</p>
+                  <div class="d-flex flex-column gap-1">
+                    <a href="tel:+94112617664" class="channel-link">
+                      <span>0112 617 664</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#map-location" class="channel-link">
+                      <span>View Location</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -418,67 +433,53 @@
                     </p>
                   </div>
 
-                  <form id="contact-page-form" method="POST" action="https://wa.me/94741588728" target="_blank">
+                  <form id="contact-page-form" method="POST" action="send-contact.php">
                     <div class="row g-4">
                       
                       <!-- Full Name -->
                       <div class="col-12 col-sm-6">
                         <div class="form-input">
                           <label class="cf-label">Full Name *</label>
-                          <input type="text" name="fullName" placeholder="e.g. Ruwan Silva" required>
+                          <input type="text" name="fullName" placeholder="Your full name" required>
                         </div>
                       </div>
 
-                      <!-- Work Email -->
+                      <!-- Email Address -->
                       <div class="col-12 col-sm-6">
                         <div class="form-input">
                           <label class="cf-label">Email Address *</label>
-                          <input type="email" name="email" placeholder="name@company.lk" required>
+                          <input type="email" name="email" placeholder="email@company.com" required>
                         </div>
                       </div>
 
                       <!-- Phone Number -->
                       <div class="col-12 col-sm-6">
                         <div class="form-input">
-                          <label class="cf-label">Phone / WhatsApp Number *</label>
-                          <input type="tel" name="phone" placeholder="07X XXX XXXX" required>
+                          <label class="cf-label">Phone number *</label>
+                          <input type="tel" name="phone" placeholder="+94 7X XXX XXXX" required>
                         </div>
                       </div>
 
                       <!-- Company / Business Name -->
                       <div class="col-12 col-sm-6">
                         <div class="form-input">
-                          <label class="cf-label">Company / Business Name *</label>
-                          <input type="text" name="company" placeholder="e.g. Apex Supermarket Chain" required>
+                          <label class="cf-label">Company / Business Name</label>
+                          <input type="text" name="company" placeholder="e.g. Retail Chain / Wholesale">
                         </div>
                       </div>
 
-                      <!-- Primary Solution of Interest -->
+                      <!-- Select Solution / Purpose -->
                       <div class="col-12 col-sm-6" style="position: relative; z-index: 25;">
                         <div class="form-input">
-                          <label class="cf-label">Solution of Interest</label>
+                          <label class="cf-label">Select Solution / Purpose</label>
                           <select name="solution" class="tj-nice-select">
-                            <option value="All-in-One BOS">All-in-One Business Operating System (BOS)</option>
-                            <option value="POS & Billing">Cloud POS &amp; High-Speed Retail Billing</option>
-                            <option value="Purchasing & Inventory">Multi-Branch Inventory &amp; Warehousing</option>
-                            <option value="Finance & RAMIS">Finance, Cheque Management &amp; RAMIS VAT</option>
-                            <option value="CRM Hub">Customer CRM &amp; WhatsApp Invoicing</option>
-                            <option value="HR & Payroll">EPF/ETF Compliant HR &amp; Biometrics</option>
-                            <option value="Projects & Costing">Projects, Timesheets &amp; Job Costing</option>
-                            <option value="Custom Enterprise">Custom Enterprise Integration</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <!-- Branch Outlets Scale -->
-                      <div class="col-12 col-sm-6" style="position: relative; z-index: 25;">
-                        <div class="form-input">
-                          <label class="cf-label">Number of Branches / Outlets</label>
-                          <select name="branches" class="tj-nice-select">
-                            <option value="Single Outlet">Single Store / HQ (1 Outlet)</option>
-                            <option value="2-5 Branches">Growing Chain (2 - 5 Branches)</option>
-                            <option value="6-15 Branches">Regional Network (6 - 15 Branches)</option>
-                            <option value="16+ Branches">Enterprise Islandwide (16+ Outlets)</option>
+                            <option value="Retail &amp; Supermarket POS">Retail &amp; Supermarket POS</option>
+                            <option value="Wholesale &amp; Distribution ERP">Wholesale &amp; Distribution ERP</option>
+                            <option value="Multi-Branch Inventory Sync">Multi-Branch Inventory Sync</option>
+                            <option value="IRD RAMIS VAT Compliance">IRD RAMIS VAT Compliance</option>
+                            <option value="Sri Lanka Cheque Management">Sri Lanka Cheque Management</option>
+                            <option value="Request a Live 1-on-1 Demo">Request a Live 1-on-1 Demo</option>
+                            <option value="General Inquiry &amp; Support">General Inquiry &amp; Support</option>
                           </select>
                         </div>
                       </div>
@@ -488,7 +489,7 @@
                         <div class="form-input">
                           <label class="cf-label">Expected Budget</label>
                           <select name="budget" class="tj-nice-select">
-                            <option value="Under 100,000">100,000 ට අඩු (Under LKR 100,000)</option>
+                            <option value="Under 100,000">Under LKR 100,000</option>
                             <option value="100,000 - 500,000">LKR 100,000 - 500,000</option>
                             <option value="500,000 - 1,000,000">LKR 500,000 - 1,000,000</option>
                             <option value="Above 1,000,000">LKR 1,000,000+ (Enterprise)</option>
@@ -496,29 +497,24 @@
                         </div>
                       </div>
 
-                      <!-- Deployment Timeline -->
-                      <div class="col-12 col-sm-6" style="position: relative; z-index: 20;">
-                        <div class="form-input">
-                          <label class="cf-label">Deployment Timeline</label>
-                          <select name="timeline" class="tj-nice-select">
-                            <option value="Immediate">Immediate (Within 1-2 Weeks)</option>
-                            <option value="Within 1 Month">Within 1 Month</option>
-                            <option value="1 - 3 Months">1 - 3 Months</option>
-                            <option value="Exploring Options">Just Exploring / Budgeting</option>
-                          </select>
-                        </div>
-                      </div>
-
                       <!-- Message Area -->
                       <div class="col-12">
                         <div class="form-input form-textarea-group">
-                          <label class="cf-label">How Can We Help You? *</label>
-                          <textarea name="message" placeholder="Tell us about your business workflow, hardware needs, current software pain points, or preferred demo date..." required></textarea>
+                          <label class="cf-label">Message here... *</label>
+                          <textarea name="message" placeholder="Tell us about your business requirements, branch count, or current challenges..." required></textarea>
                         </div>
                       </div>
 
+                      <!-- Cloudflare Turnstile -->
+                      <?php if ($turnstileEnabled && !empty($turnstileSiteKey)): ?>
+                      <div class="col-12">
+                        <div class="cf-turnstile" data-sitekey="<?php echo htmlspecialchars($turnstileSiteKey); ?>" data-theme="light"></div>
+                      </div>
+                      <?php endif; ?>
+
                       <!-- Actions & SLA -->
                       <div class="col-12">
+                        <div id="contact-page-status" class="w-100"></div>
                         <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mt-2">
                           <button class="tj-primary-btn" type="submit">
                             <span class="btn-text"><span>Schedule Free Demo</span></span>
@@ -555,7 +551,7 @@
 
                   <!-- 3D Showcase Image Frame -->
                   <div class="demo-image-frame">
-                    <img src="assets/images/about/contact-2.jfif" alt="Hetxa Intelligent Cloud BOS Platform Demo" loading="lazy">
+                    <img src="assets/images/about/contact-2.webp" alt="Hetxa Intelligent Cloud BOS Platform Demo" loading="lazy">
                     <div class="demo-image-badge">
                       <span class="pulse-dot"></span> Interactive Walkthrough
                     </div>
@@ -634,40 +630,130 @@
               <div class="col-12">
                 <div class="map-showcase-box wow fadeInUp" data-wow-delay=".3s">
                   
+                  <!-- Top Accent Gradient Line -->
+                  <div class="map-box-top-accent"></div>
+
+                  <!-- 1. Header: Enterprise Office Info & Quick Actions -->
                   <div class="map-header">
                     <div class="map-address-info">
-                      <h4>Hetxa (Pvt) Ltd • Corporate Office</h4>
-                      <p><i class="fa-solid fa-location-dot text-orange me-1"></i> 140/1, Moratuwa Road, Piliyandala 10300, Sri Lanka</p>
+                      <div class="map-badge-wrap">
+                        <span class="map-status-pill">
+                          <span class="pulse-indicator"></span>
+                          <span>Corporate HQ &amp; Technology Center</span>
+                        </span>
+                        <span class="map-hours-pill">
+                          <i class="fa-regular fa-clock"></i> Open Mon–Fri • 8:30 AM – 5:30 PM
+                        </span>
+                      </div>
+                      <h3 class="map-company-title">Hetxa (Pvt) Ltd</h3>
+                      <p class="map-company-address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>140/1, Moratuwa Road, Piliyandala 10300, Western Province, Sri Lanka</span>
+                      </p>
                     </div>
+
                     <div class="map-action-btns">
                       <a href="https://maps.google.com/?q=6.8018,79.9227" target="_blank" class="map-btn-directions">
-                        <i class="fa-solid fa-diamond-turn-right"></i> Get Driving Directions
+                        <i class="fa-solid fa-diamond-turn-right"></i>
+                        <span>Get Directions</span>
                       </a>
-                      <a href="tel:+94112617664" class="btn-hotline-cta" style="background: #F1F5F9; color: #0F172A !important; border-color: #E2E8F0; padding: 10px 20px; font-size: 13px;">
-                        <i class="fa-solid fa-phone"></i> Call Reception
+                      <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20visit%20your%20Technology%20Center%20in%20Piliyandala." target="_blank" class="map-btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <span>WhatsApp Us</span>
+                      </a>
+                      <a href="tel:+94112617664" class="map-btn-hotline">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0112 617 664</span>
                       </a>
                     </div>
                   </div>
 
+                  <!-- 2. Interactive Map with Floating Experience Card -->
                   <div class="map-iframe-wrap">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.757132104114!2d79.91404118715822!3d6.801804799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24508d0e74b3d%3A0xc319208035bc8fcf!2sPiliyandala!5e0!3m2!1sen!2slk!4v1715000000000!5m2!1sen!2slk"
                       allowfullscreen=""
                       loading="lazy"
                       referrerpolicy="no-referrer-when-downgrade"
-                      title="Hetxa BOS Office Location Piliyandala">
+                      title="Hetxa BOS Corporate Office Location Piliyandala">
                     </iframe>
+
+                    <div class="map-floating-overlay-card d-none d-md-flex">
+                      <div class="floating-card-icon">
+                        <i class="fa-solid fa-store"></i>
+                      </div>
+                      <div class="floating-card-text">
+                        <span class="tag">WALK-INS WELCOME</span>
+                        <h6>Live Hardware Demo Rig</h6>
+                        <p>Test Touch POS terminals, thermal printers &amp; barcode scanners</p>
+                      </div>
+                    </div>
                   </div>
 
-                  <div class="map-landmarks-strip">
-                    <div class="map-landmark-item">
-                      <i class="fa-solid fa-clock-rotate-left"></i> <strong>Proximity:</strong> 2 mins from Piliyandala Clock Tower Junction
+                  <!-- 3. Bottom Transport & Proximity Grid (3 Rich Cards) -->
+                  <div class="map-highlights-section">
+                    <div class="row g-3">
+                      
+                      <!-- Card 1: Proximity -->
+                      <div class="col-lg-4 col-md-6">
+                        <div class="map-feature-card">
+                          <div class="feature-icon-box icon-orange">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                          </div>
+                          <div class="feature-card-content">
+                            <span class="feature-sub">PROXIMITY &amp; TRANSIT</span>
+                            <h5 class="feature-title">2 Mins from Clock Tower</h5>
+                            <p class="feature-desc">Conveniently situated just 250m from Piliyandala Clock Tower junction on Moratuwa Road.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Card 2: Parking -->
+                      <div class="col-lg-4 col-md-6">
+                        <div class="map-feature-card">
+                          <div class="feature-icon-box icon-blue">
+                            <i class="fa-solid fa-square-parking"></i>
+                          </div>
+                          <div class="feature-card-content">
+                            <span class="feature-sub">CONVENIENT PARKING</span>
+                            <h5 class="feature-title">Dedicated On-Site Parking</h5>
+                            <p class="feature-desc">Reserved, secure on-premises parking bays available for all visiting clients and partners.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Card 3: From Colombo -->
+                      <div class="col-lg-4 col-md-12">
+                        <div class="map-feature-card">
+                          <div class="feature-icon-box icon-green">
+                            <i class="fa-solid fa-route"></i>
+                          </div>
+                          <div class="feature-card-content">
+                            <span class="feature-sub">EXPRESS ACCESS</span>
+                            <h5 class="feature-title">25 Mins from Colombo</h5>
+                            <p class="feature-desc">Fast, direct access via Colombo–Horana Main Road or Southern Expressway (Kahathuduwa Exit).</p>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
-                    <div class="map-landmark-item">
-                      <i class="fa-solid fa-car"></i> <strong>Parking:</strong> Reserved customer parking on premises
+                  </div>
+
+                  <!-- 4. Subtle Office Details Footer Strip -->
+                  <div class="map-footer-meta-strip">
+                    <div class="meta-item">
+                      <i class="fa-solid fa-user-tie text-orange"></i>
+                      <span><strong>CEO Direct:</strong> <a href="tel:+94702115937">070 211 5937</a> (Important matters only)</span>
                     </div>
-                    <div class="map-landmark-item">
-                      <i class="fa-solid fa-route"></i> <strong>From Colombo:</strong> 25 minutes via Colombo–Horana Road or Southern Expressway
+                    <div class="meta-divider d-none d-sm-block"></div>
+                    <div class="meta-item">
+                      <i class="fa-solid fa-globe text-orange"></i>
+                      <span><strong>Website:</strong> <a href="https://www.beespoint.com" target="_blank" rel="noopener">www.beespoint.com</a></span>
+                    </div>
+                    <div class="meta-divider d-none d-sm-block"></div>
+                    <div class="meta-item">
+                      <i class="fa-solid fa-envelope text-orange"></i>
+                      <span><strong>General Inquiries:</strong> <a href="mailto:hello@hetxa.com">hello@hetxa.com</a></span>
                     </div>
                   </div>
 
@@ -694,7 +780,7 @@
                     Find immediate answers regarding live demos, hardware compatibility, legacy data migration, and local support response times.
                   </p>
                   <div class="wow fadeInUp" data-wow-delay=".7s">
-                    <a class="tj-primary-btn" href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20ask%20a%20question." target="_blank">
+                    <a class="tj-primary-btn" href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20ask%20a%20question." target="_blank">
                       <span class="btn-text"><span>Chat on WhatsApp</span></span>
                       <span class="btn-icon"><i class="fa-brands fa-whatsapp"></i></span>
                     </a>
@@ -710,7 +796,7 @@
                       aria-expanded="true">How quickly does the Hetxa team respond to consultation requests and demos?</button>
                     <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
                       <div class="accordion-body faq-text">
-                        <p>Our Colombo-based enterprise sales and support teams guarantee a response in under 15 minutes during standard business hours. For instant assistance, you can message our dedicated WhatsApp consultation desk at <strong>074 158 8728</strong> or call our sales hotline on <strong>070 211 5937</strong>.</p>
+                        <p>Our Colombo-based enterprise sales and support teams guarantee a response in under 15 minutes during standard business hours. For instant assistance, you can message our dedicated WhatsApp consultation desk at <strong>077 434 1227</strong>, call Sales on <strong>077 434 1227</strong> / <strong>074 158 8728</strong>, or Technical Support on <strong>076 717 0522</strong>.</p>
                       </div>
                     </div>
                   </div>
@@ -777,11 +863,11 @@
                 Skip the contact forms. Message our Sri Lankan enterprise team directly on WhatsApp for instantaneous answers, PDF brochures, and fast software pricing.
               </p>
               <div class="contact-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20and%20discuss%20pricing." target="_blank" class="btn-whatsapp-cta">
-                  <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (074 158 8728)
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20and%20discuss%20pricing." target="_blank" class="btn-whatsapp-cta">
+                  <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (077 434 1227)
                 </a>
-                <a href="tel:+94702115937" class="btn-hotline-cta">
-                  <i class="fa-solid fa-phone"></i> Call Sales Hotline (070 211 5937)
+                <a href="tel:+94774341227" class="btn-hotline-cta">
+                  <i class="fa-solid fa-phone"></i> Call Sales (077 434 1227)
                 </a>
               </div>
             </div>
@@ -830,42 +916,84 @@
       });
     });
   </script>
-  <!-- Contact Form to WhatsApp Handler -->
+  <!-- Contact Form to Email & Lead Capture Handler -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const contactForm = document.getElementById('contact-page-form');
       if (contactForm) {
         contactForm.addEventListener('submit', function (e) {
           e.preventDefault();
-          const fullName = this.fullName ? this.fullName.value.trim() : '';
-          const email = this.email ? this.email.value.trim() : '';
-          const phone = this.phone ? this.phone.value.trim() : '';
-          const company = this.company ? this.company.value.trim() : '';
-          const solution = this.solution ? this.solution.value : '';
-          const branches = this.branches ? this.branches.value : '';
-          const budget = this.budget ? this.budget.value : '';
-          const timeline = this.timeline ? this.timeline.value : '';
-          const message = this.message ? this.message.value.trim() : '';
+          const statusBox = document.getElementById('contact-page-status');
+          const submitBtn = this.querySelector('button[type="submit"]');
+          const originalBtnHtml = submitBtn ? submitBtn.innerHTML : '';
 
-          let text = `*New ERP Demo & Consultation Request (Hetxa Contact Page)*\n\n`;
-          text += `👤 *Name:* ${fullName}\n`;
-          text += `📞 *Phone / WhatsApp:* ${phone}\n`;
-          text += `✉️ *Email:* ${email}\n`;
-          text += `🏢 *Company / Business:* ${company}\n`;
-          text += `💼 *Solution Needed:* ${solution}\n`;
-          text += `🏪 *Number of Outlets:* ${branches}\n`;
-          text += `💰 *Expected Budget:* ${budget}\n`;
-          text += `⏱️ *Deployment Timeline:* ${timeline}\n`;
-          if (message) {
-            text += `\n📝 *Business Requirements:*\n${message}\n`;
+          if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span class="btn-text"><span><i class="fa-solid fa-circle-notch fa-spin me-2"></i>Sending Inquiry...</span></span>';
           }
+          if (statusBox) statusBox.innerHTML = '';
 
-          const waUrl = `https://wa.me/94741588728?text=${encodeURIComponent(text)}`;
-          window.open(waUrl, '_blank');
+          const formData = new FormData(this);
+          formData.append('source', 'Contact Us Page');
+
+          fetch('send-contact.php', {
+            method: 'POST',
+            body: formData
+          })
+          .then(res => res.json())
+          .then(data => {
+            if (data.status === 'success') {
+              if (statusBox) {
+                statusBox.innerHTML = `
+                  <div class="alert alert-success d-flex align-items-start gap-3 p-3 rounded-3 mb-3 border-0 shadow-sm" style="background:#ECFDF5; color:#065F46;">
+                    <i class="fa-solid fa-circle-check fs-4 text-success mt-1"></i>
+                    <div>
+                      <strong class="d-block fs-6 mb-1">Inquiry Sent Successfully!</strong>
+                      <span class="d-block small text-muted mb-2">${data.message}</span>
+                      <a href="${data.wa_url}" target="_blank" class="btn btn-sm btn-success rounded-pill px-3 py-1 text-white fw-bold shadow-sm">
+                        <i class="fa-brands fa-whatsapp me-1"></i> Also Connect on WhatsApp
+                      </a>
+                    </div>
+                  </div>`;
+              }
+              contactForm.reset();
+            } else {
+              if (statusBox) {
+                statusBox.innerHTML = `
+                  <div class="alert alert-danger p-3 rounded-3 mb-3 border-0 shadow-sm" style="background:#FEF2F2; color:#991B1B;">
+                    <i class="fa-solid fa-triangle-exclamation me-2 text-danger"></i>
+                    <strong>Error:</strong> ${data.message || 'Please check your inputs and try again.'}
+                  </div>`;
+              }
+            }
+          })
+          .catch(err => {
+            console.error('Submission error:', err);
+            if (statusBox) {
+              statusBox.innerHTML = `
+                <div class="alert alert-warning p-3 rounded-3 mb-3 border-0 shadow-sm" style="background:#FFFBEB; color:#92400E;">
+                  <i class="fa-solid fa-circle-info me-2 text-warning"></i>
+                  Submission encountered a network issue. Please WhatsApp us directly: 
+                  <a href="https://wa.me/94774341227" target="_blank" class="fw-bold text-dark ms-1">077 434 1227</a>
+                </div>`;
+            }
+          })
+          .finally(() => {
+            if (window.turnstile) {
+              window.turnstile.reset();
+            }
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.innerHTML = originalBtnHtml;
+            }
+          });
         });
       }
     });
   </script>
+  <?php if ($turnstileEnabled && !empty($turnstileSiteKey)): ?>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <?php endif; ?>
 </body>
 
 </html>

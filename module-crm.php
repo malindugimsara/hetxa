@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Customer CRM &amp; Pipeline Module | Hetxa BOS - Sri Lanka's Enterprise CRM</title>
-  <meta name="title" content="Customer CRM &amp; Pipeline Module | Hetxa BOS - Sri Lanka's Enterprise CRM">
+  <title>CRM Software Sri Lanka | Integrated Sales Pipeline &amp; Customer CRM - Hetxa BOS</title>
+  <meta name="title" content="CRM Software Sri Lanka | Integrated Sales Pipeline &amp; Customer CRM - Hetxa BOS">
   <meta name="description"
-    content="Manage your full sales pipeline with Hetxa BOS CRM: Dashboard Analytics, Visual Kanban Pipeline, Centralized Leads, Deal Approvals, and CRM Settings. Close deals faster and prevent credit risk.">
+    content="Integrated CRM software in Sri Lanka: grow your local customer base with lead &amp; opportunity management, visual sales pipeline, conversion tracking and helpdesk support.">
   <meta name="keywords"
-    content="ERP CRM Sri Lanka, Sales Pipeline Software, Lead Management Colombo, Deal Approvals CRM, B2B Client Management, Customer Credit Limit Sri Lanka, WhatsApp Invoicing CRM">
+    content="CRM software Sri Lanka, enterprise CRM Colombo, local lead management Sri Lanka, sales pipeline conversion tracking, customer support helpdesk ERP">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-crm.php">
+  <link rel="canonical" href="https://hetxa.com/crm-software-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-crm.php">
+  <meta property="og:url" content="https://hetxa.com/crm-software-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Customer CRM &amp; Pipeline Module - Hetxa BOS">
+  <meta property="og:title" content="CRM Software Sri Lanka | Integrated Sales Pipeline - Hetxa BOS">
   <meta property="og:description"
-    content="Accelerate your sales pipeline with Sri Lanka's enterprise CRM. Visual Kanban deals, centralized lead capture, discount approvals, and 360° customer ledger intelligence.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/service/crm.jfif">
+    content="Integrated CRM software in Sri Lanka: grow your local customer base with lead &amp; opportunity management, visual sales pipeline, conversion tracking and helpdesk support.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/CRM.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-crm.php">
-  <meta name="twitter:title" content="Customer CRM &amp; Pipeline Module - Hetxa BOS">
+  <meta name="twitter:url" content="https://hetxa.com/crm-software-sri-lanka">
+  <meta name="twitter:title" content="CRM Software Sri Lanka | Integrated Sales Pipeline - Hetxa BOS">
   <meta name="twitter:description"
-    content="Accelerate your sales pipeline with Sri Lanka's enterprise CRM. Visual Kanban deals, centralized lead capture, discount approvals, and 360° customer ledger intelligence.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/service/crm.jfif">
+    content="Integrated CRM software in Sri Lanka: grow your local customer base with lead &amp; opportunity management, visual sales pipeline, conversion tracking and helpdesk support.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/CRM.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,21 +61,21 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-crm.php#product",
-        "name": "Hetxa BOS - Customer CRM & Pipeline Module",
-        "description": "Enterprise Customer Relationship Management and Sales Pipeline with Dashboard Analytics, Visual Kanban Pipeline, Lead Capture, Multi-Level Approvals, and CRM Settings.",
+        "@id": "https://hetxa.com/crm-software-sri-lanka#product",
+        "name": "Hetxa BOS - Integrated CRM Module to Grow Your Sri Lankan Customer Base",
+        "description": "Enterprise Customer Relationship Management with local lead management, visual sales pipeline, conversion tracking, deal approvals, and customer support helpdesk.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
         },
         "category": "ERP CRM & Sales Pipeline Software",
-        "image": "https://hetxa.com/assets/images/service/crm.jfif",
+        "image": "https://hetxa.com/assets/images/modules/CRM.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-crm.php"
+          "url": "https://hetxa.com/crm-software-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "CRM & Pipeline",
-            "item": "https://hetxa.com/module-crm.php"
+            "item": "https://hetxa.com/crm-software-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Smart Sales Pipeline &amp; <span class="text-orange">Lead Management.</span>
+                  Integrated CRM Module to Grow Your <span class="text-orange">Sri Lankan Customer Base</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20CRM%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20CRM%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -195,7 +195,7 @@
 
                   <!-- Hero Image Mockup -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/CRM.png" alt="Hetxa CRM Sales Pipeline and Lead Management System" loading="eager" decoding="async" style="border-radius: 20px; box-shadow: none !important; border: none !important; filter: none !important; max-height: 460px; width: auto; max-width: 100%; object-fit: contain;">
+                    <img src="assets/images/modules/CRM.webp" alt="Hetxa CRM Sales Pipeline and Lead Management System" loading="eager" decoding="async" style="border-radius: 20px; box-shadow: none !important; border: none !important; filter: none !important; max-height: 460px; width: auto; max-width: 100%; object-fit: contain;">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -318,7 +318,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    One CRM Engine, Five Built-in <br><span class="text-orange">Sub-Modules</span>
+                    Local Lead &amp; <span class="text-orange">Opportunity Management</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From capturing raw leads and managing visual pipelines to instant discount approvals and customer insights, Hetxa gives you complete control over your sales pipeline.
@@ -466,7 +466,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Empower Your Sales Team With <span class="text-orange">Actionable Intelligence</span>
+                    Sales Pipeline &amp; <span class="text-orange">Conversion Tracking</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     From the first lead contact to approved quotes and repeat customer loyalty, explore how Hetxa CRM drives higher win rates and reliable cash flow.
@@ -527,7 +527,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/crm/pipeline</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/crm-pipeline-ui.png" alt="Hetxa BOS CRM Visual Kanban Pipeline">
+                    <img src="assets/images/modules/crm-pipeline-ui.png" alt="Hetxa BOS CRM Visual Kanban Pipeline" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
                       <span>Visual Kanban Pipeline &bull; Active Deals</span>
@@ -550,7 +550,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/crm/leads</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/crm-leads-ui.png" alt="Hetxa BOS CRM Leads Table and Instant Lead Capture Drawer">
+                    <img src="assets/images/modules/crm-leads-ui.png" alt="Hetxa BOS CRM Leads Table and Instant Lead Capture Drawer" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-user-plus text-orange"></i>
                       <span>Centralized Leads &bull; Quick Capture</span>
@@ -651,7 +651,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/crm/dashboard</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/crm-dashboard-ui.png" alt="Hetxa BOS CRM Real-Time Analytics Dashboard">
+                    <img src="assets/images/modules/crm-dashboard-ui.png" alt="Hetxa BOS CRM Real-Time Analytics Dashboard" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-chart-pie text-green" style="color: #10b981;"></i>
                       <span>Real-Time Pipeline Analytics</span>
@@ -676,7 +676,7 @@
                     <i class="fa-solid fa-share-nodes text-orange"></i> OMNICHANNEL LEAD HUB
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Capture Leads From Any Channel <span class="text-orange">Your Buyers Use</span>
+                    Customer Support and <span class="text-orange">Helpdesk</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Connect all your digital and physical customer touchpoints into one organized pipeline with zero manual data entry.
@@ -801,7 +801,7 @@
             </div>
 
             <div class="other-modules-nav">
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-cash-register"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Sales &amp; POS</span>
@@ -810,7 +810,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-inventory.php" class="mod-nav-item">
+              <a href="inventory-management-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Purchasing &amp; Inventory</span>
@@ -819,7 +819,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-money-check-dollar"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Finance &amp; Cheques</span>
@@ -842,7 +842,7 @@
                 Discover how Hetxa CRM combines intuitive drag-and-drop deal tracking with automated credit controls and WhatsApp communication. Book a demo today.
               </p>
               <div class="mod-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20CRM%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20CRM%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fastest)
                 </a>
                 <a href="tel:+94702115937" class="btn-hotline-cta">

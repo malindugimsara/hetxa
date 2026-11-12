@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Reports &amp; Business Intelligence Module | Hetxa BOS - Enterprise Analytics &amp; Reports</title>
-  <meta name="title" content="Reports &amp; Business Intelligence Module | Hetxa BOS - Enterprise Analytics &amp; Reports">
+  <title>Business Intelligence ERP Sri Lanka | BI Analytics - Hetxa BOS</title>
+  <meta name="title" content="Business Intelligence ERP Sri Lanka | BI Analytics - Hetxa BOS">
   <meta name="description"
-    content="Consolidated sales reports, POS cashier shifts, stock valuation, customer ledgers, expense audits, and PDC cheque tracking. Discover Module 06 of Hetxa BOS.">
+    content="Dynamic ERP reporting &amp; business intelligence in Sri Lanka: real-time market insights, customizable financial reports, and interactive data visualization.">
   <meta name="keywords"
     content="ERP Reporting Software Sri Lanka, Business Intelligence Colombo, Sales Reports ERP, Stock Valuation Report, Cheque PDC Register Sri Lanka, Hetxa BOS">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-reports.php">
+  <link rel="canonical" href="https://hetxa.com/erp-reporting-analytics-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-reports.php">
+  <meta property="og:url" content="https://hetxa.com/erp-reporting-analytics-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
   <meta property="og:title" content="Reports &amp; Business Intelligence Module - Hetxa BOS">
   <meta property="og:description"
     content="Transform raw transactional data into actionable executive insights with real-time sales reports, inventory valuation, customer ledgers, and cheque registers.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/service/report.jfif">
+  <meta property="og:image" content="https://hetxa.com/assets/images/service/report.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-reports.php">
+  <meta name="twitter:url" content="https://hetxa.com/erp-reporting-analytics-sri-lanka">
   <meta name="twitter:title" content="Reports &amp; Business Intelligence Module - Hetxa BOS">
   <meta name="twitter:description"
     content="Transform raw transactional data into actionable executive insights with real-time sales reports, inventory valuation, customer ledgers, and cheque registers.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/service/report.jfif">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/service/report.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,7 +61,7 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-reports.php#product",
+        "@id": "https://hetxa.com/erp-reporting-analytics-sri-lanka#product",
         "name": "Hetxa BOS - Reports & Business Intelligence Module",
         "description": "Enterprise reporting and business intelligence software with sales analytics, POS cashier summaries, inventory valuation, and cheque registers.",
         "brand": {
@@ -69,13 +69,13 @@
           "name": "Hetxa"
         },
         "category": "ERP Business Intelligence Software",
-        "image": "https://hetxa.com/assets/images/service/report.jfif",
+        "image": "https://hetxa.com/assets/images/service/report.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-reports.php"
+          "url": "https://hetxa.com/erp-reporting-analytics-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Reports & Business Intelligence",
-            "item": "https://hetxa.com/module-reports.php"
+            "item": "https://hetxa.com/erp-reporting-analytics-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Symmetrical 2-Line Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Unified Enterprise Reports &amp; <br class="d-none d-sm-inline"><span class="text-orange">Operational Intelligence.</span>
+                  Dynamic ERP Reporting &amp; <br class="d-none d-sm-inline"><span class="text-orange">Business Intelligence in Sri Lanka</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Reports%20and%20BI%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Reports%20and%20BI%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -198,7 +198,7 @@
 
                   <!-- Hero Visual Image -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/report.png" alt="Hetxa BOS Enterprise Reports and Business Intelligence" loading="eager" decoding="async" style="box-shadow: none !important; border: none !important; filter: none !important;">
+                    <img src="assets/images/modules/report.webp" alt="Hetxa BOS Enterprise Reports and Business Intelligence" loading="eager" decoding="async" style="box-shadow: none !important; border: none !important; filter: none !important;">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -321,7 +321,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Three Analytical Pillars, Nine Specialized <span class="text-orange">Report Suites</span>
+                    Real-Time Sri Lankan <span class="text-orange">Market Insights</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Covering every operational pulse of your company—from counter checkouts and supply chains to cash flow and PDC cheques.
@@ -558,7 +558,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Total Visibility Over Sales, Purchases &amp; <span class="text-orange">Stock Lots</span>
+                    Customizable Financial &amp; <span class="text-orange">Operational Reports</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore real live reports in action: from sales turnover &amp; POS invoices to supplier GRN procurement and lot-level inventory valuation.
@@ -619,7 +619,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/reports/sales</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/report-sales-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Sales and Revenue BI Analytics Report">
+                    <img src="assets/images/modules/report-sales-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Sales and Revenue BI Analytics Report" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-circle-check text-green" style="color: #10b981;"></i>
                       <span>LKR 4,150.00 Net Sales &bull; 100% Paid</span>
@@ -642,7 +642,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/reports/purchases</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/report-purchase-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Goods Received Note (GRN) and Purchase Report">
+                    <img src="assets/images/modules/report-purchase-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Goods Received Note (GRN) and Purchase Report" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-truck-ramp-box text-orange" style="color: #ff5e14;"></i>
                       <span>LKR 15,000.00 Purchases &bull; Completed GRNs</span>
@@ -743,7 +743,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/reports/stock-lots</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/report-stock-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Stock Item Lot Valuation and Expiry Report">
+                    <img src="assets/images/modules/report-stock-ui.png?v=<?php echo time(); ?>" alt="Hetxa BOS Stock Item Lot Valuation and Expiry Report" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-boxes-stacked text-green" style="color: #10b981;"></i>
                       <span>LKR 11,900.00 Stock Value &bull; 47 Units Remaining</span>
@@ -768,7 +768,7 @@
                     <i class="fa-solid fa-chart-pie text-orange"></i> ENTERPRISE REPORTING ENGINE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Built For Complete Executive <span class="text-orange">Operational Clarity</span>
+                    Interactive <span class="text-orange">Data Visualization</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From daily cashier shift balances to warehouse stock turnover and post-dated cheque schedules, Hetxa covers every angle.
@@ -893,7 +893,7 @@
             </div>
 
             <div class="other-modules-nav">
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-cash-register"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Sales &amp; POS</span>
@@ -902,7 +902,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-inventory.php" class="mod-nav-item">
+              <a href="inventory-management-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Purchasing &amp; Inventory</span>
@@ -911,7 +911,7 @@
                 <div class="mod-nav-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </a>
 
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon"><i class="fa-solid fa-money-check-dollar"></i></div>
                 <div class="mod-nav-info">
                   <span class="name">Finance &amp; Accounting</span>
@@ -934,7 +934,7 @@
                 Schedule a consultation with our enterprise reporting specialists. Learn how Hetxa consolidates sales, POS registers, inventory valuation, and cheque clearing into one real-time dashboard.
               </p>
               <div class="mod-cta-actions">
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Reports%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Reports%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Instant Response)
                 </a>
                 <a href="tel:+94702115937" class="btn-hotline-cta">

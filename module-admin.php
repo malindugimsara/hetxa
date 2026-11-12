@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Primary Meta Tags -->
-  <title>Administration, User Roles &amp; Multi-Branch Settings Module | Hetxa BOS</title>
-  <meta name="title" content="Administration, User Roles &amp; Multi-Branch Settings Module | Hetxa BOS">
+  <title>ERP Administration Software Sri Lanka | Hetxa BOS Security Control</title>
+  <meta name="title" content="ERP Administration Software Sri Lanka | Hetxa BOS Security Control">
   <meta name="description"
-    content="Centralized enterprise administration with Hetxa BOS: Master Contacts, User Management &amp; RBAC permissions, Multi-Branch Business Locations, Payment Accounts, RAMIS Taxes, and Custom Document Templates.">
+    content="Sri Lanka's most secure ERP administration software: role-based user access, system data protection, and centralized management dashboard by Hetxa BOS.">
   <meta name="keywords"
-    content="Enterprise ERP Administration Sri Lanka, Role Based Access Control Colombo, Multi-Branch Management Software, ERP Audit Trail, RAMIS Tax Settings, Barcode Settings ERP">
+    content="ERP administration software Sri Lanka, enterprise admin module Colombo, role based user access Sri Lanka, system security ERP, centralized management dashboard">
   <meta name="author" content="Hetxa (Pvt) Ltd">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-  <link rel="canonical" href="https://hetxa.com/module-admin.php">
+  <link rel="canonical" href="https://hetxa.com/erp-admin-module-sri-lanka">
 
   <!-- Geo Targeting for Sri Lanka -->
   <meta name="geo.region" content="LK">
@@ -26,22 +26,22 @@
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_LK">
-  <meta property="og:url" content="https://hetxa.com/module-admin.php">
+  <meta property="og:url" content="https://hetxa.com/erp-admin-module-sri-lanka">
   <meta property="og:site_name" content="Hetxa BOS">
-  <meta property="og:title" content="Administration &amp; System Settings Module - Hetxa BOS">
+  <meta property="og:title" content="ERP Administration Software Sri Lanka | Hetxa BOS">
   <meta property="og:description"
-    content="Granular role permissions, tamper-evident audit logs, multi-branch business locations, payment accounts, and automated IRD RAMIS tax configurations.">
-  <meta property="og:image" content="https://hetxa.com/assets/images/modules/admin.png">
+    content="Sri Lanka's most secure ERP administration software: role-based user access, centralized dashboard, system security, multi-branch control &amp; IRD RAMIS compliance.">
+  <meta property="og:image" content="https://hetxa.com/assets/images/modules/admin.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hetxa.com/module-admin.php">
-  <meta name="twitter:title" content="Administration &amp; System Settings Module - Hetxa BOS">
+  <meta name="twitter:url" content="https://hetxa.com/erp-admin-module-sri-lanka">
+  <meta name="twitter:title" content="ERP Administration Software Sri Lanka | Hetxa BOS">
   <meta name="twitter:description"
-    content="Granular role permissions, tamper-evident audit logs, multi-branch business locations, payment accounts, and automated IRD RAMIS tax configurations.">
-  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/admin.png">
+    content="Sri Lanka's most secure ERP administration software: role-based user access, centralized dashboard, system security, multi-branch control &amp; IRD RAMIS compliance.">
+  <meta name="twitter:image" content="https://hetxa.com/assets/images/modules/admin.webp">
 
   <!-- Mobile & Theme -->
   <meta name="theme-color" content="#FF5E14">
@@ -61,21 +61,21 @@
     "@graph": [
       {
         "@type": "Product",
-        "@id": "https://hetxa.com/module-admin.php#product",
-        "name": "Hetxa BOS - Administration & Security Governance Module",
-        "description": "Enterprise administration module providing master contact directories, granular role-based permissions, multi-branch business locations, payment accounts, and IRD RAMIS tax compliance.",
+        "@id": "https://hetxa.com/erp-admin-module-sri-lanka#product",
+        "name": "Hetxa BOS - Sri Lanka's Most Secure ERP Administration Module",
+        "description": "Enterprise administration module providing master contact directories, granular role-based user access for Sri Lankan businesses, system security, and centralized management dashboard.",
         "brand": {
           "@type": "Brand",
           "name": "Hetxa"
         },
         "category": "ERP Security & Administration Software",
-        "image": "https://hetxa.com/assets/images/modules/admin.png",
+        "image": "https://hetxa.com/assets/images/modules/admin.webp",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "LKR",
           "price": "Custom Enterprise",
           "availability": "https://schema.org/InStock",
-          "url": "https://hetxa.com/module-admin.php"
+          "url": "https://hetxa.com/erp-admin-module-sri-lanka"
         }
       },
       {
@@ -97,7 +97,7 @@
             "@type": "ListItem",
             "position": 3,
             "name": "Administration & Security",
-            "item": "https://hetxa.com/module-admin.php"
+            "item": "https://hetxa.com/erp-admin-module-sri-lanka"
           }
         ]
       }
@@ -157,7 +157,7 @@
 
                 <!-- Title -->
                 <h1 class="mod-hero-title wow fadeInUp" data-wow-delay=".25s">
-                  Enterprise Administration, User Roles &amp; <span class="text-orange">System Governance.</span>
+                  Sri Lanka's Most Secure <span class="text-orange">ERP Administration Module</span>
                 </h1>
 
                 <!-- Description -->
@@ -171,7 +171,7 @@
                     <span class="btn-text"><span>Request Live Demo</span></span>
                     <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                   </a>
-                  <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Administration%20Module." target="_blank" class="btn-hero-whatsapp">
+                  <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20chat%20about%20the%20Administration%20Module." target="_blank" class="btn-hero-whatsapp">
                     <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
                   </a>
                 </div>
@@ -195,7 +195,7 @@
 
                   <!-- 3D Admin Graphic Image -->
                   <div class="sales-hero-img-box">
-                    <img src="assets/images/modules/admin.png" alt="Hetxa Enterprise Administration, User Management & System Settings" loading="eager" decoding="async">
+                    <img src="assets/images/modules/admin.webp" alt="Hetxa Enterprise Administration, User Management & System Settings" loading="eager" decoding="async">
                   </div>
 
                   <!-- Floating HUD Chip 2 (Bottom Left) -->
@@ -319,7 +319,7 @@
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Centralized Governance, Secure Access &amp; <span class="text-orange">System Settings</span>
+                    Role-Based User Access for <span class="text-orange">Sri Lankan Businesses</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     From master customer and supplier registries to role-based user permissions, multi-branch business locations, and financial configurations.
@@ -486,7 +486,7 @@
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Granular Access Control &amp; <span class="text-orange">Enterprise Multi-Branch Settings</span>
+                    System Security and <span class="text-orange">Data Protection</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="max-width: 720px; margin: 15px auto 0;">
                     Explore the live administration interface in action: from configuring custom employee roles to managing multi-branch business locations and payment accounts.
@@ -547,7 +547,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/admin/user-roles</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/admin-roles-ui.png" alt="Hetxa BOS User Roles List, Granular Role-Based Access Control (RBAC) and Security Permissions Interface">
+                    <img src="assets/images/modules/admin-roles-ui.png" alt="Hetxa BOS User Roles List, Granular Role-Based Access Control (RBAC) and Security Permissions Interface" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-user-lock text-orange"></i>
                       <span>Role-Based Access Control (RBAC)</span>
@@ -570,7 +570,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/admin/settings/general</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/admin-settings-ui.png" alt="Hetxa BOS General Settings, Legal Business Identity, RAMIS Tax Configuration and Dual Brand Logos">
+                    <img src="assets/images/modules/admin-settings-ui.png" alt="Hetxa BOS General Settings, Legal Business Identity, RAMIS Tax Configuration and Dual Brand Logos" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-building-flag text-green" style="color: #10b981;"></i>
                       <span>Business Identity &amp; RAMIS Tax</span>
@@ -671,7 +671,7 @@
                     <div class="url-pill"><i class="fa-solid fa-lock"></i> hetxa.cloud/admin/settings/sms-email</div>
                   </div>
                   <div class="mod-dive-img-wrap">
-                    <img src="assets/images/modules/admin-email-ui.png" alt="Hetxa BOS SMS and Email Server Connection, Document Email Automation and Branch Notification Settings">
+                    <img src="assets/images/modules/admin-email-ui.png" alt="Hetxa BOS SMS and Email Server Connection, Document Email Automation and Branch Notification Settings" loading="lazy" decoding="async">
                     <div class="mod-dive-float-tag">
                       <i class="fa-solid fa-paper-plane" style="color: #3b82f6;"></i>
                       <span>SMTP Relay &amp; Document Auto-Dispatch</span>
@@ -696,7 +696,7 @@
                     <i class="fa-solid fa-shield-halved text-orange" style="margin: 5px;"></i> SYSTEM GOVERNANCE &bull; SECURITY
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Enterprise Governance &amp; <span class="text-orange">Data Protection</span>
+                    Centralized Management <span class="text-orange">Dashboard</span>
                   </h2>
                   <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 720px; margin: 15px auto 0;">
                     Bank-grade encryption, role-based boundary enforcement, and automatic cloud backups built for multi-branch organizations.
@@ -823,7 +823,7 @@
             <div class="other-modules-nav">
               
               <!-- Module 01: Sales & POS -->
-              <a href="module-sales.php" class="mod-nav-item">
+              <a href="sales-invoicing-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-cash-register"></i>
                 </div>
@@ -835,7 +835,7 @@
               </a>
 
               <!-- Module 04: Finance -->
-              <a href="module-finance.php" class="mod-nav-item">
+              <a href="finance-accounting-erp-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-money-check-dollar"></i>
                 </div>
@@ -847,7 +847,7 @@
               </a>
 
               <!-- Module 08: HR & Payroll -->
-              <a href="module-hr.php" class="mod-nav-item">
+              <a href="hrms-payroll-software-sri-lanka" class="mod-nav-item">
                 <div class="mod-nav-icon">
                   <i class="fa-solid fa-users-gear"></i>
                 </div>
@@ -877,7 +877,7 @@
                   <span class="btn-text"><span>Request Live Demo</span></span>
                   <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
                 </a>
-                <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Administration%20Module." target="_blank" class="btn-whatsapp-cta">
+                <a href="https://wa.me/94774341227?text=Hi%20Hetxa,%20I'd%20like%20to%20schedule%20a%20Live%20Demo%20of%20the%20Administration%20Module." target="_blank" class="btn-whatsapp-cta">
                   <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp (Fast Reply)
                 </a>
               </div>
