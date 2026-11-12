@@ -1,7 +1,4 @@
 # Environment files containing sensitive passwords and keys
-.env
-.env.local
-.env.*.local
 
 # Leads and sensitive runtime logs
 data/leads.csv
