@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row g-4 justify-content-between">
           
-          <!-- Column 1: Brand & WhatsApp Featured Card -->
+          <!-- Column 1: Brand & Parent Company & WhatsApp Featured Card -->
           <div class="col-xl-4 col-lg-4 col-md-12">
             <div class="footer-widget footer-col-1">
               <a href="index.php" class="footer-logo mb-3 d-inline-block">
@@ -14,6 +14,24 @@
               <p class="footer-desc">
                 Sri Lanka's Next-Generation AI Business Operating System (BOS). Unifying Retail POS, Multi-Branch Inventory Sync, Cheque Lifecycle, and IRD RAMIS VAT Compliance on one intelligent cloud platform.
               </p>
+
+              <!-- Parent Company Showcase: Powered by BeesPoint & ONEXLA -->
+              <div class="footer-parent-brand mb-4 wow fadeInUp" data-wow-delay=".25s">
+                <span class="parent-brand-label">
+                  <i class="fa-solid fa-certificate text-orange me-1"></i> Powered by BeesPoint Group
+                </span>
+                <div class="parent-brand-logos">
+                  <div class="parent-logo-card" title="BeesPoint (Pvt) Ltd - Enterprise ERP Solutions">
+                    <img src="assets/images/logos/beespoint-logo.png" alt="BeesPoint Logo">
+                  </div>
+                  <div class="parent-logo-card" title="ONEXLA - Solutions for Next-Gen Success">
+                    <img src="assets/images/logos/onexla-logo.png" alt="ONEXLA Logo">
+                  </div>
+                </div>
+                <p class="parent-brand-note mt-2 mb-0">
+                  Hetxa is an enterprise cloud software platform engineered, deployed, and backed 24/7 by <strong>BeesPoint (Pvt) Ltd</strong>.
+                </p>
+              </div>
 
               <!-- Dedicated WhatsApp Quick-Connect Card -->
               <div class="footer-wa-card wow fadeInUp" data-wow-delay=".3s">
@@ -204,7 +222,7 @@
           <div class="col-12">
             <div class="copyright-content-area">
               <div class="copyright-text">
-                <p>&copy; <span>2026</span> <a href="index.php">Hetxa (Pvt) Ltd</a>. All rights reserved. Sri Lanka's Enterprise Business Operating System.</p>
+                <p>&copy; <span>2026</span> <a href="index.php">Hetxa (Pvt) Ltd</a>. An Enterprise Platform by <a href="about.php" class="text-white fw-bold">BeesPoint (Pvt) Ltd</a> &amp; <span class="text-white fw-bold">ONEXLA</span>. All rights reserved.</p>
               </div>
               <div class="social-links style-3">
                 <ul>

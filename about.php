@@ -118,6 +118,52 @@
             "availableLanguage": ["English", "Sinhala"]
           }
         ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://hetxa.com/about.php#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Hetxa BOS and how does it differ from traditional ERP systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hetxa BOS is an All-in-One AI Business Operating System engineered specifically for the commercial realities of Sri Lankan business. Unlike rigid, legacy ERPs with exorbitant overseas licensing fees, Hetxa unifies high-velocity Cloud POS, multi-branch FIFO warehousing, automated PDC cheque clearing, and IRD RAMIS VAT compliance in one cloud-native platform with zero bloat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Hetxa BOS fully compliant with Sri Lanka IRD RAMIS VAT & SSCL regulations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, 100%. Hetxa BOS is built in strict adherence to Sri Lanka Inland Revenue Department (IRD) RAMIS specifications. It automatically calculates 18% VAT, SSCL, and tax exemptions, prints compliant tax invoices with thermal QR verification, and generates one-click audit-ready tax return schedules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does implementation, data migration, and cashier training take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Typical single-store and multi-branch rollouts go live within 3 to 7 business days. Our Colombo-based implementation engineers handle historical Excel item/stock imports, receipt template customization, barcode printer calibration, and provide comprehensive hands-on training for cashiers, storekeepers, and accountants."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Hetxa Cloud POS continue operating if our internet connection drops?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Hetxa POS features an advanced offline-first architecture. If your branch internet drops, cashiers can continue barcode scanning, receipt printing, and billing without interruption. As soon as the connection is restored, all offline sales, stock deductions, and payments automatically synchronize with the central cloud database."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What local customer support and service-level guarantees (SLAs) do you provide?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide guaranteed islandwide support backed by a 99.98% cloud uptime SLA. Every customer gets direct access to our dedicated engineering support hotlines, WhatsApp priority groups, remote AnyDesk troubleshooting, automated daily cloud backups, and free continuous platform updates with no hidden annual AMC fees."
+            }
+          }
+        ]
       }
     ]
   }
@@ -161,172 +207,374 @@
       <main id="primary" class="site-main">
 
         <!-- ===================================================================
-             1. BREADCRUMB / HERO SECTION
+             1. FLAGSHIP HERO SHOWCASE SECTION
              =================================================================== -->
-        <section class="about-page-header">
+        <section class="about-hero-section">
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-10">
-                <div class="about-badge-pill wow fadeInUp" data-wow-delay=".2s">
-                  <i class="fa-solid fa-cube text-orange"></i> ABOUT HETXA (PVT) LTD
+            <div class="row align-items-center g-5">
+              <!-- Left Column: Copy, Proof Badges & CTAs -->
+              <div class="col-12 col-lg-6">
+                <div class="about-hero-content">
+                  <!-- Badge Pill -->
+                  <div class="about-badge-pill wow fadeInUp" data-wow-delay=".2s">
+                    <i class="fa-solid fa-cube text-orange"></i> ABOUT HETXA (PVT) LTD
+                  </div>
+
+                  <!-- 2-Line Symmetrical Hero Title -->
+                  <h1 class="about-hero-title wow fadeInUp" data-wow-delay=".25s">
+                    <span class="hero-title-line">Engineering the Intelligent OS</span>
+                    <span class="hero-title-line">for <span class="text-orange">Sri Lankan Enterprise.</span></span>
+                  </h1>
+
+                  <!-- Description -->
+                  <p class="about-hero-desc wow fadeInUp" data-wow-delay=".3s">
+                    Born out of the real-world operational challenges of Sri Lankan commerce — uniting high-speed POS, real-time multi-branch cloud sync, native PDC cheque clearing, and predictive neural AI into one robust operating system.
+                  </p>
+
+                  <!-- 3 Trust / Metric Pills -->
+                  <div class="about-hero-proof-pills wow fadeInUp" data-wow-delay=".35s">
+                    <div class="proof-pill">
+                      <i class="fa-solid fa-layer-group text-orange"></i>
+                      <span><strong>9 Unified</strong> Modules</span>
+                    </div>
+                    <div class="proof-pill">
+                      <i class="fa-solid fa-shield-check text-green"></i>
+                      <span><strong>100% RAMIS</strong> Ready</span>
+                    </div>
+                    <div class="proof-pill">
+                      <i class="fa-solid fa-bolt text-cyan"></i>
+                      <span><strong>99.98%</strong> Cloud Uptime</span>
+                    </div>
+                  </div>
+
+                  <!-- Action Buttons -->
+                  <div class="about-hero-actions wow fadeInUp" data-wow-delay=".4s">
+                    <a class="tj-primary-btn" href="contact.php">
+                      <span class="btn-text"><span>Request Live Demo</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </a>
+                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20your%20company%20and%20ERP%20solutions." target="_blank" class="btn-about-whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                  </div>
                 </div>
-                <h1 class="about-hero-title wow fadeInUp" data-wow-delay=".3s">
-                  Engineering the Intelligent Operating System for <span class="text-orange">Sri Lankan Enterprise Commerce.</span>
-                </h1>
-                <p class="about-hero-desc wow fadeInUp" data-wow-delay=".4s">
-                  Born out of the unique operational realities of Sri Lankan business — from connectivity drops and complex cheque lifecycles to stringent IRD RAMIS VAT compliance and fast-paced retail checkout lines.
-                </p>
-                <div class="about-breadcrumb-nav wow fadeInUp" data-wow-delay=".5s">
-                  <a href="index.php"><i class="fa-solid fa-house"></i> Home</a>
-                  <span class="sep"><i class="fa-solid fa-chevron-right"></i></span>
-                  <span class="current">About Us</span>
+              </div>
+
+              <!-- Right Column: 3D AI Visual & Floating Glass HUD Chips -->
+              <div class="col-12 col-lg-6">
+                <div class="about-hero-visual-wrap wow fadeInRight" data-wow-delay=".3s">
+                  <!-- Ambient Radial Glow -->
+                  <div class="about-hero-glow"></div>
+
+                  <!-- Floating HUD Chip 1: Neural AI (Top Right) -->
+                  <div class="about-hud-chip chip-top-right">
+                    <div class="hud-chip-icon icon-orange">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">Neural AI Engine</span>
+                      <span class="hud-val">Predictive BI &amp; Forecasting</span>
+                    </div>
+                  </div>
+
+                  <!-- Main 3D Showcase Image Frame -->
+                  <div class="about-hero-img-box">
+                    <img src="assets/images/about/about-hero-ai.webp" alt="Hetxa BOS Intelligent AI Enterprise Ecosystem" loading="eager" decoding="async">
+                  </div>
+
+                  <!-- Floating HUD Chip 2: Hybrid Cloud Sync (Bottom Left) -->
+                  <div class="about-hud-chip chip-bottom-left">
+                    <div class="hud-chip-icon icon-green">
+                      <i class="fa-solid fa-cloud-arrow-up"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">Real-Time Cloud Sync</span>
+                      <span class="hud-val">Offline-Ready Architecture</span>
+                    </div>
+                  </div>
+
+                  <!-- Floating HUD Chip 3: Local Compliance (Bottom Right) -->
+                  <div class="about-hud-chip chip-bottom-right">
+                    <div class="hud-chip-icon icon-cyan">
+                      <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">Sri Lankan Compliance</span>
+                      <span class="hud-val">PDC Cheques &amp; 18% VAT</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
+
         <!-- ===================================================================
-             2. THE STORY BEHIND HETXA SECTION
+             2. OUR STORY & EVOLUTION TIMELINE SECTION (LIGHT THEME)
              =================================================================== -->
-        <section class="about-section-light">
+        <section class="story-timeline-section section-gap-x">
           <div class="container">
             <div class="row align-items-center g-5">
-              
-              <!-- Left Column: Compelling Narrative -->
+              <!-- Left Column: Story Narrative & Proof Bullets -->
               <div class="col-12 col-lg-6">
                 <div class="story-narrative-wrap">
                   <div class="sec-heading style-3">
                     <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                      <i class="tji-box"></i> OUR ORIGIN &amp; PURPOSE
+                      <i class="tji-box"></i> OUR STORY
                     </span>
                     <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                      We Didn't Just Build Another ERP. We Built an <span class="text-orange">Operating System for Real-World Business.</span>
+                      From Onexla to <span class="text-orange">Hetxa AI BOS</span>
                     </h2>
                   </div>
 
-                  <p class="story-lead-p wow fadeInUp" data-wow-delay=".4s">
-                    Most enterprise ERP systems on the market were engineered in Silicon Valley or Europe for companies operating in fully connected, card-dominated environments.
+                  <p class="story-body-p wow fadeInUp" data-wow-delay=".35s">
+                    BeesPoint (Private) Limited has spent 7 years building and supporting cloud business systems for Sri Lankan companies. Onexla Cloud ERP serves 500+ clients across retail, wholesale, distribution and services — with the same local team that now powers Hetxa.
                   </p>
 
-                  <p class="story-body-p wow fadeInUp" data-wow-delay=".45s">
-                    In Sri Lanka, growing merchants face frequent telecom and power hiccups, manage high volumes of post-dated cheques (PDCs), navigate complex customer credit limits, and must satisfy strict Inland Revenue Department (IRD) RAMIS tax reporting mandates.
+                  <p class="story-body-p wow fadeInUp" data-wow-delay=".4s">
+                    Hetxa AI BOS unifies what used to require separate apps: when a sale happens at the counter, inventory and accounts update together. No end-of-day spreadsheets. No duplicate entry between POS and accounts.
                   </p>
 
-                  <p class="story-body-p wow fadeInUp" data-wow-delay=".5s">
-                    Meanwhile, generic accounting tools and legacy desktop POS software collapse when businesses expand to multiple branches. They lock data into isolated machines, cause stock shrinkage, and leave business owners flying blind.
-                  </p>
-
-                  <p class="story-body-p wow fadeInUp" data-wow-delay=".55s">
-                    <strong class="text-dark">Hetxa BOS was created to solve this exact dilemma.</strong> We combine high-speed Cloud POS, real-time multi-branch cloud sync, double-entry financial rigor, and predictive neural AI into one unified, elegant platform — backed by on-the-ground local support in Colombo and island-wide.
-                  </p>
-
-                  <!-- 2 Quick Promise Badges -->
-                  <div class="story-highlights-grid wow fadeInUp" data-wow-delay=".6s">
-                    <div class="story-hl-card">
-                      <div class="story-hl-icon">
-                        <i class="fa-solid fa-bolt-lightning"></i>
-                      </div>
-                      <div>
-                        <h6>&lt; 15-Minute Response</h6>
-                        <p>Direct hotline &amp; WhatsApp SLA. No automated robot queues.</p>
-                      </div>
+                  <!-- 4 Feature Bullets -->
+                  <div class="story-bullets-list">
+                    <div class="story-bullet-item">
+                      <div class="bullet-icon"><i class="fa-solid fa-sparkles"></i></div>
+                      <span><strong>500+ businesses</strong> already on our cloud ERP platform</span>
                     </div>
-                    <div class="story-hl-card">
-                      <div class="story-hl-icon">
-                        <i class="fa-solid fa-shield-halved"></i>
-                      </div>
-                      <div>
-                        <h6>Zero-Data-Loss Migration</h6>
-                        <p>Turnkey legacy transition from Excel, QuickBooks &amp; old POS.</p>
-                      </div>
+                    <div class="story-bullet-item">
+                      <div class="bullet-icon"><i class="fa-solid fa-users-gear"></i></div>
+                      <span><strong>15+ dedicated experts</strong> for implementation, training and support</span>
+                    </div>
+                    <div class="story-bullet-item">
+                      <div class="bullet-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                      <span><strong>7 years building</strong> business software for Sri Lankan SMEs</span>
+                    </div>
+                    <div class="story-bullet-item">
+                      <div class="bullet-icon"><i class="fa-solid fa-sliders"></i></div>
+                      <span><strong>Pay only for usage</strong> — enable modules when you need them</span>
                     </div>
                   </div>
-
                 </div>
               </div>
 
-              <!-- Right Column: Visual Showcase With Floating Badges -->
+              <!-- Right Column: Vertical Connected Milestones Timeline -->
               <div class="col-12 col-lg-6">
-                <div class="about-image-showcase wow fadeInRight" data-wow-delay=".4s">
-                  <div class="about-main-image-wrap">
-                    <img src="assets/images/about/h10-about-banner.webp" alt="Hetxa BOS Enterprise Architecture">
-                  </div>
-
-                  <!-- Floating Badge 1: Cloud-Native Real-Time Sync -->
-                  <div class="floating-glass-badge badge-top-right">
-                    <div class="f-badge-icon icon-orange">
-                      <i class="fa-solid fa-cloud-arrow-up"></i>
-                    </div>
-                    <div class="f-badge-info">
-                      <span class="badge-title">Real-Time Cloud Sync</span>
-                      <span class="badge-sub">Multi-branch instant data sync</span>
+                <div class="story-timeline-wrap">
+                  <!-- Milestone 1: 2019+ -->
+                  <div class="story-timeline-item wow fadeInRight" data-wow-delay=".3s">
+                    <div class="story-timeline-node"></div>
+                    <span class="timeline-phase-tag">2019+</span>
+                    <div class="story-timeline-card">
+                      <h5>Onexla Cloud ERP launched</h5>
+                      <p>Cloud ERP for Sri Lankan SMEs — sales, stock and accounts in one system.</p>
                     </div>
                   </div>
 
-                  <!-- Floating Badge 2: IRD RAMIS -->
-                  <div class="floating-glass-badge badge-bottom-left">
-                    <div class="f-badge-icon icon-cyan">
-                      <i class="fa-solid fa-file-invoice-dollar"></i>
-                    </div>
-                    <div class="f-badge-info">
-                      <span class="badge-title">IRD RAMIS Compliant</span>
-                      <span class="badge-sub">Native VAT / SVAT automated reporting</span>
-                    </div>
-                  </div>
-
-                  <!-- Floating Badge 3: Cheque Management -->
-                  <div class="floating-glass-badge badge-bottom-right">
-                    <div class="f-badge-icon icon-green">
-                      <i class="fa-solid fa-money-check-dollar"></i>
-                    </div>
-                    <div class="f-badge-info">
-                      <span class="badge-title">PDC Cheque Engine</span>
-                      <span class="badge-sub">Deposit, clearance &amp; return alerts</span>
+                  <!-- Milestone 2: GROWTH -->
+                  <div class="story-timeline-item wow fadeInRight" data-wow-delay=".4s">
+                    <div class="story-timeline-node"></div>
+                    <span class="timeline-phase-tag tag-cyan">GROWTH</span>
+                    <div class="story-timeline-card">
+                      <h5>500+ clients nationwide</h5>
+                      <p>Retail, wholesale, pharmacy, distribution and services across the island.</p>
                     </div>
                   </div>
 
+                  <!-- Milestone 3: TODAY -->
+                  <div class="story-timeline-item active-today wow fadeInRight" data-wow-delay=".5s">
+                    <div class="story-timeline-node"></div>
+                    <span class="timeline-phase-tag tag-active">TODAY</span>
+                    <div class="story-timeline-card">
+                      <h5>Hetxa AI BOS</h5>
+                      <p>Next-generation platform with AI tools, CRM, multi-branch POS and modern UX — same BeesPoint team behind it.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end: OUR STORY & EVOLUTION TIMELINE SECTION -->
+
+
+        <!-- ===================================================================
+             3. THE STORY BEHIND HETXA — PARALLAX IMAGE + FEATURES GRID (LIGHT BLUE THEME)
+             =================================================================== -->
+        <section class="tj-about-section-2 section-gap-x">
+          <div class="story-dark-glow"></div>
+          <div class="bg-shape-1">
+            <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true" loading="lazy">
+          </div>
+          <div class="bg-shape-2">
+            <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true" loading="lazy">
+          </div>
+          <div class="container">
+            <div class="row align-items-center g-5">
+
+              <!-- Left: Parallax Image Area + Floating Stats Card -->
+              <div class="col-12 col-lg-5">
+                <div class="story-parallax-area">
+                  <div class="story-img-frame">
+                    <img class="story-parallax-img" src="assets/images/about/about-2.jfif" alt="Hetxa AI BOS Story" loading="lazy">
+                  </div>                
+                </div>
+              </div>
+
+              <!-- Right: Story Content + Feature Cards Grid -->
+              <div class="col-12 col-lg-7">
+                <div class="story-content-wrap">
+                  <!-- Section Label -->
+                  <div class="about-badge-pill mb-3">
+                    <i class="fa-solid fa-bookmark text-orange"></i> THE STORY BEHIND HETXA
+                  </div>
+                  <h2 class="tj-section-heading wow fadeInUp" data-wow-delay=".2s">
+                    Built for the Realities of<br><span class="text-orange">Sri Lankan Business</span>
+                  </h2>
+                  <p class="story-lead-p wow fadeInUp" data-wow-delay=".25s">
+                    BeesPoint (Private) Limited has spent 7+ years building, deploying and supporting cloud ERP for Sri Lankan SMEs. We've sat across hundreds of business owners, understood the daily chaos of managing stock, staff and cash — and built Hetxa AI BOS to solve exactly that.
+                  </p>
+
+                  <!-- 2×2 Feature Cards Grid -->
+                  <div class="story-features-grid wow fadeInUp" data-wow-delay=".3s">
+                    <div class="story-feature-card">
+                      <div class="feat-icon"><i class="fa-solid fa-bolt"></i></div>
+                      <div class="feat-body">
+                        <h6>Real-Time POS</h6>
+                        <p>High-speed billing with offline support for uninterrupted trading.</p>
+                      </div>
+                    </div>
+                    <div class="story-feature-card">
+                      <div class="feat-icon"><i class="fa-solid fa-cloud"></i></div>
+                      <div class="feat-body">
+                        <h6>Multi-Branch Cloud</h6>
+                        <p>All branches synced live — stock, sales and cash flow in one view.</p>
+                      </div>
+                    </div>
+                    <div class="story-feature-card">
+                      <div class="feat-icon"><i class="fa-solid fa-brain"></i></div>
+                      <div class="feat-body">
+                        <h6>AI-Powered BI</h6>
+                        <p>Predictive demand, slow-movers, and re-order alerts automatically.</p>
+                      </div>
+                    </div>
+                    <div class="story-feature-card">
+                      <div class="feat-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                      <div class="feat-body">
+                        <h6>Sri Lanka Compliance</h6>
+                        <p>RAMIS-ready, 18% VAT, PDC cheque management built-in natively.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- CTA Row -->
+                  <div class="story-action-row wow fadeInUp" data-wow-delay=".35s">
+                    <a class="tj-primary-btn" href="contact.php">
+                      <span class="btn-text"><span>Book a Demo</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </a>
+                    <div class="story-trust-pill">
+                      <i class="fa-solid fa-circle-check"></i> 500+ Businesses Trust Hetxa
+                    </div>
+                  </div>
                 </div>
               </div>
 
             </div>
           </div>
         </section>
+        <!-- end: OUR STORY & EVOLUTION TIMELINE SECTION -->
 
         <!-- ===================================================================
              3. KEY METRICS & TRACTION STRIP
              =================================================================== -->
         <section class="about-metrics-bar">
           <div class="container">
-            <div class="row g-4">
+            <!-- Section Header -->
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-12 col-lg-8">
+                <div class="about-badge-pill mb-2 wow fadeInUp" data-wow-delay=".15s">
+                  <i class="fa-solid fa-chart-line text-orange"></i> ENTERPRISE RELIABILITY
+                </div>
+                <h2 class="metrics-section-heading wow fadeInUp" data-wow-delay=".2s">
+                  Guaranteed Quality, <span class="text-orange">No Excuses</span>
+                </h2>
+                <p class="metrics-section-sub wow fadeInUp" data-wow-delay=".25s">
+                  Engineered from ground up to deliver uncompromising speed, verified compliance, and 24/7 mission-critical uptime for Sri Lankan enterprise.
+                </p>
+              </div>
+            </div>
+
+            <!-- Metric Cards Grid -->
+            <div class="row g-4 justify-content-center">
               
-              <div class="col-6 col-lg-3">
-                <div class="about-metric-card wow fadeInUp" data-wow-delay=".2s">
+              <!-- Metric 1: Uptime -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about-metric-card metric-card-orange wow fadeInUp" data-wow-delay=".2s">
+                  <div class="metric-card-glow"></div>
+                  <div class="metric-top-row">
+                    <div class="metric-icon-box">
+                      <i class="fa-solid fa-server"></i>
+                    </div>
+                    <span class="metric-status-badge">
+                      <span class="pulse-dot"></span> SLA Active
+                    </span>
+                  </div>
                   <div class="stat-val">99.98%</div>
                   <div class="stat-title">Cloud Uptime SLA</div>
                   <p class="stat-desc">High-availability distributed cluster with automated instant failover.</p>
                 </div>
               </div>
 
-              <div class="col-6 col-lg-3">
-                <div class="about-metric-card wow fadeInUp" data-wow-delay=".3s">
+              <!-- Metric 2: Support Response -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about-metric-card metric-card-blue wow fadeInUp" data-wow-delay=".3s">
+                  <div class="metric-card-glow"></div>
+                  <div class="metric-top-row">
+                    <div class="metric-icon-box">
+                      <i class="fa-solid fa-bolt-lightning"></i>
+                    </div>
+                    <span class="metric-status-badge">
+                      <span class="pulse-dot dot-blue"></span> Rapid Response
+                    </span>
+                  </div>
                   <div class="stat-val">&lt; 15 Mins</div>
                   <div class="stat-title">Guaranteed Response</div>
                   <p class="stat-desc">Direct hotline &amp; WhatsApp access to Sri Lankan ERP engineers.</p>
                 </div>
               </div>
 
-              <div class="col-6 col-lg-3">
-                <div class="about-metric-card wow fadeInUp" data-wow-delay=".4s">
+              <!-- Metric 3: RAMIS Compliance -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about-metric-card metric-card-green wow fadeInUp" data-wow-delay=".4s">
+                  <div class="metric-card-glow"></div>
+                  <div class="metric-top-row">
+                    <div class="metric-icon-box">
+                      <i class="fa-solid fa-shield-check"></i>
+                    </div>
+                    <span class="metric-status-badge">
+                      <span class="pulse-dot dot-green"></span> IRD Verified
+                    </span>
+                  </div>
                   <div class="stat-val">100%</div>
                   <div class="stat-title">RAMIS Compliant</div>
                   <p class="stat-desc">Certified tax invoice generation &amp; real-time tax ledger accuracy.</p>
                 </div>
               </div>
 
-              <div class="col-6 col-lg-3">
-                <div class="about-metric-card wow fadeInUp" data-wow-delay=".5s">
-                  <div class="stat-val">0</div>
+              <!-- Metric 4: Zero Data Loss -->
+              <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about-metric-card metric-card-purple wow fadeInUp" data-wow-delay=".5s">
+                  <div class="metric-card-glow"></div>
+                  <div class="metric-top-row">
+                    <div class="metric-icon-box">
+                      <i class="fa-solid fa-database"></i>
+                    </div>
+                    <span class="metric-status-badge">
+                      <span class="pulse-dot dot-purple"></span> Zero Risk
+                    </span>
+                  </div>
+                  <div class="stat-val">0 <span class="stat-unit">Incidents</span></div>
                   <div class="stat-title">Data Loss Rate</div>
                   <p class="stat-desc">Real-time cloud database backup ensures zero transactional data loss.</p>
                 </div>
@@ -335,244 +583,7 @@
             </div>
           </div>
         </section>
-
-        <!-- ===================================================================
-             4. VISION, MISSION & VALUES SECTION
-             =================================================================== -->
-        <section class="about-section-alt">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-8 text-center">
-                <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    <i class="tji-box"></i> OUR GUIDING FOUNDATIONS
-                  </span>
-                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    The Principles That Fuel Our <span class="text-orange">Engineering &amp; Culture</span>
-                  </h2>
-                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #94A3B8; max-width: 680px; margin: 15px auto 0;">
-                    We are building software that stands the test of volatile economic conditions, high transaction volumes, and rigorous accounting standards.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row g-4 mt-2">
-              
-              <!-- Mission -->
-              <div class="col-12 col-lg-4">
-                <div class="vmv-card wow fadeInUp" data-wow-delay=".3s">
-                  <div class="vmv-icon-wrap">
-                    <i class="fa-solid fa-bullseye-arrow"></i>
-                  </div>
-                  <span class="vmv-badge">OUR MISSION</span>
-                  <h3 class="vmv-title">Automate Friction &amp; Protect Margins</h3>
-                  <p class="vmv-text">
-                    To eliminate manual friction, stock shrinkage, and cash leakage for Sri Lankan retail and wholesale merchants by providing a dependable, lightning-fast operating system that turns data into profitable decisions.
-                  </p>
-                  <ul class="vmv-bullets">
-                    <li><i class="fa-solid fa-check"></i> Sub-second checkout speeds</li>
-                    <li><i class="fa-solid fa-check"></i> Real-time inventory audit trails</li>
-                    <li><i class="fa-solid fa-check"></i> Zero financial reconciliation gaps</li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- Vision -->
-              <div class="col-12 col-lg-4">
-                <div class="vmv-card wow fadeInUp" data-wow-delay=".4s">
-                  <div class="vmv-icon-wrap">
-                    <i class="fa-solid fa-chart-line-up"></i>
-                  </div>
-                  <span class="vmv-badge">OUR VISION</span>
-                  <h3 class="vmv-title">The Foundation for 10,000+ Enterprises</h3>
-                  <p class="vmv-text">
-                    To establish Hetxa BOS as the undisputed digital operating backbone for over 10,000 growing enterprises across South Asia, democratizing AI-driven business intelligence for ambitious merchants everywhere.
-                  </p>
-                  <ul class="vmv-bullets">
-                    <li><i class="fa-solid fa-check"></i> Scalable multi-branch architecture</li>
-                    <li><i class="fa-solid fa-check"></i> Neural AI demand forecasting</li>
-                    <li><i class="fa-solid fa-check"></i> Regional enterprise commerce standard</li>
-                  </ul>
-                </div>
-              </div>
-
-              <!-- Values -->
-              <div class="col-12 col-lg-4">
-                <div class="vmv-card wow fadeInUp" data-wow-delay=".5s">
-                  <div class="vmv-icon-wrap">
-                    <i class="fa-solid fa-handshake-angle"></i>
-                  </div>
-                  <span class="vmv-badge">CORE VALUES</span>
-                  <h3 class="vmv-title">Integrity, Speed &amp; Human Empathy</h3>
-                  <p class="vmv-text">
-                    Software is only as good as the trust placed in it. We believe in strict double-entry ledger accuracy, complete pricing transparency, and direct human partnerships with our clients without robotic runarounds.
-                  </p>
-                  <ul class="vmv-bullets">
-                    <li><i class="fa-solid fa-check"></i> Double-entry mathematical precision</li>
-                    <li><i class="fa-solid fa-check"></i> Dedicated personal account managers</li>
-                    <li><i class="fa-solid fa-check"></i> Weekly updates driven by customer input</li>
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- ===================================================================
-             5. 4 STRATEGIC PILLARS THAT SET HETXA APART
-             =================================================================== -->
-        <section class="about-section-light">
-          <div class="container">
-            <div class="row align-items-center mb-5">
-              <div class="col-12 col-lg-8">
-                <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    <i class="tji-box"></i> STRATEGIC ADVANTAGE
-                  </span>
-                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Four Pillars Built Specifically for <span class="text-orange">Local Commerce Realities</span>
-                  </h2>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4 text-lg-end">
-                <a class="tj-primary-btn wow fadeInUp" data-wow-delay=".4s" href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20learn%20more%20about%20your%20ERP%20platform." target="_blank">
-                  <span class="btn-text"><span>Schedule Consultation</span></span>
-                  <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
-                </a>
-              </div>
-            </div>
-
-            <div class="row g-4">
-              
-              <!-- Pillar 01 -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="pillar-card wow fadeInUp" data-wow-delay=".2s">
-                  <span class="pillar-num">PILLAR 01</span>
-                  <div class="pillar-icon">
-                    <i class="fa-solid fa-cloud-arrow-up"></i>
-                  </div>
-                  <h4 class="pillar-title">Cloud-Native Architecture</h4>
-                  <p class="pillar-desc">
-                    High-speed central cloud infrastructure with continuous live sync across all branch registers, barcode scanners, and thermal printers with 99.9% uptime.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Pillar 02 -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="pillar-card wow fadeInUp" data-wow-delay=".3s">
-                  <span class="pillar-num">PILLAR 02</span>
-                  <div class="pillar-icon">
-                    <i class="fa-solid fa-building-columns"></i>
-                  </div>
-                  <h4 class="pillar-title">Sri Lankan Financial &amp; PDC Engine</h4>
-                  <p class="pillar-desc">
-                    Comprehensive post-dated cheque management, bank deposit slips, bounce tracking, customer credit scoring, and automatic IRD RAMIS VAT &amp; SVAT schedule creation.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Pillar 03 -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="pillar-card wow fadeInUp" data-wow-delay=".4s">
-                  <span class="pillar-num">PILLAR 03</span>
-                  <div class="pillar-icon">
-                    <i class="fa-solid fa-network-wired"></i>
-                  </div>
-                  <h4 class="pillar-title">Omni-Branch Mesh &amp; Dispatch</h4>
-                  <p class="pillar-desc">
-                    Manage 1 to 50+ retail counters, warehouses, and wholesale showrooms with centralized reorder requests, transfer dispatches, and real-time live inventory visibility.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Pillar 04 -->
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="pillar-card wow fadeInUp" data-wow-delay=".5s">
-                  <span class="pillar-num">PILLAR 04</span>
-                  <div class="pillar-icon">
-                    <i class="fa-solid fa-brain-circuit"></i>
-                  </div>
-                  <h4 class="pillar-title">Neural AI Predictive Intelligence</h4>
-                  <p class="pillar-desc">
-                    Embedded AI models analyze transaction velocity to forecast stock depletion dates, identify dead inventory capital, and alert managers to high-risk credit defaults.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- ===================================================================
-             6. SECURITY, COMPLIANCE & INFRASTRUCTURE
-             =================================================================== -->
-        <section class="about-section-alt">
-          <div class="container">
-            <div class="row align-items-center mb-5">
-              <div class="col-12 text-center">
-                <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    <i class="tji-box"></i> ENTERPRISE DATA INTEGRITY
-                  </span>
-                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Bank-Grade Security for Your <span class="text-orange">Critical Financial Data</span>
-                  </h2>
-                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #94A3B8; max-width: 700px; margin: 15px auto 0;">
-                    Your transactions, customer lists, and financial records represent your company's greatest asset. We protect them with enterprise-grade defenses.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row g-4">
-              
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="about-security-card wow fadeInUp" data-wow-delay=".2s">
-                  <div class="sec-icon">
-                    <i class="fa-solid fa-lock-keyhole"></i>
-                  </div>
-                  <h5>256-Bit TLS &amp; AES Encryption</h5>
-                  <p>All data in transit is shielded with 256-bit TLS encryption, while sensitive financial ledgers are encrypted at rest with AES-256 standards.</p>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="about-security-card wow fadeInUp" data-wow-delay=".3s">
-                  <div class="sec-icon">
-                    <i class="fa-solid fa-database"></i>
-                  </div>
-                  <h5>Automated Multi-Region Snapshots</h5>
-                  <p>Continuous database transaction logs and automated daily multi-region snapshot backups guarantee rapid recovery in any contingency.</p>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="about-security-card wow fadeInUp" data-wow-delay=".4s">
-                  <div class="sec-icon">
-                    <i class="fa-solid fa-user-shield"></i>
-                  </div>
-                  <h5>Role-Based Access Control (RBAC)</h5>
-                  <p>Granular cashier permissions, supervisor password overrides for discounts/voids, and immutable audit logs on every single transaction.</p>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="about-security-card wow fadeInUp" data-wow-delay=".5s">
-                  <div class="sec-icon">
-                    <i class="fa-solid fa-calculator-simple"></i>
-                  </div>
-                  <h5>Double-Entry Ledger Integrity</h5>
-                  <p>Engineered on strict double-entry bookkeeping principles. Every sale, purchase, and cheque movement balances mathematically across debits and credits.</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
+        
         <!-- ===================================================================
              7. HEADQUARTERS & LOCAL DEPLOYMENT TEAM
              =================================================================== -->
@@ -637,6 +648,93 @@
           </div>
         </section>
 
+        <!-- start: Faq Section -->
+        <!-- start: Faq Section -->
+        <section class="tj-faq-section section-gap">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-lg-4">
+                <div class="content-wrap">
+                  <div class="sec-heading">
+                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Common Questions</span>
+                    <h2 class="sec-title title-anim">Everything You Need <span>To Know.</span></h2>
+                  </div>
+                  <p class="desc wow fadeInUp" data-wow-delay=".5s">
+                    Got questions about Hetxa BOS architecture, IRD RAMIS tax readiness, offline POS reliability, or rollout timelines? Find clear answers from our engineering team below.
+                  </p>
+                  <div class="wow fadeInUp" data-wow-delay=".7s">
+                    <a class="tj-primary-btn" href="contact.php">
+                      <span class="btn-text"><span>Request a Consultation</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="accordion tj-faq" id="faqOne">
+                  
+                  <!-- FAQ 01: What is Hetxa BOS -->
+                  <div class="accordion-item active wow fadeInUp" data-wow-delay=".3s">
+                    <button class="faq-title" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1"
+                      aria-expanded="true">What is Hetxa BOS and how does it differ from traditional ERP systems?</button>
+                    <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Hetxa BOS is an All-in-One AI Business Operating System engineered specifically for the commercial realities of Sri Lankan business. Unlike rigid, legacy ERPs with exorbitant overseas licensing fees, Hetxa unifies high-velocity Cloud POS, multi-branch FIFO warehousing, automated PDC cheque clearing, and IRD RAMIS VAT compliance in one cloud-native platform with zero bloat.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- FAQ 02: IRD RAMIS Compliance -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".4s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2"
+                      aria-expanded="false">Is Hetxa BOS fully compliant with Sri Lanka IRD RAMIS VAT &amp; SSCL regulations?</button>
+                    <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Yes, 100%. Hetxa BOS is built in strict adherence to Sri Lanka Inland Revenue Department (IRD) RAMIS specifications. It automatically calculates 18% VAT, SSCL, and tax exemptions, prints compliant tax invoices with thermal QR verification, and generates one-click audit-ready tax return schedules.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- FAQ 03: Implementation Timeline -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3"
+                      aria-expanded="false">How long does implementation, data migration, and cashier training take?</button>
+                    <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Typical single-store and multi-branch rollouts go live within 3 to 7 business days. Our Colombo-based implementation engineers handle historical Excel item/stock imports, receipt template customization, barcode printer calibration, and provide comprehensive hands-on training for cashiers, storekeepers, and accountants.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- FAQ 04: Offline POS Reliability -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".6s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4"
+                      aria-expanded="false">Does Hetxa Cloud POS continue operating if our internet connection drops?</button>
+                    <div id="faq-4" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Yes. Hetxa POS features an advanced offline-first architecture. If your branch internet drops, cashiers can continue barcode scanning, receipt printing, and billing without interruption. As soon as the connection is restored, all offline sales, stock deductions, and payments automatically synchronize with the central cloud database.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- FAQ 05: Support & SLAs -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5"
+                      aria-expanded="false">What local customer support and service-level guarantees (SLAs) do you provide?</button>
+                    <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>We provide guaranteed islandwide support backed by a 99.98% cloud uptime SLA. Every customer gets direct access to our dedicated engineering support hotlines, WhatsApp priority groups, remote AnyDesk troubleshooting, automated daily cloud backups, and free continuous platform updates with no hidden annual AMC fees.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end: Faq Section -->
+
         <!-- ===================================================================
              8. EXECUTIVE CALL TO ACTION (CTA)
              =================================================================== -->
@@ -668,6 +766,7 @@
   <!-- JS here -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
   <script src="assets/js/gsap.min.js"></script>
   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
@@ -683,6 +782,101 @@
   <script src="assets/js/isotope.pkgd.min.js"></script>
   <script src="assets/js/magiccursor.js"></script>
   <script src="assets/js/main.js?v=<?php echo time(); ?>"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefined") {
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Timeline items entrance animation on scroll
+        gsap.utils.toArray(".story-timeline-item").forEach((item, idx) => {
+          gsap.from(item, {
+            opacity: 0,
+            x: 25,
+            duration: 0.65,
+            delay: idx * 0.12,
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: item,
+              start: "top 85%",
+              once: true,
+            },
+          });
+        });
+
+        // Story bullet points stagger entrance
+        if (document.querySelector('.story-bullet-item')) {
+          gsap.from(".story-bullet-item", {
+            opacity: 0,
+            y: 15,
+            duration: 0.55,
+            stagger: 0.1,
+            ease: "power2.out",
+            clearProps: "all",
+            scrollTrigger: {
+              trigger: ".story-bullets-list",
+              start: "top 85%",
+              once: true,
+            },
+          });
+        }
+
+        // ── Story Section Parallax (THE STORY BEHIND HETXA) ──────────────────
+        const isMobile = window.innerWidth < 768;
+        const yDist    = isMobile ? 16 : 40;
+
+        if (document.querySelector('.story-parallax-area')) {
+          gsap.fromTo('.story-parallax-area',
+            { y: yDist },
+            { y: -yDist, ease: 'none',
+              scrollTrigger: { trigger: '.tj-about-section-2', start: 'top bottom', end: 'bottom top', scrub: 1.2 }
+            });
+          gsap.fromTo('.story-parallax-img',
+            { yPercent: -8, scale: 1.08 },
+            { yPercent:  8, scale: 1.08, ease: 'none',
+              scrollTrigger: { trigger: '.tj-about-section-2', start: 'top bottom', end: 'bottom top', scrub: 1.4 }
+            });
+          if (document.querySelector('.story-float-card')) {
+            gsap.fromTo('.story-float-card',
+              { y: -15 },
+              { y:  15, ease: 'none',
+                scrollTrigger: { trigger: '.tj-about-section-2', start: 'top bottom', end: 'bottom top', scrub: 1.6 }
+              });
+          }
+        }
+
+        // ── Progress Bar Animate on Scroll into View ──────────────────────────
+        function animateProgressBar(barId, pctId, targetPct, duration) {
+          const bar = document.getElementById(barId);
+          const pct = document.getElementById(pctId);
+          if (!bar || !pct) return;
+          const startTime = performance.now();
+          function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+          function step(now) {
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const eased    = easeOutCubic(progress);
+            const current  = Math.round(eased * targetPct);
+            bar.style.width = current + '%';
+            pct.textContent  = current + '%';
+            if (progress < 1) requestAnimationFrame(step);
+          }
+          requestAnimationFrame(step);
+        }
+
+        if (document.querySelector('.story-float-card')) {
+          ScrollTrigger.create({
+            trigger: '.story-float-card',
+            start: 'top 88%',
+            once: true,
+            onEnter: () => {
+              animateProgressBar('uptime-bar', 'uptime-pct', 99, 1600);
+              animateProgressBar('csat-bar',   'csat-pct',   98, 1800);
+            }
+          });
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>

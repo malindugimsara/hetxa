@@ -81,16 +81,41 @@ Progressbar js
 		nullTargetWarn: false,
 	});
 
-	// Smooth Anchor Link Navigation
+	/* ------------- Lenis Ultra-Smooth High Performance Scrolling -------------*/
+	if (typeof Lenis !== "undefined") {
+		const lenis = new Lenis({
+			duration: 0.8,
+			easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+			smoothWheel: true,
+			wheelMultiplier: 1.0,
+			touchMultiplier: 1.0,
+			smoothTouch: false,
+		});
+		window.lenis = lenis;
+
+		lenis.on("scroll", ScrollTrigger.update);
+
+		gsap.ticker.add((time) => {
+			lenis.raf(time * 1000);
+		});
+
+		gsap.ticker.lagSmoothing(500, 33);
+	}
+
+	// Smooth Anchor Link Navigation with Lenis integration
 	$(document).on("click", 'a[href^="#"]', function (e) {
 		const targetId = $(this).attr("href");
 		if (targetId && targetId.length > 1 && targetId.startsWith("#")) {
 			try {
-				const $target = $(targetId);
-				if ($target.length) {
+				const targetEl = document.querySelector(targetId);
+				if (targetEl) {
 					e.preventDefault();
-					const targetTop = $target.offset().top - 90;
-					$("html, body").stop().animate({ scrollTop: targetTop }, 500, "swing");
+					if (window.lenis) {
+						window.lenis.scrollTo(targetEl, { offset: -90, duration: 1.2 });
+					} else {
+						const targetTop = $(targetId).offset().top - 90;
+						$("html, body").stop().animate({ scrollTop: targetTop }, 500, "swing");
+					}
 				}
 			} catch (err) {}
 		}
@@ -105,28 +130,37 @@ Progressbar js
 	});
 
 	////////////////////////////////////////////////////
-	// Sticky Nav Js
-	var lastScrollTop = "";
-	function stickyMenu($targetMenu, $toggleClass) {
-		var st = $(window).scrollTop();
-		if ($(window).scrollTop() > 500) {
-			if (st > lastScrollTop) {
-				$targetMenu.removeClass($toggleClass);
-			} else {
-				$targetMenu.addClass($toggleClass);
+	// Sticky Nav Js (Throttled with requestAnimationFrame)
+	var lastScrollTop = 0;
+	var isHeaderSticky = false;
+	var $headerSticky = $(".header-sticky");
+	var hasHeaderArea = $(".header-area").length > 0;
+
+	if (hasHeaderArea && $headerSticky.length) {
+		var stickyTicking = false;
+		window.addEventListener("scroll", function () {
+			if (!stickyTicking) {
+				window.requestAnimationFrame(function () {
+					var st = window.pageYOffset || document.documentElement.scrollTop;
+					if (st > 500) {
+						if (st > lastScrollTop && isHeaderSticky) {
+							$headerSticky.removeClass("sticky");
+							isHeaderSticky = false;
+						} else if (st <= lastScrollTop && !isHeaderSticky) {
+							$headerSticky.addClass("sticky");
+							isHeaderSticky = true;
+						}
+					} else if (isHeaderSticky) {
+						$headerSticky.removeClass("sticky");
+						isHeaderSticky = false;
+					}
+					lastScrollTop = st <= 0 ? 0 : st;
+					stickyTicking = false;
+				});
+				stickyTicking = true;
 			}
-		} else {
-			$targetMenu.removeClass($toggleClass);
-		}
-
-		lastScrollTop = st;
+		}, { passive: true });
 	}
-
-	$(window).on("scroll", function () {
-		if ($(".header-area").length) {
-			stickyMenu($(".header-sticky"), "sticky");
-		}
-	});
 
 	////////////////////////////////////////////////////
 	// Mobile Menu Js
@@ -974,47 +1008,64 @@ Progressbar js
 	}
 
 	////////////////////////////////////////////////////
-	// Backtotop Js
+	// Backtotop Js (Throttled with requestAnimationFrame)
 	function tjBaackTopController() {
 		const scrollElementWrap = $("#tj-back-to-top");
 		if (scrollElementWrap?.length) {
-			const scrollPercentage = () => {
+			const $percentText = $("#tj-back-to-top-percentage");
+			let lastScrollValue = -1;
+			let isBackTopTicking = false;
+
+			const updateScrollPercentage = () => {
 				const scrollTopPos = window.pageYOffset || document.documentElement.scrollTop;
 				const calcHeight =
 					document.documentElement.scrollHeight -
 					document.documentElement.clientHeight;
 				const scrollValue = Math.min(100, Math.max(0, Math.round((scrollTopPos / (calcHeight || 1)) * 100)));
 
-				scrollElementWrap.css(
-					"background",
-					`conic-gradient( var(--tj-color-theme-primary) ${scrollValue}%, var(--tj-color-common-white) ${scrollValue}%)`,
-				);
+				if (scrollValue !== lastScrollValue) {
+					scrollElementWrap.css(
+						"background",
+						`conic-gradient( var(--tj-color-theme-primary) ${scrollValue}%, var(--tj-color-common-white) ${scrollValue}%)`,
+					);
 
-				// ScrollProgress
+					if (scrollValue < 96) {
+						$percentText.text(`${scrollValue}%`);
+					} else {
+						$percentText.html('<i class="tji-arrow-up-long"></i>');
+					}
+					lastScrollValue = scrollValue;
+				}
+
 				if (scrollTopPos > 100) {
 					scrollElementWrap.addClass("active");
 				} else {
 					scrollElementWrap.removeClass("active");
 				}
 
-				if (scrollValue < 96) {
-					$("#tj-back-to-top-percentage").text(`${scrollValue}%`);
-				} else {
-					$("#tj-back-to-top-percentage").html(
-						'<i class="tji-arrow-up-long"></i>',
-					);
+				isBackTopTicking = false;
+			};
+
+			const onScrollHandler = () => {
+				if (!isBackTopTicking) {
+					window.requestAnimationFrame(updateScrollPercentage);
+					isBackTopTicking = true;
 				}
 			};
 
-			window.addEventListener("scroll", scrollPercentage, { passive: true });
-			window.addEventListener("load", scrollPercentage, { passive: true });
+			window.addEventListener("scroll", onScrollHandler, { passive: true });
+			window.addEventListener("load", onScrollHandler, { passive: true });
 
 			// Back to Top
 			function scrollToTop() {
-				window.scrollTo({
-					top: 0,
-					behavior: "smooth",
-				});
+				if (window.lenis) {
+					window.lenis.scrollTo(0, { duration: 1.2 });
+				} else {
+					window.scrollTo({
+						top: 0,
+						behavior: "smooth",
+					});
+				}
 			}
 
 			$("#tj-back-to-top").on("click", scrollToTop);
@@ -1141,7 +1192,7 @@ Progressbar js
 	}
 
 	////////////////////////////////////////////////////
-	// progress bar
+	// progress bar (synchronized line width and percentage text animation)
 	const progressBarController = () => {
 		const progressContainers = document.querySelectorAll(".tj-progress");
 
@@ -1149,40 +1200,63 @@ Progressbar js
 			progressContainers.forEach(progressContainer => {
 				const targetedProgressBar =
 					progressContainer.querySelector(".tj-progress-bar");
+				if (!targetedProgressBar) return;
+
 				const completedPercent =
-					parseInt(targetedProgressBar.getAttribute("data-percent", 10)) || 0;
+					parseFloat(targetedProgressBar.getAttribute("data-percent")) || 0;
+				const percentageText = progressContainer.querySelector(
+					".tj-progress-percent",
+				);
+
+				// Initialize width and text so they start in sync
+				targetedProgressBar.style.transition = "none";
+				targetedProgressBar.style.width = "0%";
+				if (percentageText) {
+					percentageText.textContent = "0%";
+				}
 
 				// Trigger animation when the element comes into view
 				const observer = new IntersectionObserver(
 					entries => {
 						entries.forEach(entry => {
 							if (entry.isIntersecting) {
-								// Animate the progress bar
-								targetedProgressBar.style.transition = "width 2s ease-out";
-								targetedProgressBar.style.width = `${completedPercent}%`;
+								observer.unobserve(entry.target);
 
-								// Animate the percentage text
-								const percentageText = progressContainer.querySelector(
-									".tj-progress-percent",
-								);
-								if (percentageText) {
-									let currentPercent = 0;
+								const duration = 1600; // Total duration in ms
+								let start = null;
 
-									const interval = setInterval(() => {
-										currentPercent++;
-										percentageText.textContent = `${currentPercent}%`;
+								// Smooth ease-out cubic curve so movement slows down gracefully towards the end
+								const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
 
-										if (currentPercent >= completedPercent) {
-											clearInterval(interval); // Stop the animation
+								const step = timestamp => {
+									if (!start) start = timestamp;
+									const elapsed = timestamp - start;
+									const progress = Math.min(elapsed / duration, 1);
+									const currentVal = easeOutCubic(progress) * completedPercent;
+
+									// Update line width and counter text synchronously on every animation frame
+									targetedProgressBar.style.width = `${currentVal}%`;
+									if (percentageText) {
+										percentageText.textContent = `${Math.round(currentVal)}%`;
+									}
+
+									if (progress < 1) {
+										requestAnimationFrame(step);
+									} else {
+										targetedProgressBar.style.width = `${completedPercent}%`;
+										if (percentageText) {
+											percentageText.textContent = `${completedPercent}%`;
 										}
-									}, 15); // Adjust the interval for animation speed
-								}
+									}
+								};
+
+								requestAnimationFrame(step);
 							}
 						});
 					},
 					{
-						root: null, // Observing the viewport
-						threshold: [0.3, 0.9], // Progress triggers based on visibility
+						root: null,
+						threshold: 0.25,
 					},
 				);
 				observer.observe(progressContainer);
@@ -1262,31 +1336,26 @@ Progressbar js
 
 		/* ------------- Positon Sticky Js -------------*/
 
-		/* Service js - Stacking Cards with Fade & Scale Animation */
-		const serviceCards = gsap.utils.toArray(".service-item.style-5");
-		if (serviceCards.length > 0) {
+		/* Service js - Stacking Cards with Anticipate Pinning */
+		const serviceStack = gsap.utils.toArray(".service-stack");
+		if (serviceStack.length > 0) {
 			mediaMatch.add("(min-width: 992px)", () => {
-				serviceCards.forEach((item, index) => {
-					// Pin and fade out each card as the next card scrolls up to cover it
-					if (index < serviceCards.length - 1) {
-						const nextCard = serviceCards[index + 1];
-						gsap.to(item, {
-							opacity: 0,
-							scale: 0.93,
-							ease: "power1.in",
-							scrollTrigger: {
-								trigger: item,
-								start: "top top",
-								endTrigger: nextCard,
-								end: "top top",
-								pin: true,
-								pinSpacing: false,
-								scrub: true,
-								anticipatePin: 1,
-								invalidateOnRefresh: true,
-							},
-						});
-					}
+				serviceStack.forEach(item => {
+					gsap.to(item, {
+						opacity: 0,
+						scale: 0.92,
+						y: 40,
+						scrollTrigger: {
+							trigger: item,
+							scrub: 0.4,
+							start: "top top",
+							pin: true,
+							pinSpacing: false,
+							anticipatePin: 1,
+							markers: false,
+							invalidateOnRefresh: true,
+						},
+					});
 				});
 			});
 		}
@@ -1513,18 +1582,20 @@ Progressbar js
 				let zoomElements = document.querySelectorAll(".zoom-on-scroll");
 				// Set initial scale
 				gsap.set(zoomElements, {
-					scale: 0.74,
+					scale: 0.9,
 					transformOrigin: "top center",
+					force3D: true,
 				});
-				// Animate to scale 1 on scroll
+				// Animate to scale 1 on scroll with smooth scrub lag
 				gsap.to(zoomElements, {
 					scale: 1,
-					ease: "none",
+					ease: "power1.out",
+					force3D: true,
 					scrollTrigger: {
 						trigger: ".zoom-on-scroll-wrapper",
 						start: "top top",
 						end: "top+=30% top",
-						scrub: true,
+						scrub: 0.3,
 					},
 				});
 			});

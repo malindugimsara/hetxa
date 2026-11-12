@@ -340,7 +340,7 @@
                   <div class="h10-hero-banner-img h10-hero-banner-video">
                     <video autoplay loop muted playsinline data-wf-ignore="true" data-object-fit="cover"
                       poster="assets/images/hero/h10-hero-banner.webp">
-                      <source src="assets/video/h10-banner-videio.mp4" data-wf-ignore="true" />
+                      <source src="assets/video/Brand_logo.mp4" data-wf-ignore="true" />
                     </video>
 
                     <!-- Floating AI Operating System Live HUD Cards -->
@@ -487,9 +487,8 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="sec-heading style-4 text-center">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Our ERP
-                    Modules</span>
-                  <h2 class="sec-title title-anim">
+                  <span class="sub-title"><i class="tji-box"></i>Our ERP Modules</span>
+                  <h2 class="sec-title">
                     Simplify Your  <span class="text-orange-500">Workflow</span>
                   </h2>
                 </div>
@@ -2506,19 +2505,25 @@
                       <div class="col-sm-6">
                         <div class="form-input">
                           <label class="cf-label">Full Name *</label>
-                          <input type="text" name="cfName3" placeholder="Your full name">
+                          <input type="text" name="cfName3" placeholder="Your full name" required>
                         </div>
                       </div>
                       <div class="col-sm-6">
                         <div class="form-input">
                           <label class="cf-label">Email Address *</label>
-                          <input type="email" name="cfEmail3" placeholder="email@company.com">
+                          <input type="email" name="cfEmail3" placeholder="email@company.com" required>
                         </div>
                       </div>
                       <div class="col-sm-6">
                         <div class="form-input">
                           <label class="cf-label">Phone number *</label>
-                          <input type="tel" name="cfPhone3" placeholder="+94 7X XXX XXXX">
+                          <input type="tel" name="cfPhone3" placeholder="+94 7X XXX XXXX" required>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-input">
+                          <label class="cf-label">Company / Business Name</label>
+                          <input type="text" name="cfCompany3" placeholder="e.g. Retail Chain / Wholesale">
                         </div>
                       </div>
                       <div class="col-sm-6" style="position: relative; z-index: 35;">
@@ -2527,22 +2532,37 @@
                             <div class="tj-select">
                               <label class="cf-label">Select Solution / Purpose</label>
                               <select name="cfSubject3">
-                                <option value="1">Retail &amp; Supermarket POS</option>
-                                <option value="2">Wholesale &amp; Distribution ERP</option>
-                                <option value="3">Multi-Branch Inventory Sync</option>
-                                <option value="4">IRD RAMIS VAT Compliance</option>
-                                <option value="5">Sri Lanka Cheque Management</option>
-                                <option value="6">Request a Live 1-on-1 Demo</option>
-                                <option value="7">General Inquiry &amp; Support</option>
+                                <option value="Retail &amp; Supermarket POS">Retail &amp; Supermarket POS</option>
+                                <option value="Wholesale &amp; Distribution ERP">Wholesale &amp; Distribution ERP</option>
+                                <option value="Multi-Branch Inventory Sync">Multi-Branch Inventory Sync</option>
+                                <option value="IRD RAMIS VAT Compliance">IRD RAMIS VAT Compliance</option>
+                                <option value="Sri Lanka Cheque Management">Sri Lanka Cheque Management</option>
+                                <option value="Request a Live 1-on-1 Demo">Request a Live 1-on-1 Demo</option>
+                                <option value="General Inquiry &amp; Support">General Inquiry &amp; Support</option>
                               </select>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-12">
+                      <div class="col-sm-6" style="position: relative; z-index: 35;">
+                        <div class="form-input">
+                          <div class="tj-nice-select-box">
+                            <div class="tj-select">
+                              <label class="cf-label">Expected Budget</label>
+                              <select name="cfBudget3">
+                                <option value="Under 100,000">Under LKR 100,000</option>
+                                <option value="100,000 - 500,000">LKR 100,000 - 500,000</option>
+                                <option value="500,000 - 1,000,000">LKR 500,000 - 1,000,000</option>
+                                <option value="Above 1,000,000">LKR 1,000,000+ (Enterprise)</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12" style="position: relative; z-index: 10;">
                         <div class="form-input message-input">
                           <label class="cf-label">Message here... *</label>
-                          <textarea name="cfMessage3" id="message" placeholder="Tell us about your business requirements, branch count, or current challenges..."></textarea>
+                          <textarea name="cfMessage3" id="message" placeholder="Tell us about your business requirements, branch count, or current challenges..." required></textarea>
                         </div>
                       </div>
                       <div class="submit-btn d-flex align-items-center justify-content-between flex-wrap gap-3">
@@ -2701,6 +2721,7 @@
   <!-- JS here -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
   <script src="assets/js/gsap.min.js"></script>
   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
@@ -2719,6 +2740,41 @@
   <script src="assets/js/modules.js?v=<?php echo time(); ?>"></script>
   <script src="assets/js/benefits.js?v=<?php echo time(); ?>"></script>
   <script src="assets/js/industries.js?v=<?php echo time(); ?>"></script>
+
+  <!-- Homepage Contact Form to WhatsApp Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const contactFormHome = document.getElementById('contact-form-3');
+      if (contactFormHome) {
+        contactFormHome.addEventListener('submit', function (e) {
+          e.preventDefault();
+          const name = this.cfName3 ? this.cfName3.value.trim() : '';
+          const email = this.cfEmail3 ? this.cfEmail3.value.trim() : '';
+          const phone = this.cfPhone3 ? this.cfPhone3.value.trim() : '';
+          const company = this.cfCompany3 ? this.cfCompany3.value.trim() : '';
+          const solutionSelect = this.cfSubject3;
+          const solution = solutionSelect ? (solutionSelect.options[solutionSelect.selectedIndex] ? solutionSelect.options[solutionSelect.selectedIndex].text : solutionSelect.value) : '';
+          const budgetSelect = this.cfBudget3;
+          const budget = budgetSelect ? (budgetSelect.options[budgetSelect.selectedIndex] ? budgetSelect.options[budgetSelect.selectedIndex].text : budgetSelect.value) : '';
+          const message = this.cfMessage3 ? this.cfMessage3.value.trim() : '';
+
+          let text = `*New ERP Consultation Request (Homepage)*\n\n`;
+          text += `👤 *Name:* ${name}\n`;
+          text += `📞 *Phone / WhatsApp:* ${phone}\n`;
+          text += `✉️ *Email:* ${email}\n`;
+          if (company) text += `🏢 *Company / Business:* ${company}\n`;
+          text += `💼 *Solution Needed:* ${solution}\n`;
+          text += `💰 *Expected Budget:* ${budget}\n`;
+          if (message) {
+            text += `\n📝 *Business Requirements:*\n${message}\n`;
+          }
+
+          const waUrl = `https://wa.me/94741588728?text=${encodeURIComponent(text)}`;
+          window.open(waUrl, '_blank');
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>

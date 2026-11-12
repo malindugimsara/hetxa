@@ -1,6 +1,18 @@
 <?php
-$currentScript = basename($_SERVER['PHP_SELF'] ?? '');
+$currentScript = basename($_SERVER['SCRIPT_NAME'] ?? $_SERVER['PHP_SELF'] ?? '');
 $isModulePage = (strpos($currentScript, 'module-') === 0);
+
+$modulesList = [
+  'module-sales.php'     => ['num' => '01', 'name' => 'Sales & POS', 'icon' => 'fa-cash-register'],
+  'module-crm.php'       => ['num' => '02', 'name' => 'CRM Hub', 'icon' => 'fa-users-viewfinder'],
+  'module-inventory.php' => ['num' => '03', 'name' => 'Purchasing & Inventory', 'icon' => 'fa-boxes-stacked'],
+  'module-finance.php'   => ['num' => '04', 'name' => 'Finance & Cheques', 'icon' => 'fa-money-check-dollar'],
+  'module-projects.php'  => ['num' => '05', 'name' => 'Projects & Tasks', 'icon' => 'fa-diagram-project'],
+  'module-reports.php'   => ['num' => '06', 'name' => 'Reports & BI', 'icon' => 'fa-chart-pie'],
+  'module-ai.php'        => ['num' => '07', 'name' => 'Neural AI Insights', 'icon' => 'fa-brain'],
+  'module-hr.php'        => ['num' => '08', 'name' => 'HR & Payroll', 'icon' => 'fa-users-gear'],
+  'module-admin.php'     => ['num' => '09', 'name' => 'Administration & Security', 'icon' => 'fa-sliders'],
+];
 ?>
 <!-- start: Hamburger Menu -->
 <div class="hamburger-area d-lg-none">
@@ -72,15 +84,19 @@ $isModulePage = (strpos($currentScript, 'module-') === 0);
                   <li class="<?php echo ($currentScript === 'index.php' || empty($currentScript)) ? 'current-menu-ancestor' : ''; ?>"><a href="index.php">Home</a></li>
                   <li class="has-dropdown <?php echo $isModulePage ? 'current-menu-ancestor' : ''; ?>"><a href="index.php#modules">Modules</a>
                     <ul class="sub-menu modules-dropdown">
-                      <li><a href="module-sales.php"><i class="fa-solid fa-cash-register"></i> Module 01: Sales &amp; POS</a></li>
-                      <li><a href="module-crm.php"><i class="fa-solid fa-users-viewfinder"></i> Module 02: CRM Hub</a></li>
-                      <li><a href="module-inventory.php"><i class="fa-solid fa-boxes-stacked"></i> Module 03: Purchasing &amp; Inventory</a></li>
-                      <li><a href="module-finance.php"><i class="fa-solid fa-money-check-dollar"></i> Module 04: Finance &amp; Cheques</a></li>
-                      <li><a href="module-projects.php"><i class="fa-solid fa-diagram-project"></i> Module 05: Projects &amp; Tasks</a></li>
-                      <li><a href="module-reports.php"><i class="fa-solid fa-chart-pie"></i> Module 06: Reports &amp; BI</a></li>
-                      <li><a href="module-ai.php"><i class="fa-solid fa-brain"></i> Module 07: Neural AI Insights</a></li>
-                      <li><a href="module-hr.php"><i class="fa-solid fa-users-gear"></i> Module 08: HR &amp; Payroll</a></li>
-                      <li><a href="module-admin.php"><i class="fa-solid fa-sliders"></i> Module 09: Administration &amp; Security</a></li>
+                      <?php foreach ($modulesList as $file => $mod): 
+                        $isActive = ($currentScript === $file);
+                      ?>
+                        <li class="<?php echo $isActive ? 'active current-menu-item' : ''; ?>">
+                          <a href="<?php echo $file; ?>" class="<?php echo $isActive ? 'active' : ''; ?>">
+                            <i class="fa-solid <?php echo $mod['icon']; ?>"></i> 
+                            <span>Module <?php echo $mod['num']; ?>: <?php echo $mod['name']; ?></span>
+                            <?php if ($isActive): ?>
+                              <span class="mod-current-badge"><i class="fa-solid fa-check"></i> Current</span>
+                            <?php endif; ?>
+                          </a>
+                        </li>
+                      <?php endforeach; ?>
                     </ul>
                   </li>
                   <li class="<?php echo ($currentScript === 'about.php') ? 'current-menu-ancestor' : ''; ?>"><a href="about.php">About</a></li>
@@ -132,15 +148,19 @@ $isModulePage = (strpos($currentScript, 'module-') === 0);
                 <li class="<?php echo ($currentScript === 'index.php' || empty($currentScript)) ? 'current-menu-ancestor' : ''; ?>"><a href="index.php">Home</a></li>
                 <li class="has-dropdown <?php echo $isModulePage ? 'current-menu-ancestor' : ''; ?>"><a href="index.php#modules">Modules</a>
                   <ul class="sub-menu modules-dropdown">
-                    <li><a href="module-sales.php"><i class="fa-solid fa-cash-register"></i> Module 01: Sales &amp; POS</a></li>
-                    <li><a href="module-crm.php"><i class="fa-solid fa-users-viewfinder"></i> Module 02: CRM Hub</a></li>
-                    <li><a href="module-inventory.php"><i class="fa-solid fa-boxes-stacked"></i> Module 03: Purchasing &amp; Inventory</a></li>
-                    <li><a href="module-finance.php"><i class="fa-solid fa-money-check-dollar"></i> Module 04: Finance &amp; Cheques</a></li>
-                    <li><a href="module-projects.php"><i class="fa-solid fa-diagram-project"></i> Module 05: Projects &amp; Tasks</a></li>
-                    <li><a href="module-reports.php"><i class="fa-solid fa-chart-pie"></i> Module 06: Reports &amp; BI</a></li>
-                    <li><a href="module-ai.php"><i class="fa-solid fa-brain"></i> Module 07: Neural AI Insights</a></li>
-                    <li><a href="module-hr.php"><i class="fa-solid fa-users-gear"></i> Module 08: HR &amp; Payroll</a></li>
-                    <li><a href="module-admin.php"><i class="fa-solid fa-sliders"></i> Module 09: Administration &amp; Security</a></li>
+                    <?php foreach ($modulesList as $file => $mod): 
+                      $isActive = ($currentScript === $file);
+                    ?>
+                      <li class="<?php echo $isActive ? 'active current-menu-item' : ''; ?>">
+                        <a href="<?php echo $file; ?>" class="<?php echo $isActive ? 'active' : ''; ?>">
+                          <i class="fa-solid <?php echo $mod['icon']; ?>"></i> 
+                          <span>Module <?php echo $mod['num']; ?>: <?php echo $mod['name']; ?></span>
+                          <?php if ($isActive): ?>
+                            <span class="mod-current-badge"><i class="fa-solid fa-check"></i> Current</span>
+                          <?php endif; ?>
+                        </a>
+                      </li>
+                    <?php endforeach; ?>
                   </ul>
                 </li>
                 <li class="<?php echo ($currentScript === 'about.php') ? 'current-menu-ancestor' : ''; ?>"><a href="about.php">About</a></li>

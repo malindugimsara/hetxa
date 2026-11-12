@@ -125,26 +125,42 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How quickly does the Hetxa team respond to inquiries?",
+            "name": "How quickly does the Hetxa team respond to consultation requests and demos?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Our Sri Lankan enterprise specialists guarantee a response in under 15 minutes during standard hours, and maintain an instant-reply desk on official WhatsApp at 074 158 8728."
+              "text": "Our Colombo-based enterprise sales and support teams guarantee a response in under 15 minutes during standard business hours. For instant assistance, you can message our dedicated WhatsApp consultation desk at 074 158 8728 or call our sales hotline on 070 211 5937."
             }
           },
           {
             "@type": "Question",
-            "name": "Can we schedule an on-site demo at our retail store or warehouse?",
+            "name": "Can we schedule an on-site live demo at our retail outlet, head office, or warehouse?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Our implementation consultants travel across the island (Colombo, Kandy, Galle, Kurunegala, Jaffna) to demonstrate Hetxa on your premises with sample inventory and hardware."
+              "text": "Yes, absolutely. Our implementation consultants provide both online screen-share sessions and on-site demonstrations across Sri Lanka (Colombo, Gampaha, Kandy, Galle, Kurunegala, Jaffna). We can demonstrate Hetxa using your actual product catalog and existing barcode printers or POS terminals."
             }
           },
           {
             "@type": "Question",
-            "name": "Does Hetxa provide migration assistance from legacy software like QuickBooks or Excel?",
+            "name": "Does Hetxa provide migration assistance from our current software (QuickBooks, Tally, Excel)?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We offer complete turnkey migration for product catalogs, customer ledger balances, supplier details, and opening inventory with zero operational downtime."
+              "text": "Yes. We offer complete end-to-end turnkey data migration. Our engineers securely transfer your historical customer ledgers, supplier balances, item master catalogs with barcodes, and warehouse opening stock into Hetxa BOS with zero business disruption or sales downtime."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What hardware (barcode scanners, thermal printers, touchscreens) is compatible with Hetxa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hetxa POS is hardware-agnostic and runs smoothly on standard Windows, Android, Mac, or Linux systems. It supports all standard 80mm/58mm thermal receipt printers (Epson, Xprinter, Rongta), USB/Bluetooth barcode scanners, electronic cash drawers, digital weighing scale integrations, and dual-screen customer displays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there any long-term contract lock-in, and can we request custom workflows?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There are no rigid long-term contract lock-ins. You can activate only the modules you need and scale as your branch network expands. Moreover, our local software engineering team in Colombo can develop customized workflows, specialized receipt formats, or third-party integrations tailored specifically to your operation."
             }
           }
         ]
@@ -196,27 +212,102 @@
       <main id="primary" class="site-main">
 
         <!-- ===================================================================
-             1. BREADCRUMB / HERO SECTION
+             1. FLAGSHIP CONTACT HERO SHOWCASE SECTION
              =================================================================== -->
-        <section class="contact-page-header">
+        <section class="contact-hero-section">
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-10">
-                <div class="contact-badge-pill wow fadeInUp" data-wow-delay=".2s">
-                  <i class="fa-solid fa-headset text-orange"></i> DIRECT ENTERPRISE ASSISTANCE
-                </div>
-                <h1 class="contact-hero-title wow fadeInUp" data-wow-delay=".3s">
-                  Let’s Talk About Scaling Your <span class="text-orange">Business Operations.</span>
-                </h1>
-                <p class="contact-hero-desc wow fadeInUp" data-wow-delay=".4s">
-                  Whether you are planning a modern multi-branch retail POS rollout, upgrading legacy inventory systems, or preparing for IRD RAMIS compliance, our Colombo-based ERP specialists are here to guide you.
-                </p>
+            <div class="row align-items-center g-5">
+              <!-- Left Column: Copy, Proof Badges & Direct CTAs -->
+              <div class="col-12 col-lg-6">
+                <div class="contact-hero-content">
+                  <!-- Badge Pill -->
+                  <div class="contact-badge-pill wow fadeInUp" data-wow-delay=".2s">
+                    <i class="fa-solid fa-headset text-orange"></i> DIRECT ENTERPRISE ASSISTANCE
+                  </div>
 
-                <!-- Breadcrumb Path -->
-                <div class="contact-breadcrumb-nav wow fadeInUp" data-wow-delay=".5s">
-                  <a href="index.php"><i class="fa-solid fa-house"></i> Home</a>
-                  <span class="sep"><i class="fa-solid fa-chevron-right"></i></span>
-                  <span class="current">Contact Us</span>
+                  <!-- 2-Line Symmetrical Hero Title -->
+                  <h1 class="contact-hero-title wow fadeInUp" data-wow-delay=".25s">
+                    <span class="hero-title-line">Let's Talk About Scaling</span>
+                    <span class="hero-title-line">Your <span class="text-orange">Business Operations.</span></span>
+                  </h1>
+
+                  <!-- Description -->
+                  <p class="contact-hero-desc wow fadeInUp" data-wow-delay=".3s">
+                    Whether you are planning a high-speed multi-branch POS rollout, upgrading legacy inventory systems, or preparing for IRD RAMIS compliance, our Sri Lankan ERP specialists are here to guide you.
+                  </p>
+
+                  <!-- 3 Trust / Response Metric Pills -->
+                  <div class="contact-hero-proof-pills wow fadeInUp" data-wow-delay=".35s">
+                    <div class="proof-pill">
+                      <i class="fa-solid fa-bolt-lightning text-orange"></i>
+                      <span><strong>&lt; 15 Mins</strong> Response Time</span>
+                    </div>
+                    <div class="proof-pill">
+                      <i class="fa-solid fa-comments text-green"></i>
+                      <span><strong>Instant</strong> WhatsApp Desk</span>
+                    </div>
+                    <div class="proof-pill">
+                      <i class="fa-solid fa-map-location-dot text-cyan"></i>
+                      <span><strong>Islandwide</strong> On-Site Demos</span>
+                    </div>
+                  </div>
+
+                  <!-- Action Buttons & Breadcrumb -->
+                  <div class="contact-hero-actions wow fadeInUp" data-wow-delay=".4s">
+                    <a class="tj-primary-btn" href="#contact-form-section">
+                      <span class="btn-text"><span>Send an Inquiry</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </a>
+                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa%20Team,%20I'd%20like%20to%20inquire%20about%20your%20ERP%20solutions." target="_blank" class="btn-contact-whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                  </div>                  
+                </div>
+              </div>
+
+              <!-- Right Column: 3D Connected Global Visual & Floating HUD Chips -->
+              <div class="col-12 col-lg-6">
+                <div class="contact-hero-visual-wrap wow fadeInRight" data-wow-delay=".3s">
+                  <!-- Ambient Radial Glow -->
+                  <div class="contact-hero-glow"></div>
+
+                  <!-- Floating HUD Chip 1: Dedicated Support (Top Right) -->
+                  <div class="contact-hud-chip chip-top-right">
+                    <div class="hud-chip-icon icon-orange">
+                      <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">Dedicated Support</span>
+                      <span class="hud-val">Active 24/7 Desk</span>
+                    </div>
+                  </div>
+
+                  <!-- Main 3D Showcase Image Frame -->
+                  <div class="contact-hero-img-box">
+                    <img src="assets/images/contact/contact-hero.webp" alt="Hetxa Global Enterprise Support & Connectivity" loading="eager" decoding="async">
+                  </div>
+
+                  <!-- Floating HUD Chip 2: Guaranteed Response SLA (Bottom Left) -->
+                  <div class="contact-hud-chip chip-bottom-left">
+                    <div class="hud-chip-icon icon-green">
+                      <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">Guaranteed SLA</span>
+                      <span class="hud-val">&lt; 15 Mins Response</span>
+                    </div>
+                  </div>
+
+                  <!-- Floating HUD Chip 3: Islandwide On-Site Teams (Bottom Right) -->
+                  <div class="contact-hud-chip chip-bottom-right">
+                    <div class="hud-chip-icon icon-cyan">
+                      <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">Islandwide Presence</span>
+                      <span class="hud-val">Colombo • Kandy • Galle</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -303,11 +394,18 @@
         </section>
 
         <!-- ===================================================================
-             3. MAIN INTERACTIVE FORM & VALUE PROPOSITION SPLIT
+             3. MAIN INTERACTIVE FORM & VISUAL SHOWCASE (LIGHT BLUE SAAS THEME)
              =================================================================== -->
-        <section class="contact-section-light">
+        <section class="contact-demo-dark-section" id="contact-form-section">
+          <div class="demo-dark-glow"></div>
+          <div class="bg-shape-1">
+            <img src="assets/images/shape/pattern-2.svg" alt="" aria-hidden="true" loading="lazy">
+          </div>
+          <div class="bg-shape-2">
+            <img src="assets/images/shape/pattern-3.svg" alt="" aria-hidden="true" loading="lazy">
+          </div>
           <div class="container">
-            <div class="row g-5 align-items-stretch">
+            <div class="row g-5 align-items-center">
               
               <!-- Left Column: Interactive Form -->
               <div class="col-12 col-lg-7">
@@ -315,13 +413,13 @@
                   <div class="sec-heading style-3 mb-4">
                     <span class="sub-title"><i class="tji-box"></i> BOOK A DEMO / SEND MESSAGE</span>
                     <h2 class="sec-title" style="font-size: 32px;">Drop Us a Message &amp; <span class="text-orange">Get Started</span></h2>
-                    <p class="sec-desc" style="color: #64748B; margin-top: 8px;">
+                    <p class="sec-desc">
                       Fill out the form below. An ERP solution architect will evaluate your requirements and reach out within 15 minutes.
                     </p>
                   </div>
 
                   <form id="contact-page-form" method="POST" action="https://wa.me/94741588728" target="_blank">
-                    <div class="row">
+                    <div class="row g-4">
                       
                       <!-- Full Name -->
                       <div class="col-12 col-sm-6">
@@ -356,7 +454,7 @@
                       </div>
 
                       <!-- Primary Solution of Interest -->
-                      <div class="col-12 col-sm-6">
+                      <div class="col-12 col-sm-6" style="position: relative; z-index: 25;">
                         <div class="form-input">
                           <label class="cf-label">Solution of Interest</label>
                           <select name="solution" class="tj-nice-select">
@@ -373,7 +471,7 @@
                       </div>
 
                       <!-- Branch Outlets Scale -->
-                      <div class="col-12 col-sm-6">
+                      <div class="col-12 col-sm-6" style="position: relative; z-index: 25;">
                         <div class="form-input">
                           <label class="cf-label">Number of Branches / Outlets</label>
                           <select name="branches" class="tj-nice-select">
@@ -385,9 +483,35 @@
                         </div>
                       </div>
 
+                      <!-- Expected Budget -->
+                      <div class="col-12 col-sm-6" style="position: relative; z-index: 20;">
+                        <div class="form-input">
+                          <label class="cf-label">Expected Budget</label>
+                          <select name="budget" class="tj-nice-select">
+                            <option value="Under 100,000">100,000 ට අඩු (Under LKR 100,000)</option>
+                            <option value="100,000 - 500,000">LKR 100,000 - 500,000</option>
+                            <option value="500,000 - 1,000,000">LKR 500,000 - 1,000,000</option>
+                            <option value="Above 1,000,000">LKR 1,000,000+ (Enterprise)</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <!-- Deployment Timeline -->
+                      <div class="col-12 col-sm-6" style="position: relative; z-index: 20;">
+                        <div class="form-input">
+                          <label class="cf-label">Deployment Timeline</label>
+                          <select name="timeline" class="tj-nice-select">
+                            <option value="Immediate">Immediate (Within 1-2 Weeks)</option>
+                            <option value="Within 1 Month">Within 1 Month</option>
+                            <option value="1 - 3 Months">1 - 3 Months</option>
+                            <option value="Exploring Options">Just Exploring / Budgeting</option>
+                          </select>
+                        </div>
+                      </div>
+
                       <!-- Message Area -->
                       <div class="col-12">
-                        <div class="form-input">
+                        <div class="form-input form-textarea-group">
                           <label class="cf-label">How Can We Help You? *</label>
                           <textarea name="message" placeholder="Tell us about your business workflow, hardware needs, current software pain points, or preferred demo date..." required></textarea>
                         </div>
@@ -417,186 +541,74 @@
                 </div>
               </div>
 
-              <!-- Right Column: What Happens Next & Trust -->
+              <!-- Right Column: Visual Showcase (Replaces "THE HETXA PROCESS") -->
               <div class="col-12 col-lg-5">
-                <div class="contact-info-card wow fadeInUp" data-wow-delay=".4s">
-                  <div class="sec-heading style-3 mb-2">
-                    <span class="sub-title"><i class="tji-box"></i> THE HETXA PROCESS</span>
-                    <h3 class="sec-title" style="font-size: 26px;">What Happens <span class="text-orange">Next?</span></h3>
-                    <p class="sec-desc" style="color: #64748B; font-size: 14px; margin-top: 6px;">
-                      We respect your time. Here is our straightforward onboarding roadmap:
+                <div class="demo-visual-card wow fadeInRight" data-wow-delay=".4s">
+                  <!-- Header inside card -->
+                  <div class="demo-card-header mb-4">
+                    <span class="demo-tag"><i class="fa-solid fa-laptop-code text-orange"></i> LIVE PLATFORM PREVIEW</span>
+                    <h3 class="demo-card-title">Experience Hetxa <span class="text-orange">In Action</span></h3>
+                    <p class="demo-card-sub">
+                      See how our intelligent BOS unifies your billing, stock, and accounting before you make any commitment.
                     </p>
                   </div>
 
-                  <div class="steps-list">
-                    
-                    <div class="step-item">
-                      <div class="step-num">01</div>
-                      <div class="step-content">
-                        <h5>Initial Discovery Call (&lt; 15 Mins)</h5>
-                        <p>A solutions specialist contacts you to understand your industry vertical, counter speed requirements, and branch count.</p>
-                      </div>
+                  <!-- 3D Showcase Image Frame -->
+                  <div class="demo-image-frame">
+                    <img src="assets/images/about/contact-2.jfif" alt="Hetxa Intelligent Cloud BOS Platform Demo" loading="lazy">
+                    <div class="demo-image-badge">
+                      <span class="pulse-dot"></span> Interactive Walkthrough
                     </div>
-
-                    <div class="step-item">
-                      <div class="step-num">02</div>
-                      <div class="step-content">
-                        <h5>Tailored Live Walkthrough</h5>
-                        <p>We present a personalized demo using your actual inventory categories, batch variations, and cheque clearing rules.</p>
-                      </div>
-                    </div>
-
-                    <div class="step-item">
-                      <div class="step-num">03</div>
-                      <div class="step-content">
-                        <h5>Turnkey Migration &amp; Hardware Pairing</h5>
-                        <p>Our engineers import your Excel/QuickBooks data and configure POS thermal printers, barcode scanners, and weighing scales.</p>
-                      </div>
-                    </div>
-
-                    <div class="step-item">
-                      <div class="step-num">04</div>
-                      <div class="step-content">
-                        <h5>Hands-On Staff Training &amp; 24/7 SLA</h5>
-                        <p>We train your cashiers and accountants on-site, backed by dedicated WhatsApp hotlines with zero robotic ticketing queues.</p>
-                      </div>
-                    </div>
-
                   </div>
 
-                  <!-- Trust Rating Box -->
-                  <div class="contact-trust-box">
-                    <div class="trust-badge-row">
-                      <div class="trust-stars">
+                  <!-- 3 Key Value Feature Pills -->
+                  <div class="demo-perks-list">
+                    <div class="demo-perk-item">
+                      <div class="perk-icon icon-orange"><i class="fa-solid fa-sliders"></i></div>
+                      <div class="perk-info">
+                        <h6>Tailored to Your Stock Categories</h6>
+                        <p>Demo loaded with your real products, units &amp; batch numbers.</p>
+                      </div>
+                    </div>
+
+                    <div class="demo-perk-item">
+                      <div class="perk-icon icon-green"><i class="fa-solid fa-shield-check"></i></div>
+                      <div class="perk-info">
+                        <h6>RAMIS &amp; VAT Compliant Ledger</h6>
+                        <p>Test Sri Lankan tax invoicing, IRD compliance &amp; PDC clearing.</p>
+                      </div>
+                    </div>
+
+                    <div class="demo-perk-item">
+                      <div class="perk-icon icon-cyan"><i class="fa-solid fa-users-gear"></i></div>
+                      <div class="perk-info">
+                        <h6>Direct WhatsApp Technical Desk</h6>
+                        <p>Chat directly with Sri Lankan ERP software engineers.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Trust Rating Strip -->
+                  <div class="demo-trust-bar">
+                    <div class="trust-stars-row">
+                      <div class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                       </div>
-                      <span class="trust-rating">4.9 / 5.0 Rating</span>
+                      <span class="rating-num">4.9 / 5.0</span>
                     </div>
-                    <p class="trust-text">
-                      Trusted by over <strong>100+ leading Sri Lankan retailers, supermarkets, and wholesale distributors</strong> islandwide.
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!-- ===================================================================
-             4. DEPARTMENT DIRECTORY MATRIX
-             =================================================================== -->
-        <section class="contact-section-alt">
-          <div class="container">
-            <div class="row justify-content-center mb-5">
-              <div class="col-12 col-lg-8 text-center">
-                <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    <i class="tji-box"></i> DEPARTMENTAL DIRECTORY
-                  </span>
-                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Connect With the Right <span class="text-orange">Team Directly</span>
-                  </h2>
-                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 680px; margin: 15px auto 0;">
-                    No endless IVR switchboards or delayed contact centers. Reach our departmental leads immediately.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-12">
-                <div class="dept-table-wrapper wow fadeInUp" data-wow-delay=".4s">
-                  
-                  <!-- Table Header -->
-                  <div class="dept-row header">
-                    <div>Department / Service</div>
-                    <div>Direct Telephone</div>
-                    <div>Email Address</div>
-                    <div>Operating Schedule</div>
-                  </div>
-
-                  <!-- Row 01: General Inquiries -->
-                  <div class="dept-row">
-                    <div class="dept-name">
-                      <div class="dept-icon"><i class="fa-solid fa-building"></i></div>
-                      <span>Corporate &amp; General Office</span>
-                    </div>
-                    <div class="dept-phone">
-                      <a href="tel:+94112617664"><i class="fa-solid fa-phone text-orange me-2"></i>011 261 7664</a>
-                    </div>
-                    <div class="dept-email">
-                      <a href="mailto:hello@hetxa.com"><i class="fa-solid fa-envelope text-orange me-2"></i>hello@hetxa.com</a>
-                    </div>
-                    <div class="dept-hours">
-                      <i class="fa-regular fa-clock"></i> Mon–Sat 8:30 AM–6:00 PM
-                    </div>
-                  </div>
-
-                  <!-- Row 02: Enterprise Sales -->
-                  <div class="dept-row">
-                    <div class="dept-name">
-                      <div class="dept-icon"><i class="fa-solid fa-cash-register"></i></div>
-                      <span>Enterprise Sales &amp; POS Demos</span>
-                    </div>
-                    <div class="dept-phone">
-                      <a href="tel:+94702115937"><i class="fa-solid fa-phone text-orange me-2"></i>070 211 5937</a>
-                    </div>
-                    <div class="dept-email">
-                      <a href="mailto:sales@hetxa.com"><i class="fa-solid fa-envelope text-orange me-2"></i>sales@hetxa.com</a>
-                    </div>
-                    <div class="dept-hours" style="color: #16a34a; font-weight: 600;">
-                      <i class="fa-solid fa-bolt"></i> 24/7 Hotline
-                    </div>
-                  </div>
-
-                  <!-- Row 03: Technical Support -->
-                  <div class="dept-row">
-                    <div class="dept-name">
-                      <div class="dept-icon"><i class="fa-solid fa-headset"></i></div>
-                      <span>Hardware &amp; Technical Support</span>
-                    </div>
-                    <div class="dept-phone">
-                      <a href="tel:+94702115938"><i class="fa-solid fa-phone text-orange me-2"></i>070 211 5938</a>
-                    </div>
-                    <div class="dept-email">
-                      <a href="mailto:support@hetxa.com"><i class="fa-solid fa-envelope text-orange me-2"></i>support@hetxa.com</a>
-                    </div>
-                    <div class="dept-hours" style="color: #16a34a; font-weight: 600;">
-                      <i class="fa-solid fa-circle-check"></i> 24/7 SLA Desk
-                    </div>
-                  </div>
-
-                  <!-- Row 04: Official WhatsApp -->
-                  <div class="dept-row">
-                    <div class="dept-name">
-                      <div class="dept-icon" style="color: #25D366; background: rgba(37, 211, 102, 0.1);"><i class="fa-brands fa-whatsapp"></i></div>
-                      <span>WhatsApp VIP Messaging</span>
-                    </div>
-                    <div class="dept-phone">
-                      <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20connect%20with%20your%20team." target="_blank" style="color: #16a34a;">
-                        <i class="fa-brands fa-whatsapp text-success me-2"></i>074 158 8728
-                      </a>
-                    </div>
-                    <div class="dept-email">
-                      <a href="mailto:vip@hetxa.com"><i class="fa-solid fa-envelope text-orange me-2"></i>vip@hetxa.com</a>
-                    </div>
-                    <div class="dept-hours">
-                      <i class="fa-solid fa-comment-dots text-orange"></i> Instant Reply
-                    </div>
+                    <span class="trust-stat">500+ Businesses Nationwide</span>
                   </div>
 
                 </div>
               </div>
             </div>
           </div>
+          
         </section>
-
         <!-- ===================================================================
              5. INTERACTIVE GOOGLE MAPS SHOWCASE
              =================================================================== -->
@@ -665,89 +677,94 @@
           </div>
         </section>
 
-        <!-- ===================================================================
-             6. QUICK INQUIRIES FAQ ACCORDION
-             =================================================================== -->
-        <section class="contact-section-alt">
+
+        
+
+        <!-- start: Faq Section -->
+        <section class="tj-faq-section section-gap">
           <div class="container">
-            <div class="row justify-content-center mb-5">
-              <div class="col-12 col-lg-8 text-center">
-                <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
-                    <i class="tji-box"></i> COMMON INQUIRIES
-                  </span>
-                  <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
-                    Frequently Asked <span class="text-orange">Questions</span>
-                  </h2>
-                  <p class="sec-desc wow fadeInUp" data-wow-delay=".4s" style="color: #64748B; max-width: 680px; margin: 15px auto 0;">
-                    Quick answers regarding on-site demonstrations, hardware pairing, and ERP migration schedules.
+            <div class="row justify-content-between">
+              <div class="col-lg-4">
+                <div class="content-wrap">
+                  <div class="sec-heading">
+                    <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i class="tji-box"></i>Contact &amp; Onboarding</span>
+                    <h2 class="sec-title title-anim">Got Questions? <span>We’re Here</span> to Help.</h2>
+                  </div>
+                  <p class="desc wow fadeInUp" data-wow-delay=".5s">
+                    Find immediate answers regarding live demos, hardware compatibility, legacy data migration, and local support response times.
                   </p>
+                  <div class="wow fadeInUp" data-wow-delay=".7s">
+                    <a class="tj-primary-btn" href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20ask%20a%20question." target="_blank">
+                      <span class="btn-text"><span>Chat on WhatsApp</span></span>
+                      <span class="btn-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
+              <div class="col-lg-8">
+                <div class="accordion tj-faq" id="faqOne">
+                  
+                  <!-- FAQ 01: Response Time -->
+                  <div class="accordion-item active wow fadeInUp" data-wow-delay=".3s">
+                    <button class="faq-title" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1"
+                      aria-expanded="true">How quickly does the Hetxa team respond to consultation requests and demos?</button>
+                    <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Our Colombo-based enterprise sales and support teams guarantee a response in under 15 minutes during standard business hours. For instant assistance, you can message our dedicated WhatsApp consultation desk at <strong>074 158 8728</strong> or call our sales hotline on <strong>070 211 5937</strong>.</p>
+                      </div>
+                    </div>
+                  </div>
 
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-9">
-                
-                <!-- FAQ Item 01 -->
-                <div class="contact-faq-item active wow fadeInUp" data-wow-delay=".2s">
-                  <div class="contact-faq-header">
-                    <h4>Can you demonstrate Hetxa using our actual inventory and business data?</h4>
-                    <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
+                  <!-- FAQ 02: On-site Demo -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".4s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2"
+                      aria-expanded="false">Can we schedule an on-site live demo at our retail outlet, head office, or warehouse?</button>
+                    <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Yes, absolutely. Our implementation consultants provide both online screen-share sessions and on-site demonstrations across Sri Lanka (Colombo, Gampaha, Kandy, Galle, Kurunegala, Jaffna). We can demonstrate Hetxa using your actual product catalog and existing barcode printers or POS terminals.</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="contact-faq-body">
-                    Yes. Before your live session, you can send us a sample spreadsheet of your products, customer ledger formats, or cheque records. We will load them into a secure sandbox environment so you can experience Hetxa handling your real-world scenarios.
+
+                  <!-- FAQ 03: Data Migration -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".5s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3"
+                      aria-expanded="false">Does Hetxa provide migration assistance from our current software (QuickBooks, Tally, Excel)?</button>
+                    <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Yes. We offer complete end-to-end turnkey data migration. Our engineers securely transfer your historical customer ledgers, supplier balances, item master catalogs with barcodes, and warehouse opening stock into Hetxa BOS with zero business disruption or sales downtime.</p>
+                      </div>
+                    </div>
                   </div>
+
+                  <!-- FAQ 04: Hardware Compatibility -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".6s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4"
+                      aria-expanded="false">What hardware (barcode scanners, thermal printers, touchscreens) is compatible with Hetxa?</button>
+                    <div id="faq-4" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>Hetxa POS is hardware-agnostic and runs smoothly on standard Windows, Android, Mac, or Linux systems. It supports all standard 80mm/58mm thermal receipt printers (Epson, Xprinter, Rongta), USB/Bluetooth barcode scanners, electronic cash drawers, digital weighing scale integrations, and dual-screen customer displays.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- FAQ 05: Contracts and Customization -->
+                  <div class="accordion-item wow fadeInUp" data-wow-delay=".7s">
+                    <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5"
+                      aria-expanded="false">Is there any long-term contract lock-in, and can we request custom workflows?</button>
+                    <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
+                      <div class="accordion-body faq-text">
+                        <p>There are no rigid long-term contract lock-ins. You can activate only the modules you need and scale as your branch network expands. Moreover, our local software engineering team in Colombo can develop customized workflows, specialized receipt formats, or third-party integrations tailored specifically to your operation.</p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-
-                <!-- FAQ Item 02 -->
-                <div class="contact-faq-item wow fadeInUp" data-wow-delay=".3s">
-                  <div class="contact-faq-header">
-                    <h4>How quickly can a multi-branch retail network go live with Hetxa?</h4>
-                    <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
-                  </div>
-                  <div class="contact-faq-body">
-                    For a typical 2 to 10 branch retail business, deployment takes between 3 to 7 business days. This includes data migration, POS hardware pairing, cashier shortcut training, and parallel trial checkout runs before official switchover.
-                  </div>
-                </div>
-
-                <!-- FAQ Item 03 -->
-                <div class="contact-faq-item wow fadeInUp" data-wow-delay=".4s">
-                  <div class="contact-faq-header">
-                    <h4>Do you support on-site setup and training outside the Western Province?</h4>
-                    <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
-                  </div>
-                  <div class="contact-faq-body">
-                    Absolutely. Our technical field teams deploy on-site throughout Sri Lanka—including Kandy, Galle, Matara, Kurunegala, Negombo, Ratnapura, and Jaffna. We ensure your local store staff are fully comfortable operating the Cloud POS and thermal printers.
-                  </div>
-                </div>
-
-                <!-- FAQ Item 04 -->
-                <div class="contact-faq-item wow fadeInUp" data-wow-delay=".5s">
-                  <div class="contact-faq-header">
-                    <h4>Can we migrate existing ledger balances and historical customer debts?</h4>
-                    <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
-                  </div>
-                  <div class="contact-faq-body">
-                    Yes. Our data engineering specialists handle turnkey imports of outstanding accounts receivable (debtors), accounts payable (suppliers), uncleared post-dated cheques (PDCs), and batch-level stock quantities directly from Excel, CSV, or legacy software.
-                  </div>
-                </div>
-
-                <!-- FAQ Item 05 -->
-                <div class="contact-faq-item wow fadeInUp" data-wow-delay=".6s">
-                  <div class="contact-faq-header">
-                    <h4>What internet connection is required for Hetxa BOS across branch counters?</h4>
-                    <div class="icon-toggle"><i class="fa-solid fa-chevron-down"></i></div>
-                  </div>
-                  <div class="contact-faq-body">
-                    Hetxa BOS is a Cloud-Native platform that connects seamlessly with any standard broadband fiber, 4G/5G mobile connection, or Wi-Fi hotspot. With ultra-low bandwidth consumption, every counter transaction, stock movement, and split payment synchronizes across all branches in real time with 99.9% uptime.
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>
         </section>
+        <!-- end: Faq Section -->
 
         <!-- ===================================================================
              7. EXECUTIVE CALL TO ACTION (CTA)
@@ -780,6 +797,7 @@
   <!-- JS here -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
   <script src="assets/js/gsap.min.js"></script>
   <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
   <script src="assets/js/gsap-scroll-trigger.min.js"></script>
@@ -810,6 +828,42 @@
           }
         });
       });
+    });
+  </script>
+  <!-- Contact Form to WhatsApp Handler -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const contactForm = document.getElementById('contact-page-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+          e.preventDefault();
+          const fullName = this.fullName ? this.fullName.value.trim() : '';
+          const email = this.email ? this.email.value.trim() : '';
+          const phone = this.phone ? this.phone.value.trim() : '';
+          const company = this.company ? this.company.value.trim() : '';
+          const solution = this.solution ? this.solution.value : '';
+          const branches = this.branches ? this.branches.value : '';
+          const budget = this.budget ? this.budget.value : '';
+          const timeline = this.timeline ? this.timeline.value : '';
+          const message = this.message ? this.message.value.trim() : '';
+
+          let text = `*New ERP Demo & Consultation Request (Hetxa Contact Page)*\n\n`;
+          text += `👤 *Name:* ${fullName}\n`;
+          text += `📞 *Phone / WhatsApp:* ${phone}\n`;
+          text += `✉️ *Email:* ${email}\n`;
+          text += `🏢 *Company / Business:* ${company}\n`;
+          text += `💼 *Solution Needed:* ${solution}\n`;
+          text += `🏪 *Number of Outlets:* ${branches}\n`;
+          text += `💰 *Expected Budget:* ${budget}\n`;
+          text += `⏱️ *Deployment Timeline:* ${timeline}\n`;
+          if (message) {
+            text += `\n📝 *Business Requirements:*\n${message}\n`;
+          }
+
+          const waUrl = `https://wa.me/94741588728?text=${encodeURIComponent(text)}`;
+          window.open(waUrl, '_blank');
+        });
+      }
     });
   </script>
 </body>

@@ -315,7 +315,7 @@
             <div class="row justify-content-center mb-5">
               <div class="col-12 col-lg-8 text-center">
                 <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
+                  <span class="sub-title wow fadeInUp space" data-wow-delay=".2s">
                     <i class="tji-box"></i> CORE ARCHITECTURE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
@@ -501,7 +501,7 @@
             <div class="row justify-content-center deep-dive-heading-wrap">
               <div class="col-12 col-lg-8 text-center">
                 <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
+                  <span class="sub-title wow fadeInUp space" data-wow-delay=".2s">
                     <i class="tji-box"></i> DEEP DIVE SHOWCASE
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">
@@ -711,7 +711,7 @@
             <div class="row justify-content-center mb-5">
               <div class="col-12 col-lg-8 text-center">
                 <div class="sec-heading style-3">
-                  <span class="sub-title wow fadeInUp" data-wow-delay=".2s">
+                  <span class="sub-title wow fadeInUp space" data-wow-delay=".2s">
                     <i class="fa-solid fa-plug text-orange" style="margin: 5px;"></i> HARDWARE SETUP &bull; ACCESSORIES
                   </span>
                   <h2 class="sec-title wow fadeInUp" data-wow-delay=".3s">

@@ -138,29 +138,112 @@
       <main id="primary" class="site-main">
 
         <!-- ===================================================================
-             1. BREADCRUMB / HERO SECTION
+             1. FLAGSHIP HERO SHOWCASE SECTION (REDESIGNED)
              =================================================================== -->
-        <section class="blog-page-header">
+        <section class="blog-hero-section">
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-10">
-                <div class="blog-badge-pill wow fadeInUp" data-wow-delay=".2s">
-                  <i class="fa-solid fa-newspaper text-orange"></i> HETXA KNOWLEDGE HUB
-                </div>
-                <h1 class="blog-hero-title wow fadeInUp" data-wow-delay=".3s">
-                  Practical Insights for Sri Lanka’s <span class="text-orange">Growing Enterprises.</span>
-                </h1>
-                <p class="blog-hero-desc wow fadeInUp" data-wow-delay=".4s">
-                  Authoritative guides, regulatory updates, and technical playbooks designed to help retail chains, wholesalers, and multi-branch operations optimize efficiency and maximize profitability.
-                </p>
+            <div class="row align-items-center g-5">
+              
+              <!-- Left Column: Simple & Clean Editorial Header -->
+              <div class="col-12 col-lg-6">
+                <div class="blog-hero-content">
+                  
+                  <!-- Badge Pill -->
+                  <div class="blog-badge-pill wow fadeInUp" data-wow-delay=".15s">
+                    <i class="fa-solid fa-newspaper text-orange"></i> HETXA KNOWLEDGE HUB
+                  </div>
 
-                <!-- Breadcrumb Path -->
-                <div class="blog-breadcrumb-nav wow fadeInUp" data-wow-delay=".5s">
-                  <a href="index.php"><i class="fa-solid fa-house"></i> Home</a>
-                  <span class="sep"><i class="fa-solid fa-chevron-right"></i></span>
-                  <span class="current">Blogs &amp; Insights</span>
+                  <!-- Hero Title (Clean & Powerful) -->
+                  <h1 class="blog-hero-title wow fadeInUp" data-wow-delay=".2s">
+                    <span class="hero-title-line">Practical Insights &amp; Playbooks</span>
+                    <span class="hero-title-line">for <span class="text-orange">Sri Lankan Enterprise.</span></span>
+                  </h1>
+
+                  <!-- Description -->
+                  <p class="blog-hero-desc wow fadeInUp" data-wow-delay=".25s">
+                    Authoritative regulatory breakdowns, IRD RAMIS compliance guides, Cloud POS benchmarks, and operational strategies to help modern retail chains, wholesalers, and multi-branch businesses scale.
+                  </p>
+
+                  <!-- Action Buttons -->
+                  <div class="blog-hero-actions wow fadeInUp" data-wow-delay=".3s">
+                    <a class="tj-primary-btn" href="#blog-posts">
+                      <span class="btn-text"><span>Explore Latest Articles</span></span>
+                      <span class="btn-icon"><i class="tji-arrow-right-long"></i></span>
+                    </a>
+                    <a href="https://wa.me/94741588728?text=Hi%20Hetxa,%20I'd%20like%20to%20consult%20an%20ERP%20Specialist." target="_blank" class="btn-about-whatsapp">
+                      <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                  </div>
+
+                  <!-- Reader Trust & Social Proof Strip -->
+                  <div class="blog-hero-social-proof wow fadeInUp" data-wow-delay=".35s">
+                    <div class="reader-avatars">
+                      <img src="assets/images/testimonial/client-1.webp" alt="Reader" class="avatar-img">
+                      <img src="assets/images/testimonial/client-2.webp" alt="Reader" class="avatar-img">
+                      <img src="assets/images/testimonial/client-3.webp" alt="Reader" class="avatar-img">
+                    </div>
+                    <div class="reader-info">
+                      <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <span class="reader-text">Read by <strong>1,200+</strong> business leaders in Sri Lanka</span>
+                    </div>
+                  </div>
+
+              
                 </div>
               </div>
+
+              <!-- Right Column: 3D Knowledge Illustration & Floating HUD Glass Chips -->
+              <div class="col-12 col-lg-6">
+                <div class="blog-hero-visual-wrap wow fadeInRight" data-wow-delay=".3s">
+                  <!-- Ambient Radial Glow Background -->
+                  <div class="blog-hero-glow"></div>
+
+                  <!-- Floating HUD Chip 1: Neural BI (Top Right) -->
+                  <div class="blog-hud-chip chip-top-right">
+                    <div class="hud-chip-icon icon-orange">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">AI &amp; Neural BI</span>
+                      <span class="hud-val">Demand Forecasting</span>
+                    </div>
+                  </div>
+
+                  <!-- Main 3D Knowledge Illustration Box -->
+                  <div class="blog-hero-img-box">
+                    <img src="assets/images/blog/blog-hero-knowledge.png" alt="Hetxa BOS Knowledge Hub &amp; ERP Intelligence Ecosystem" loading="eager" decoding="async">
+                  </div>
+
+                  <!-- Floating HUD Chip 2: Tax Ready (Bottom Left) -->
+                  <div class="blog-hud-chip chip-bottom-left">
+                    <div class="hud-chip-icon icon-green">
+                      <i class="fa-solid fa-shield-check"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">RAMIS Compliant</span>
+                      <span class="hud-val">Tax Audit Verified</span>
+                    </div>
+                  </div>
+
+                  <!-- Floating HUD Chip 3: Real-Time Playbooks (Bottom Right) -->
+                  <div class="blog-hud-chip chip-bottom-right">
+                    <div class="hud-chip-icon icon-cyan">
+                      <i class="fa-solid fa-chart-line-up"></i>
+                    </div>
+                    <div class="hud-chip-info">
+                      <span class="hud-label">50+ Playbooks</span>
+                      <span class="hud-val">Updated Weekly</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -168,7 +251,7 @@
         <!-- ===================================================================
              2. MAIN EDITORIAL SECTION & SIDEBAR
              =================================================================== -->
-        <section class="blog-section-light">
+        <section class="blog-section-light" id="blog-posts">
           <div class="container">
             
             <!-- Lead Story: Featured Article Card -->
@@ -557,6 +640,57 @@
   <script src="assets/js/isotope.pkgd.min.js"></script>
   <script src="assets/js/magiccursor.js"></script>
   <script src="assets/js/main.js?v=<?php echo time(); ?>"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const heroSearch = document.getElementById("blogHeroSearch");
+      const searchForm = document.querySelector(".blog-search-form");
+      const filterBtns = document.querySelectorAll(".blog-filter-bar .filter-btn");
+      const trendingTags = document.querySelectorAll(".blog-trending-tags .tag-pill");
+      const blogCards = document.querySelectorAll(".blog-grid-card");
+      const featuredCard = document.querySelector(".featured-post-card");
+
+      function filterArticles(keyword) {
+        const query = keyword.toLowerCase().trim();
+        let matches = 0;
+
+        blogCards.forEach(card => {
+          const text = card.textContent.toLowerCase();
+          const col = card.closest(".col-12");
+          if (!query || text.includes(query)) {
+            if (col) col.style.display = "";
+            matches++;
+          } else {
+            if (col) col.style.display = "none";
+          }
+        });
+
+        if (featuredCard) {
+          const featuredText = featuredCard.textContent.toLowerCase();
+          featuredCard.style.display = (!query || featuredText.includes(query)) ? "" : "none";
+        }
+
+        const postsSection = document.getElementById("blog-posts");
+        if (postsSection && query) {
+          const topOffset = postsSection.getBoundingClientRect().top + window.pageYOffset - 90;
+          window.scrollTo({ top: topOffset, behavior: "smooth" });
+        }
+      }
+
+      const sidebarSearch = document.querySelector(".sidebar-search-form input");
+      const sidebarSearchForm = document.querySelector(".sidebar-search-form");
+
+      if (sidebarSearchForm && sidebarSearch) {
+        sidebarSearchForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          filterArticles(sidebarSearch.value);
+        });
+
+        sidebarSearch.addEventListener("input", function () {
+          filterArticles(sidebarSearch.value);
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>
